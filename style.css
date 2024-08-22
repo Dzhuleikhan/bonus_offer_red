@@ -113,3 +113,34 @@
     z-index: 30;
   }
 }
+
+.terms-arrow {
+  animation: pulse 2s ease infinite;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 3px #E93224;
+  }
+
+  50% {
+    box-shadow: 0 0 20px #E93224;
+  }
+
+  100% {
+    box-shadow: 0 0 5px #E93224;
+  }
+}
+
+.terms-body {
+  max-height: 0;
+  overflow: hidden;
+  box-sizing: content-box;
+  will-change: tranform;
+  transition: 0.2s;
+}
+
+.terms-body.active {
+  overflow: visible;
+  padding-bottom: 20px;
+}
