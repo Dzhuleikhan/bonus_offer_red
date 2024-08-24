@@ -92,3 +92,15 @@ mm.add("(min-width: 1200px)", () => {
     animation: crossTl,
   });
 });
+
+const shakeTl = gsap.timeline({ repeat: -1, repeatDelay: 1 });
+
+shakeTl
+
+  .fromTo(
+    ".main-btn",
+    { rotate: -5 },
+    { rotate: 5, ease: "none", duration: 0.1, yoyo: true, repeat: 5 },
+    "<",
+  )
+  .to(".main-btn", { rotate: 0, ease: "none", duration: 0.3 });
