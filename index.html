@@ -8,7 +8,7 @@
   </head>
   <body class="overscroll-none bg-black">
     <div class="h-full w-full min-w-[320px] overflow-hidden">
-      <header class="pt-8">
+      <header class="relative z-[100] pt-8">
         <div class="container">
           <div class="flex items-center justify-between">
             <div>
@@ -20,7 +20,7 @@
                   alt="Goldbet"
                 />
                 <img
-                  class="h-[23px] w-[23px] overflow-hidden rounded-full"
+                  class="header-country-flag h-[23px] w-[23px] overflow-hidden rounded-full"
                   width="23"
                   height="23"
                   src="./img/bg.svg"
@@ -57,7 +57,7 @@
                 </svg>
               </button>
               <ul
-                class="header-lang-list absolute right-0 top-[110%] hidden w-full overflow-hidden rounded-lg font-bold duration-300"
+                class="header-lang-list absolute right-0 top-[110%] w-full overflow-hidden rounded-lg font-bold duration-300"
               >
                 <li>
                   <a
@@ -365,6 +365,7 @@
             <!-- head -->
             <div class="flex flex-col items-center mobile:gap-1">
               <h2
+                data-translate="firstTitle"
                 class="text-center text-[38px] font-black uppercase leading-tight mobile:text-balance mobile:text-[32px] xs:text-[25px]"
               >
                 HOW TO CLAIM YOUR BONUS
@@ -623,8 +624,189 @@
             </div>
           </div>
         </section>
+        <section class="bg-red py-[64px]">
+          <div class="container">
+            <!-- head -->
+            <div class="flex flex-col items-center mobile:gap-1">
+              <h2
+                class="text-center text-[38px] font-black uppercase leading-tight mobile:text-balance mobile:text-[32px] xs:text-[25px]"
+              >
+                WHY CHOOSE GOLDBET?
+              </h2>
+              <svg
+                width="40"
+                height="19"
+                viewBox="0 0 40 19"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M20 19L39.0526 0.25H0.947441L20 19Z" fill="#F0F0F0" />
+              </svg>
+            </div>
+            <!-- inner -->
+            <div class="mt-10 flex flex-wrap justify-around gap-3 gap-y-10">
+              <!-- item -->
+              <div
+                class="flex max-w-[212px] flex-col items-center gap-[14px] mobile:max-w-[177px]"
+              >
+                <div
+                  class="item-img relative h-[172px] w-[188px] mobile:h-[110px] mobile:w-[120px] mobile:before:h-[90px] mobile:before:w-[90px]"
+                >
+                  <img
+                    class="relative z-[1] h-full w-full"
+                    width="188"
+                    height="172"
+                    src="./img/gb-img1.webp"
+                    alt="Image"
+                  />
+                </div>
+                <div class="space-y-[10px] text-center">
+                  <p class="text-2xl font-black leading-tight">BONUSES</p>
+                  <p class="text-base mobile:hidden">
+                    No deposit, instant, and exclusive VIP bonuses—find the best
+                    deal in our starter pack or within our community.
+                  </p>
+                </div>
+              </div>
+              <!-- item -->
+              <div
+                class="flex max-w-[212px] flex-col items-center gap-[14px] mobile:max-w-[177px]"
+              >
+                <div
+                  class="item-img relative h-[172px] w-[188px] mobile:h-[110px] mobile:w-[120px] mobile:before:h-[90px] mobile:before:w-[90px]"
+                >
+                  <img
+                    class="relative z-[1] h-full w-full"
+                    width="188"
+                    height="172"
+                    src="./img/gb-img2.webp"
+                    alt="Image"
+                  />
+                </div>
+                <div class="space-y-[10px] text-center">
+                  <p class="text-2xl font-black leading-tight">SLOTS</p>
+                  <p class="text-base mobile:hidden">
+                    Play the most popular slots you’ve seen on streams, known
+                    for their high payouts. All your friends are already
+                    playing!
+                  </p>
+                </div>
+              </div>
+              <!-- item -->
+              <div
+                class="flex max-w-[212px] flex-col items-center gap-[14px] mobile:max-w-[177px]"
+              >
+                <div
+                  class="item-img relative h-[172px] w-[188px] mobile:h-[110px] mobile:w-[120px] mobile:before:h-[90px] mobile:before:w-[90px]"
+                >
+                  <img
+                    class="relative z-[1] h-full w-full"
+                    width="188"
+                    height="172"
+                    src="./img/gb-img3.webp"
+                    alt="Image"
+                  />
+                </div>
+                <div class="space-y-[10px] text-center">
+                  <p class="text-2xl font-black leading-tight">
+                    SPORTS BETTING
+                  </p>
+                  <p class="text-base mobile:hidden">
+                    Are you a sports expert with a knack for predictions? We’ve
+                    got 30 sports categories with easy navigation and real-time
+                    stats ready for you.
+                  </p>
+                </div>
+              </div>
+              <!-- item -->
+              <div
+                class="flex max-w-[212px] flex-col items-center gap-[14px] mobile:max-w-[177px]"
+              >
+                <div
+                  class="item-img relative h-[172px] w-[188px] mobile:h-[110px] mobile:w-[120px] mobile:before:h-[90px] mobile:before:w-[90px]"
+                >
+                  <img
+                    class="relative z-[1] h-full w-full"
+                    width="188"
+                    height="172"
+                    src="./img/gb-img4.webp"
+                    alt="Image"
+                  />
+                </div>
+                <div class="space-y-[10px] text-center">
+                  <p class="text-2xl font-black leading-tight">LIVE CASINO</p>
+                  <p class="text-base mobile:hidden">
+                    Real dealers and genuine reactions when you hit the jackpot.
+                    Choose your game, language, and grab a strong drink—this is
+                    going to be intense!
+                  </p>
+                </div>
+              </div>
+              <!-- item -->
+              <div
+                class="flex max-w-[212px] flex-col items-center gap-[14px] mobile:max-w-[177px]"
+              >
+                <div
+                  class="item-img relative h-[172px] w-[188px] mobile:h-[110px] mobile:w-[120px] mobile:before:h-[90px] mobile:before:w-[90px]"
+                >
+                  <img
+                    class="relative z-[1] h-full w-full"
+                    width="188"
+                    height="172"
+                    src="./img/gb-img5.webp"
+                    alt="Image"
+                  />
+                </div>
+                <div class="space-y-[10px] text-center">
+                  <p class="text-2xl font-black leading-tight">LEGAL</p>
+                  <p class="text-base mobile:hidden">
+                    All operations are conducted under regulatory supervision.
+                    We handle 100% of legal support requests and guarantee fair
+                    play.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="mt-10 flex justify-center">
+              <button
+                class="main-btn bg-white text-black mobile:px-8 mobile:py-6"
+              >
+                claim your bonus
+              </button>
+            </div>
+          </div>
+        </section>
       </main>
-      <footer></footer>
+      <footer class="pb-8 pt-10 mobile:pb-[130px]">
+        <div class="container">
+          <p class="text-center text-xs font-normal leading-[140%]">
+            The website www.goldbet.io is owned and operated by Ivanov I.I.
+            (registration number: 12345678; with registered Address: Ivanov Ivan
+            Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lisboa, Portugal PO
+            BOX 1234-5600 Lisboa, Portugal) operating through its payment agent
+            IVANOV DEVELOPMENT LIMITED (registration number: AB123456;
+            registered in Cyprus with registered address Rua de Henrique Digeni
+            12, 1 & 2 an., 1234-5600 Lisboa, Portugal). Ivanov I.I. is a company
+            registered and established under the laws of Anjouan and licensed
+            and regulated by the Government of Anjouan under the gaming license
+            No. AB12345678, authorized and regulated by the Government of
+            Anjouan with registered address: Rua de Henrique Digeni 12 1 & 2
+            an., 1234-5600 Lisboa, Portugal.
+          </p>
+        </div>
+      </footer>
+      <div
+        class="fixed bottom-0 left-0 z-50 hidden w-full bg-[#0C0C0C] py-[5px] small:block"
+      >
+        <div class="container flex max-w-[375px] items-center gap-2">
+          <div class="payments-slider swiper max-w-[154px] overflow-hidden">
+            <div class="swiper-wrapper payments-footer"></div>
+          </div>
+          <button class="main-btn bg-red px-6 py-3 xs:text-base">
+            claim your bonus
+          </button>
+        </div>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>

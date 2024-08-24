@@ -126,11 +126,6 @@ const heroSlider = new Swiper(".hero-slider", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  on: {
-    transitionEnd: () => {
-      let swiper = this;
-    },
-  },
 });
 
 heroSlider.on("transitionEnd", function () {

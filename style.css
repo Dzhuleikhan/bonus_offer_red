@@ -74,6 +74,19 @@
   }
 }
 
+.header-lang-list {
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top left;
+  transition: all 0.3s;
+}
+
+.header-lang-list.is-open {
+  opacity: 1;
+  transform: scaleY(1);
+  transition: all 0.3s;
+}
+
 .slide-2-title {
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
@@ -143,4 +156,25 @@
 .terms-body.active {
   overflow: visible;
   padding-bottom: 20px;
+}
+
+.item-img::before {
+  content: '';
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+}
+
+.payments-slider .swiper-slide {
+  width: 154px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
