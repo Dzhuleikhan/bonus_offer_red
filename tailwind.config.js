@@ -3,6 +3,7 @@ module.exports = {
   content: ["./*.{html,js}"],
   theme: {
     screens: {
+      large: { max: "1500px" },
       xl: { max: "1200px" },
       lg: { max: "992px" },
       tbl: { max: "767px" },
