@@ -5,10 +5,7 @@ export const translations = {
   en: {
     firstTitle: `HOW TO CLAIM YOUR BONUS`,
   },
-  es: {
-    firstTitle: "CÓMO RECLAMAR TU BONO",
-  },
-  fr: {
-    firstTitle: "COMMENT RÉCLAMER VOTRE BONUS",
+  uz: {
+    firstTitle: "UZBEK RECLAMAR TU BONO",
   },
 };

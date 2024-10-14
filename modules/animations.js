@@ -53,7 +53,6 @@ let mm = gsap.matchMedia();
 mm.add("(min-width: 1200px)", () => {
   gsap.set(".cross-top-left", { xPercent: -100, opacity: 0 });
   gsap.set(".cross-top-right", { xPercent: 100, opacity: 0 });
-  gsap.set(".cross-bottom-right", { yPercent: 100, opacity: 0 });
   gsap.set(".cross-bottom-left", { yPercent: 100, opacity: 0 });
 
   const crossTl = gsap.timeline();
@@ -67,12 +66,6 @@ mm.add("(min-width: 1200px)", () => {
     })
     .to(".cross-top-right", {
       xPercent: 0,
-      opacity: 1,
-      duration: 1.5,
-      ease: "none",
-    })
-    .to(".cross-bottom-right", {
-      yPercent: 0,
       opacity: 1,
       duration: 1.5,
       ease: "none",

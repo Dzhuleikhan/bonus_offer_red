@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="uz">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
@@ -8,7 +8,7 @@
   </head>
   <body class="overscroll-none bg-[#0c0c0c]">
     <div class="h-full w-full min-w-[320px] overflow-hidden">
-      <header class="relative z-[100] pt-8">
+      <header class="absolute left-0 top-0 z-[100] w-full pt-8 mobile:pt-5">
         <div class="container">
           <div class="flex items-center justify-between">
             <div>
@@ -30,7 +30,7 @@
             </div>
             <div class="header-lang-box relative">
               <button
-                class="header-lang-btn flex items-center justify-center gap-2 rounded-lg bg-[#2C2D31] px-3 py-[9px] font-bold transition-all hover:bg-[#4a4b51]"
+                class="header-lang-btn flex items-center justify-center gap-2 rounded-lg bg-[#ffffff] px-3 py-[9px] font-bold text-black transition-all"
               >
                 <img
                   class="overflow-hidden rounded-full"
@@ -39,7 +39,7 @@
                   src="./img/flags/en.svg"
                   alt="English"
                 />
-                <span>English</span>
+                <span>Oʻzbekcha</span>
                 <svg
                   width="24"
                   height="24"
@@ -49,7 +49,7 @@
                 >
                   <path
                     d="M6 9L12 15L18 9"
-                    stroke="#A9AABF"
+                    stroke="#000"
                     stroke-width="2"
                     stroke-linecap="round"
                     stroke-linejoin="round"
@@ -57,12 +57,27 @@
                 </svg>
               </button>
               <ul
-                class="header-lang-list absolute right-0 top-[110%] w-full overflow-hidden rounded-lg font-bold duration-300"
+                class="header-lang-list absolute right-0 top-[110%] w-full overflow-hidden rounded-lg font-bold text-black duration-300"
               >
                 <li>
                   <a
+                    data-lang="uz"
+                    class="language-link flex items-center gap-2 bg-[#ffffff] px-3 py-[9px] transition-all"
+                    href="#"
+                    ><img
+                      class="pointer-events-none shrink-0 overflow-hidden rounded-full"
+                      width="20"
+                      height="20"
+                      src="./img/flags/uz.svg"
+                      alt="eng flag"
+                    />
+                    <span class="pointer-events-none">Oʻzbekcha</span>
+                  </a>
+                </li>
+                <li>
+                  <a
                     data-lang="en"
-                    class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
+                    class="language-link flex items-center gap-2 bg-[#ffffff] px-3 py-[9px] transition-all"
                     href="#"
                     ><img
                       class="pointer-events-none shrink-0 overflow-hidden rounded-full"
@@ -77,7 +92,7 @@
                 <li>
                   <a
                     data-lang="ru"
-                    class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
+                    class="language-link flex items-center gap-2 bg-[#ffffff] px-3 py-[9px] transition-all"
                     href="#"
                     ><img
                       class="pointer-events-none shrink-0 overflow-hidden rounded-full"
@@ -89,52 +104,23 @@
                     <span class="pointer-events-none">Russian</span>
                   </a>
                 </li>
-                <li>
-                  <a
-                    data-lang="fr"
-                    class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
-                    href="#"
-                    ><img
-                      class="pointer-events-none shrink-0 overflow-hidden rounded-full"
-                      width="20"
-                      height="20"
-                      src="./img/flags/fr.svg"
-                      alt="FR flag"
-                    />
-                    <span class="pointer-events-none">French</span>
-                  </a>
-                </li>
-                <li>
-                  <a
-                    data-lang="es"
-                    class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
-                    href="#"
-                  >
-                    <img
-                      class="pointer-events-none shrink-0 overflow-hidden rounded-full"
-                      width="20"
-                      height="20"
-                      src="./img/flags/es.svg"
-                      alt="es flag"
-                    />
-                    <span class="pointer-events-none">Espanol</span>
-                  </a>
-                </li>
               </ul>
             </div>
           </div>
         </div>
       </header>
       <main>
-        <section>
+        <section
+          class="bg-[url(../img/hero-bg.webp)] bg-cover bg-center bg-no-repeat pt-[60px] lg:pt-[100px] mobile:pt-20"
+        >
           <div class="container">
             <div
-              class="hero-slider relative overflow-hidden pb-10 pt-10 lg:pt-[70px]"
+              class="hero-slider relative overflow-hidden pb-10 pt-[60px] lg:pt-0"
             >
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div
-                    class="hero-card lg:px[27px] relative w-full rounded-[32px] bg-white px-[64px] py-[98px] xl:px-10 xl:py-[60px] lg:flex lg:justify-center lg:py-10 lg:pt-[200px] lg:text-center mobile:px-5 xs:pb-5 xs:pt-[180px]"
+                    class="hero-card relative w-full rounded-[32px] bg-[url(../img/card1-bg.webp)] bg-cover bg-center bg-no-repeat px-[64px] py-[53px] xl:px-10 xl:py-[60px] lg:flex lg:flex-col lg:justify-center lg:gap-6 lg:px-[27px] lg:py-10 lg:pb-0 lg:pt-10 lg:text-center mobile:px-5 mobile:pt-6"
                   >
                     <!-- info -->
                     <div class="overflow-hidden lg:text-center">
@@ -142,31 +128,57 @@
                         class="slide-1-info will-change-transform lg:flex lg:flex-col lg:items-center"
                       >
                         <h1
-                          class="text-[64px] font-black italic leading-[105%] text-black lg:text-[48px] xs:text-[32px]"
+                          class="text-[64px] font-black italic leading-[105%] text-white lg:text-[48px] xs:text-[32px]"
                         >
                           WELCOME <br />
-                          BONUS <span class="text-red">R$500</span>
+                          BONUS <br />
+                          <span class="text-[#f4fd2b]">127MLN SOM</span>
                         </h1>
                         <p
-                          class="mt-[10px] max-w-[350px] text-2xl font-semibold leading-tight text-black lg:mt-0 lg:text-center lg:text-[18px]"
+                          class="mt-[10px] max-w-[350px] text-2xl font-semibold leading-tight text-white lg:mt-0 lg:text-center lg:text-[18px]"
                         >
                           Your welcome bonus is ready for you in the Bonus
                           Center.
                         </p>
                         <button
-                          class="main-btn mt-[30px] bg-red lg:mt-5 mobile:px-8 xs:px-6 xs:py-4 xs:text-[18px]"
+                          class="main-btn modal-open-btn mt-[30px] bg-[#F4FD2B] text-black lg:mt-5 mobile:mt-5 mobile:px-8 mobile:text-[18px] xs:px-6 xs:py-4 xs:text-[14px]"
                         >
-                          claim your bonus
+                          127MLN СЎМ БОНУС ОЛИНГ
                         </button>
+                        <div
+                          class="mt-[30px] flex items-center gap-6 mobile:mt-4 mobile:gap-4"
+                        >
+                          <img
+                            class="mobile:max-w-[60px]"
+                            width="87"
+                            height="60"
+                            src="./img/payments/piastrix.webp"
+                            alt="Piastrix"
+                          />
+                          <img
+                            class="mobile:max-w-[60px]"
+                            width="87"
+                            height="60"
+                            src="./img/payments/humo.webp"
+                            alt="Humo"
+                          />
+                          <img
+                            class="mobile:max-w-[60px]"
+                            width="87"
+                            height="60"
+                            src="./img/payments/uzcard.webp"
+                            alt="Uzcard"
+                          />
+                        </div>
                       </div>
                     </div>
                     <!-- img -->
                     <div
-                      class="absolute bottom-0 right-12 max-w-[577px] overflow-hidden xl:max-w-[490px] lg:bottom-[300px] lg:left-1/2 lg:right-auto lg:w-full lg:max-w-[260px] lg:-translate-x-1/2 xs:bottom-[230px] xs:max-w-[240px]"
+                      class="absolute bottom-0 right-0 max-w-[67%] overflow-hidden lg:relative lg:bottom-auto lg:right-auto lg:mx-auto lg:max-w-full"
                     >
                       <!-- ellipse -->
                       <svg
-                        class="slide-1-ellipse absolute bottom-0 right-0 z-0 h-auto w-[80%] will-change-auto lg:-bottom-[50px] lg:w-full"
+                        class="slide-1-ellipse absolute -bottom-[100px] right-[10%] z-0 h-auto w-[75%] will-change-auto mobile:-bottom-[15%]"
                         width="550"
                         height="550"
                         viewBox="0 0 550 550"
@@ -187,66 +199,49 @@
                         <g mask="url(#mask0_2008_5053)">
                           <path
                             d="M451.07 453.844C549.293 355.622 549.293 196.372 451.07 98.1493C352.848 -0.0731964 193.598 -0.0731964 95.3751 98.1493"
-                            stroke="#E93224"
+                            stroke="#ffffff"
                             stroke-width="48"
                           />
                           <path
                             d="M273.222 461.639C375.749 461.639 458.864 378.525 458.864 275.997C458.864 173.47 375.749 90.3555 273.222 90.3555C170.695 90.3555 87.58 173.47 87.58 275.997C87.58 378.525 170.695 461.639 273.222 461.639Z"
-                            fill="#E93224"
+                            fill="#ffffff"
                           />
                         </g>
                       </svg>
                       <!-- player -->
                       <img
-                        class="slide-1-player relative z-[1] will-change-auto mobile:hidden"
-                        width="577"
-                        height="667"
+                        class="slide-1-player relative z-[1] will-change-auto"
+                        width="790"
+                        height="541"
                         src="./img/player1.webp"
                         alt="Player"
                       />
-                      <img
-                        class="slide-1-player relative z-[1] hidden will-change-auto mobile:block"
-                        width="577"
-                        height="667"
-                        src="./img/player1-sm.webp"
-                        alt="Player"
-                      />
-                      <div
-                        class="slide-1-name absolute -right-[72px] top-[30%] z-[2] max-w-[257px] xl:right-0 lg:hidden"
+                    </div>
+                    <!-- Player name -->
+                    <div
+                      class="slide-1-name absolute right-[25px] top-[25px] z-[2] flex flex-col items-end lg:hidden"
+                    >
+                      <p
+                        class="font-rajdhani text-[28px] font-bold uppercase leading-tight text-white xl:text-[18px]"
                       >
-                        <p
-                          class="font-rajdhani text-[28px] font-bold uppercase leading-tight text-[#0f0f0f] xl:text-[18px]"
-                        >
-                          Weverton Pereira <br />
-                          da Silva
-                        </p>
-                        <svg
-                          class="xl:max-w-[160px]"
-                          width="193"
-                          height="37"
-                          viewBox="0 0 193 37"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
-                        >
-                          <path
-                            d="M125.944 17.8903C125.218 18.128 124.492 18.3658 123.61 18.9477C122.728 19.5296 121.69 20.4556 121.687 20.8958C121.686 21.3359 122.718 21.2903 123.584 20.6962C124.451 20.1021 125.149 18.9615 125.191 19.0184C125.233 19.0752 124.618 20.3296 124.912 20.8746C125.206 21.4196 126.408 21.2535 127.704 20.9554C128.999 20.6571 130.387 20.2269 130.808 20.1829C131.228 20.1388 130.681 20.4809 130.65 20.8168C130.62 21.1527 131.107 21.4816 132.11 21.4326C133.112 21.3836 134.628 20.957 136.805 20.1811C138.982 19.4051 141.816 18.2817 142.806 17.35C143.797 16.4185 142.943 15.6805 142.065 15.4473C141.187 15.214 140.288 15.4861 139.354 15.9647C138.421 16.4434 137.457 17.1278 137.356 17.9679C137.255 18.8081 138.017 19.8052 139.596 20.2111C141.175 20.6172 143.569 20.4324 145.891 20.2895C148.213 20.1464 150.459 20.0451 151.132 20.0698C151.804 20.0946 150.899 20.2452 150.202 20.6545C149.505 21.0639 149.018 21.7318 149.288 22.0143C149.557 22.2967 150.583 22.1928 151.695 21.898C152.807 21.6032 154.005 21.1175 154.516 20.5251C155.026 19.9326 154.851 19.2335 154.813 19.3127C154.775 19.3919 154.873 20.2502 155.566 20.7175C156.259 21.1848 157.547 21.2617 159.322 21.2076C161.097 21.1535 163.356 20.9687 166.003 20.7854C168.651 20.6021 171.685 20.4204 173.467 19.8267C175.248 19.233 175.774 18.2287 175.565 17.5179C175.356 16.8071 174.412 16.3903 173.172 16.4706C171.932 16.5509 170.397 17.1288 170.204 18.1024C170.01 19.0761 171.159 20.4452 173.18 21.4632C175.201 22.4811 178.095 23.1475 180.935 23.7635C183.776 24.3795 186.563 24.9451 187.71 25.2925C188.857 25.64 188.362 25.7687 187.821 25.9133C187.281 26.058 186.698 26.2181 186.577 26.3091C186.457 26.4 186.8 26.4216 187.143 26.443M103.795 14.136C103.913 14.6049 104.03 15.0738 103.5 15.9141C102.97 16.7544 101.795 17.9632 100.694 19.1709C99.5944 20.3785 98.5717 21.5828 98.9013 21.8971C99.2308 22.2114 100.912 21.6354 102.597 20.9259C104.282 20.2164 105.969 19.3744 106.347 19.361C106.726 19.347 105.797 20.163 105.589 20.8746C105.381 21.5862 105.896 22.1928 107.249 22.0398C108.603 21.8867 110.795 20.974 113.155 19.7255C115.515 18.4771 118.043 16.8932 120.572 15.3089M38.4147 17.1638C38.6082 17.8824 38.8018 18.6015 39.5836 18.7352C40.3655 18.869 41.7352 18.4174 43.0352 18.1686C44.3351 17.9197 45.5635 17.8736 46.1775 18.1048C46.7916 18.3361 46.7898 18.8444 46.4719 19.5565C46.154 20.2686 45.5196 21.1841 45.9266 21.385C46.3336 21.586 47.782 21.0726 49.2549 20.3948C50.7278 19.7171 52.2236 18.8761 52.6055 19.0428C52.9874 19.2096 52.2549 20.3843 53.1528 20.9077C54.0506 21.431 56.5783 21.3015 58.9976 20.8176C61.417 20.3336 63.7278 19.4954 63.874 19.5601C64.0203 19.6249 62.0025 20.5923 61.6059 21.1541C61.2092 21.7159 62.4347 21.8713 64.0663 21.2212C65.6978 20.5712 67.7347 19.1165 68.2625 17.7528C68.7902 16.3891 67.8088 15.1173 66.4817 15.3523C65.1547 15.5871 63.4823 17.3286 64.3749 18.4042C65.2677 19.4797 68.7249 19.8873 71.2687 19.9217C73.8125 19.9561 75.4423 19.6177 75.3863 20.2227C75.3302 20.8277 73.5892 22.3753 72.849 24.7265C72.1087 27.0777 72.3713 30.2285 70.7743 31.2175C69.1773 32.2065 65.7218 31.0316 68.9785 28.8881C72.2351 26.7446 82.2021 23.6342 92.1708 20.5235M17.9884 17.1648C16.9895 16.5678 15.9906 15.9708 16.1457 15.9928C16.3007 16.0147 17.6096 16.6556 21.2068 16.9283C24.8039 17.201 30.6888 17.1056 36.5733 17.0103M24.9589 10.2645C25.7734 9.82566 26.5866 9.38759 27.2423 9.09865C27.898 8.80972 28.3928 8.67115 28.4918 8.86009C28.5908 9.04904 28.293 9.56424 28.1065 10.957C27.9199 12.3498 27.8454 14.6186 28.0924 16.8964C28.3394 19.1743 28.9073 21.4574 29.2417 22.7407C29.5762 24.024 29.6759 24.3026 29.6324 24.443C29.5888 24.5834 29.4017 24.5857 29.0724 24.6082C28.743 24.6307 28.2759 24.6728 27.7813 24.5343C27.2867 24.3958 26.7683 24.0764 26.2494 23.7568M13.931 19.7671C9.82283 23.7051 5.71408 27.6434 4.71275 28.7153C3.71142 29.7872 5.81738 27.9926 8.43592 25.9998C11.0545 24.007 14.1849 21.8164 17.5731 18.8044C20.9612 15.7923 24.6051 11.961 26.6843 9.79572C28.7635 7.63048 29.2772 7.132 29.7899 6.83896C30.3026 6.54585 30.8125 6.45864 31.141 6.09566C31.4694 5.7327 31.6163 5.09463 31.7631 4.45703"
-                            stroke="#0F0F0F"
-                            stroke-width="0.490526"
-                            stroke-miterlimit="4.3"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                          />
-                        </svg>
-                      </div>
+                        Ruslan Şamil <br />
+                        ulı Nurudinov
+                      </p>
+                      <img
+                        width="96"
+                        height="73"
+                        src="./img/player1-signature.webp"
+                        alt="Signature"
+                      />
                     </div>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div
-                    class="hero-card relative w-full rounded-[32px] border border-white bg-[url(../img/slide-2-bg.webp)] bg-cover bg-center bg-no-repeat px-[64px] py-[98px] lg:px-[30px] lg:py-[50px] medium:px-5 medium:py-10 medium:pt-[180px] xs:pb-5 xs:pt-[150px]"
+                    class="hero-card relative w-full rounded-[32px] border border-white bg-[url(../img/slide-2-bg.webp)] bg-cover bg-center bg-no-repeat px-[64px] py-[53px] lg:flex lg:flex-col lg:justify-center lg:gap-6 lg:px-[27px] lg:py-10 lg:pb-0 lg:pt-10 lg:text-center mobile:px-5 mobile:pt-6"
                   >
                     <!-- info -->
-                    <div class="overflow-hidden">
+                    <div class="overflow-hidden lg:text-center">
                       <div
                         class="slide-2-info will-change-transform medium:flex medium:flex-col medium:items-center medium:text-center"
                       >
@@ -254,45 +249,97 @@
                           class="slide-2-title text-[64px] font-black italic leading-[105%] text-white lg:text-[50px] small:text-[48px] xs:text-[32px]"
                         >
                           WELCOME <br />
-                          BONUS <span class="text-green">R$500</span>
+                          BONUS <br />
+                          <span class="text-green">127MLN SOM</span>
                         </p>
                         <p
-                          class="mt-[10px] max-w-[350px] text-2xl font-semibold leading-tight text-white medium:mt-0 medium:max-w-[250px] medium:text-lg"
+                          class="mt-[10px] max-w-[350px] text-2xl font-semibold leading-tight text-white lg:mx-auto medium:mt-0 medium:max-w-[250px] medium:text-lg"
                         >
                           Your welcome bonus is ready for you in the Bonus
                           Center.
                         </p>
                         <button
-                          class="main-btn mt-[30px] bg-green text-[#0f0f0f] small:mt-5 small:px-8 xs:py-4 xs:text-lg"
+                          class="main-btn modal-open-btn mt-[30px] bg-green text-[#0f0f0f] mobile:mt-5 mobile:px-8 mobile:text-[18px] xs:px-6 xs:py-4 xs:text-[14px]"
                         >
-                          claim your bonus
+                          12 МЛН СЎМ БОНУС ОЛИНГ
                         </button>
+                        <div
+                          class="mt-[30px] flex items-center gap-6 lg:justify-center mobile:mt-4 mobile:gap-4"
+                        >
+                          <img
+                            class="mobile:max-w-[60px]"
+                            width="87"
+                            height="60"
+                            src="./img/payments/piastrix.webp"
+                            alt="Piastrix"
+                          />
+                          <img
+                            class="mobile:max-w-[60px]"
+                            width="87"
+                            height="60"
+                            src="./img/payments/humo.webp"
+                            alt="Humo"
+                          />
+                          <img
+                            class="mobile:max-w-[60px]"
+                            width="87"
+                            height="60"
+                            src="./img/payments/uzcard.webp"
+                            alt="Uzcard"
+                          />
+                        </div>
                       </div>
                     </div>
                     <!-- img -->
                     <div
-                      class="absolute -bottom-10 right-[94px] max-w-[577px] overflow-hidden lg:bottom-0 lg:right-10 medium:bottom-[300px] medium:left-1/2 medium:right-auto medium:w-full medium:max-w-[277px] medium:-translate-x-1/2 xs:bottom-[240px] xs:max-w-[240px]"
+                      class="absolute bottom-0 right-0 max-w-[55%] overflow-hidden lg:relative lg:bottom-auto lg:right-auto lg:mx-auto tbl:max-w-[80%] medium:max-w-full mobile:max-w-[70%]"
                     >
+                      <!-- ellipse -->
+                      <svg
+                        class="slide-2-ellipse absolute -bottom-[50px] right-0 z-0 h-auto w-[85%] will-change-auto medium:bottom-0"
+                        width="550"
+                        height="550"
+                        viewBox="0 0 550 550"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <mask
+                          id="mask0_2008_5054"
+                          style="mask-type: luminance"
+                          maskUnits="userSpaceOnUse"
+                          x="0"
+                          y="0"
+                          width="550"
+                          height="550"
+                        >
+                          <path d="M550 0H0V550H550V0Z" fill="white" />
+                        </mask>
+                        <g mask="url(#mask0_2008_5054)">
+                          <path
+                            d="M451.07 453.844C549.293 355.622 549.293 196.372 451.07 98.1493C352.848 -0.0731964 193.598 -0.0731964 95.3751 98.1493"
+                            stroke="#ffffff"
+                            stroke-width="48"
+                          />
+                          <path
+                            d="M273.222 461.639C375.749 461.639 458.864 378.525 458.864 275.997C458.864 173.47 375.749 90.3555 273.222 90.3555C170.695 90.3555 87.58 173.47 87.58 275.997C87.58 378.525 170.695 461.639 273.222 461.639Z"
+                            fill="#ffffff"
+                          />
+                        </g>
+                      </svg>
+                      <!-- player -->
                       <img
-                        class="slide-2-img relative z-[1] max-w-[348px] will-change-auto lg:max-w-[250px] medium:hidden"
-                        width="348"
-                        height="600"
+                        class="slide-2-img relative z-[1] will-change-auto"
+                        width="790"
+                        height="541"
                         src="./img/slide-2-img.webp"
-                        alt="image"
-                      />
-                      <img
-                        class="slide-2-img hidden medium:block"
-                        width="277"
-                        height="226"
-                        src="./img/slide-2-img-sm.webp"
-                        alt="Image"
+                        alt="Player"
                       />
                     </div>
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div
-                    class="hero-card relative flex w-full justify-end rounded-[32px] border border-white bg-[url(../img/slide-3-bg.webp)] bg-cover bg-center bg-no-repeat px-[64px] py-[98px] pr-[96px] xl:pr-10 lg:justify-center lg:pb-10 lg:pt-[230px] mobile:px-5 mobile:pb-5 xs:pt-[200px]"
+                    class="hero-card relative flex w-full justify-end rounded-[32px] border border-white bg-[url(../img/slide-3-bg.webp)] bg-cover bg-center bg-no-repeat px-[64px] py-[53px] pr-[96px] lg:flex-col lg:justify-center lg:gap-6 lg:overflow-hidden lg:px-[27px] lg:py-10 lg:pb-0 lg:pt-10 lg:text-center mobile:px-5 mobile:pt-6"
                   >
                     <!-- info -->
                     <div class="overflow-hidden">
@@ -303,7 +350,8 @@
                           class="slide-2-title text-[64px] font-black italic leading-[105%] text-white mobile:text-[48px] xs:text-[32px]"
                         >
                           WELCOME <br />
-                          BONUS <span class="text-yellow">R$500</span>
+                          BONUS <br />
+                          <span class="text-yellow">127MLN SOM</span>
                         </p>
                         <p
                           class="mt-[10px] max-w-[350px] text-2xl font-semibold leading-tight text-white mobile:mt-0 mobile:text-lg"
@@ -312,45 +360,78 @@
                           Center.
                         </p>
                         <button
-                          class="main-btn mt-[30px] bg-yellow text-[#0f0f0f] mobile:mt-5 mobile:px-8 xs:px-6 xs:py-4 xs:text-lg"
+                          class="main-btn modal-open-btn mt-[30px] bg-yellow text-[#0f0f0f] mobile:mt-5 mobile:px-8 mobile:text-[18px] xs:px-6 xs:py-4 xs:text-[14px]"
                         >
-                          claim your bonus
+                          12 МЛН СЎМ БОНУС ОЛИНГ
                         </button>
+                        <div
+                          class="mt-[30px] flex items-center gap-6 lg:justify-center mobile:mt-4 mobile:gap-4"
+                        >
+                          <img
+                            class="mobile:max-w-[60px]"
+                            width="87"
+                            height="60"
+                            src="./img/payments/piastrix.webp"
+                            alt="Piastrix"
+                          />
+                          <img
+                            class="mobile:max-w-[60px]"
+                            width="87"
+                            height="60"
+                            src="./img/payments/humo.webp"
+                            alt="Humo"
+                          />
+                          <img
+                            class="mobile:max-w-[60px]"
+                            width="87"
+                            height="60"
+                            src="./img/payments/uzcard.webp"
+                            alt="Uzcard"
+                          />
+                        </div>
                       </div>
                     </div>
                     <!-- img -->
                     <div
-                      class="slide-img-box absolute -left-10 bottom-0 flex w-full max-w-[682px] justify-center overflow-hidden xl:max-w-[500px] lg:bottom-[350px] lg:left-1/2 lg:max-w-[250px] lg:-translate-x-1/2 mobile:bottom-[280px] xs:bottom-[240px] xs:max-w-[225px]"
+                      class="slide-img-box absolute bottom-0 left-0 flex w-full max-w-[50%] justify-center overflow-hidden lg:relative lg:bottom-auto lg:left-auto lg:mx-auto lg:max-w-[60%] lg:overflow-visible"
                     >
-                      <!-- ellipse -->
                       <svg
-                        class="slide-3-ellipse absolute -bottom-[150px] left-12 xl:w-[94%] lg:bottom-0 lg:left-[30px] lg:h-auto lg:w-[90%] mobile:left-0 mobile:w-full"
-                        width="589"
-                        height="589"
-                        viewBox="0 0 589 589"
+                        class="slide-3-star absolute -bottom-20 -left-20 h-auto w-full"
+                        width="435"
+                        height="451"
+                        viewBox="0 0 435 451"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
                       >
                         <path
-                          d="M521.871 164.315C449.389 38.7718 288.858 -4.24232 163.315 68.2399C37.7726 140.722 -5.24158 301.253 67.2406 426.796"
-                          stroke="white"
-                          stroke-width="62.9738"
-                        />
-                        <circle
-                          cx="294.557"
-                          cy="295.556"
-                          r="193.08"
+                          d="M260.112 183.607L266.919 0.452103L160.189 149.452L60.3783 112.877L13.4997 95.9999L96.8198 233.951L-0.00395959 372L60.3783 352.643L157.579 320.331L205.762 392.119L251.496 450.5L258.499 289.217L434.762 239.069L260.112 183.607Z"
                           fill="white"
-                          stroke="white"
-                          stroke-width="1.31195"
                         />
                       </svg>
                       <img
-                        class="slide-3-img relative z-[1] max-w-[480px] will-change-auto xl:max-w-[440px] lg:w-full"
+                        class="slide-3-img relative left-12 z-[1] w-full will-change-auto lg:left-0"
                         width="504"
                         height="557"
-                        src="./img/player-2.webp"
+                        src="./img/slide-3-player.webp"
                         alt="image"
+                      />
+                    </div>
+                    <!-- Player name -->
+                    <div
+                      class="slide-3-name absolute left-2 top-[25px] z-[2] flex flex-col items-start lg:hidden"
+                    >
+                      <p
+                        class="font-rajdhani text-[28px] font-bold uppercase leading-tight text-white xl:text-[18px]"
+                      >
+                        Bakhodir <br />
+                        Isomiddin oʻgʻli <br />
+                        Jalolov
+                      </p>
+                      <img
+                        width="96"
+                        height="73"
+                        src="./img/player-2-signature.webp"
+                        alt="Signature"
                       />
                     </div>
                   </div>
@@ -361,72 +442,126 @@
           </div>
         </section>
         <section id="steps" class="relative overflow-hidden py-10 mobile:py-5">
+          <!-- top left -->
           <svg
-            class="cross-top-left absolute left-0 top-0 will-change-auto large:-left-[250px] xl:hidden"
-            width="434"
-            height="267"
-            viewBox="0 0 434 267"
+            class="cross-top-left absolute -left-[300px] top-0 will-change-auto large:-left-[450px] xl:hidden"
+            width="639"
+            height="372"
+            viewBox="0 0 639 372"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M48 7L81.25 40.25M81.25 40.25L114.5 73.5M81.25 40.25L114.5 7M81.25 40.25L48 73.5M-56 100L-22.75 133.25M-22.75 133.25L10.5 166.5M-22.75 133.25L10.5 100M-22.75 133.25L-56 166.5M256 7L289.25 40.25M289.25 40.25L322.5 73.5M289.25 40.25L322.5 7M289.25 40.25L256 73.5M152 100L185.25 133.25M185.25 133.25L218.5 166.5M185.25 133.25L218.5 100M185.25 133.25L152 166.5M152 7L185.25 40.25M185.25 40.25L218.5 73.5M185.25 40.25L218.5 7M185.25 40.25L152 73.5M48 100L81.25 133.25M81.25 133.25L114.5 166.5M81.25 133.25L114.5 100M81.25 133.25L48 166.5M360 7L393.25 40.25M393.25 40.25L426.5 73.5M393.25 40.25L426.5 7M393.25 40.25L360 73.5M256 100L289.25 133.25M289.25 133.25L322.5 166.5M289.25 133.25L322.5 100M289.25 133.25L256 166.5M152 193L185.25 226.25M185.25 226.25L218.5 259.5M185.25 226.25L218.5 193M185.25 226.25L152 259.5"
-              stroke="#E7334A"
-              stroke-opacity="0.5"
-              stroke-width="14"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="M589.236 0L600.228 36.5295L638.366 35.6951L607.021 57.4372L619.6 93.451L589.236 70.3588L558.872 93.451L571.451 57.4372L540.106 35.6951L578.244 36.5295L589.236 0Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M454.236 130.895L465.228 167.424L503.366 166.59L472.021 188.332L484.6 224.346L454.236 201.253L423.872 224.346L436.451 188.332L405.106 166.59L443.244 167.424L454.236 130.895Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M454.13 0L465.122 36.5295L503.26 35.6951L471.915 57.4372L484.494 93.451L454.13 70.3588L423.766 93.451L436.345 57.4372L405 35.6951L443.138 36.5295L454.13 0Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M319.13 0L330.122 36.5295L368.26 35.6951L336.915 57.4372L349.494 93.451L319.13 70.3588L288.766 93.451L301.345 57.4372L270 35.6951L308.138 36.5295L319.13 0Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M184.13 0L195.122 36.5295L233.26 35.6951L201.915 57.4372L214.494 93.451L184.13 70.3588L153.766 93.451L166.345 57.4372L135 35.6951L173.138 36.5295L184.13 0Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M319.13 130.895L330.122 167.424L368.26 166.59L336.915 188.332L349.494 224.346L319.13 201.253L288.766 224.346L301.345 188.332L270 166.59L308.138 167.424L319.13 130.895Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M184.13 130.895L195.122 167.424L233.26 166.59L201.915 188.332L214.494 224.346L184.13 201.253L153.766 224.346L166.345 188.332L135 166.59L173.138 167.424L184.13 130.895Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M49.1301 130.895L60.1219 167.424L98.2602 166.59L66.9152 188.332L79.4942 224.346L49.1301 201.253L18.766 224.346L31.345 188.332L0 166.59L38.1383 167.424L49.1301 130.895Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M319.13 277.895L330.122 314.424L368.26 313.59L336.915 335.332L349.494 371.346L319.13 348.253L288.766 371.346L301.345 335.332L270 313.59L308.138 314.424L319.13 277.895Z"
+              fill="#F0F0F0"
             />
           </svg>
+          <!-- top right -->
           <svg
-            class="cross-top-right absolute -top-[80px] right-0 will-change-auto xl:hidden"
-            width="148"
-            height="267"
-            viewBox="0 0 148 267"
+            class="cross-top-right absolute -right-[300px] top-[40px] will-change-auto large:-right-[450px] xl:hidden"
+            width="639"
+            height="372"
+            viewBox="0 0 639 372"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M111 259.5L144.25 226.25M144.25 226.25L177.5 193M144.25 226.25L177.5 259.5M144.25 226.25L111 193M7 166.5L40.25 133.25M40.25 133.25L73.5 100M40.25 133.25L73.5 166.5M40.25 133.25L7 100M319 259.5L352.25 226.25M352.25 226.25L385.5 193M352.25 226.25L385.5 259.5M352.25 226.25L319 193M215 166.5L248.25 133.25M248.25 133.25L281.5 100M248.25 133.25L281.5 166.5M248.25 133.25L215 100M215 259.5L248.25 226.25M248.25 226.25L281.5 193M248.25 226.25L281.5 259.5M248.25 226.25L215 193M111 166.5L144.25 133.25M144.25 133.25L177.5 100M144.25 133.25L177.5 166.5M144.25 133.25L111 100M423 259.5L456.25 226.25M456.25 226.25L489.5 193M456.25 226.25L489.5 259.5M456.25 226.25L423 193M319 166.5L352.25 133.25M352.25 133.25L385.5 100M352.25 133.25L385.5 166.5M352.25 133.25L319 100M215 73.5L248.25 40.25M248.25 40.25L281.5 7M248.25 40.25L281.5 73.5M248.25 40.25L215 7"
-              stroke="#E7334A"
-              stroke-opacity="0.5"
-              stroke-width="14"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="M49.1301 0L38.1384 36.5295L0 35.6951L31.345 57.4372L18.7661 93.451L49.1301 70.3588L79.4941 93.451L66.9153 57.4372L98.2603 35.6951L60.1219 36.5295L49.1301 0Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M184.13 130.895L173.138 167.424L135 166.59L166.345 188.332L153.766 224.346L184.13 201.253L214.494 224.346L201.915 188.332L233.26 166.59L195.122 167.424L184.13 130.895Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M184.236 0L173.244 36.5295L135.106 35.6951L166.451 57.4372L153.872 93.451L184.236 70.3588L214.6 93.451L202.021 57.4372L233.366 35.6951L195.228 36.5295L184.236 0Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M319.236 0L308.244 36.5295L270.106 35.6951L301.451 57.4372L288.872 93.451L319.236 70.3588L349.6 93.451L337.021 57.4372L368.366 35.6951L330.228 36.5295L319.236 0Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M454.236 0L443.244 36.5295L405.106 35.6951L436.451 57.4372L423.872 93.451L454.236 70.3588L484.6 93.451L472.021 57.4372L503.366 35.6951L465.228 36.5295L454.236 0Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M319.236 130.895L308.244 167.424L270.106 166.59L301.451 188.332L288.872 224.346L319.236 201.253L349.6 224.346L337.021 188.332L368.366 166.59L330.228 167.424L319.236 130.895Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M454.236 130.895L443.244 167.424L405.106 166.59L436.451 188.332L423.872 224.346L454.236 201.253L484.6 224.346L472.021 188.332L503.366 166.59L465.228 167.424L454.236 130.895Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M589.236 130.895L578.244 167.424L540.106 166.59L571.451 188.332L558.872 224.346L589.236 201.253L619.6 224.346L607.021 188.332L638.366 166.59L600.228 167.424L589.236 130.895Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M319.236 277.895L308.244 314.424L270.106 313.59L301.451 335.332L288.872 371.346L319.236 348.253L349.6 371.346L337.021 335.332L368.366 313.59L330.228 314.424L319.236 277.895Z"
+              fill="#F0F0F0"
             />
           </svg>
+          <!-- bottom left -->
           <svg
-            class="cross-bottom-right absolute -bottom-[50px] right-[63px] will-change-auto large:-right-[170px] xl:hidden"
-            width="497"
-            height="267"
-            viewBox="0 0 497 267"
+            class="cross-bottom-left absolute -bottom-[250px] left-[420px] will-change-auto large:left-[50px] xl:hidden"
+            width="369"
+            height="372"
+            viewBox="0 0 369 372"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
             <path
-              d="M111 259.5L144.25 226.25M144.25 226.25L177.5 193M144.25 226.25L177.5 259.5M144.25 226.25L111 193M7 166.5L40.25 133.25M40.25 133.25L73.5 100M40.25 133.25L73.5 166.5M40.25 133.25L7 100M319 259.5L352.25 226.25M352.25 226.25L385.5 193M352.25 226.25L385.5 259.5M352.25 226.25L319 193M215 166.5L248.25 133.25M248.25 133.25L281.5 100M248.25 133.25L281.5 166.5M248.25 133.25L215 100M215 259.5L248.25 226.25M248.25 226.25L281.5 193M248.25 226.25L281.5 259.5M248.25 226.25L215 193M111 166.5L144.25 133.25M144.25 133.25L177.5 100M144.25 133.25L177.5 166.5M144.25 133.25L111 100M423 259.5L456.25 226.25M456.25 226.25L489.5 193M456.25 226.25L489.5 259.5M456.25 226.25L423 193M319 166.5L352.25 133.25M352.25 133.25L385.5 100M352.25 133.25L385.5 166.5M352.25 133.25L319 100M215 73.5L248.25 40.25M248.25 40.25L281.5 7M248.25 40.25L281.5 73.5M248.25 40.25L215 7"
-              stroke="#E7334A"
-              stroke-opacity="0.5"
-              stroke-width="14"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="M184.13 0L195.122 36.5295L233.26 35.6951L201.915 57.4373L214.494 93.4512L184.13 70.3589L153.766 93.4512L166.345 57.4373L135 35.6951L173.138 36.5295L184.13 0Z"
+              fill="#F0F0F0"
             />
-          </svg>
-          <svg
-            class="cross-bottom-left absolute -bottom-[370px] left-[420px] will-change-auto large:left-[50px] xl:hidden"
-            width="267"
-            height="497"
-            viewBox="0 0 267 497"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
             <path
-              d="M259.5 111L226.25 144.25M226.25 144.25L193 177.5M226.25 144.25L259.5 177.5M226.25 144.25L193 111M166.5 7L133.25 40.25M133.25 40.25L100 73.5M133.25 40.25L166.5 73.5M133.25 40.25L100 6.99999M259.5 319L226.25 352.25M226.25 352.25L193 385.5M226.25 352.25L259.5 385.5M226.25 352.25L193 319M166.5 215L133.25 248.25M133.25 248.25L100 281.5M133.25 248.25L166.5 281.5M133.25 248.25L100 215M259.5 215L226.25 248.25M226.25 248.25L193 281.5M226.25 248.25L259.5 281.5M226.25 248.25L193 215M166.5 111L133.25 144.25M133.25 144.25L100 177.5M133.25 144.25L166.5 177.5M133.25 144.25L100 111M259.5 423L226.25 456.25M226.25 456.25L193 489.5M226.25 456.25L259.5 489.5M226.25 456.25L193 423M166.5 319L133.25 352.25M133.25 352.25L100 385.5M133.25 352.25L166.5 385.5M133.25 352.25L100 319M73.5 215L40.25 248.25M40.25 248.25L6.99999 281.5M40.25 248.25L73.5 281.5M40.25 248.25L6.99999 215"
-              stroke="#E7334A"
-              stroke-opacity="0.5"
-              stroke-width="14"
-              stroke-linecap="round"
-              stroke-linejoin="round"
+              d="M319.13 130.895L330.122 167.424L368.26 166.59L336.915 188.332L349.494 224.346L319.13 201.253L288.766 224.346L301.345 188.332L270 166.59L308.138 167.424L319.13 130.895Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M184.13 130.895L195.122 167.424L233.26 166.59L201.915 188.332L214.494 224.346L184.13 201.253L153.766 224.346L166.345 188.332L135 166.59L173.138 167.424L184.13 130.895Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M49.1301 130.895L60.1219 167.424L98.2602 166.59L66.9152 188.332L79.4942 224.346L49.1301 201.253L18.7661 224.346L31.345 188.332L0 166.59L38.1383 167.424L49.1301 130.895Z"
+              fill="#F0F0F0"
+            />
+            <path
+              d="M319.13 277.895L330.122 314.424L368.26 313.59L336.915 335.332L349.494 371.346L319.13 348.253L288.766 371.346L301.345 335.332L270 313.59L308.138 314.424L319.13 277.895Z"
+              fill="#F0F0F0"
             />
           </svg>
           <div class="container">
@@ -459,7 +594,7 @@
                   class="steps-item flex gap-[30px] will-change-auto mobile:grid mobile:grid-cols-[45px_1fr] mobile:gap-5"
                 >
                   <p
-                    class="font-saira text-[90px] font-black uppercase italic leading-none text-red mobile:text-[70px]"
+                    class="font-saira text-[90px] font-black uppercase italic leading-none text-[#55A3FF] mobile:text-[70px]"
                   >
                     1
                   </p>
@@ -476,7 +611,7 @@
                   class="steps-item flex gap-[30px] will-change-auto mobile:grid mobile:grid-cols-[45px_1fr] mobile:gap-5"
                 >
                   <p
-                    class="font-saira text-[90px] font-black uppercase italic leading-none text-red mobile:text-[70px]"
+                    class="font-saira text-[90px] font-black uppercase italic leading-none text-[#55A3FF] mobile:text-[70px]"
                   >
                     2
                   </p>
@@ -493,7 +628,7 @@
                   class="steps-item flex gap-[30px] will-change-auto mobile:grid mobile:grid-cols-[45px_1fr] mobile:gap-5"
                 >
                   <p
-                    class="font-saira text-[90px] font-black uppercase italic leading-none text-red mobile:text-[70px]"
+                    class="font-saira text-[90px] font-black uppercase italic leading-none text-[#55A3FF] mobile:text-[70px]"
                   >
                     3
                   </p>
@@ -508,7 +643,7 @@
                 </div>
               </div>
               <button
-                class="main-btn steps-btn bg-red xl:py-4 xl:text-lg xs:px-8"
+                class="main-btn modal-open-btn steps-btn bg-[#55A3FF] xl:py-4 xl:text-lg xs:px-8"
               >
                 CLAIM YOUR BONUS
               </button>
@@ -517,54 +652,61 @@
             <div class="relative mt-10">
               <div class="terms-body relative space-y-[15px]">
                 <svg
-                  class="absolute bottom-[500px] right-[120%] will-change-auto large:right-[107%] xl:hidden"
-                  width="267"
-                  height="497"
-                  viewBox="0 0 267 497"
+                  class="absolute bottom-[23%] right-[120%] large:right-[105%] xl:hidden"
+                  width="234"
+                  height="225"
+                  viewBox="0 0 234 225"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M259.5 385.5L226.25 352.25M226.25 352.25L193 319M226.25 352.25L259.5 319M226.25 352.25L193 385.5M166.5 489.5L133.25 456.25M133.25 456.25L100 423M133.25 456.25L166.5 423M133.25 456.25L100 489.5M259.5 177.5L226.25 144.25M226.25 144.25L193 111M226.25 144.25L259.5 111M226.25 144.25L193 177.5M166.5 281.5L133.25 248.25M133.25 248.25L100 215M133.25 248.25L166.5 215M133.25 248.25L100 281.5M259.5 281.5L226.25 248.25M226.25 248.25L193 215M226.25 248.25L259.5 215M226.25 248.25L193 281.5M166.5 385.5L133.25 352.25M133.25 352.25L100 319M133.25 352.25L166.5 319M133.25 352.25L100 385.5M259.5 73.5L226.25 40.25M226.25 40.25L193 7M226.25 40.25L259.5 7M226.25 40.25L193 73.5M166.5 177.5L133.25 144.25M133.25 144.25L100 111M133.25 144.25L166.5 111M133.25 144.25L100 177.5M73.5 281.5L40.25 248.25M40.25 248.25L6.99999 215M40.25 248.25L73.5 215M40.25 248.25L6.99999 281.5"
-                    stroke="#E7334A"
-                    stroke-opacity="0.5"
-                    stroke-width="14"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    d="M49.1301 0.5L38.1384 37.0295L0 36.1951L31.345 57.9371L18.7661 93.951L49.1301 70.8588L79.4941 93.951L66.9153 57.9371L98.2603 36.1951L60.1221 37.0295L49.1301 0.5Z"
+                    fill="#F0F0F0"
+                  />
+                  <path
+                    d="M49.1301 131.395L38.1384 167.924L0 167.09L31.345 188.832L18.7661 224.846L49.1301 201.753L79.4941 224.846L66.9153 188.832L98.2603 167.09L60.1221 167.924L49.1301 131.395Z"
+                    fill="#F0F0F0"
+                  />
+                  <path
+                    d="M184.13 131.395L173.138 167.924L135 167.09L166.345 188.832L153.766 224.846L184.13 201.753L214.494 224.846L201.915 188.832L233.26 167.09L195.122 167.924L184.13 131.395Z"
+                    fill="#F0F0F0"
                   />
                 </svg>
                 <svg
-                  class="absolute left-[120%] top-[150px] will-change-auto large:left-[107%] xl:hidden"
-                  width="267"
-                  height="497"
-                  viewBox="0 0 267 497"
+                  class="absolute bottom-[45%] left-[120%] large:left-[105%] xl:hidden"
+                  width="504"
+                  height="372"
+                  viewBox="0 0 504 372"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M7 111L40.25 144.25M40.25 144.25L73.5 177.5M40.25 144.25L6.99999 177.5M40.25 144.25L73.5 111M100 7L133.25 40.25M133.25 40.25L166.5 73.5M133.25 40.25L100 73.5M133.25 40.25L166.5 7.00001M6.99999 319L40.25 352.25M40.25 352.25L73.5 385.5M40.25 352.25L6.99998 385.5M40.25 352.25L73.5 319M100 215L133.25 248.25M133.25 248.25L166.5 281.5M133.25 248.25L100 281.5M133.25 248.25L166.5 215M6.99999 215L40.25 248.25M40.25 248.25L73.5 281.5M40.25 248.25L6.99999 281.5M40.25 248.25L73.5 215M100 111L133.25 144.25M133.25 144.25L166.5 177.5M133.25 144.25L100 177.5M133.25 144.25L166.5 111M6.99998 423L40.25 456.25M40.25 456.25L73.5 489.5M40.25 456.25L6.99998 489.5M40.25 456.25L73.5 423M100 319L133.25 352.25M133.25 352.25L166.5 385.5M133.25 352.25L100 385.5M133.25 352.25L166.5 319M193 215L226.25 248.25M226.25 248.25L259.5 281.5M226.25 248.25L193 281.5M226.25 248.25L259.5 215"
-                    stroke="#E7334A"
-                    stroke-opacity="0.5"
-                    stroke-width="14"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    d="M49.7629 130.895L38.7712 167.424L0.632812 166.59L31.9778 188.332L19.3989 224.346L49.7629 201.253L80.1271 224.346L67.5481 188.332L98.8931 166.59L60.7548 167.424L49.7629 130.895Z"
+                    fill="#F0F0F0"
                   />
-                </svg>
-                <svg
-                  class="absolute bottom-[120px] left-[120%] will-change-auto large:left-[107%] xl:hidden"
-                  width="267"
-                  height="497"
-                  viewBox="0 0 267 497"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
                   <path
-                    d="M259.5 385.5L226.25 352.25M226.25 352.25L193 319M226.25 352.25L259.5 319M226.25 352.25L193 385.5M166.5 489.5L133.25 456.25M133.25 456.25L100 423M133.25 456.25L166.5 423M133.25 456.25L100 489.5M259.5 177.5L226.25 144.25M226.25 144.25L193 111M226.25 144.25L259.5 111M226.25 144.25L193 177.5M166.5 281.5L133.25 248.25M133.25 248.25L100 215M133.25 248.25L166.5 215M133.25 248.25L100 281.5M259.5 281.5L226.25 248.25M226.25 248.25L193 215M226.25 248.25L259.5 215M226.25 248.25L193 281.5M166.5 385.5L133.25 352.25M133.25 352.25L100 319M133.25 352.25L166.5 319M133.25 352.25L100 385.5M259.5 73.5L226.25 40.25M226.25 40.25L193 7M226.25 40.25L259.5 7M226.25 40.25L193 73.5M166.5 177.5L133.25 144.25M133.25 144.25L100 111M133.25 144.25L166.5 111M133.25 144.25L100 177.5M73.5 281.5L40.25 248.25M40.25 248.25L6.99999 215M40.25 248.25L73.5 215M40.25 248.25L6.99999 281.5"
-                    stroke="#E7334A"
-                    stroke-opacity="0.5"
-                    stroke-width="14"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                    d="M184.869 0L173.877 36.5295L135.739 35.6951L167.084 57.4371L154.505 93.451L184.869 70.3588L215.233 93.451L202.654 57.4371L233.999 35.6951L195.861 36.5295L184.869 0Z"
+                    fill="#F0F0F0"
+                  />
+                  <path
+                    d="M319.869 0L308.877 36.5295L270.739 35.6951L302.084 57.4371L289.505 93.451L319.869 70.3588L350.233 93.451L337.654 57.4371L368.999 35.6951L330.861 36.5295L319.869 0Z"
+                    fill="#F0F0F0"
+                  />
+                  <path
+                    d="M184.869 130.895L173.877 167.424L135.739 166.59L167.084 188.332L154.505 224.346L184.869 201.253L215.233 224.346L202.654 188.332L233.999 166.59L195.861 167.424L184.869 130.895Z"
+                    fill="#F0F0F0"
+                  />
+                  <path
+                    d="M319.869 130.895L308.877 167.424L270.739 166.59L302.084 188.332L289.505 224.346L319.869 201.253L350.233 224.346L337.654 188.332L368.999 166.59L330.861 167.424L319.869 130.895Z"
+                    fill="#F0F0F0"
+                  />
+                  <path
+                    d="M454.869 130.895L443.877 167.424L405.739 166.59L437.084 188.332L424.505 224.346L454.869 201.253L485.233 224.346L472.654 188.332L503.999 166.59L465.861 167.424L454.869 130.895Z"
+                    fill="#F0F0F0"
+                  />
+                  <path
+                    d="M184.869 277.895L173.877 314.424L135.739 313.59L167.084 335.332L154.505 371.346L184.869 348.253L215.233 371.346L202.654 335.332L233.999 313.59L195.861 314.424L184.869 277.895Z"
+                    fill="#F0F0F0"
                   />
                 </svg>
                 <h3 class="text-center text-2xl font-black leading-tight">
@@ -718,12 +860,12 @@
                 class="terms-btn group mx-auto flex max-w-[250px] cursor-pointer flex-col items-center gap-5"
               >
                 <p
-                  class="pointer-events-none text-ellipsis text-xl font-semibold uppercase leading-tight underline underline-offset-4 transition-colors group-hover:text-red"
+                  class="pointer-events-none text-ellipsis text-xl font-semibold uppercase leading-tight underline underline-offset-4 transition-colors group-hover:text-[#55A3FF]"
                 >
                   Terms and Conditions
                 </p>
                 <div
-                  class="terms-arrow flex h-8 w-8 items-center justify-center rounded-full bg-red"
+                  class="terms-arrow flex h-8 w-8 items-center justify-center rounded-full bg-[#55A3FF]"
                 >
                   <svg
                     width="14"
@@ -745,7 +887,9 @@
             </div>
           </div>
         </section>
-        <section class="bg-red py-[64px]">
+        <section
+          class="bg-[url(../img/choose-bg.webp)] bg-cover bg-center bg-no-repeat py-[64px]"
+        >
           <div class="container">
             <!-- head -->
             <div class="flex flex-col items-center mobile:gap-1">
@@ -892,7 +1036,7 @@
             </div>
             <div class="choose-btn mt-10 flex justify-center">
               <button
-                class="main-btn bg-white text-black mobile:px-8 mobile:py-6"
+                class="main-btn modal-open-btn bg-white text-black mobile:px-8 mobile:py-6"
               >
                 claim your bonus
               </button>
@@ -900,7 +1044,7 @@
           </div>
         </section>
       </main>
-      <footer class="pb-8 pt-10 mobile:pb-[140px]">
+      <footer class="pb-8 pt-10 mobile:pb-[9-0px]">
         <div class="container">
           <p class="text-center text-xs font-normal leading-[140%]">
             The website www.goldbet.io is owned and operated by Ivanov I.I.
@@ -916,21 +1060,1128 @@
             Anjouan with registered address: Rua de Henrique Digeni 12 1 & 2
             an., 1234-5600 Lisboa, Portugal.
           </p>
+          <div
+            class="mt-10 flex items-center justify-center gap-6 mobile:mt-4 mobile:gap-4"
+          >
+            <img
+              class="mobile:max-w-[60px]"
+              width="87"
+              height="60"
+              src="./img/payments/piastrix.webp"
+              alt="Piastrix"
+            />
+            <img
+              class="mobile:max-w-[60px]"
+              width="87"
+              height="60"
+              src="./img/payments/humo.webp"
+              alt="Humo"
+            />
+            <img
+              class="mobile:max-w-[60px]"
+              width="87"
+              height="60"
+              src="./img/payments/uzcard.webp"
+              alt="Uzcard"
+            />
+          </div>
         </div>
       </footer>
       <div
-        class="fixed bottom-[10px] left-0 z-50 hidden w-full bg-[#601712] py-[5px] small:block"
+        class="fixed bottom-0 left-0 z-50 hidden w-full bg-[#2f652c] py-[10px] small:block"
       >
-        <div class="container flex max-w-[375px] items-center gap-2">
-          <div class="payments-slider swiper max-w-[154px] overflow-hidden">
-            <div class="swiper-wrapper payments-footer"></div>
-          </div>
-          <button class="main-btn bg-red px-6 py-3 xs:text-base">
+        <div
+          class="container flex max-w-[375px] items-center justify-center gap-2"
+        >
+          <button
+            class="modal-open-btn main-btn bg-[#55A3FF] px-6 py-3 xs:text-base"
+          >
             claim €500 bonus
           </button>
         </div>
       </div>
-      <!-- 1 -->
+      <!-- FORM -->
+      <div
+        class="form-overlay fixed left-0 top-0 z-[200] hidden h-screen w-full place-items-center overflow-y-auto bg-black/50 p-3 backdrop-blur-[10px] mobile:p-0"
+      >
+        <select
+          id="hidden-select"
+          class="absolute left-1/2 top-5 z-50 hidden -translate-x-1/2 text-black"
+        >
+          <option value="dev">dev</option>
+          <option value="prod">prod</option>
+        </select>
+        <div
+          class="form-modal form-modal-1 grid w-full max-w-[550px] grid-cols-1 overflow-hidden rounded-[24px] border border-white/25 lg:max-w-[500px] lg:grid-cols-1 mobile:h-dvh mobile:max-w-full mobile:overflow-y-auto mobile:rounded-none mobile:border-none"
+        >
+          <!-- right -->
+          <div
+            class="form-modal-right relative h-full w-full bg-[url(../img/form-bg.webp)] bg-cover bg-center bg-no-repeat px-[30px] pb-10 text-white mobile:p-[15px]"
+          >
+            <button
+              class="form-modal-close-btn absolute right-4 top-4 flex h-12 w-12 items-center justify-center rounded-lg bg-white/5 transition-all duration-200 hover:bg-white/15 mobile:right-[15px] mobile:top-[15px]"
+            >
+              <svg
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M24 8L8 24M8 8L24 24"
+                  stroke="#F0F0F0"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <button
+              class="form-step-btn-prev absolute left-4 top-4 flex hidden h-12 w-12 items-center justify-center rounded-lg bg-white/5 transition-all duration-200 hover:bg-white/15 mobile:left-[15px] mobile:top-[15px]"
+            >
+              <svg
+                class="stroke-[#f0f0f0]"
+                width="32"
+                height="32"
+                viewBox="0 0 32 32"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M20 8L12 16L20 24"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <form action="#" class="form h-full">
+              <div class="flex h-full flex-col">
+                <!-- Step 1 -->
+                <div class="form-step form-step-1 mb-[15px] pt-5">
+                  <!-- Header -->
+                  <div class="space-y-[5px] text-center">
+                    <p
+                      data-modal-translate="signUpEasySteps"
+                      class="text-[24px] font-bold tracking-tight"
+                    >
+                      <span class="win-amount">127 MLN</span> SO'M <br />
+                      gacha bo'lgan mukofotni qo'lga kiriting!
+                    </p>
+                    <p
+                      data-modal-translate="completeToClaimGift"
+                      class="font-montserrat relative mx-auto inline-block max-w-[270px] text-[15px] font-normal leading-[160%] tracking-tight"
+                    >
+                      <svg
+                        class="red-arrow absolute bottom-0 left-[110%]"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M3.19995 3.19995L12 10.4L20.8 3.19995"
+                          stroke="#FF3A33"
+                          stroke-width="4.8"
+                        />
+                        <path
+                          d="M3.19995 13.6001L12 20.8001L20.8 13.6001"
+                          stroke="#FF3A33"
+                          stroke-width="4.8"
+                        />
+                      </svg>
+                      Buning uchun oddiy ro'yxatdan o'ting.
+                      <svg
+                        class="red-arrow absolute bottom-0 right-[110%]"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M3.19995 3.19995L12 10.4L20.8 3.19995"
+                          stroke="#FF3A33"
+                          stroke-width="4.8"
+                        />
+                        <path
+                          d="M3.19995 13.6001L12 20.8001L20.8 13.6001"
+                          stroke="#FF3A33"
+                          stroke-width="4.8"
+                        />
+                      </svg>
+                    </p>
+                  </div>
+                  <!-- Socials -->
+                  <div class="mt-[15px] space-y-[15px]">
+                    <a
+                      data-reg-type="google"
+                      href="#"
+                      class="form-social-link flex items-center justify-center gap-[10px] rounded-xl bg-white p-4 transition-transform duration-300 hover:scale-[1.02] active:scale-[0.99]"
+                    >
+                      <img
+                        class="pointer-events-none"
+                        width="32"
+                        height="32"
+                        src="./img/google.svg"
+                        alt="Google icon"
+                      />
+                      <span
+                        data-modal-translate="signUpWithGoogle"
+                        class="sm:text-[13px] pointer-events-none text-lg font-bold tracking-tight text-[#0f0f0f]"
+                        >Google orqali roʻyxatdan oʻtish</span
+                      >
+                    </a>
+                    <a
+                      data-reg-type="facebook"
+                      href="#"
+                      class="form-social-link flex items-center justify-center gap-[10px] rounded-xl bg-[#337FFF] p-4 transition-transform duration-300 hover:scale-[1.02] active:scale-[0.99]"
+                    >
+                      <img
+                        class="pointer-events-none"
+                        width="32"
+                        height="32"
+                        src="./img/facebook-logo.svg"
+                        alt="Facebook logo"
+                      />
+                      <span
+                        data-modal-translate="signUpWithFacebook"
+                        class="sm:text-[13px] pointer-events-none text-lg font-bold tracking-tight"
+                        >Facebook orqali roʻyxatdan oʻtish</span
+                      >
+                    </a>
+                  </div>
+                  <!-- Form type tabs -->
+                  <div class="form-type-buttons mt-[15px] grid grid-cols-2">
+                    <div
+                      data-tab="email"
+                      class="form-type-btn active group relative flex cursor-pointer items-center justify-center gap-[5px] border-b border-[#5D6A69] p-5"
+                    >
+                      <svg
+                        class="pointer-events-none stroke-[#f0f0f0] transition group-hover:stroke-[#FAD303]"
+                        width="25"
+                        height="24"
+                        viewBox="0 0 25 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M3.5 7C3.5 6.46957 3.71071 5.96086 4.08579 5.58579C4.46086 5.21071 4.96957 5 5.5 5H19.5C20.0304 5 20.5391 5.21071 20.9142 5.58579C21.2893 5.96086 21.5 6.46957 21.5 7M3.5 7V17C3.5 17.5304 3.71071 18.0391 4.08579 18.4142C4.46086 18.7893 4.96957 19 5.5 19H19.5C20.0304 19 20.5391 18.7893 20.9142 18.4142C21.2893 18.0391 21.5 17.5304 21.5 17V7M3.5 7L12.5 13L21.5 7"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      <span
+                        class="pointer-events-none text-lg font-bold tracking-tight text-[#f0f0f0] transition-colors group-hover:text-[#FAD303]"
+                        >E-Mail</span
+                      >
+                    </div>
+                    <div
+                      data-tab="phone"
+                      class="form-type-btn group relative flex cursor-pointer items-center justify-center gap-[5px] border-b border-[#5D6A69] p-5"
+                    >
+                      <svg
+                        class="pointer-events-none stroke-[#f0f0f0] transition group-hover:stroke-[#FAD303]"
+                        width="25"
+                        height="24"
+                        viewBox="0 0 25 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.5 4H13.5M12.5 17V17.01M6.5 5C6.5 4.46957 6.71071 3.96086 7.08579 3.58579C7.46086 3.21071 7.96957 3 8.5 3H16.5C17.0304 3 17.5391 3.21071 17.9142 3.58579C18.2893 3.96086 18.5 4.46957 18.5 5V19C18.5 19.5304 18.2893 20.0391 17.9142 20.4142C17.5391 20.7893 17.0304 21 16.5 21H8.5C7.96957 21 7.46086 20.7893 7.08579 20.4142C6.71071 20.0391 6.5 19.5304 6.5 19V5Z"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      <span
+                        data-modal-translate="phone"
+                        class="pointer-events-none text-lg font-bold tracking-tight text-[#f0f0f0] transition-colors group-hover:text-[#FAD303]"
+                        >Telefon</span
+                      >
+                    </div>
+                  </div>
+                  <!-- Inputs -->
+                  <div class="form-tab-content mt-[15px]">
+                    <div
+                      class="form-group active form-group-email relative h-[64px] items-end rounded-xl bg-white px-5 pb-[11px]"
+                    >
+                      <input
+                        class="email-input w-full bg-transparent text-lg font-bold tracking-tight text-[#755EEB] outline-none"
+                        type="email"
+                        id="form-email"
+                        placeholder=" "
+                        name="email"
+                      />
+                      <label
+                        class="pointer-events-none absolute left-5 top-0 z-[2] flex h-full w-full items-center text-lg font-bold tracking-tight text-[#585858]"
+                        for="form-email"
+                        >E-mail</label
+                      >
+                      <svg
+                        class="not-valid-icon absolute right-5 top-1/2 hidden -translate-y-1/2"
+                        width="32"
+                        height="32"
+                        viewBox="0 0 32 32"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M24 8L8 24M8 8L24 24"
+                          stroke="#FF5530"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      <div
+                        data-modal-translate="wrongEmail"
+                        class="tooltip absolute -right-4 bottom-[90%] z-30 hidden rounded-md bg-[#f0f0f0] px-2 py-[6px] text-sm font-normal leading-[120%] text-[#0f0f0f]"
+                      >
+                        Notoʻgʻri e-mail
+                      </div>
+                    </div>
+                    <div
+                      class="form-group form-group-phone relative h-[64px] flex-col gap-[5px] rounded-xl bg-white px-3 py-[10px]"
+                    >
+                      <span
+                        data-modal-translate="phoneNumber"
+                        class="block text-xs font-bold leading-none tracking-tight text-[#585858]"
+                        >Telefon raqami</span
+                      >
+                      <input
+                        class="phone-input text-lg font-bold tracking-tight text-[#755EEB] outline-none"
+                        type="phone"
+                        name="phone"
+                      />
+                      <svg
+                        class="not-valid-icon absolute right-5 top-1/2 hidden -translate-y-1/2"
+                        width="32"
+                        height="32"
+                        viewBox="0 0 32 32"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M24 8L8 24M8 8L24 24"
+                          stroke="#FF5530"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                      <div
+                        data-modal-translate="wrongNumber"
+                        class="tooltip absolute -right-4 bottom-[90%] z-30 hidden rounded-md bg-[#f0f0f0] px-2 py-[6px] text-sm font-normal leading-[120%] text-[#0f0f0f]"
+                      >
+                        Notoʻgʻri raqam
+                      </div>
+                    </div>
+                  </div>
+                  <!-- Step Button -->
+                  <button
+                    disabled
+                    class="form-step-btn form-step-btn-1 btn-disabled form-step-btn-next mt-[15px] grid w-full cursor-pointer grid-cols-[1fr_auto] gap-1 rounded-2xl bg-[#55A3FF] px-[14px] py-5 text-center text-lg font-bold tracking-tight text-[#0f0f0f]"
+                  >
+                    <span data-modal-translate="signUpBtn"
+                      >Roʻyxatdan oʻtish</span
+                    >
+                    <svg
+                      class="pointer-events-none"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9 6L15 12L9 18"
+                        stroke="#0F0F0F"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </button>
+                </div>
+                <!-- Step 2 -->
+                <div class="form-step form-step-2 mb-[15px] pt-10">
+                  <!-- Header -->
+                  <div class="space-y-[5px] text-center leading-tight">
+                    <p
+                      data-modal-translate="step2Title"
+                      class="text-[24px] font-bold tracking-tight"
+                    >
+                      Bonusingizni <br />
+                      olish uchun oxirgi qadam
+                    </p>
+                    <p
+                      data-modal-translate="step2Subtitle"
+                      class="font-montserrat text-[15px] font-normal leading-[160%] tracking-tight"
+                    >
+                      Parol yarating va hisob valyutasini tanlang.
+                    </p>
+                  </div>
+                  <!-- inputs -->
+                  <div
+                    class="form-group-password relative mt-[15px] h-[64px] flex-col gap-[5px] rounded-xl bg-white px-3 py-[10px]"
+                  >
+                    <span
+                      data-modal-translate="passwordPlaceholder"
+                      class="block text-xs font-bold leading-none tracking-tight text-[#585858]"
+                      >Parol</span
+                    >
+                    <input
+                      class="password-input mt-1 text-lg font-bold tracking-tight text-[#755EEB] outline-none placeholder:text-[#755eeb]/30"
+                      type="password"
+                      placeholder=""
+                      name="password"
+                    />
+                    <svg
+                      class="not-valid-icon absolute right-[57px] top-1/2 hidden -translate-y-1/2"
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M24 8L8 24M8 8L24 24"
+                        stroke="#FF5530"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <img
+                      class="show-password-btn absolute right-5 top-1/2 -translate-y-1/2 cursor-pointer"
+                      width="32"
+                      height="32"
+                      src="./img/password-invisible.svg"
+                      alt="Password icon"
+                    />
+                    <div
+                      data-modal-translate="atLeast6Chars"
+                      class="tooltip pointer-events-none absolute -right-2 bottom-[90%] z-30 hidden rounded-md bg-[#f0f0f0] px-2 py-[6px] text-sm font-normal leading-[120%] text-[#0f0f0f]"
+                    >
+                      Kamida 6 ta belgidan
+                    </div>
+                  </div>
+                  <!-- Currency -->
+                  <div class="form-currency relative mt-[15px]">
+                    <input
+                      class="currency-input"
+                      name="currency"
+                      type="hidden"
+                      value="USD"
+                    />
+                    <div
+                      class="form-currency-btn grid cursor-pointer grid-cols-[1fr_auto] items-center gap-2 rounded-2xl border-2 border-white bg-[#021816] px-3 py-2 transition-all hover:bg-[#042925]"
+                    >
+                      <div>
+                        <p
+                          data-modal-translate="currency"
+                          class="text-xs font-bold leading-none"
+                        >
+                          Valyuta
+                        </p>
+                        <div class="mt-[6px] flex items-center gap-2">
+                          <img
+                            class="main-currency-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/usd.svg"
+                            alt="USD"
+                          />
+                          <span
+                            class="main-currency-name text-lg font-bold text-white"
+                            >US Dollar</span
+                          >
+                        </div>
+                      </div>
+                      <div
+                        class="flex h-10 w-10 items-center justify-center rounded-xl bg-white/5"
+                      >
+                        <svg
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M6 9L12 15L18 9"
+                            stroke="#F0F0F0"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </div>
+                    </div>
+                    <div
+                      class="form-currency-dropdown invisible absolute left-0 top-[105%] z-[3] w-full overflow-hidden rounded-2xl border-2 border-white opacity-0 [&.active]:visible [&.active]:opacity-100"
+                    >
+                      <ul>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/eur.svg"
+                            alt="EUR"
+                          />
+                          <span class="currency-item-name">Euro</span>
+                          <div>
+                            <span class="currency-item-symbol">€</span>
+                            |
+                            <span class="currency-item-abbr">EUR</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/usd.svg"
+                            alt="USD"
+                          />
+                          <span class="currency-item-name">US Dollar</span>
+                          <div>
+                            <span class="currency-item-symbol">$</span>
+                            |
+                            <span class="currency-item-abbr">USD</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/brl.svg"
+                            alt="BRL"
+                          />
+                          <span class="currency-item-name">Brazilian real</span>
+                          <div>
+                            <span class="currency-item-symbol">R$</span>
+                            |
+                            <span class="currency-item-abbr">BRL</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/ars.svg"
+                            alt="ARS"
+                          />
+                          <span class="currency-item-name">Argentine Peso</span>
+                          <div>
+                            <span class="currency-item-symbol">$</span>
+                            |
+                            <span class="currency-item-abbr">ARS</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/cop.svg"
+                            alt="COP"
+                          />
+                          <span class="currency-item-name">Colombian Peso</span>
+                          <div>
+                            <span class="currency-item-symbol">$</span>
+                            |
+                            <span class="currency-item-abbr">COP</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/aud.svg"
+                            alt="AUD"
+                          />
+                          <span class="currency-item-name"
+                            >Australian Dollar</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">AU$</span>
+                            |
+                            <span class="currency-item-abbr">AUD</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/azn.svg"
+                            alt="AZN"
+                          />
+                          <span class="currency-item-name"
+                            >Azerbaijani Manat</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">₼</span>
+                            |
+                            <span class="currency-item-abbr">AZN</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/bdt.svg"
+                            alt="BDT"
+                          />
+                          <span class="currency-item-name"
+                            >Bangladeshi Taka</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">৳</span>
+                            |
+                            <span class="currency-item-abbr">BDT</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/cad.svg"
+                            alt="CAD"
+                          />
+                          <span class="currency-item-name"
+                            >Canadian Dollar</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">$</span>
+                            |
+                            <span class="currency-item-abbr">CAD</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/clp.svg"
+                            alt="CLP"
+                          />
+                          <span class="currency-item-name">Chilean Peso</span>
+                          <div>
+                            <span class="currency-item-symbol">$</span>
+                            |
+                            <span class="currency-item-abbr">CLP</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/idr.svg"
+                            alt="IDR"
+                          />
+                          <span class="currency-item-name"
+                            >Indonesian Rupiah</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">Rp</span>
+                            |
+                            <span class="currency-item-abbr">IDR</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/inr.svg"
+                            alt="INR"
+                          />
+                          <span class="currency-item-name">Indian Rupee</span>
+                          <div>
+                            <span class="currency-item-symbol">₹</span>
+                            |
+                            <span class="currency-item-abbr">INR</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/kgs.svg"
+                            alt="KGS"
+                          />
+                          <span class="currency-item-name"
+                            >Kyrgyzstani Som</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">с</span>
+                            |
+                            <span class="currency-item-abbr">KGS</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/kzt.svg"
+                            alt="KZT"
+                          />
+                          <span class="currency-item-name"
+                            >Kazakhstani Tenge</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">₸</span>
+                            |
+                            <span class="currency-item-abbr">KZT</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/mxn.svg"
+                            alt="MXN"
+                          />
+                          <span class="currency-item-name">Mexican Peso</span>
+                          <div>
+                            <span class="currency-item-symbol">$</span>
+                            |
+                            <span class="currency-item-abbr">MXN</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/nzd.svg"
+                            alt="NZD"
+                          />
+                          <span class="currency-item-name"
+                            >New Zealand Dollar</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">NZ$</span>
+                            |
+                            <span class="currency-item-abbr">NZD</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/thb.svg"
+                            alt="THB"
+                          />
+                          <span class="currency-item-name">Thai Baht</span>
+                          <div>
+                            <span class="currency-item-symbol">฿</span>
+                            |
+                            <span class="currency-item-abbr">THB</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/try.svg"
+                            alt="TRY"
+                          />
+                          <span class="currency-item-name">Turkish Lira</span>
+                          <div>
+                            <span class="currency-item-symbol">₺</span>
+                            |
+                            <span class="currency-item-abbr">TRY</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/uah.svg"
+                            alt="UAH"
+                          />
+                          <span class="currency-item-name"
+                            >Ukrainian Hryvnia</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">₴</span>
+                            |
+                            <span class="currency-item-abbr">UAH</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/uzs.svg"
+                            alt="UZS"
+                          />
+                          <span class="currency-item-name"
+                            >Uzbekistani Som</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">SO’M</span>
+                            |
+                            <span class="currency-item-abbr">UZS</span>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- Terms and Conditions -->
+                  <label class="checkbox mt-[15px] block cursor-pointer">
+                    <input
+                      checked
+                      type="checkbox"
+                      class="checkbox-input absolute opacity-0"
+                    />
+                    <span
+                      data-modal-translate="terms"
+                      class="checkbox-content relative block pl-7 text-sm font-bold leading-tight text-[#8a95c1]"
+                    >
+                      <a
+                        href="https://dev1.goldbet.io/terms-and-conditions"
+                        class="text-white underline underline-offset-4"
+                        >Shartlarga</a
+                      >
+                      roziman</span
+                    >
+                  </label>
+                  <!-- Step Button -->
+                  <button
+                    disabled
+                    type="submit"
+                    class="form-step-btn main-form-submit-btn form-step-btn-2 btn-disabled form-step-btn-next mt-[15px] grid w-full cursor-pointer grid-cols-[1fr_auto] gap-1 rounded-2xl bg-[#55A3FF] px-[14px] py-5 text-center text-lg font-bold tracking-tight text-[#0f0f0f]"
+                  >
+                    <svg
+                      class="loading-icon mx-auto hidden h-6 w-6"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 200 200"
+                    >
+                      <radialgradient
+                        id="a13"
+                        cx=".66"
+                        fx=".66"
+                        cy=".3125"
+                        fy=".3125"
+                        gradientTransform="scale(1.5)"
+                      >
+                        <stop offset="0" stop-color="#1A020B"></stop>
+                        <stop
+                          offset=".3"
+                          stop-color="#1A020B"
+                          stop-opacity=".9"
+                        ></stop>
+                        <stop
+                          offset=".6"
+                          stop-color="#1A020B"
+                          stop-opacity=".6"
+                        ></stop>
+                        <stop
+                          offset=".8"
+                          stop-color="#1A020B"
+                          stop-opacity=".3"
+                        ></stop>
+                        <stop
+                          offset="1"
+                          stop-color="#1A020B"
+                          stop-opacity="0"
+                        ></stop>
+                      </radialgradient>
+                      <circle
+                        transform-origin="center"
+                        fill="none"
+                        stroke="url(#a13)"
+                        stroke-width="26"
+                        stroke-linecap="round"
+                        stroke-dasharray="200 1000"
+                        stroke-dashoffset="0"
+                        cx="100"
+                        cy="100"
+                        r="70"
+                      >
+                        <animatetransform
+                          type="rotate"
+                          attributeName="transform"
+                          calcMode="spline"
+                          dur="2"
+                          values="360;0"
+                          keyTimes="0;1"
+                          keySplines="0 0 1 1"
+                          repeatCount="indefinite"
+                        ></animatetransform>
+                      </circle>
+                      <circle
+                        transform-origin="center"
+                        fill="none"
+                        opacity=".2"
+                        stroke="#1A020B"
+                        stroke-width="26"
+                        stroke-linecap="round"
+                        cx="100"
+                        cy="100"
+                        r="70"
+                      ></circle>
+                    </svg>
+                    <span data-modal-translate="startPlaying"
+                      >Oʻynashni boshlash</span
+                    >
+                  </button>
+                </div>
+                <!-- Bonus -->
+                <div
+                  class="bonus-wrapper mt-auto rounded-2xl bg-white p-[2px] pb-2"
+                >
+                  <div
+                    class="flex items-center gap-[5px] rounded-[14px] bg-[#2BA943] px-[14px] py-[9px]"
+                  >
+                    <div class="w-full">
+                      <p
+                        data-modal-translate="promoApplied"
+                        class="text-xs font-bold tracking-tight"
+                      >
+                        Bonus qoʻllanildi
+                      </p>
+                      <!-- <input
+                        disabled
+                        class="bonus-input pointer-events-none w-full bg-transparent text-lg font-bold uppercase tracking-tight text-[#f0f0f0] outline-none"
+                        value="ASKGAMBLERS200"
+                        type="text"
+                      /> -->
+                      <div
+                        data-bonus="welcome-bonus-casino"
+                        data-modal-translate="depositBonus"
+                        class="bonus-input sm:text-[13px] sm:leading-tight pointer-events-none w-full bg-transparent text-lg font-bold uppercase tracking-tight text-[#f0f0f0] outline-none"
+                      >
+                        Depozitga 400% 127 MLN gacha
+                      </div>
+                    </div>
+                    <svg
+                      class="shrink-0"
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16.0133 2.68115C17.0504 2.68122 18.0519 3.05898 18.8306 3.74382L19.036 3.93715L19.9666 4.86782C20.2221 5.12157 20.5556 5.28176 20.9133 5.32249L21.0933 5.33315H22.4266C23.5163 5.33309 24.5646 5.74991 25.3567 6.49814C26.1488 7.24637 26.6247 8.26929 26.6866 9.35715L26.6933 9.59982V10.9332C26.6933 11.2932 26.816 11.6438 27.0373 11.9238L27.1573 12.0572L28.0866 12.9878C28.8569 13.7537 29.3061 14.7846 29.3425 15.8703C29.3789 16.956 28.9999 18.0147 28.2826 18.8305L28.0893 19.0358L27.1586 19.9665C26.9049 20.2219 26.7447 20.5554 26.704 20.9132L26.6933 21.0932V22.4265C26.6934 23.5161 26.2766 24.5645 25.5283 25.3566C24.7801 26.1487 23.7572 26.6245 22.6693 26.6865L22.4266 26.6932H21.0933C20.7338 26.6933 20.3848 26.8144 20.1026 27.0372L19.9693 27.1572L19.0386 28.0865C18.2727 28.8568 17.2418 29.3059 16.1561 29.3423C15.0705 29.3788 14.0118 28.9997 13.196 28.2825L12.9906 28.0892L12.06 27.1585C11.8046 26.9047 11.471 26.7445 11.1133 26.7038L10.9333 26.6932H9.59997C8.51035 26.6932 7.46199 26.2764 6.66988 25.5282C5.87778 24.7799 5.40195 23.757 5.33997 22.6692L5.33331 22.4265V21.0932C5.33319 20.7337 5.21201 20.3847 4.98931 20.1025L4.86931 19.9692L3.93997 19.0385C3.16968 18.2726 2.72054 17.2417 2.68412 16.156C2.6477 15.0703 3.02675 14.0117 3.74397 13.1958L3.93731 12.9905L4.86797 12.0598C5.12172 11.8044 5.28191 11.4709 5.32264 11.1132L5.33331 10.9332V9.59982L5.33997 9.35715C5.39951 8.31108 5.84188 7.32348 6.58276 6.5826C7.32364 5.84172 8.31123 5.39936 9.35731 5.33982L9.59997 5.33315H10.9333C11.2928 5.33303 11.6418 5.21186 11.924 4.98915L12.0573 4.86915L12.988 3.93982C13.3844 3.541 13.8558 3.22449 14.375 3.00848C14.8942 2.79248 15.451 2.68123 16.0133 2.68115ZM20.9426 12.3905C20.6926 12.1405 20.3535 12.0001 20 12.0001C19.6464 12.0001 19.3073 12.1405 19.0573 12.3905L14.6666 16.7798L12.9426 15.0572L12.8173 14.9465C12.5493 14.7393 12.2125 14.6418 11.8753 14.674C11.538 14.7061 11.2257 14.8654 11.0016 15.1194C10.7776 15.3735 10.6587 15.7034 10.669 16.042C10.6793 16.3806 10.8182 16.7025 11.0573 16.9425L13.724 19.6092L13.8493 19.7198C14.1058 19.9188 14.4262 20.0174 14.7502 19.997C15.0743 19.9766 15.3797 19.8387 15.6093 19.6092L20.9426 14.2758L21.0533 14.1505C21.2523 13.8939 21.3509 13.5736 21.3305 13.2496C21.3101 12.9255 21.1722 12.6201 20.9426 12.3905Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </div>
+                  <div
+                    class="mt-[10px] flex items-center justify-center gap-1 text-sm font-bold tracking-tight text-[#2BA943]"
+                  >
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 20 20"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.5 6.16707V17.0004M10.5 6.16707C10.1986 4.92491 9.67954 3.86292 9.01061 3.11966C8.34169 2.37641 7.5539 1.98636 6.75 2.00036C6.19747 2.00036 5.66756 2.21986 5.27686 2.61056C4.88616 3.00126 4.66667 3.53116 4.66667 4.0837C4.66667 4.63623 4.88616 5.16614 5.27686 5.55684C5.66756 5.94754 6.19747 6.16703 6.75 6.16703M10.5 6.16707C10.8014 4.92491 11.3205 3.86292 11.9894 3.11966C12.6583 2.37641 13.4461 1.98636 14.25 2.00036C14.8025 2.00036 15.3324 2.21986 15.7231 2.61056C16.1138 3.00126 16.3333 3.53116 16.3333 4.0837C16.3333 4.63623 16.1138 5.16614 15.7231 5.55684C15.3324 5.94754 14.8025 6.16703 14.25 6.16703M16.3333 9.50041V15.3337C16.3333 15.7758 16.1577 16.1997 15.8452 16.5123C15.5326 16.8248 15.1087 17.0004 14.6667 17.0004H6.33333C5.89131 17.0004 5.46738 16.8248 5.15482 16.5123C4.84226 16.1997 4.66667 15.7758 4.66667 15.3337V9.50041M3 7.00041C3 6.77939 3.0878 6.56743 3.24408 6.41115C3.40036 6.25487 3.61232 6.16707 3.83333 6.16707H17.1667C17.3877 6.16707 17.5996 6.25487 17.7559 6.41115C17.9122 6.56743 18 6.77939 18 7.00041V8.66707C18 8.88809 17.9122 9.10005 17.7559 9.25633C17.5996 9.41261 17.3877 9.50041 17.1667 9.50041H3.83333C3.61232 9.50041 3.40036 9.41261 3.24408 9.25633C3.0878 9.10005 3 8.88809 3 8.66707V7.00041Z"
+                        stroke="#2BA943"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <p
+                      data-modal-translate="bonusName"
+                      class="pomocode-text pomocode-text-1"
+                    >
+                      Xush kelibsiz kazino bonusi
+                    </p>
+                  </div>
+                </div>
+                <!-- Payments -->
+                <div class="mt-5 flex items-center justify-center gap-5">
+                  <img
+                    class="h-auto w-full max-w-[87px] small:max-w-[55px]"
+                    src="./img/payments/humo.webp"
+                    alt="Humo"
+                  />
+                  <img
+                    class="h-auto w-full max-w-[87px] small:max-w-[55px]"
+                    src="./img/payments/piastrix.webp"
+                    alt="Humo"
+                  />
+                  <img
+                    class="h-auto w-full max-w-[87px] small:max-w-[55px]"
+                    src="./img/payments/uzcard.webp"
+                    alt="Humo"
+                  />
+                </div>
+              </div>
+            </form>
+            <!-- Trying to glose -->
+            <div
+              class="try-to-close absolute left-0 top-0 z-30 flex hidden h-full w-full flex-col justify-center bg-[url(../img/form-bg.webp)] bg-cover bg-center bg-no-repeat p-[15px]"
+            >
+              <p
+                data-modal-translate="areYouSure"
+                class="text-center text-[24px] font-bold tracking-tight"
+              >
+                Ishonchingiz komilmi? <br />
+                Saqlanmagan ma'lumotlar yo'qoladi.
+              </p>
+              <div class="mt-[15px] rounded-2xl bg-white p-[2px] pb-2">
+                <div
+                  class="flex items-center gap-[5px] rounded-[14px] bg-[#2BA943] px-[14px] py-[9px]"
+                >
+                  <div class="w-full">
+                    <p
+                      data-modal-translate="promoApplied"
+                      class="text-xs font-bold tracking-tight"
+                    >
+                      Bonus qoʻllanildi
+                    </p>
+                    <p class="text-lg font-bold uppercase tracking-tight">
+                      Depozitga 400% 127 MLN gacha
+                    </p>
+                  </div>
+                  <svg
+                    width="32"
+                    height="33"
+                    viewBox="0 0 32 33"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M16 16.5002C18.6667 12.5535 16 7.16683 14.6667 5.8335C14.6667 9.88416 12.3027 12.1548 10.6667 13.8335C9.032 15.5135 8 18.1535 8 20.5002C8 22.6219 8.84285 24.6567 10.3431 26.157C11.8434 27.6573 13.8783 28.5002 16 28.5002C18.1217 28.5002 20.1566 27.6573 21.6569 26.157C23.1571 24.6567 24 22.6219 24 20.5002C24 18.4575 22.592 15.2468 21.3333 13.8335C18.952 17.8335 17.612 17.8335 16 16.5002Z"
+                      fill="#F0F0F0"
+                      stroke="#F0F0F0"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+                <div
+                  class="mt-[10px] flex items-center justify-center gap-1 text-sm font-bold tracking-tight text-[#1d1d1d]"
+                >
+                  <svg
+                    width="20"
+                    height="20"
+                    viewBox="0 0 20 20"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.5 6.16707V17.0004M10.5 6.16707C10.1986 4.92491 9.67954 3.86292 9.01061 3.11966C8.34169 2.37641 7.5539 1.98636 6.75 2.00036C6.19747 2.00036 5.66756 2.21986 5.27686 2.61056C4.88616 3.00126 4.66667 3.53116 4.66667 4.0837C4.66667 4.63623 4.88616 5.16614 5.27686 5.55684C5.66756 5.94754 6.19747 6.16703 6.75 6.16703M10.5 6.16707C10.8014 4.92491 11.3205 3.86292 11.9894 3.11966C12.6583 2.37641 13.4461 1.98636 14.25 2.00036C14.8025 2.00036 15.3324 2.21986 15.7231 2.61056C16.1138 3.00126 16.3333 3.53116 16.3333 4.0837C16.3333 4.63623 16.1138 5.16614 15.7231 5.55684C15.3324 5.94754 14.8025 6.16703 14.25 6.16703M16.3333 9.50041V15.3337C16.3333 15.7758 16.1577 16.1997 15.8452 16.5123C15.5326 16.8248 15.1087 17.0004 14.6667 17.0004H6.33333C5.89131 17.0004 5.46738 16.8248 5.15482 16.5123C4.84226 16.1997 4.66667 15.7758 4.66667 15.3337V9.50041M3 7.00041C3 6.77939 3.0878 6.56743 3.24408 6.41115C3.40036 6.25487 3.61232 6.16707 3.83333 6.16707H17.1667C17.3877 6.16707 17.5996 6.25487 17.7559 6.41115C17.9122 6.56743 18 6.77939 18 7.00041V8.66707C18 8.88809 17.9122 9.10005 17.7559 9.25633C17.5996 9.41261 17.3877 9.50041 17.1667 9.50041H3.83333C3.61232 9.50041 3.40036 9.41261 3.24408 9.25633C3.0878 9.10005 3 8.88809 3 8.66707V7.00041Z"
+                      stroke="#2BA943"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                  <p data-modal-translate="depositBonus">
+                    Xush kelibsiz kazino bonusi
+                  </p>
+                </div>
+              </div>
+              <!-- keep registering -->
+              <button
+                class="keep-registering mt-[15px] grid w-full cursor-pointer grid-cols-[auto_1fr_auto] gap-1 rounded-2xl bg-[#55A3FF] px-[14px] py-5 text-center text-lg font-bold tracking-tight text-[#0f0f0f]"
+              >
+                <svg
+                  class="pointer-events-none"
+                  width="24"
+                  height="25"
+                  viewBox="0 0 24 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M15 6.5L9 12.5L15 18.5"
+                    stroke="#0F0F0F"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span
+                  class="pointer-events-none"
+                  data-modal-translate="keepRegistering"
+                  >Davom eting</span
+                >
+                <div class="h-6 w-6"></div>
+              </button>
+              <!-- return to website -->
+              <button
+                data-modal-translate="returnToWebsite"
+                class="return-to-website mt-9 text-center text-lg font-bold text-[#8a95c1] underline underline-offset-2 transition-colors hover:text-white"
+              >
+                Veb-saytga qaytish
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>

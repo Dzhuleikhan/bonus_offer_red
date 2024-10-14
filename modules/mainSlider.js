@@ -17,9 +17,10 @@ function resetSlides() {
   gsap.set(".slide-1-name", { yPercent: -50, opacity: 0 });
   gsap.set(".slide-2-info", { xPercent: -100 });
   gsap.set(".slide-2-img", { yPercent: 20, opacity: 0 });
+  gsap.set(".slide-2-ellipse", { opacity: 0, rotate: 0 });
   gsap.set(".slide-3-img", { yPercent: 20, opacity: 0 });
   gsap.set(".slide-3-info", { xPercent: -100 });
-  gsap.set(".slide-3-ellipse", { opacity: 0, rotate: 0 });
+  gsap.set(".slide-3-star", { opacity: 0 });
 }
 resetSlides();
 
@@ -78,7 +79,22 @@ slide2Tl
     ".slide-2-img",
     { yPercent: 20, opacity: 0 },
     { yPercent: 0, opacity: 1, duration: 0.5, ease: "none" },
-  );
+  )
+  .fromTo(
+    ".slide-2-ellipse",
+    { opacity: 0 },
+    {
+      opacity: 1,
+      ease: "none",
+      duration: 0.5,
+    },
+  )
+  .to(".slide-2-ellipse", {
+    rotate: 360,
+    duration: 7,
+    ease: "none",
+    repeat: -1,
+  });
 
 slide3Tl
   .fromTo(
@@ -94,20 +110,22 @@ slide3Tl
     { xPercent: 0, duration: 0.5, ease: "none" },
   )
   .fromTo(
-    ".slide-3-ellipse",
-    { opacity: 0 },
+    ".slide-3-star",
     {
+      opacity: 0,
+    },
+    { opacity: 1, duration: 0.5, ease: "none" },
+  )
+  .fromTo(
+    ".slide-3-name",
+    { yPercent: -50, opacity: 0 },
+    {
+      yPercent: 0,
       opacity: 1,
       ease: "none",
       duration: 0.5,
     },
-  )
-  .to(".slide-3-ellipse", {
-    rotate: 360,
-    duration: 7,
-    ease: "none",
-    repeat: -1,
-  });
+  );
 
 const heroSlider = new Swiper(".hero-slider", {
   modules: [Pagination, EffectFade, Autoplay],
@@ -116,9 +134,9 @@ const heroSlider = new Swiper(".hero-slider", {
   speed: 1000,
   rewind: true,
   autoHeight: true,
-  autoplay: {
-    delay: 3500,
-  },
+  // autoplay: {
+  //   delay: 3500,
+  // },
   fadeEffect: {
     crossFade: true,
   },

@@ -49,7 +49,7 @@ function getLanguageFromPath() {
 
 function getUserLanguage() {
   const userLang = navigator.language || navigator.userLanguage;
-  const supportedLangs = ["en", "es", "fr", "ru"];
+  const supportedLangs = ["en", "uz", "ru"];
   const langPrefix = userLang.split("-")[0]; // Get the language code without region
 
   return supportedLangs.includes(langPrefix) ? langPrefix : "en"; // Default to 'en' if the language is not supported
@@ -79,8 +79,7 @@ function updateButtonText(lang) {
 
   const languageNames = {
     en: "English",
-    es: "Espanol",
-    fr: "French",
+    uz: "Oʻzbekcha",
     ru: "Russian",
   };
   headerLangBtn.setAttribute(
@@ -100,8 +99,7 @@ async function determineLanguage() {
       const locationData = await getLocation();
       const countryLangMap = {
         US: "en",
-        ES: "es",
-        FR: "fr",
+        UZ: "uz",
         RU: "ru",
         // Add more country codes and their corresponding languages as needed
       };
