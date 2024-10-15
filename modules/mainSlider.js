@@ -134,9 +134,9 @@ const heroSlider = new Swiper(".hero-slider", {
   speed: 1000,
   rewind: true,
   autoHeight: true,
-  // autoplay: {
-  //   delay: 3500,
-  // },
+  autoplay: {
+    delay: 3500,
+  },
   fadeEffect: {
     crossFade: true,
   },
