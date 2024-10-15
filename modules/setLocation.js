@@ -29,7 +29,7 @@ export function settingGeoLocation(countryInput, className) {
 async function settingLocation() {
   try {
     let locationData = await getLocation();
-    const countryInput = locationData.country.toLowerCase();
+    const countryInput = locationData.countryCode.toLowerCase();
     settingGeoLocation(countryInput, "header-country-flag");
   } catch (error) {
     console.error("Error fetching location data:", error);
