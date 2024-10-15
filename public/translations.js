@@ -5,7 +5,7 @@ export const translations = {
   en: {
     firstTitle: `HOW TO CLAIM YOUR BONUS`,
   },
-  uz: {
-    firstTitle: "UZBEK RECLAMAR TU BONO",
+  az: {
+    firstTitle: "AZERI RECLAMAR TU BONO",
   },
 };
