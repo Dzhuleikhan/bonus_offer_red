@@ -1,10 +1,19 @@
 import "./style.css";
 import "intl-tel-input/build/css/intlTelInput.css";
 
-import "./modules/getLocation";
+import "./modules/geoLocation";
+import "./modules/itiTelInput";
+import "./modules/params";
+import "./modules/hiddenSelect";
+import "./modules/modalCurrency";
+import "./modules/setBonusValue";
 import "./modules/marquee";
 import "./modules/animations";
 import "./modules/mainSlider";
 import "./modules/terms";
 import "./modules/setLocation";
 import "./modules/language";
+import "./modules/formAuth";
+import "./modules/authDeclineModal";
+import "./modules/formSocials";
+import "./modules/modalOpen";

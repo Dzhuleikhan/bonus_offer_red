@@ -1,5 +1,5 @@
 import { countryFlags } from "../public/data";
-import { getLocation } from "./getLocation";
+import { getLocation } from "./geoLocation";
 
 export function settingGeoLocation(countryInput, className) {
   let flagSet = false;
