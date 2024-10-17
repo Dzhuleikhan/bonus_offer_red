@@ -5,6 +5,7 @@ modalOpenBtns.forEach((btn) => {
   if (btn) {
     btn.addEventListener("click", () => {
       formOverlay.classList.add("is-open");
+      document.body.style.overflow = "hidden";
     });
   }
 });
@@ -25,6 +26,7 @@ if (tryToCloseWindow) {
     } else if (e.target.classList.contains("return-to-website")) {
       tryToCloseWindow.classList.add("hidden");
       formOverlay.classList.remove("is-open");
+      document.body.style.overflow = "visible";
     }
   });
 }

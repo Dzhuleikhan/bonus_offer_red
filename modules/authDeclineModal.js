@@ -8,6 +8,7 @@ const declineRedBtn = document.querySelector(".decline-red-cancel");
 
 function showDeclineModal() {
   declineOverlay.classList.add("active");
+  document.body.style.overflow = "hidden";
   gsap.fromTo(
     declineModal,
     {
@@ -52,5 +53,6 @@ declineCloseBtn.forEach((btn) => {
 declineRedBtn.addEventListener("click", () => {
   hideDeclineModal();
   document.querySelector(".form-overlay").classList.remove("is-open");
+  document.body.style.overflow = "visible";
   localStorage.removeItem("mainModal");
 });
