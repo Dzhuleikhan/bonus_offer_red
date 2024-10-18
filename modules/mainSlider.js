@@ -59,13 +59,18 @@ slide1Tl
       ease: "none",
       duration: 0.5,
     },
+    "<",
   )
-  .to(".slide-1-ellipse", {
-    rotate: -360,
-    duration: 7,
-    ease: "none",
-    repeat: -1,
-  });
+  .to(
+    ".slide-1-ellipse",
+    {
+      rotate: -360,
+      duration: 7,
+      ease: "none",
+      repeat: -1,
+    },
+    "<",
+  );
 
 slide2Tl
   .fromTo(
@@ -74,11 +79,13 @@ slide2Tl
       xPercent: -100,
     },
     { xPercent: 0, duration: 0.5, ease: "none" },
+    "<",
   )
   .fromTo(
     ".slide-2-img",
     { yPercent: 20, opacity: 0 },
     { yPercent: 0, opacity: 1, duration: 0.5, ease: "none" },
+    "<",
   )
   .fromTo(
     ".slide-2-ellipse",
@@ -88,19 +95,25 @@ slide2Tl
       ease: "none",
       duration: 0.5,
     },
+    "<",
   )
-  .to(".slide-2-ellipse", {
-    rotate: 360,
-    duration: 7,
-    ease: "none",
-    repeat: -1,
-  });
+  .to(
+    ".slide-2-ellipse",
+    {
+      rotate: 360,
+      duration: 7,
+      ease: "none",
+      repeat: -1,
+    },
+    "<",
+  );
 
 slide3Tl
   .fromTo(
     ".slide-3-img",
     { yPercent: 20, opacity: 0 },
     { yPercent: 0, opacity: 1, duration: 0.5, ease: "none" },
+    "<",
   )
   .fromTo(
     ".slide-3-info",
@@ -108,6 +121,7 @@ slide3Tl
       xPercent: -100,
     },
     { xPercent: 0, duration: 0.5, ease: "none" },
+    "<",
   )
   .fromTo(
     ".slide-3-star",
@@ -115,6 +129,7 @@ slide3Tl
       opacity: 0,
     },
     { opacity: 1, duration: 0.5, ease: "none" },
+    "<",
   )
   .fromTo(
     ".slide-3-name",
@@ -125,6 +140,7 @@ slide3Tl
       ease: "none",
       duration: 0.5,
     },
+    "<",
   );
 
 const heroSlider = new Swiper(".hero-slider", {
@@ -134,9 +150,9 @@ const heroSlider = new Swiper(".hero-slider", {
   speed: 1000,
   rewind: true,
   autoHeight: true,
-  // autoplay: {
-  //   delay: 3500,
-  // },
+  autoplay: {
+    delay: 3500,
+  },
   fadeEffect: {
     crossFade: true,
   },
@@ -146,7 +162,7 @@ const heroSlider = new Swiper(".hero-slider", {
   },
 });
 
-heroSlider.on("transitionEnd", function () {
+heroSlider.on("slideChange", function () {
   let currentSlide = this.realIndex + 1;
   if (currentSlide === 1) {
     resetSlides();
