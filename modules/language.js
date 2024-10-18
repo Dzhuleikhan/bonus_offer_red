@@ -1,4 +1,6 @@
+import { changeModalLanguage } from "./modalLanguage";
 import { translations } from "/public/translations";
+import { getLocation } from "./geoLocation";
 
 const headerLangBtn = document.querySelector(".header-lang-btn");
 const headerLangList = document.querySelector(".header-lang-list");
@@ -17,14 +19,6 @@ languageLinks.forEach((link) => {
     });
   }
 });
-
-async function getLocation() {
-  let url =
-    "https://apiip.net/api/check?accessKey=e36d20c4-8c27-4d14-a0de-28ad9ccda291";
-  let response = await fetch(url);
-  let data = await response.json();
-  return data;
-}
 
 function updateContent(lang) {
   const elements = document.querySelectorAll("[data-translate]");
@@ -104,7 +98,7 @@ async function determineLanguage() {
         RU: "ru",
         // Add more country codes and their corresponding languages as needed
       };
-      lang = countryLangMap[locationData.country] || getUserLanguage();
+      lang = countryLangMap[locationData.countryCode] || getUserLanguage();
     } catch (error) {
       console.error("Failed to fetch location data:", error);
       lang = getUserLanguage();
@@ -123,5 +117,6 @@ document.querySelectorAll(".language-link").forEach((langBtn) => {
     e.preventDefault();
     const targetLang = e.target.getAttribute("data-lang");
     changeLanguage(targetLang);
+    changeModalLanguage(targetLang);
   });
 });
