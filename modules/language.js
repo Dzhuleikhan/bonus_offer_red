@@ -1,5 +1,6 @@
-import { changeModalLanguage, updateModalContent } from "./modalLanguage";
+import { changeModalLanguage } from "./modalLanguage";
 import { translations } from "/public/translations";
+import { getLocation } from "./geoLocation";
 
 const headerLangBtn = document.querySelector(".header-lang-btn");
 const headerLangList = document.querySelector(".header-lang-list");

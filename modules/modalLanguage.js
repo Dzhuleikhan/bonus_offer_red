@@ -11,15 +11,6 @@ function updateContent(lang) {
   });
 }
 
-export function updateModalContent(lang) {
-  const elements = document.querySelectorAll("[data-modal-translate]");
-  elements.forEach((element) => {
-    const key = element.getAttribute("data-modal-translate");
-    element.innerHTML =
-      modalTranslations[lang][key] || modalTranslations["en"][key];
-  });
-}
-
 const preferredLanguage = localStorage.getItem("preferredLanguage");
 
 function changeLanguage(lang) {

@@ -37,6 +37,17 @@ function setCurrency(abbr, name, icon) {
     input.value = abbr;
     currencyName.textContent = name;
     currencyIcon.src = icon;
+
+    const currencyListItem = cur.querySelectorAll(
+      ".form-currency-dropdown ul li",
+    );
+
+    currencyListItem.forEach((item) => {
+      const itemAbbr = item.querySelector(".currency-item-abbr").textContent;
+      if (itemAbbr.includes(abbr)) {
+        item.classList.add("active");
+      }
+    });
   });
 }
 

@@ -23,6 +23,11 @@ export const modalTranslations = {
     signUpToClaim: "Sign up to claim your prize",
     passwordPlaceholder: "Password",
     depositBonus: `Welcome bonus <span class="bonus-value"></span> <span class="bonus-currency"></span>`,
+    oneStepAway: `ONE STEP AWAY <br/> FROM RECEIVING THE BONUS`,
+    areYourSure: "ARE YOU SURE YOU WANT TO",
+    declineYourBonus: `<span>decline</span> your bonus?`,
+    continue: "Continue",
+    declineBonus: "Decline Bonus",
     // ? SOCIALS
     signUpEasySteps: "Sign Up in 3 Easy Steps",
     completeToClaimGift: "Complete them to claim your gift.",
@@ -74,6 +79,7 @@ export const modalTranslations = {
     signUpToClaim: "Зарегистрируйтесь, чтобы забрать приз",
     passwordPlaceholder: "Пароль",
     depositBonus: `Welcome bonus <span class="bonus-value"></span> <span class="bonus-currency"></span>`,
+    oneStepAway: `ONE STEP AWAY <br/> FROM RECEIVING THE BONUS`,
     // ? SOCIALS
     signUpEasySteps: "Регистрация в 3 простых шага",
     completeToClaimGift: "Завершите их, чтобы получить подарок.",
