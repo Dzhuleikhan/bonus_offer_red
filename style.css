@@ -961,3 +961,9 @@
 .form-bonus-btn.bonus-applied .bonus-btn-arrow {
   display: none;
 }
+
+@media (max-width: 374px) {
+  .main-bonus-name {
+    font-size: 12px !important;
+  }
+}
