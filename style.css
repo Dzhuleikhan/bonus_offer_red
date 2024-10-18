@@ -949,3 +949,15 @@
     transform: translateY(5px);
   }
 }
+
+.form-bonus-btn.bonus-applied {
+  border-color: #4ED937;
+}
+
+.form-bonus-btn.bonus-applied .bonus-btn-check {
+  display: block;
+}
+
+.form-bonus-btn.bonus-applied .bonus-btn-arrow {
+  display: none;
+}
