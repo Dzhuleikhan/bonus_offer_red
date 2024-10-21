@@ -20,9 +20,6 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        gilroy: "Gilroy",
-        rajdhani: "Rajdhani",
-        saira: "Saira",
         roboto: "Roboto",
       },
       colors: {
