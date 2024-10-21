@@ -40,7 +40,10 @@
                   src="./img/flags/uz.svg"
                   alt="Oʻzbekcha"
                 />
-                <span>Oʻzbekcha</span>
+                <span
+                  class="xs:w-[50px] xs:overflow-hidden xs:overflow-ellipsis xs:whitespace-nowrap"
+                  >Oʻzbekcha</span
+                >
                 <svg
                   width="24"
                   height="24"
@@ -72,7 +75,10 @@
                       src="./img/flags/uz.svg"
                       alt="eng flag"
                     />
-                    <span class="pointer-events-none">Oʻzbekcha</span>
+                    <span
+                      class="pointer-events-none xs:w-[50px] xs:overflow-hidden xs:overflow-ellipsis xs:whitespace-nowrap"
+                      >Oʻzbekcha</span
+                    >
                   </a>
                 </li>
                 <li>
@@ -102,7 +108,7 @@
                       src="./img/flags/ru.svg"
                       alt="Ru flag"
                     />
-                    <span class="pointer-events-none">Russian</span>
+                    <span class="pointer-events-none">Русский</span>
                   </a>
                 </li>
               </ul>
@@ -131,17 +137,25 @@
                         <h1
                           class="text-[64px] font-black italic leading-[105%] text-white lg:text-[48px] xs:text-[32px]"
                         >
-                          WELCOME <br />
-                          BONUS <br />
-                          <span class="text-[#f4fd2b]">127MLN SOM</span>
+                          <span data-translate="sliderTitle"
+                            >WELCOME <br />
+                            BONUS <br
+                          /></span>
+                          <span
+                            data-translate="sliderBonusAmount"
+                            class="text-[#f4fd2b]"
+                            >127MLN SOM</span
+                          >
                         </h1>
                         <p
+                          data-translate="sliderSubtitle"
                           class="mt-[10px] max-w-[350px] text-2xl font-semibold leading-tight text-white lg:mt-0 lg:text-center lg:text-[18px]"
                         >
                           Your welcome bonus is ready for you in the Bonus
                           Center.
                         </p>
                         <button
+                          data-translate="sliderButtonText"
                           class="main-btn modal-open-btn mt-[30px] bg-[#F4FD2B] text-black lg:mt-5 mobile:mt-5 mobile:px-8 mobile:text-[18px] xs:px-6 xs:py-4 xs:text-[14px]"
                         >
                           127MLN СЎМ БОНУС ОЛИНГ
@@ -249,17 +263,25 @@
                         <p
                           class="slide-2-title text-[64px] font-black italic leading-[105%] text-white lg:text-[50px] small:text-[48px] xs:text-[32px]"
                         >
-                          WELCOME <br />
-                          BONUS <br />
-                          <span class="text-green">127MLN SOM</span>
+                          <span data-translate="sliderTitle"
+                            >WELCOME <br />
+                            BONUS <br
+                          /></span>
+                          <span
+                            data-translate="sliderBonusAmount"
+                            class="text-green"
+                            >127MLN SOM</span
+                          >
                         </p>
                         <p
+                          data-translate="sliderSubtitle"
                           class="mt-[10px] max-w-[350px] text-2xl font-semibold leading-tight text-white lg:mx-auto medium:mt-0 medium:max-w-[250px] medium:text-lg"
                         >
                           Your welcome bonus is ready for you in the Bonus
                           Center.
                         </p>
                         <button
+                          data-translate="sliderButtonText"
                           class="main-btn modal-open-btn mt-[30px] bg-green text-[#0f0f0f] mobile:mt-5 mobile:px-8 mobile:text-[18px] xs:px-6 xs:py-4 xs:text-[14px]"
                         >
                           12 МЛН СЎМ БОНУС ОЛИНГ
@@ -350,17 +372,25 @@
                         <p
                           class="slide-2-title text-[64px] font-black italic leading-[105%] text-white mobile:text-[48px] xs:text-[32px]"
                         >
-                          WELCOME <br />
-                          BONUS <br />
-                          <span class="text-yellow">127MLN SOM</span>
+                          <span data-translate="sliderTitle"
+                            >WELCOME <br />
+                            BONUS <br
+                          /></span>
+                          <span
+                            data-translate="sliderBonusAmount"
+                            class="text-yellow"
+                            >127MLN SOM</span
+                          >
                         </p>
                         <p
+                          data-translate="sliderSubtitle"
                           class="mt-[10px] max-w-[350px] text-2xl font-semibold leading-tight text-white mobile:mt-0 mobile:text-lg"
                         >
                           Your welcome bonus is ready for you in the Bonus
                           Center.
                         </p>
                         <button
+                          data-translate="sliderButtonText"
                           class="main-btn modal-open-btn mt-[30px] bg-yellow text-[#0f0f0f] mobile:mt-5 mobile:px-8 mobile:text-[18px] xs:px-6 xs:py-4 xs:text-[14px]"
                         >
                           12 МЛН СЎМ БОНУС ОЛИНГ
@@ -569,7 +599,7 @@
             <!-- head -->
             <div class="flex flex-col items-center mobile:gap-1">
               <h2
-                data-translate="firstTitle"
+                data-translate="mainTitle"
                 class="text-center text-[38px] font-black uppercase leading-tight mobile:text-balance mobile:text-[32px] xs:text-[25px]"
               >
                 HOW TO CLAIM YOUR BONUS
@@ -600,10 +630,13 @@
                     1
                   </p>
                   <div class="space-y-[10px]">
-                    <p class="text-2xl font-black uppercase leading-tight">
+                    <p
+                      data-translate="step1Title"
+                      class="text-2xl font-black uppercase leading-tight"
+                    >
                       Register
                     </p>
-                    <p class="text-base">
+                    <p data-translate="step1Text" class="text-base">
                       Click "Play Now" and enter your email and password.
                     </p>
                   </div>
@@ -617,10 +650,13 @@
                     2
                   </p>
                   <div class="space-y-[10px]">
-                    <p class="text-2xl font-black uppercase leading-tight">
+                    <p
+                      data-translate="step2Title"
+                      class="text-2xl font-black uppercase leading-tight"
+                    >
                       ACTIVATE THE BONUS
                     </p>
-                    <p class="text-base">
+                    <p data-translate="step2Text" class="text-base">
                       Your welcome bonus is ready for you in the Bonus Center.
                     </p>
                   </div>
@@ -634,16 +670,20 @@
                     3
                   </p>
                   <div class="space-y-[10px]">
-                    <p class="text-2xl font-black uppercase leading-tight">
+                    <p
+                      data-translate="step3Title"
+                      class="text-2xl font-black uppercase leading-tight"
+                    >
                       MAKE A DEPOSIT
                     </p>
-                    <p class="text-base">
+                    <p data-translate="step3Text" class="text-base">
                       Choose your preferred payment method and make a deposit.
                     </p>
                   </div>
                 </div>
               </div>
               <button
+                data-translate="mainButtonText"
                 class="main-btn modal-open-btn steps-btn bg-[#55A3FF] xl:py-4 xl:text-lg xs:px-8"
               >
                 CLAIM YOUR BONUS
@@ -710,10 +750,16 @@
                     fill="#F0F0F0"
                   />
                 </svg>
-                <h3 class="text-center text-2xl font-black leading-tight">
+                <h3
+                  data-translate="termsTitle1"
+                  class="text-center text-2xl font-black leading-tight"
+                >
                   Terms And Conditions
                 </h3>
-                <p class="text-center text-base leading-[150%]">
+                <p
+                  data-translate="termsParagraph1"
+                  class="text-center text-base leading-[150%]"
+                >
                   These terms and conditions and the documents referred to below
                   (the "Terms") apply to the use of the current website (the
                   "Website") and its related or connected services
@@ -729,10 +775,16 @@
                   these Terms, you should refrain from accessing the Service and
                   using the Website.
                 </p>
-                <h3 class="text-center text-2xl font-black leading-tight">
+                <h3
+                  data-translate="termsTitle2"
+                  class="text-center text-2xl font-black leading-tight"
+                >
                   1. General Terms
                 </h3>
-                <p class="text-center text-base leading-[150%]">
+                <p
+                  data-translate="termsParagraph2"
+                  class="text-center text-base leading-[150%]"
+                >
                   We reserve the right to revise and amend the Terms (including
                   any documents referred to and linked below) at any time. You
                   should visit this page periodically to review the Terms and
@@ -746,10 +798,16 @@
                   the Terms and Conditions of Goldbet will be updated, the
                   platform will notify you and ask you to confirm your consent.
                 </p>
-                <h3 class="text-center text-2xl font-black leading-tight">
+                <h3
+                  data-translate="termsTitle3"
+                  class="text-center text-2xl font-black leading-tight"
+                >
                   2. Your Obligations
                 </h3>
-                <p class="text-center text-base leading-[150%]">
+                <p
+                  data-translate="termsParagraph3"
+                  class="text-center text-base leading-[150%]"
+                >
                   You acknowledge that at all times when accessing the Website
                   and using the Service: <br />
                   3.1. You are over 18, or of the legal age at which gambling or
@@ -861,6 +919,7 @@
                 class="terms-btn group mx-auto flex max-w-[250px] cursor-pointer flex-col items-center gap-5"
               >
                 <p
+                  data-translate="termsAndConditionsButtonText"
                   class="pointer-events-none text-ellipsis text-xl font-semibold uppercase leading-tight underline underline-offset-4 transition-colors group-hover:text-[#55A3FF]"
                 >
                   Terms and Conditions
@@ -895,6 +954,7 @@
             <!-- head -->
             <div class="flex flex-col items-center mobile:gap-1">
               <h2
+                data-translate="chooseSectionTitle"
                 class="text-center text-[38px] font-black uppercase leading-tight mobile:text-balance mobile:text-[32px] xs:text-[25px]"
               >
                 WHY CHOOSE GOLDBET?
@@ -929,8 +989,16 @@
                   />
                 </div>
                 <div class="space-y-[10px] text-center">
-                  <p class="text-2xl font-black leading-tight">BONUSES</p>
-                  <p class="text-base mobile:hidden">
+                  <p
+                    data-translate="chooseItem1Title"
+                    class="text-2xl font-black leading-tight"
+                  >
+                    BONUSES
+                  </p>
+                  <p
+                    data-translate="chooseItem1Text"
+                    class="text-base mobile:hidden"
+                  >
                     No deposit, instant, and exclusive VIP bonuses—find the best
                     deal in our starter pack or within our community.
                   </p>
@@ -952,8 +1020,16 @@
                   />
                 </div>
                 <div class="space-y-[10px] text-center">
-                  <p class="text-2xl font-black leading-tight">SLOTS</p>
-                  <p class="text-base mobile:hidden">
+                  <p
+                    data-translate="chooseItem2Title"
+                    class="text-2xl font-black leading-tight"
+                  >
+                    SLOTS
+                  </p>
+                  <p
+                    data-translate="chooseItem2Text"
+                    class="text-base mobile:hidden"
+                  >
                     Play the most popular slots you’ve seen on streams, known
                     for their high payouts. All your friends are already
                     playing!
@@ -976,10 +1052,16 @@
                   />
                 </div>
                 <div class="space-y-[10px] text-center">
-                  <p class="text-2xl font-black leading-tight">
+                  <p
+                    data-translate="chooseItem3Title"
+                    class="text-2xl font-black leading-tight"
+                  >
                     SPORTS BETTING
                   </p>
-                  <p class="text-base mobile:hidden">
+                  <p
+                    data-translate="chooseItem3Text"
+                    class="text-base mobile:hidden"
+                  >
                     Are you a sports expert with a knack for predictions? We’ve
                     got 30 sports categories with easy navigation and real-time
                     stats ready for you.
@@ -1002,8 +1084,16 @@
                   />
                 </div>
                 <div class="space-y-[10px] text-center">
-                  <p class="text-2xl font-black leading-tight">LIVE CASINO</p>
-                  <p class="text-base mobile:hidden">
+                  <p
+                    data-translate="chooseItem4Title"
+                    class="text-2xl font-black leading-tight"
+                  >
+                    LIVE CASINO
+                  </p>
+                  <p
+                    data-translate="chooseItem4Text"
+                    class="text-base mobile:hidden"
+                  >
                     Real dealers and genuine reactions when you hit the jackpot.
                     Choose your game, language, and grab a strong drink—this is
                     going to be intense!
@@ -1026,8 +1116,16 @@
                   />
                 </div>
                 <div class="space-y-[10px] text-center">
-                  <p class="text-2xl font-black leading-tight">LEGAL</p>
-                  <p class="text-base mobile:hidden">
+                  <p
+                    data-translate="chooseItem5Title"
+                    class="text-2xl font-black leading-tight"
+                  >
+                    LEGAL
+                  </p>
+                  <p
+                    data-translate="chooseItem5Text"
+                    class="text-base mobile:hidden"
+                  >
                     All operations are conducted under regulatory supervision.
                     We handle 100% of legal support requests and guarantee fair
                     play.
@@ -1037,6 +1135,7 @@
             </div>
             <div class="choose-btn mt-10 flex justify-center">
               <button
+                data-translate="mainButtonText"
                 class="main-btn modal-open-btn bg-white text-black mobile:px-8 mobile:py-6"
               >
                 claim your bonus
@@ -1047,7 +1146,10 @@
       </main>
       <footer class="pb-8 pt-10 mobile:pb-[90px]">
         <div class="container">
-          <p class="text-center text-xs font-normal leading-[140%]">
+          <p
+            data-translate="footerText"
+            class="text-center text-xs font-normal leading-[140%]"
+          >
             The website www.goldbet.io is owned and operated by Ivanov I.I.
             (registration number: 12345678; with registered Address: Ivanov Ivan
             Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lisboa, Portugal PO
@@ -1095,9 +1197,10 @@
           class="container flex max-w-[375px] items-center justify-center gap-2"
         >
           <button
+            data-translate="stickyButtonText"
             class="modal-open-btn main-btn bg-[#55A3FF] px-6 py-3 xs:text-base"
           >
-            claim €500 bonus
+            claim 127MLN SOM bonus
           </button>
         </div>
       </div>

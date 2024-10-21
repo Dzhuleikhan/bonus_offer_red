@@ -75,7 +75,7 @@ function updateButtonText(lang) {
   const languageNames = {
     en: "English",
     uz: "Oʻzbekcha",
-    ru: "Russian",
+    ru: "Русский",
   };
   headerLangBtn.setAttribute(
     "src",
