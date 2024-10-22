@@ -1,4 +1,6 @@
+import { changeModalLanguage } from "./modalLanguage";
 import { translations } from "/public/translations";
+import { getLocation } from "./geoLocation";
 
 const headerLangBtn = document.querySelector(".header-lang-btn");
 const headerLangList = document.querySelector(".header-lang-list");
@@ -17,13 +19,6 @@ languageLinks.forEach((link) => {
     });
   }
 });
-
-async function getLocation() {
-  let url = "https://ipinfo.io/json?token=fcd65e5fcfdda1";
-  let response = await fetch(url);
-  let data = await response.json();
-  return data;
-}
 
 function updateContent(lang) {
   const elements = document.querySelectorAll("[data-translate]");
@@ -49,7 +44,23 @@ function getLanguageFromPath() {
 
 function getUserLanguage() {
   const userLang = navigator.language || navigator.userLanguage;
-  const supportedLangs = ["en", "es", "fr", "ru"];
+  const supportedLangs = [
+    "en",
+    "es",
+    "fr",
+    "az",
+    "uz",
+    "ua",
+    "ru",
+    "bd",
+    "tr",
+    "id",
+    "pt",
+    "de",
+    "cn",
+    "kz",
+    "kg",
+  ];
   const langPrefix = userLang.split("-")[0]; // Get the language code without region
 
   return supportedLangs.includes(langPrefix) ? langPrefix : "en"; // Default to 'en' if the language is not supported
@@ -79,15 +90,27 @@ function updateButtonText(lang) {
 
   const languageNames = {
     en: "English",
-    es: "Espanol",
-    fr: "French",
-    ru: "Russian",
+    es: "Español",
+    fr: "Français",
+    az: "Azərbaycan dili",
+    uz: "Oʻzbekcha",
+    ua: "Українська",
+    ru: "Русский",
+    bd: "বাংলা",
+    tr: "Türkçe",
+    id: "Bahasa Indonesia",
+    pt: "Português",
+    de: "Deutsch",
+    cn: "中文",
+    kz: "Қазақ",
+    kg: "Кыргыз тили",
   };
   headerLangBtn.setAttribute(
     "src",
     `./img/flags/${lang}.svg` || `./img/flags/en.svg`,
   );
   headerLangName.innerHTML = languageNames[lang];
+  document.querySelector("html").setAttribute("lang", lang);
 }
 
 async function determineLanguage() {
@@ -99,10 +122,21 @@ async function determineLanguage() {
     try {
       const locationData = await getLocation();
       const countryLangMap = {
-        US: "en",
+        EN: "en",
         ES: "es",
         FR: "fr",
+        AZ: "az",
+        UZ: "uz",
+        UA: "ua",
         RU: "ru",
+        BD: "bd",
+        TR: "tr",
+        ID: "id",
+        PT: "pt",
+        DE: "de",
+        CN: "cn",
+        KZ: "kz",
+        KG: "kg",
         // Add more country codes and their corresponding languages as needed
       };
       lang = countryLangMap[locationData.country] || getUserLanguage();
@@ -124,5 +158,6 @@ document.querySelectorAll(".language-link").forEach((langBtn) => {
     e.preventDefault();
     const targetLang = e.target.getAttribute("data-lang");
     changeLanguage(targetLang);
+    changeModalLanguage(targetLang);
   });
 });

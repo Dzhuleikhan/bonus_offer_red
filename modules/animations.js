@@ -46,10 +46,8 @@ ScrollTrigger.create({
   animation: chooseTl,
 });
 
-// create
 let mm = gsap.matchMedia();
 
-// add a media query. When it matches, the associated function will run
 mm.add("(min-width: 1200px)", () => {
   gsap.set(".cross-top-left", { xPercent: -100, opacity: 0 });
   gsap.set(".cross-top-right", { xPercent: 100, opacity: 0 });

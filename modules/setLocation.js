@@ -1,5 +1,5 @@
 import { countryFlags } from "../public/data";
-import { getLocation } from "./getLocation";
+import { getLocation } from "./geoLocation";
 
 export function settingGeoLocation(countryInput, className) {
   let flagSet = false;
@@ -29,8 +29,9 @@ export function settingGeoLocation(countryInput, className) {
 async function settingLocation() {
   try {
     let locationData = await getLocation();
-    const countryInput = locationData.country.toLowerCase();
+    const countryInput = locationData.countryCode.toLowerCase();
     settingGeoLocation(countryInput, "header-country-flag");
+    document.querySelector("html").setAttribute("lang", countryInput);
   } catch (error) {
     console.error("Error fetching location data:", error);
   }

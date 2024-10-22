@@ -34,11 +34,13 @@ slide1Tl
       xPercent: -100,
     },
     { xPercent: 0, duration: 0.5, ease: "none" },
+    "<",
   )
   .fromTo(
     ".slide-1-player",
     { yPercent: 50, opacity: 0 },
     { yPercent: 0, opacity: 1, duration: 0.5, ease: "none" },
+    "<",
   )
   .fromTo(
     ".slide-1-ellipse",
@@ -48,6 +50,7 @@ slide1Tl
       ease: "none",
       duration: 0.5,
     },
+    "<",
   )
   .fromTo(
     ".slide-1-name",
@@ -58,13 +61,18 @@ slide1Tl
       ease: "none",
       duration: 0.5,
     },
+    "<",
   )
-  .to(".slide-1-ellipse", {
-    rotate: -360,
-    duration: 7,
-    ease: "none",
-    repeat: -1,
-  });
+  .to(
+    ".slide-1-ellipse",
+    {
+      rotate: -360,
+      duration: 7,
+      ease: "none",
+      repeat: -1,
+    },
+    "<",
+  );
 
 slide2Tl
   .fromTo(
@@ -73,11 +81,13 @@ slide2Tl
       xPercent: -100,
     },
     { xPercent: 0, duration: 0.5, ease: "none" },
+    "<",
   )
   .fromTo(
     ".slide-2-img",
     { yPercent: 20, opacity: 0 },
     { yPercent: 0, opacity: 1, duration: 0.5, ease: "none" },
+    "<",
   );
 
 slide3Tl
@@ -85,6 +95,7 @@ slide3Tl
     ".slide-3-img",
     { yPercent: 20, opacity: 0 },
     { yPercent: 0, opacity: 1, duration: 0.5, ease: "none" },
+    "<",
   )
   .fromTo(
     ".slide-3-info",
@@ -92,6 +103,7 @@ slide3Tl
       xPercent: -100,
     },
     { xPercent: 0, duration: 0.5, ease: "none" },
+    "<",
   )
   .fromTo(
     ".slide-3-ellipse",
@@ -101,13 +113,18 @@ slide3Tl
       ease: "none",
       duration: 0.5,
     },
+    "<",
   )
-  .to(".slide-3-ellipse", {
-    rotate: 360,
-    duration: 7,
-    ease: "none",
-    repeat: -1,
-  });
+  .to(
+    ".slide-3-ellipse",
+    {
+      rotate: 360,
+      duration: 7,
+      ease: "none",
+      repeat: -1,
+    },
+    "<",
+  );
 
 const heroSlider = new Swiper(".hero-slider", {
   modules: [Pagination, EffectFade, Autoplay],
@@ -128,7 +145,7 @@ const heroSlider = new Swiper(".hero-slider", {
   },
 });
 
-heroSlider.on("transitionEnd", function () {
+heroSlider.on("slideChange", function () {
   let currentSlide = this.realIndex + 1;
   if (currentSlide === 1) {
     resetSlides();

@@ -1,4 +1,4 @@
-import { getLocation } from "./getLocation";
+import { getLocation } from "./geoLocation";
 import { paymentCountries } from "../public/data";
 import Swiper from "swiper";
 import { Autoplay, EffectFade } from "swiper/modules";
@@ -48,7 +48,7 @@ function setPaymentMethods(countries, location) {
 async function setPayments() {
   try {
     let locationData = await getLocation();
-    setPaymentMethods(paymentCountries, locationData.country);
+    setPaymentMethods(paymentCountries, locationData.countryCode.toLowerCase());
     initSlider();
   } catch (error) {
     console.error("Error fetching location data:", error);
