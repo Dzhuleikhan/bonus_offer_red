@@ -533,4 +533,188 @@ export const translations = {
                 an., 1234-5600 Lisboa, Portugal.`,
     stickyButtonText: "claim 127MLN SOM bonus",
   },
+  uz: {
+    sliderTitle: `XUSH KELIBSIZ <br /> BONUSINGIZNI <br />`,
+    sliderBonusAmount: "127MLN SOM",
+    sliderSubtitle:
+      "Sizning xush kelibsiz BONUSINGIZNI Bonus Markazida tayyor.",
+    sliderButtonText: "127MLN SO'M BONUSINGIZNI OLING",
+    mainTitle: "BONUSINGIZNI OLING",
+    step1Title: "Ro'yxatdan o'ting",
+    step1Text:
+      '"Hozir o\'ynang" tugmasini bosing va elektron pochta va parolingizni kiriting.',
+    step2Title: "BONUSINGIZNI AKTIVATSIYA QILING",
+    step2Text: "Sizning xush kelibsiz BONUSINGIZNI Bonus Markazida tayyor.",
+    step3Title: "DEPOZIT QILING",
+    step3Text: "O'zingizga qulay to'lov usulini tanlang va depozit qiling.",
+    mainButtonText: "BONUSINGIZNI OLING",
+    termsAndConditionsButtonText: "Shartlar va sharoitlar",
+    termsTitle1: `Shartlar va sharoitlar`,
+    termsParagraph1: `Ushbu shartlar va qoidalar hamda quyida keltirilgan hujjatlar
+                    (“Shartlar”) joriy veb-saytni (“Veb-sayt”) va uning
+                    tegishli yoki bog'liq xizmatlarini (birgalikda “Xizmat”) 
+                    foydalanishga taalluqlidir. Ushbu Shartlarni diqqat bilan
+                    ko'rib chiqishingiz kerak, chunki ular Veb-saytdan foydalanishingiz
+                    bilan bog'liq bo'lgan huquq va majburiyatlaringiz haqida
+                    muhim ma'lumotlarni o'z ichiga oladi va siz - bizning mijozimiz
+                    (“Mijoz”) va biz (“Veb-sayt”) o'rtasida majburiy qonuniy
+                    kelishuvni tashkil etadi. Ushbu Veb-saytdan foydalanish va/yoki 
+                    Xizmatga kirish orqali siz, mehmon bo'lsangiz ham, hisobga ega
+                    ro'yxatdan o'tgan foydalanuvchi bo'lsangiz ham (“Hisob”), ushbu
+                    Shartlarga, vaqti-vaqti bilan e'lon qilinishi mumkin bo'lgan
+                    har qanday o'zgartirishlar bilan birga, bo'ysunishga rozi
+                    bo'lasiz. Agar siz ushbu Shartlarni qabul qilmasangiz,
+                    Xizmatga kirishdan va Veb-saytdan foydalanishdan saqlanishingiz
+                    kerak.`,
+    termsTitle2: `1. Umumiy Shartlar`,
+    termsParagraph2: `Biz har qanday vaqtda Shartlarni (quyida keltirilgan va havola qilingan
+                    hujjatlarni o'z ichiga olgan holda) qayta ko'rib chiqish va o'zgartirish
+                    huquqini o'zimizda saqlab qolamiz. Siz ushbu sahifani vaqt-vaqti bilan
+                    tashrif buyurib, Shartlar va Qoidalarni ko'rib chiqishingiz kerak.
+                    O'zgartirishlar ushbu Veb-saytda e'lon qilinganidan so'ng darhol
+                    majburiy va amal qiladi. Agar siz bunday o'zgarishlarga qarshi
+                    bo'lsangiz, siz darhol Xizmatdan foydalanishni to'xtatishingiz kerak.
+                    Bunday e'lon qilinganidan keyin Veb-saytdan foydalanishingiz sizning
+                    o'zgartirilgan Shartlarga bo'ysunishga rozi ekanligingizni ko'rsatadi.
+                    O'zgarilgan Shartlar kuchga kirishidan oldin hal qilinmagan har qanday
+                    tikishlar oldingi Shartlarga bo'ysunadi. Agar Goldbet shartlari va
+                    qoidalari yangilansa, platforma sizni xabardor qiladi va
+                    roziligingizni tasdiqlashni so'raydi.`,
+    termsTitle3: `2. Sizning Majburiyatlaringiz`,
+    termsParagraph3: `Siz Veb-saytga kirganingizda va Xizmatdan foydalanganda har doim quyidagi
+                    shartlarni tan olasiz: <br />
+                    3.1. Siz 18 yoshdasiz yoki qimor yoki o'yin faoliyatini amalga oshirish
+                    uchun qonun yoki sizga taalluqli yurisdiktsiya bo'yicha qonuniy yoshdasiz.
+                    Biz har qanday vaqtda sizdan yoshga oid hujjatlarni so'rash huquqini
+                    o'zimizda saqlaymiz. <br />
+                    3.2. Siz qonuniy qobiliyatga egasiz va biz bilan majburiy qonuniy
+                    kelishuvga kirishingiz mumkin. Agar siz qonuniy qobiliyatga ega bo'lmasangiz,
+                    Veb-saytga kirish va Xizmatdan foydalanmasligingiz kerak. <br />
+                    3.3. Siz Veb-saytga kirish va u yerda taklif etilgan har qanday mahsulotlardan
+                    foydalanishning ayrim mamlakatlarda noqonuniy hisoblanishi mumkinligini
+                    bilasiz. Biz har bir yurisdiktsiyada xizmatning qonuniyligini tasdiqlay
+                    olmaymiz, shuning uchun sizning veb-saytimizga kirishingiz va undan
+                    foydalanishingiz o'zingizning mamlakatingizda amaldagi qonunlarga muvofiqligini
+                    aniqlashda mas'uliyat sizda va qimor o'ynash siz yashaydigan hududda
+                    noqonuniy emasligiga kafolat berasiz. Turli huquqiy yoki tijorat
+                    sabablari bilan biz ayrim yurisdiktsiyada istiqomat qiluvchi mijozlarga
+                    hisob ochishga yoki undan foydalanishga ruxsat bermaymiz, jumladan, lekin
+                    cheklanmagan holda: Afg'oniston, Jazoir, Antigua va Barbuda, Avstraliya,
+                    Belarus, Birlashgan Arab Amirliklari, Belgiya, Bhutan, Bruney, Markaziy
+                    Afrika Respublikasi, Chod, Kot-d'Ivuar, Xorvatiya, Kuba, Chexiya
+                    Respublikasi, Shimoliy Koreya (Koreya Xalq Demokratik Respublikasi),
+                    Kongoda, Daniya, Estoniya, Fransiya, Gretsiya, Gvineya-Bisau, Vengriya,
+                    Eron, Iroq, Islandiya, Isroil, Italiya, Iordaniya, Kuwait, Letoniya,
+                    Liberiya, Litva, Malt, Myanma, Niderlandiya, Niderlandiya Antillari
+                    (Kuyusao, Sint Maarten, Bonaire, Sint Eustatius va Saba, Aruba),
+                    Norvegiya, Ummon, Falastin, Pokiston, Qatar, Rossiya, Saba, Saint Martin,
+                    Saud Arabistoni, Serbiya, Sloveniya, Somalilandiya, Ispaniya,
+                    Shveysariya, Suriya Arab Respublikasi, Sudan, Trinidad va Tobago,
+                    Turkiya, Ukraina, Birlashgan Qirollik, Germaniya, Komor orollari
+                    Ittifoqi, Birlashgan Arab Amirliklari, Amerika Qo'shma Shtatlari (va
+                    uning qaram davlatlari, harbiy bazalari va hududlari, ya'ni AQShning
+                    kichik orollari, AQSh Virgin orollari), Vanuatu, Yaman, Zimbabve yoki
+                    boshqa cheklangan yurisdiktsiyalar (“Cheklangan Yurisdiktsiya”) biz
+                    vaqt-vaqti bilan xabar beradigan. Veb-saytdan foydalanish orqali siz
+                    Cheklangan Yurisdiktsiyada istiqomat qilmasligingizni tasdiqlaysiz. <br />
+                    3.4. Hisob ochishga yoki Veb-saytdan foydalanishga harakat qilganda,
+                    o'yinchining mas'uliyati, o'sha muayyan yurisdiktsiyada qimor
+                    o'ynash qonuniyligini tekshirishdir. <br />
+                    3.5. Siz foydalanayotgan to'lov usulining vakolatli foydalanuvchisiz
+                    va hisobingizdagi va Xizmatlar ichida ishlatilayotgan barcha mablag'lar
+                    qonuniydir. <br />
+                    3.6. Siz bizga to'lovlarni halol niyat bilan amalga oshirishingiz va
+                    amalga oshirilgan to'lovni teskari qilishga yoki uchinchi shaxs
+                    tomonidan teskari qilinishiga sabab bo'ladigan har qanday harakat
+                    qilishga harakat qilmasligingiz kerak. <br />
+                    3.7. Tikish qo'yganingizda siz Xizmatga qo'ygan mablag'ingizning
+                    bir qismini yoki hammasini yo'qotishingiz mumkin va siz ushbu yo'qotish
+                    uchun to'liq mas'uliyatdasiz. <br />
+                    3.8. Tikish qo'yganingizda siz tikish qo'yilgan mamlakatda amal
+                    qiluvchi qonunchilikni buzgan holda olingan har qanday ma'lumotdan
+                    foydalanmasligingiz kerak. <br />
+                    3.9. Siz boshqa bir tomon nomidan yoki tijorat maqsadlarida
+                    harakat qilmaysiz, balki shaxsiy shaxs sifatida faqat o'z nomingizdan
+                    harakat qilasiz. <br />
+                    3.10. Siz Xizmat ichida har qanday bozorni yoki elementni
+                    yomon niyat bilan manipulyatsiya qilishga yoki Xizmatning
+                    yaxlitligiga yoki bizga zarar yetkazadigan tarzda harakat qilishga
+                    urinish qilmasligingiz kerak. <br />
+                    3.11. Siz har doim Xizmatdan foydalanishda va Xizmatdan foydalanish
+                    orqali amalga oshirilgan barcha tikishlarda yaxshi niyat bilan harakat
+                    qilishingiz kerak. <br />
+                    3.12. Siz yoki, agar tegishli bo'lsa, xodimlaringiz, ish beruvchilaringiz,
+                    agentlaringiz yoki oila a'zolaringiz bizning Sheriklik dasturimizda
+                    Sherik sifatida ro'yxatdan o'tmagan. <br />
+                    3.13. Goldbetdan foydalanayotganingizda sizdan so'ralganda
+                    bizga faqat haqiqiy, real va ob'ektiv ma'lumotlarni taqdim etishga
+                    rozilik berasiz. <br />
+                    3.14. Siz kripto bozorining o'zgaruvchanligini tushunasiz va
+                    pulingizni yechib olishni kutayotganda yoki yechib olish
+                    bizning Xavf bo'limimiz tomonidan qayta ishlanayotganida
+                    valyuta/valyutalaringiz narxining o'zgarishi mumkinligini qabul
+                    qilasiz. <br />
+                    3.15. Siz ruhiy jihatdan qobiliyatli shaxs bo'lib, qimor
+                    giyohvandligidan azob chekmasligingiz kerak. Agar bunday muammoga ega
+                    shaxs Saytga kirsa, mas'uliyat faqat ularga tegishli. <br />
+                    3.16. Siz Goldbetning har qanday bo'limida uchinchi tomon
+                    dasturlaridan foydalanmaslikka va platformada topilgan har qanday
+                    o'yin/funksional xatolarni suiiste'mol qilmaslikka rozilik
+                    berasiz. <br />
+                    3.17. Siz ro'yxatdan o'tishdan boshlab va ushbu kelishuv
+                    amal qilgan davr mobaynida bizga taqdim etgan barcha ma'lumotlar
+                    to'g'ri, to'liq, to'g'ri ekanligini kafolatlayapsiz va bunday
+                    ma'lumotlarning har qanday o'zgarishi haqida bizga darhol xabar
+                    berasiz. <br />
+                    3.17.1. Siz ro'yxatdan o'tish paytida kiritilgan ma'lumotlar va
+                    Xizmatdan foydalanish davomida o'zgartirilishi sizning qaroringizga
+                    bog'liq emasligini tasdiqlaysiz. Har qanday ma'lumotni o'zgartirish
+                    uchun, siz yordamchi guruh bilan bog'lanishingiz kerak. Har qanday
+                    ma'lumotni o'zgartirish uchun Goldbet KYCni o'tkazish uchun har qanday
+                    hujjatlarni talab qilishi mumkin. <br />
+                    3.18. Siz bizning xizmatlarimizdan foydalanmaslikka
+                    kafolat berasiz, agar siz qimor o'ynash va/yoki tikish qo'yish
+                    va/yoki kazino va/yoki jonli o'yinlarni o'tkazishga ruxsat berilmagan
+                    yurisdiktsiyada joylashgan bo'lsangiz. <br />
+                    3.19. Siz, shuningdek, quyidagi narsalarni kafolatlaysiz: <br />
+                    - Siz xizmatlardan o'zingizning nomingizdan qatnashasiz va ushbu
+                    shartlar asosida har qanday yutuqni ko'rsatmasligingizni kafolatlayapsiz.
+                    <br />
+                    - Bizning xizmatlarimizdan foydalanishga ruxsat berilgan yurisdiktsiyalarda
+                    tugallangan har qanday shartnoma bo'yicha fuqarolik yoki jinoyat
+                    javobgarligiga oid joriy qonunchilikka muvofiqligini bilasiz.
+                    <br />
+                    - Sizning ishingiz natijasida shartnoma bo'yicha ro'yxatdan
+                    o'tganingizdan so'ng, shartnoma bo'yicha amal qiluvchi qonunchilikni
+                    buzgan holda o'tkazilgan har qanday o'yinlarda yoki xizmatlardan
+                    foydalanishingizdan oldin bizga xabar berasiz.`,
+    chooseSectionTitle: "NIMA UCHUN GOLDBETNI TANLASH KERAK?",
+    chooseItem1Title: "BONUSLAR",
+    chooseItem1Text:
+      "Hech qanday depozit, zudlik bilan va eksklyuziv VIP bonuslar bizning boshlang'ich to'plamimizda yoki hamjamiyatimizda eng yaxshi taklifni toping.",
+    chooseItem2Title: "SLOTLAR",
+    chooseItem2Text:
+      "Odatda yuqori to'lovlari bilan mashhur bo'lgan slotlarni o'ynang. Barcha do'stlaringiz allaqachon o'ynayapti!",
+    chooseItem3Title: "SPORT BAHSLARI",
+    chooseItem3Text:
+      "Siz bashorat qilishda mahoratga ega bo'lgan sport mutaxassisi bormi? Bizda siz uchun qulay navigatsiya va real vaqt statistikasi bilan 30-ta sport kategoriyasi mavjud.",
+    chooseItem4Title: "JONLI KAZINO",
+    chooseItem4Text:
+      "Haqiqiy dilerlar va jekkpotni urganingizda haqiqiy reaksiyalar. O'yiningizni tanlang, tilni tanlang va kuchli ichimlikni oling — bu juda qizg'in bo'ladi!",
+    chooseItem5Title: "QONUNY",
+    chooseItem5Text:
+      "Barcha operatsiyalar tartibga soluvchi nazorat ostida o'tkaziladi. Biz huquqiy qo'llab-quvvatlash so'rovlarining 100% ni bajaramiz va adolatli o'yin kafolatlaymiz.",
+    footerText: `Veb-sayt www.goldbet.io Ivanov I.I. tomonidan egalik qilinadi va boshqariladi
+                (ro'yxatga olish raqami: 12345678; ro'yxatga olingan manzil: Ivanov Ivan
+                Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lisboa, Portugaliya PO
+                BOX 1234-5600 Lisboa, Portugaliya) IVANOV DEVELOPMENT LIMITED (ro'yxatga olish raqami: AB123456;
+                Kiprda ro'yxatga olingan va ro'yxatga olingan manzil: Rua de Henrique Digeni
+                12, 1 & 2 an., 1234-5600 Lisboa, Portugaliya) orqali faoliyat yuritadi. Ivanov I.I.
+                Anjouan qonunlari bo'yicha ro'yxatga olingan va tashkil etilgan kompaniyadir
+                va Anjouan hukumatidan o'yin litsenziyasi No. AB12345678 asosida litsenziyalangan
+                va nazorat qilinadi, Anjouan hukumati tomonidan ruxsat etilgan va nazorat qilinadi,
+                ro'yxatga olingan manzil: Rua de Henrique Digeni 12 1 & 2
+                an., 1234-5600 Lisboa, Portugaliya.`,
+    stickyButtonText: "127MLN SO'M BONUSINGIZNI OLING",
+  },
 };

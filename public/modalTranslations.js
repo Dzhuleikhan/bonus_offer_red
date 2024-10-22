@@ -80,6 +80,10 @@ export const modalTranslations = {
     passwordPlaceholder: "Пароль",
     depositBonus: `Welcome bonus <span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     oneStepAway: `ONE STEP AWAY <br/> FROM RECEIVING THE BONUS`,
+    areYourSure: "ARE YOU SURE YOU WANT TO",
+    declineYourBonus: `<span>decline</span> your bonus?`,
+    continue: "Continue",
+    declineBonus: "Decline Bonus",
     // ? SOCIALS
     signUpEasySteps: "Регистрация в 3 простых шага",
     completeToClaimGift: "Завершите их, чтобы получить подарок.",
@@ -131,6 +135,11 @@ export const modalTranslations = {
     signUpToClaim: "Sovrinni olish uchun roʻyxatdan oʻting",
     passwordPlaceholder: "Parol",
     depositBonus: `Welcome bonus <span class="bonus-value"></span> <span class="bonus-currency"></span>`,
+    oneStepAway: `BONUSNI QABUL QILISH UCHUN <br/> BIR QADAM QOLDI`,
+    areYourSure: "SIZ HAQIQATAN BUNI XOHLAYSIZMI",
+    declineYourBonus: `<span>rad etish</span> sizni bonusingizni?`,
+    continue: "Davom etish",
+    declineBonus: "Bonusingizni rad etish",
     // ? SOCIALS
     signUpEasySteps: "3 oson qadamda roʻyxatdan oʻting",
     completeToClaimGift: "Ularni tugating va sovgʻangizni oling.",
