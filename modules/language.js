@@ -1,6 +1,9 @@
 import { changeModalLanguage } from "./modalLanguage";
 import { translations } from "/public/translations";
 import { getLocation } from "./geoLocation";
+import { settingBonusValueAndAmount } from "./setBonusValue";
+import { setPaymentMethods } from "./footerPayments";
+import { paymentCountries } from "../public/payments";
 
 const headerLangBtn = document.querySelector(".header-lang-btn");
 const headerLangList = document.querySelector(".header-lang-list");
@@ -33,6 +36,9 @@ function changeLanguage(lang) {
   saveUserLanguage(lang);
   updateButtonText(lang);
   setActiveLanguageBtn(lang);
+  settingBonusValueAndAmount(lang);
+  changeModalLanguage(lang);
+  setPaymentMethods(paymentCountries, lang);
 }
 
 function getLanguageFromPath() {
@@ -151,6 +157,9 @@ async function determineLanguage() {
 window.onload = async () => {
   const lang = await determineLanguage();
   changeLanguage(lang);
+  changeModalLanguage(lang);
+  settingBonusValueAndAmount(lang);
+  setPaymentMethods(paymentCountries, lang);
 };
 
 document.querySelectorAll(".language-link").forEach((langBtn) => {
@@ -159,5 +168,7 @@ document.querySelectorAll(".language-link").forEach((langBtn) => {
     const targetLang = e.target.getAttribute("data-lang");
     changeLanguage(targetLang);
     changeModalLanguage(targetLang);
+    settingBonusValueAndAmount(targetLang);
+    setPaymentMethods(paymentCountries, targetLang);
   });
 });

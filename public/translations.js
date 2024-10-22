@@ -1,7 +1,7 @@
 export const translations = {
   en: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -179,7 +179,7 @@ export const translations = {
   },
   es: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -357,7 +357,7 @@ export const translations = {
   },
   fr: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -535,7 +535,7 @@ export const translations = {
   },
   az: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -713,7 +713,7 @@ export const translations = {
   },
   ua: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -891,7 +891,7 @@ export const translations = {
   },
   ru: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -1069,7 +1069,7 @@ export const translations = {
   },
   bd: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -1247,7 +1247,7 @@ export const translations = {
   },
   tr: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -1425,7 +1425,7 @@ export const translations = {
   },
   id: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -1603,7 +1603,7 @@ export const translations = {
   },
   pt: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -1781,7 +1781,7 @@ export const translations = {
   },
   de: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -1959,7 +1959,7 @@ export const translations = {
   },
   cn: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -2137,7 +2137,7 @@ export const translations = {
   },
   kz: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -2315,7 +2315,7 @@ export const translations = {
   },
   kg: {
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -2493,10 +2493,10 @@ export const translations = {
   },
   uz: {
     sliderTitle: `XUSH KELIBSIZ <br /> BONUSINGIZNI <br />`,
-    sliderBonusAmount: "127MLN SOM",
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle:
       "Sizning xush kelibsiz BONUSINGIZNI Bonus Markazida tayyor.",
-    sliderButtonText: "127MLN SO'M BONUSINGIZNI OLING",
+    sliderButtonText: "BONUSINGIZNI OLING",
     mainTitle: "BONUSINGIZNI OLING",
     step1Title: "Ro'yxatdan o'ting",
     step1Text:
@@ -2659,7 +2659,7 @@ export const translations = {
     chooseItem4Title: "JONLI KAZINO",
     chooseItem4Text:
       "Haqiqiy dilerlar va jekkpotni urganingizda haqiqiy reaksiyalar. O'yiningizni tanlang, tilni tanlang va kuchli ichimlikni oling — bu juda qizg'in bo'ladi!",
-    chooseItem5Title: "QONUNY",
+    chooseItem5Title: "QONUNIY",
     chooseItem5Text:
       "Barcha operatsiyalar tartibga soluvchi nazorat ostida o'tkaziladi. Biz huquqiy qo'llab-quvvatlash so'rovlarining 100% ni bajaramiz va adolatli o'yin kafolatlaymiz.",
     footerText: `Veb-sayt www.goldbet.io Ivanov I.I. tomonidan egalik qilinadi va boshqariladi
@@ -2673,6 +2673,6 @@ export const translations = {
                 va nazorat qilinadi, Anjouan hukumati tomonidan ruxsat etilgan va nazorat qilinadi,
                 ro'yxatga olingan manzil: Rua de Henrique Digeni 12 1 & 2
                 an., 1234-5600 Lisboa, Portugaliya.`,
-    stickyButtonText: "127MLN SO'M BONUSINGIZNI OLING",
+    stickyButtonText: "BONUSINGIZNI OLING",
   },
 };

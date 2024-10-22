@@ -1,33 +1,29 @@
-import { getLocation } from "./geoLocation";
-import { getCountryCurrencyABBR } from "./modalCurrency";
-import { welcomeBonusData } from "../public/welcomeBonusAmount";
+import { countryCurrencyData } from "../public/data";
 
-export async function gettingBonusCurrency() {
+export function settingBonusValueAndAmount(countryCode) {
   try {
-    let locationData = await getLocation();
-    const countryInput = locationData.countryCode;
+    const detectedCountry = countryCode.toUpperCase();
 
-    const bonusCurrency = document.querySelectorAll(".bonus-currency");
-    const bonusValue = document.querySelectorAll(".bonus-value");
+    // Find the matching entry in countryCurrencyData
+    const matchingCurrencyData = countryCurrencyData.find((currency) =>
+      currency.countries.includes(detectedCountry),
+    );
 
-    const currencyAbbr = getCountryCurrencyABBR(countryInput);
+    if (matchingCurrencyData) {
+      const bonusCurrency = document.querySelectorAll(".bonus-currency");
+      const bonusValue = document.querySelectorAll(".bonus-value");
 
-    bonusCurrency.forEach((cur) => {
-      cur.innerHTML = currencyAbbr;
-    });
-    if (Object.keys(welcomeBonusData).includes(currencyAbbr)) {
-      bonusCurrency.innerHTML = currencyAbbr;
-      bonusValue.forEach((val) => {
-        val.innerHTML = welcomeBonusData[currencyAbbr].amount;
+      // Update the bonus amount and currency on the page
+      bonusValue.forEach((amount) => {
+        amount.innerHTML = matchingCurrencyData.amount;
+      });
+      bonusCurrency.forEach((cur) => {
+        cur.innerHTML = matchingCurrencyData.countryCurrencySymbol;
       });
     } else {
-      // Fallback to USD if currencyAbbr is not found
-      bonusCurrency.innerHTML = "USD";
-      bonusValue.forEach((val) => {
-        val.innerHTML = welcomeBonusData["USD"].amount;
-      });
+      console.log("No matching country found in the data.");
     }
   } catch (error) {
-    console.error("Error fetching location data:", error);
+    console.error("Error fetching currency data:", error);
   }
 }

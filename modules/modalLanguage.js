@@ -1,5 +1,4 @@
 import { modalTranslations } from "../public/modalTranslations";
-import { gettingBonusCurrency } from "./setBonusValue";
 import { getLocation } from "./geoLocation";
 
 function updateContent(lang) {
@@ -19,10 +18,8 @@ function changeLanguage(lang) {
   } else {
     if (modalTranslations[lang]) {
       updateContent(lang);
-      gettingBonusCurrency();
     } else {
       updateContent("en");
-      gettingBonusCurrency();
     }
   }
 }
@@ -30,10 +27,8 @@ function changeLanguage(lang) {
 export function changeModalLanguage(lang) {
   if (modalTranslations[lang]) {
     updateContent(lang);
-    gettingBonusCurrency();
   } else {
     updateContent("en");
-    gettingBonusCurrency();
   }
 }
 

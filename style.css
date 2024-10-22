@@ -1,56 +1,40 @@
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2');
-  font-weight: 600;
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.woff2') format('woff2');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rajdhani';
-  src: url('../fonts/Rajdhani-Bold.woff2') format('woff2');
-  font-weight: bold;
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.woff2') format('woff2');
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Black.woff2') format('woff2');
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Black.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-BlackItalic.woff2') format('woff2');
-  font-weight: 900;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Saira';
-  src: url('../fonts/Saira-BlackItalic.woff2') format('woff2');
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-BlackItalic.woff2') format('woff2');
   font-weight: 900;
   font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Bold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
   font-display: swap;
 }
 
@@ -60,7 +44,7 @@
 
 @layer base {
   html {
-    @apply font-gilroy text-white
+    @apply font-roboto text-white
   }
 }
 
@@ -96,6 +80,7 @@
 }
 
 .swiper-pagination {
+  position: absolute !important;
   bottom: 0 !important;
   display: flex;
   justify-content: center;

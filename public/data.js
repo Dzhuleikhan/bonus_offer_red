@@ -207,6 +207,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "$",
     countryCurrencyFullName: "Colombian Peso",
     countryCurrencyIcon: "./img/currencies/cop.svg",
+    amount: "4.17 MLN",
   },
   {
     countries: ["AR"],
@@ -214,6 +215,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "$",
     countryCurrencyFullName: "Argentine Peso",
     countryCurrencyIcon: "./img/currencies/ars.svg",
+    amount: "9 MLN",
   },
   {
     countries: ["AU", "CX", "CC", "KI", "NR", "NF", "TV"],
@@ -221,6 +223,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "AU$",
     countryCurrencyFullName: "Australian Dollar",
     countryCurrencyIcon: "./img/currencies/aud.svg",
+    amount: "14.000",
   },
   {
     countries: ["AZ"],
@@ -228,6 +231,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "₼",
     countryCurrencyFullName: "Azerbaijani Manat",
     countryCurrencyIcon: "./img/currencies/azn.svg",
+    amount: "17.000",
   },
   {
     countries: ["BD"],
@@ -235,6 +239,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "৳",
     countryCurrencyFullName: "Bangladeshi Taka",
     countryCurrencyIcon: "./img/currencies/bdt.svg",
+    amount: "1 MLN",
   },
   {
     countries: ["BR"],
@@ -242,6 +247,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "R$",
     countryCurrencyFullName: "Brazilian Real",
     countryCurrencyIcon: "./img/currencies/brl.svg",
+    amount: "54.000",
   },
   {
     countries: ["CA"],
@@ -249,6 +255,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "$",
     countryCurrencyFullName: "Canadian Dollar",
     countryCurrencyIcon: "./img/currencies/cad.svg",
+    amount: "13.000",
   },
   {
     countries: ["CL"],
@@ -256,6 +263,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "$",
     countryCurrencyFullName: "Chilean Peso",
     countryCurrencyIcon: "./img/currencies/clp.svg",
+    amount: "9 MLN",
   },
   {
     countries: [
@@ -289,6 +297,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "€",
     countryCurrencyFullName: "Euro",
     countryCurrencyIcon: "./img/currencies/eur.svg",
+    amount: "9.000",
   },
   {
     countries: ["ID"],
@@ -296,6 +305,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "Rp",
     countryCurrencyFullName: "Indonesian Rupiah",
     countryCurrencyIcon: "./img/currencies/idr.svg",
+    amount: "150 MLN",
   },
   {
     countries: ["IN", "BT", "NP"],
@@ -303,6 +313,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "₹",
     countryCurrencyFullName: "Indian Rupee",
     countryCurrencyIcon: "./img/currencies/inr.svg",
+    amount: "830.000",
   },
   {
     countries: ["KG"],
@@ -310,6 +321,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "с",
     countryCurrencyFullName: "Kyrgyzstani Som",
     countryCurrencyIcon: "./img/currencies/kgs.svg",
+    amount: "850.000",
   },
   {
     countries: ["KZ"],
@@ -317,6 +329,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "₸",
     countryCurrencyFullName: "Kazakhstani Tenge",
     countryCurrencyIcon: "./img/currencies/kzt.svg",
+    amount: "4.7 MLN",
   },
   {
     countries: ["MX"],
@@ -324,6 +337,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "$",
     countryCurrencyFullName: "Mexican Peso",
     countryCurrencyIcon: "./img/currencies/mxn.svg",
+    amount: "190.000",
   },
   {
     countries: ["NZ", "CK", "NU", "PN", "TK"],
@@ -331,20 +345,23 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "NZ$",
     countryCurrencyFullName: "New Zealand Dollar",
     countryCurrencyIcon: "./img/currencies/nzd.svg",
+    amount: "15.000",
   },
-  // {
-  //   countries: ["RU", "AB", "OS", "KZ"],
-  //   countryCurrency: "RUB",
-  //   countryCurrencySymbol: "₽",
-  //   countryCurrencyFullName: "Russian Ruble",
-  //   countryCurrencyIcon: "./img/currencies/rub.svg",
-  // },
+  {
+    countries: ["RU", "AB", "OS", "KZ"],
+    countryCurrency: "RUB",
+    countryCurrencySymbol: "₽",
+    countryCurrencyFullName: "Russian Ruble",
+    countryCurrencyIcon: "./img/currencies/rub.svg",
+    amount: "900.000",
+  },
   {
     countries: ["TH"],
     countryCurrency: "THB",
     countryCurrencySymbol: "฿",
     countryCurrencyFullName: "Thai Baht",
     countryCurrencyIcon: "./img/currencies/thb.svg",
+    amount: "320.000",
   },
   {
     countries: ["TR", "CY"],
@@ -352,6 +369,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "₺",
     countryCurrencyFullName: "Turkish Lira",
     countryCurrencyIcon: "./img/currencies/try.svg",
+    amount: "340.000",
   },
   {
     countries: ["UA"],
@@ -359,6 +377,7 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "₴",
     countryCurrencyFullName: "Ukrainian Hryvnia",
     countryCurrencyIcon: "./img/currencies/uah.svg",
+    amount: "400.000",
   },
   {
     countries: [
@@ -374,11 +393,13 @@ export const countryCurrencyData = [
       "NA",
       "WS",
       "TL",
+      "EN",
     ],
     countryCurrency: "USD",
     countryCurrencySymbol: "$",
     countryCurrencyFullName: "US Dollar",
     countryCurrencyIcon: "./img/currencies/usd.svg",
+    amount: "10.000",
   },
   {
     countries: ["UZ"],
@@ -386,42 +407,6 @@ export const countryCurrencyData = [
     countryCurrencySymbol: "SO’M",
     countryCurrencyFullName: "Uzbekistani Som",
     countryCurrencyIcon: "./img/currencies/uzs.svg",
-  },
-];
-
-export const paymentCountries = [
-  {
-    name: "nl",
-    payments: [
-      "./img/payments/mastercard.svg",
-      "./img/payments/jcb.svg",
-      "./img/payments/sepa.svg",
-      "./img/payments/unionpay.svg",
-      "./img/payments/discover.svg",
-      "./img/payments/visa.svg",
-    ],
-  },
-  {
-    name: "th",
-    payments: [
-      "../img/payments/mastercard.svg",
-      "../img/payments/jcb.svg",
-      "../img/payments/sepa.svg",
-      "../img/payments/unionpay.svg",
-      "../img/payments/discover.svg",
-      "../img/payments/visa.svg",
-    ],
-  },
-  {
-    name: "ru",
-    payments: [
-      "./img/payments/unionpay.svg",
-      "./img/payments/visa.svg",
-      "./img/payments/mastercard.svg",
-    ],
-  },
-  {
-    name: "pt",
-    payments: ["./img/payments/visa.svg", "./img/payments/mastercard.svg"],
+    amount: "127 MLN",
   },
 ];
