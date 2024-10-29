@@ -82,6 +82,7 @@ function updateButtonText(lang) {
     `./img/flags/${lang}.svg` || `./img/flags/en.svg`,
   );
   headerLangName.innerHTML = languageNames[lang];
+  document.querySelector("html").setAttribute("lang", lang);
 }
 
 async function determineLanguage() {

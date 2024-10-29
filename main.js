@@ -11,7 +11,7 @@ import "./modules/language";
 import "./modules/authDeclineModal";
 import "./modules/formAuth";
 import "./modules/formSocials";
-import "./modules/hiddenSelect";
+// import "./modules/hiddenSelect";
 import "./modules/itiTelInput";
 import "./modules/modalCurrency";
 import "./modules/modalLanguage";

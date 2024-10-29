@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { authIti } from "./itiTelInput";
-import { hiddenSelect } from "./hiddenSelect";
-import { updateUrl } from "./params";
+// import { hiddenSelect } from "./hiddenSelect";
+import { getUrlParameter, updateUrl } from "./params";
 
 // | AUTH FORM VALIDATION AND SUBMITTING
 
@@ -505,20 +505,21 @@ function submitForm(form) {
     }
 
     let lang = localStorage.getItem("preferredLanguage");
+    let cid = getUrlParameter("cid");
 
     if (isValid) {
       if (formType === "email") {
         disableEmailForm();
-        window.location.href = `https://${hiddenSelect.value === "prod" ? "" : "dev."}gbetauth.com/api/register?env=dev&type=${formType}&currency=${formData.currency}&email=${formData.email}&password=${formData.password}${formData.bonus === "0" ? "&bonus=0" : "&bonus=" + formData.bonus}${formData.promocode ? "&promocode=" + formData.promocode : ""}&lang=${lang}?utm_campaign=100110754_1705949_nodescription&utm_content=100110754&utm_medium=casap&utm_source=aff`;
+        window.location.href = `https://gbetauth.com/api/register?env=dev&type=${formType}&currency=${formData.currency}&email=${formData.email}&password=${formData.password}${formData.bonus === "0" ? "&bonus=0" : "&bonus=" + formData.bonus}${formData.promocode ? "&promocode=" + formData.promocode : ""}&lang=${lang}${cid ? "&cid=" + cid : ""}`;
       } else if (formType === "phone") {
         disablePhoneForm();
-        window.location.href = `https://${hiddenSelect.value === "prod" ? "" : "dev."}gbetauth.com/api/register?env=dev&type=${formType}&currency=${formData.currency}&phone=${formData.phone}&password=${formData.password}${formData.bonus === "0" ? "&bonus=0" : "&bonus=" + formData.bonus}${formData.promocode ? "&promocode=" + formData.promocode : ""}&lang=${lang}?utm_campaign=100110754_1705949_nodescription&utm_content=100110754&utm_medium=casap&utm_source=aff`;
+        window.location.href = `https://gbetauth.com/api/register?env=dev&type=${formType}&currency=${formData.currency}&phone=${formData.phone}&password=${formData.password}${formData.bonus === "0" ? "&bonus=0" : "&bonus=" + formData.bonus}${formData.promocode ? "&promocode=" + formData.promocode : ""}&lang=${lang}${cid ? "&cid=" + cid : ""}`;
       } else if (formType === "social") {
         disableSocialForm();
-        window.location.href = `https://${hiddenSelect.value === "prod" ? "" : "dev."}gbetauth.com/api/register?env=dev&type=${formData.social}&currency=${formData.currency}${formData.bonus === "0" ? "&bonus=0" : "&bonus=" + formData.bonus}${formData.promocode ? "&promocode=" + formData.promocode : ""}&lang=${lang}?utm_campaign=100110754_1705949_nodescription&utm_content=100110754&utm_medium=casap&utm_source=aff`;
+        window.location.href = `https://gbetauth.com/api/register?env=dev&type=${formData.social}&currency=${formData.currency}${formData.bonus === "0" ? "&bonus=0" : "&bonus=" + formData.bonus}${formData.promocode ? "&promocode=" + formData.promocode : ""}&lang=${lang}${cid ? "&cid=" + cid : ""}`;
       } else if (formType === "oneclick") {
         disableOneClickForm();
-        window.location.href = `https://${hiddenSelect.value === "prod" ? "" : "dev."}gbetauth.com/api/register?env=dev&type=${formType}&currency=${formData.currency}${formData.bonus === "0" ? "&bonus=0" : "&bonus=" + formData.bonus}${formData.promocode ? "&promocode=" + formData.promocode : ""}&lang=${lang}?utm_campaign=100110754_1705949_nodescription&utm_content=100110754&utm_medium=casap&utm_source=aff`;
+        window.location.href = `https://gbetauth.com/api/register?env=dev&type=${formType}&currency=${formData.currency}${formData.bonus === "0" ? "&bonus=0" : "&bonus=" + formData.bonus}${formData.promocode ? "&promocode=" + formData.promocode : ""}&lang=${lang}${cid ? "&cid=" + cid : ""}`;
       }
     }
   });
