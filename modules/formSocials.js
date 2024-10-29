@@ -3,7 +3,7 @@ import horizontalLoop from "./marquee";
 import { Power1 } from "gsap";
 import { socialsIti } from "./itiTelInput.js";
 import { getUrlParameter } from "./params.js";
-import { hiddenSelect } from "./hiddenSelect.js";
+// import { hiddenSelect } from "./hiddenSelect.js";
 
 // | SOCIALS FORM VALIDATING AND SUBMITTING
 export let formStepCount = 1;
@@ -293,10 +293,10 @@ if (mainForm) {
         if (!submitBtn.disabled) {
           if (formTab === "email") {
             disableFormWhileSubmitting();
-            window.location.href = `https://${hiddenSelect.value === "prod" ? "" : "dev."}gbetauth.com/api/register?env=prod&type=${formTab}&currency=${formData.currency}&email=${formData.email}&password=${formData.password}${formData.bonus === "" ? "" : "&bonus=" + formData.bonus}&lang=${formData.lang}${cid ? "&cid=" + cid : ""}`;
+            window.location.href = `https://gbetauth.com/api/register?env=prod&type=${formTab}&currency=${formData.currency}&email=${formData.email}&password=${formData.password}${formData.bonus === "" ? "" : "&bonus=" + formData.bonus}&lang=${formData.lang}${cid ? "&cid=" + cid : ""}`;
           } else if (formTab === "phone") {
             disableFormWhileSubmitting();
-            window.location.href = `https://${hiddenSelect.value === "prod" ? "" : "dev."}gbetauth.com/api/register?env=prod&type=${formTab}&currency=${formData.currency}&phone=${formData.phone}&password=${formData.password}${formData.bonus === "" ? "" : "&bonus=" + formData.bonus}&lang=${formData.lang}${cid ? "&cid=" + cid : ""}`;
+            window.location.href = `https://gbetauth.com/api/register?env=prod&type=${formTab}&currency=${formData.currency}&phone=${formData.phone}&password=${formData.password}${formData.bonus === "" ? "" : "&bonus=" + formData.bonus}&lang=${formData.lang}${cid ? "&cid=" + cid : ""}`;
           }
         }
       }
@@ -342,13 +342,10 @@ if (mainForm) {
 
     if (formTab === "email") {
       disableFormWhileSubmitting();
-      window.location.href = `https://${hiddenSelect.value === "prod" ? "" : "dev."}gbetauth.com/api/register?env=prod&type=${formTab}&currency=${formData.currency}&email=${formData.email}&password=${formData.password}${formData.bonus === "" ? "" : "&bonus=" + formData.bonus}&lang=${formData.lang}${cid ? "&cid=" + cid : ""}`;
-      console.log(
-        `https://${hiddenSelect.value === "prod" ? "" : "dev."}gbetauth.com/api/register?env=prod&type=${formTab}&currency=${formData.currency}&email=${formData.email}&password=${formData.password}${formData.bonus === "" ? "" : "&bonus=" + formData.bonus}&lang=${formData.lang}${cid ? "&cid=" + cid : ""}`,
-      );
+      window.location.href = `https://gbetauth.com/api/register?env=prod&type=${formTab}&currency=${formData.currency}&email=${formData.email}&password=${formData.password}${formData.bonus === "" ? "" : "&bonus=" + formData.bonus}&lang=${formData.lang}${cid ? "&cid=" + cid : ""}`;
     } else if (formTab === "phone") {
       disableFormWhileSubmitting();
-      window.location.href = `https://${hiddenSelect.value === "prod" ? "" : "dev."}gbetauth.com/api/register?env=prod&type=${formTab}&currency=${formData.currency}&phone=${formData.phone}&password=${formData.password}${formData.bonus === "" ? "" : "&bonus=" + formData.bonus}&lang=${formData.lang}${cid ? "&cid=" + cid : ""}`;
+      window.location.href = `https://gbetauth.com/api/register?env=prod&type=${formTab}&currency=${formData.currency}&phone=${formData.phone}&password=${formData.password}${formData.bonus === "" ? "" : "&bonus=" + formData.bonus}&lang=${formData.lang}${cid ? "&cid=" + cid : ""}`;
     }
   });
 }
@@ -374,7 +371,7 @@ formSocialLinks.forEach((link) => {
       let currencyStoredData = localStorage.getItem("currencyData");
       let currencyData = JSON.parse(currencyStoredData);
       let currency = currencyData.abbr;
-      window.location.href = `https://${hiddenSelect.value === "prod" ? "" : "dev."}gbetauth.com/api/register?env=prod&type=${type}&currency=${currency}${bonus === "" ? "" : "&bonus=" + bonus}&lang=${lang}${cid ? "&cid=" + cid : ""}`;
+      window.location.href = `https://gbetauth.com/api/register?env=prod&type=${type}&currency=${currency}${bonus === "" ? "" : "&bonus=" + bonus}&lang=${lang}${cid ? "&cid=" + cid : ""}`;
     });
   }
 });

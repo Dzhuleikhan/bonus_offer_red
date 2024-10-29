@@ -701,7 +701,7 @@ export const translations = {
     chooseItem4Title: "JONLI KAZINO",
     chooseItem4Text:
       "Haqiqiy dilerlar va jekkpotni urganingizda haqiqiy reaksiyalar. O'yiningizni tanlang, tilni tanlang va kuchli ichimlikni oling — bu juda qizg'in bo'ladi!",
-    chooseItem5Title: "QONUNY",
+    chooseItem5Title: "QONUNIY",
     chooseItem5Text:
       "Barcha operatsiyalar tartibga soluvchi nazorat ostida o'tkaziladi. Biz huquqiy qo'llab-quvvatlash so'rovlarining 100% ni bajaramiz va adolatli o'yin kafolatlaymiz.",
     footerText: `Veb-sayt www.goldbet.io Ivanov I.I. tomonidan egalik qilinadi va boshqariladi

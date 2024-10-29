@@ -4,7 +4,7 @@ import "intl-tel-input/build/css/intlTelInput.css";
 import "./modules/geoLocation";
 import "./modules/itiTelInput";
 import "./modules/params";
-import "./modules/hiddenSelect";
+// import "./modules/hiddenSelect";
 import "./modules/modalCurrency";
 import "./modules/setBonusValue";
 import "./modules/marquee";
