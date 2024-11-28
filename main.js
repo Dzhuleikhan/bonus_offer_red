@@ -17,3 +17,4 @@ import "./modules/formAuth";
 import "./modules/authDeclineModal";
 import "./modules/formSocials";
 import "./modules/modalOpen";
+import "./modules/fetchingDomain";
