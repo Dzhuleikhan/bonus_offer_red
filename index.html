@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./img/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bonus Offer</title>
+    <title data-translate="pageTitle"></title>
   </head>
   <body class="overscroll-none bg-[#0c0c0c]">
     <div class="h-full w-full min-w-[320px] overflow-hidden">
@@ -3391,7 +3391,6 @@
                         <input
                           class="social-variant-input absolute"
                           hidden
-                          disabled
                           value="telegram"
                           type="radio"
                           name="social-variant"
@@ -5228,7 +5227,9 @@
                   </button>
                 </div>
                 <!-- Step 2 -->
-                <div class="socials-form-step socials-form-step-2 mb-[15px]">
+                <div
+                  class="socials-form-step socials-form-step-2 mb-[15px] hidden"
+                >
                   <!-- Header -->
                   <div class="space-y-[5px] text-center leading-tight">
                     <p

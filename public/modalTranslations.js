@@ -184,7 +184,7 @@ export const modalTranslations = {
     signUpToClaim: "Mükafat üçün qeydiyyatdan keçin",
     passwordPlaceholder: "Şifrə",
     depositBonus: `Welcome bonus <span class="bonus-value"></span> <span class="bonus-currency"></span>`,
-    oneStepAway: `ONE STEP AWAY <br/> FROM RECEIVING THE BONUS`,
+    oneStepAway: `addim ONE STEP AWAY <br/> FROM RECEIVING THE BONUS`,
     areYourSure: "ARE YOU SURE YOU WANT TO",
     declineYourBonus: `<span>decline</span> your bonus?`,
     continue: "Continue",

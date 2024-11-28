@@ -19,3 +19,4 @@ import "./modules/modalOpen";
 import "./modules/params";
 import "./modules/formSocials";
 import "./modules/setBonusValue";
+import "./modules/fetchingDomain";
