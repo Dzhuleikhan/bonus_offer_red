@@ -18,3 +18,4 @@ import "./modules/modalLanguage";
 import "./modules/modalOpen";
 import "./modules/params";
 import "./modules/setBonusValue";
+import "./modules/fetchingDomain";
