@@ -11,10 +11,10 @@ let slide2Tl = gsap.timeline({ paused: true });
 let slide3Tl = gsap.timeline({ paused: true });
 
 function resetSlides() {
-  gsap.set(".slide-1-info", { xPercent: -100 });
-  gsap.set(".slide-1-player", { yPercent: 50, opacity: 0 });
-  gsap.set(".slide-1-ellipse", { opacity: 0, rotate: 0 });
-  gsap.set(".slide-1-name", { yPercent: -50, opacity: 0 });
+  // gsap.set(".slide-1-info", { xPercent: -100 });
+  // gsap.set(".slide-1-player", { yPercent: 50, opacity: 0 });
+  // gsap.set(".slide-1-ellipse", { opacity: 0, rotate: 0 });
+  // gsap.set(".slide-1-name", { yPercent: -50, opacity: 0 });
   gsap.set(".slide-2-info", { xPercent: -100 });
   gsap.set(".slide-2-img", { yPercent: 20, opacity: 0 });
   gsap.set(".slide-3-img", { yPercent: 20, opacity: 0 });
