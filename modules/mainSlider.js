@@ -38,7 +38,6 @@ slide1Tl
   )
   .fromTo(
     ".slide-1-player",
-    { yPercent: 50, opacity: 0 },
     { yPercent: 0, opacity: 1, duration: 0.5, ease: "none" },
     "<",
   )
@@ -147,7 +146,7 @@ function initSlider() {
   });
 }
 
-window.addEventListener("DOMContentLoaded"), initSlider;
+window.addEventListener("DOMContentLoaded", initSlider);
 
 heroSlider.on("slideChange", function () {
   let currentSlide = this.realIndex + 1;
