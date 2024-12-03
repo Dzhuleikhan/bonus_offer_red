@@ -11,10 +11,10 @@ let slide2Tl = gsap.timeline({ paused: true });
 let slide3Tl = gsap.timeline({ paused: true });
 
 function resetSlides() {
-  // gsap.set(".slide-1-info", { xPercent: -100 });
-  // gsap.set(".slide-1-player", { yPercent: 50, opacity: 0 });
-  // gsap.set(".slide-1-ellipse", { opacity: 0, rotate: 0 });
-  // gsap.set(".slide-1-name", { yPercent: -50, opacity: 0 });
+  gsap.set(".slide-1-info", { xPercent: -100 });
+  gsap.set(".slide-1-player", { yPercent: 50, opacity: 0 });
+  gsap.set(".slide-1-ellipse", { opacity: 0, rotate: 0 });
+  gsap.set(".slide-1-name", { yPercent: -50, opacity: 0 });
   gsap.set(".slide-2-info", { xPercent: -100 });
   gsap.set(".slide-2-img", { yPercent: 20, opacity: 0 });
   gsap.set(".slide-3-img", { yPercent: 20, opacity: 0 });
@@ -22,10 +22,6 @@ function resetSlides() {
   gsap.set(".slide-3-ellipse", { opacity: 0, rotate: 0 });
 }
 resetSlides();
-
-document.addEventListener("DOMContentLoaded", () => {
-  slide1Tl.restart();
-});
 
 slide1Tl
   .fromTo(
@@ -134,9 +130,9 @@ function initSlider() {
     speed: 1000,
     rewind: true,
     autoHeight: true,
-    // autoplay: {
-    //   delay: 3500,
-    // },
+    autoplay: {
+      delay: 3500,
+    },
     fadeEffect: {
       crossFade: true,
     },
@@ -163,4 +159,7 @@ function initSlider() {
   });
 }
 
-window.addEventListener("DOMContentLoaded", initSlider);
+window.addEventListener("DOMContentLoaded", () => {
+  initSlider();
+  slide1Tl.play();
+});
