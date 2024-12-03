@@ -157,7 +157,7 @@ document.querySelectorAll(".language-link").forEach((langBtn) => {
     const targetLang = e.target.getAttribute("data-lang");
     changeLanguage(targetLang);
     changeModalLanguage(targetLang);
-    // settingBonusValueAndAmount(targetLang);
+    settingBonusValueAndAmount(geoData.countryCode);
     setPaymentMethods(paymentCountries, targetLang);
   });
 });
