@@ -6,20 +6,20 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/effect-fade";
 
-let slide1Tl = gsap.timeline({ paused: true });
+let slide1Tl = gsap.timeline();
 let slide2Tl = gsap.timeline({ paused: true });
 let slide3Tl = gsap.timeline({ paused: true });
 
 function resetSlides() {
-  gsap.set(".slide-1-info", { xPercent: -100 });
-  gsap.set(".slide-1-player", { yPercent: 50, opacity: 0 });
-  gsap.set(".slide-1-ellipse", { opacity: 0, rotate: 0 });
-  gsap.set(".slide-1-name", { yPercent: -50, opacity: 0 });
-  gsap.set(".slide-2-info", { xPercent: -100 });
-  gsap.set(".slide-2-img", { yPercent: 20, opacity: 0 });
-  gsap.set(".slide-3-img", { yPercent: 20, opacity: 0 });
-  gsap.set(".slide-3-info", { xPercent: -100 });
-  gsap.set(".slide-3-ellipse", { opacity: 0, rotate: 0 });
+  // gsap.set(".slide-1-info", { xPercent: -100 });
+  // gsap.set(".slide-1-player", { yPercent: 50, opacity: 0 });
+  // gsap.set(".slide-1-ellipse", { opacity: 0, rotate: 0 });
+  // gsap.set(".slide-1-name", { yPercent: -50, opacity: 0 });
+  // gsap.set(".slide-2-info", { xPercent: -100 });
+  // gsap.set(".slide-2-img", { yPercent: 20, opacity: 0 });
+  // gsap.set(".slide-3-img", { yPercent: 20, opacity: 0 });
+  // gsap.set(".slide-3-info", { xPercent: -100 });
+  // gsap.set(".slide-3-ellipse", { opacity: 0, rotate: 0 });
 }
 resetSlides();
 
@@ -122,44 +122,37 @@ slide3Tl
     "<",
   );
 
-function initSlider() {
-  const heroSlider = new Swiper(".hero-slider", {
-    modules: [Pagination, EffectFade, Autoplay],
-    slidesPerView: 1,
-    effect: "fade",
-    speed: 1000,
-    rewind: true,
-    autoHeight: true,
-    autoplay: {
-      delay: 3500,
-    },
-    fadeEffect: {
-      crossFade: true,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+const heroSlider = new Swiper(".hero-slider", {
+  modules: [Pagination, EffectFade, Autoplay],
+  slidesPerView: 1,
+  effect: "fade",
+  speed: 1000,
+  rewind: true,
+  autoHeight: true,
+  autoplay: {
+    delay: 3500,
+  },
+  fadeEffect: {
+    crossFade: true,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
 
-  heroSlider.on("slideChange", function () {
-    let currentSlide = this.realIndex + 1;
-    if (currentSlide === 1) {
-      resetSlides();
-      slide1Tl.restart();
-    }
-    if (currentSlide === 2) {
-      resetSlides();
-      slide2Tl.restart();
-    }
-    if (currentSlide === 3) {
-      resetSlides();
-      slide3Tl.restart();
-    }
-  });
-}
-
-window.addEventListener("DOMContentLoaded", () => {
-  initSlider();
-  slide1Tl.play();
+heroSlider.on("slideChange", function () {
+  let currentSlide = this.realIndex + 1;
+  if (currentSlide === 1) {
+    resetSlides();
+    slide1Tl.restart();
+  }
+  if (currentSlide === 2) {
+    resetSlides();
+    slide2Tl.restart();
+  }
+  if (currentSlide === 3) {
+    resetSlides();
+    slide3Tl.restart();
+  }
 });
