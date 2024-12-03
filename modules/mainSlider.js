@@ -11,36 +11,27 @@ let slide2Tl = gsap.timeline({ paused: true });
 let slide3Tl = gsap.timeline({ paused: true });
 
 function resetSlides() {
-  // gsap.set(".slide-1-info", { xPercent: -100 });
-  // gsap.set(".slide-1-player", { yPercent: 50, opacity: 0 });
-  // gsap.set(".slide-1-ellipse", { opacity: 0, rotate: 0 });
-  // gsap.set(".slide-1-name", { yPercent: -50, opacity: 0 });
-  // gsap.set(".slide-2-info", { xPercent: -100 });
-  // gsap.set(".slide-2-img", { yPercent: 20, opacity: 0 });
-  // gsap.set(".slide-3-img", { yPercent: 20, opacity: 0 });
-  // gsap.set(".slide-3-info", { xPercent: -100 });
-  // gsap.set(".slide-3-ellipse", { opacity: 0, rotate: 0 });
+  gsap.set(".slide-1-info", { xPercent: -100 });
+  gsap.set(".slide-1-player", { yPercent: 50, opacity: 0 });
+  gsap.set(".slide-1-ellipse", { opacity: 0, rotate: 0 });
+  gsap.set(".slide-1-name", { yPercent: -50, opacity: 0 });
+  gsap.set(".slide-2-info", { xPercent: -100 });
+  gsap.set(".slide-2-img", { yPercent: 20, opacity: 0 });
+  gsap.set(".slide-3-img", { yPercent: 20, opacity: 0 });
+  gsap.set(".slide-3-info", { xPercent: -100 });
+  gsap.set(".slide-3-ellipse", { opacity: 0, rotate: 0 });
 }
 resetSlides();
 
 slide1Tl
-  .fromTo(
-    ".slide-1-info",
-    {
-      xPercent: -100,
-    },
-    { xPercent: 0, duration: 0.5, ease: "none" },
-    "<",
-  )
-  .fromTo(
+  .to(".slide-1-info", { xPercent: 0, duration: 0.5, ease: "none" }, "<")
+  .to(
     ".slide-1-player",
-    { yPercent: 50, opacity: 0 },
     { yPercent: 0, opacity: 1, duration: 0.5, ease: "none" },
     "<",
   )
-  .fromTo(
+  .to(
     ".slide-1-ellipse",
-    { opacity: 0 },
     {
       opacity: 1,
       ease: "none",
@@ -48,9 +39,8 @@ slide1Tl
     },
     "<",
   )
-  .fromTo(
+  .to(
     ".slide-1-name",
-    { yPercent: -50, opacity: 0 },
     {
       yPercent: 0,
       opacity: 1,
