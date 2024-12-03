@@ -1,9 +1,10 @@
 import { changeModalLanguage } from "./modalLanguage";
 import { countryCurrencyData } from "../public/data";
 import { translations } from "/public/translations";
-import { geoData } from "./geoLocation";
+import { geoData, getLocation } from "./geoLocation";
 import { setPaymentMethods } from "./footerPayments";
 import { paymentCountries } from "../public/payments";
+import gsap from "gsap";
 
 const headerLangBtn = document.querySelector(".header-lang-btn");
 const headerLangList = document.querySelector(".header-lang-list");
@@ -112,7 +113,8 @@ function settingBonusValueAndAmount(countryCode) {
   }
 }
 
-function determineLanguage() {
+async function determineLanguage() {
+  const location = await getLocation();
   const countryLangMap = {
     EN: "en",
     ES: "es",
@@ -131,12 +133,22 @@ function determineLanguage() {
     KG: "kg",
     // Add more country codes and their corresponding languages as needed
   };
-  lang = countryLangMap[geoData.countryCode] || "en";
+  lang = countryLangMap[location.countryCode] || "en";
+
   return lang;
 }
 
-lang = determineLanguage();
-changeLanguage(lang);
+async function mainFunction() {
+  try {
+    lang = await determineLanguage();
+    changeLanguage(lang);
+    gsap.to(".preloader", { opacity: 0, duration: 0.5 });
+    document.querySelector(".wrapper").classList.remove("hidden");
+  } catch (error) {
+    console.error("Error determining language:", error);
+  }
+}
+mainFunction();
 
 document.querySelectorAll(".language-link").forEach((langBtn) => {
   langBtn.addEventListener("click", (e) => {

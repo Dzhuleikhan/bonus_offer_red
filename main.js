@@ -1,6 +1,7 @@
 import "./style.css";
 import "intl-tel-input/build/css/intlTelInput.css";
 
+import "./modules/language";
 import "./modules/animations";
 import "./modules/mainSlider";
 import "./modules/geoLocation";
@@ -8,7 +9,6 @@ import "./modules/marquee";
 import "./modules/terms";
 import "./modules/footerPayments";
 import "./modules/setLocation";
-import "./modules/language";
 import "./modules/authDeclineModal";
 import "./modules/formAuth";
 // import "./modules/hiddenSelect";
