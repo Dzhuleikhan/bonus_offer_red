@@ -126,24 +126,28 @@ slide3Tl
     "<",
   );
 
-const heroSlider = new Swiper(".hero-slider", {
-  modules: [Pagination, EffectFade, Autoplay],
-  slidesPerView: 1,
-  effect: "fade",
-  speed: 1000,
-  rewind: true,
-  autoHeight: true,
-  // autoplay: {
-  //   delay: 3500,
-  // },
-  fadeEffect: {
-    crossFade: true,
-  },
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
-});
+function initSlider() {
+  const heroSlider = new Swiper(".hero-slider", {
+    modules: [Pagination, EffectFade, Autoplay],
+    slidesPerView: 1,
+    effect: "fade",
+    speed: 1000,
+    rewind: true,
+    autoHeight: true,
+    // autoplay: {
+    //   delay: 3500,
+    // },
+    fadeEffect: {
+      crossFade: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
+}
+
+window.addEventListener("DOMContentLoaded"), initSlider;
 
 heroSlider.on("slideChange", function () {
   let currentSlide = this.realIndex + 1;
