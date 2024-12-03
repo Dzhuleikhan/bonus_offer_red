@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title data-translate="pageTitle">Goldbet</title>
   </head>
-  <body class="overscroll-none bg-[#0c0c0c]">
-    <div class="h-full w-full min-w-[320px] overflow-hidden">
+  <body class="relative overscroll-none bg-[#0c0c0c]">
+    <div class="wrapper hidden h-full w-full min-w-[320px] overflow-hidden">
       <header class="relative z-[100] pt-8">
         <div class="container">
           <div class="flex items-center justify-between">
@@ -82,37 +82,55 @@
                 </li>
                 <li>
                   <a
-                    data-lang="es"
+                    data-lang="ru"
                     class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
                     href="#"
                     ><img
                       class="pointer-events-none shrink-0 overflow-hidden rounded-full"
                       width="20"
                       height="20"
-                      src="./img/flags/es.svg"
-                      alt="Español"
+                      src="./img/flags/ru.svg"
+                      alt="Русский"
                     />
                     <span
                       class="pointer-events-none w-[70px] overflow-hidden overflow-ellipsis whitespace-nowrap xs:w-[50px]"
-                      >Español</span
+                      >Русский</span
                     >
                   </a>
                 </li>
                 <li>
                   <a
-                    data-lang="fr"
+                    data-lang="tr"
                     class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
                     href="#"
                     ><img
                       class="pointer-events-none shrink-0 overflow-hidden rounded-full"
                       width="20"
                       height="20"
-                      src="./img/flags/fr.svg"
-                      alt="Français"
+                      src="./img/flags/tr.svg"
+                      alt="Türkçe"
                     />
                     <span
                       class="pointer-events-none w-[70px] overflow-hidden overflow-ellipsis whitespace-nowrap xs:w-[50px]"
-                      >Français</span
+                      >Türkçe</span
+                    >
+                  </a>
+                </li>
+                <li>
+                  <a
+                    data-lang="kz"
+                    class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
+                    href="#"
+                    ><img
+                      class="pointer-events-none shrink-0 overflow-hidden rounded-full"
+                      width="20"
+                      height="20"
+                      src="./img/flags/kz.svg"
+                      alt="Қазақ"
+                    />
+                    <span
+                      class="pointer-events-none w-[70px] overflow-hidden overflow-ellipsis whitespace-nowrap xs:w-[50px]"
+                      >Қазақ</span
                     >
                   </a>
                 </li>
@@ -154,6 +172,42 @@
                 </li>
                 <li>
                   <a
+                    data-lang="es"
+                    class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
+                    href="#"
+                    ><img
+                      class="pointer-events-none shrink-0 overflow-hidden rounded-full"
+                      width="20"
+                      height="20"
+                      src="./img/flags/es.svg"
+                      alt="Español"
+                    />
+                    <span
+                      class="pointer-events-none w-[70px] overflow-hidden overflow-ellipsis whitespace-nowrap xs:w-[50px]"
+                      >Español</span
+                    >
+                  </a>
+                </li>
+                <li>
+                  <a
+                    data-lang="fr"
+                    class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
+                    href="#"
+                    ><img
+                      class="pointer-events-none shrink-0 overflow-hidden rounded-full"
+                      width="20"
+                      height="20"
+                      src="./img/flags/fr.svg"
+                      alt="Français"
+                    />
+                    <span
+                      class="pointer-events-none w-[70px] overflow-hidden overflow-ellipsis whitespace-nowrap xs:w-[50px]"
+                      >Français</span
+                    >
+                  </a>
+                </li>
+                <li>
+                  <a
                     data-lang="ua"
                     class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
                     href="#"
@@ -172,24 +226,6 @@
                 </li>
                 <li>
                   <a
-                    data-lang="ru"
-                    class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
-                    href="#"
-                    ><img
-                      class="pointer-events-none shrink-0 overflow-hidden rounded-full"
-                      width="20"
-                      height="20"
-                      src="./img/flags/ru.svg"
-                      alt="Русский"
-                    />
-                    <span
-                      class="pointer-events-none w-[70px] overflow-hidden overflow-ellipsis whitespace-nowrap xs:w-[50px]"
-                      >Русский</span
-                    >
-                  </a>
-                </li>
-                <li>
-                  <a
                     data-lang="bd"
                     class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
                     href="#"
@@ -203,24 +239,6 @@
                     <span
                       class="pointer-events-none w-[70px] overflow-hidden overflow-ellipsis whitespace-nowrap xs:w-[50px]"
                       >বাংলা</span
-                    >
-                  </a>
-                </li>
-                <li>
-                  <a
-                    data-lang="tr"
-                    class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
-                    href="#"
-                    ><img
-                      class="pointer-events-none shrink-0 overflow-hidden rounded-full"
-                      width="20"
-                      height="20"
-                      src="./img/flags/tr.svg"
-                      alt="Türkçe"
-                    />
-                    <span
-                      class="pointer-events-none w-[70px] overflow-hidden overflow-ellipsis whitespace-nowrap xs:w-[50px]"
-                      >Türkçe</span
                     >
                   </a>
                 </li>
@@ -293,24 +311,6 @@
                     <span
                       class="pointer-events-none w-[70px] overflow-hidden overflow-ellipsis whitespace-nowrap xs:w-[50px]"
                       >中文</span
-                    >
-                  </a>
-                </li>
-                <li>
-                  <a
-                    data-lang="kz"
-                    class="language-link flex items-center gap-2 bg-[#2C2D31] px-3 py-[9px] transition-all hover:bg-[#4a4b51]"
-                    href="#"
-                    ><img
-                      class="pointer-events-none shrink-0 overflow-hidden rounded-full"
-                      width="20"
-                      height="20"
-                      src="./img/flags/kz.svg"
-                      alt="Қазақ"
-                    />
-                    <span
-                      class="pointer-events-none w-[70px] overflow-hidden overflow-ellipsis whitespace-nowrap xs:w-[50px]"
-                      >Қазақ</span
                     >
                   </a>
                 </li>
@@ -1627,6 +1627,118 @@
                               class="currency-item-icon"
                               width="24"
                               height="24"
+                              src="./img/currencies/kzt.svg"
+                              alt="KZT"
+                            />
+                            <span class="currency-item-name"
+                              >Kazakhstani Tenge</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">₸</span>
+                              |
+                              <span class="currency-item-abbr">KZT</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/try.svg"
+                              alt="TRY"
+                            />
+                            <span class="currency-item-name">Turkish Lira</span>
+                            <div>
+                              <span class="currency-item-symbol">₺</span>
+                              |
+                              <span class="currency-item-abbr">TRY</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/azn.svg"
+                              alt="AZN"
+                            />
+                            <span class="currency-item-name"
+                              >Azerbaijani Manat</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">₼</span>
+                              |
+                              <span class="currency-item-abbr">AZN</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/uzs.svg"
+                              alt="UZS"
+                            />
+                            <span class="currency-item-name"
+                              >Uzbekistani Som</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">SO’M</span>
+                              |
+                              <span class="currency-item-abbr">UZS</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/uah.svg"
+                              alt="UAH"
+                            />
+                            <span class="currency-item-name"
+                              >Ukrainian Hryvnia</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">₴</span>
+                              |
+                              <span class="currency-item-abbr">UAH</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/kgs.svg"
+                              alt="KGS"
+                            />
+                            <span class="currency-item-name"
+                              >Kyrgyzstani Som</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">с</span>
+                              |
+                              <span class="currency-item-abbr">KGS</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
                               src="./img/currencies/brl.svg"
                               alt="BRL"
                             />
@@ -1694,25 +1806,6 @@
                               <span class="currency-item-symbol">AU$</span>
                               |
                               <span class="currency-item-abbr">AUD</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/azn.svg"
-                              alt="AZN"
-                            />
-                            <span class="currency-item-name"
-                              >Azerbaijani Manat</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">₼</span>
-                              |
-                              <span class="currency-item-abbr">AZN</span>
                             </div>
                           </li>
                           <li
@@ -1813,44 +1906,6 @@
                               class="currency-item-icon"
                               width="24"
                               height="24"
-                              src="./img/currencies/kgs.svg"
-                              alt="KGS"
-                            />
-                            <span class="currency-item-name"
-                              >Kyrgyzstani Som</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">с</span>
-                              |
-                              <span class="currency-item-abbr">KGS</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/kzt.svg"
-                              alt="KZT"
-                            />
-                            <span class="currency-item-name"
-                              >Kazakhstani Tenge</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">₸</span>
-                              |
-                              <span class="currency-item-abbr">KZT</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
                               src="./img/currencies/mxn.svg"
                               alt="MXN"
                             />
@@ -1895,61 +1950,6 @@
                               <span class="currency-item-symbol">฿</span>
                               |
                               <span class="currency-item-abbr">THB</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/try.svg"
-                              alt="TRY"
-                            />
-                            <span class="currency-item-name">Turkish Lira</span>
-                            <div>
-                              <span class="currency-item-symbol">₺</span>
-                              |
-                              <span class="currency-item-abbr">TRY</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/uah.svg"
-                              alt="UAH"
-                            />
-                            <span class="currency-item-name"
-                              >Ukrainian Hryvnia</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">₴</span>
-                              |
-                              <span class="currency-item-abbr">UAH</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/uzs.svg"
-                              alt="UZS"
-                            />
-                            <span class="currency-item-name"
-                              >Uzbekistani Som</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">SO’M</span>
-                              |
-                              <span class="currency-item-abbr">UZS</span>
                             </div>
                           </li>
                         </ul>
@@ -2508,6 +2508,118 @@
                               class="currency-item-icon"
                               width="24"
                               height="24"
+                              src="./img/currencies/kzt.svg"
+                              alt="KZT"
+                            />
+                            <span class="currency-item-name"
+                              >Kazakhstani Tenge</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">₸</span>
+                              |
+                              <span class="currency-item-abbr">KZT</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/try.svg"
+                              alt="TRY"
+                            />
+                            <span class="currency-item-name">Turkish Lira</span>
+                            <div>
+                              <span class="currency-item-symbol">₺</span>
+                              |
+                              <span class="currency-item-abbr">TRY</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/azn.svg"
+                              alt="AZN"
+                            />
+                            <span class="currency-item-name"
+                              >Azerbaijani Manat</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">₼</span>
+                              |
+                              <span class="currency-item-abbr">AZN</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/uzs.svg"
+                              alt="UZS"
+                            />
+                            <span class="currency-item-name"
+                              >Uzbekistani Som</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">SO’M</span>
+                              |
+                              <span class="currency-item-abbr">UZS</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/uah.svg"
+                              alt="UAH"
+                            />
+                            <span class="currency-item-name"
+                              >Ukrainian Hryvnia</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">₴</span>
+                              |
+                              <span class="currency-item-abbr">UAH</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/kgs.svg"
+                              alt="KGS"
+                            />
+                            <span class="currency-item-name"
+                              >Kyrgyzstani Som</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">с</span>
+                              |
+                              <span class="currency-item-abbr">KGS</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
                               src="./img/currencies/brl.svg"
                               alt="BRL"
                             />
@@ -2575,25 +2687,6 @@
                               <span class="currency-item-symbol">AU$</span>
                               |
                               <span class="currency-item-abbr">AUD</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/azn.svg"
-                              alt="AZN"
-                            />
-                            <span class="currency-item-name"
-                              >Azerbaijani Manat</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">₼</span>
-                              |
-                              <span class="currency-item-abbr">AZN</span>
                             </div>
                           </li>
                           <li
@@ -2694,44 +2787,6 @@
                               class="currency-item-icon"
                               width="24"
                               height="24"
-                              src="./img/currencies/kgs.svg"
-                              alt="KGS"
-                            />
-                            <span class="currency-item-name"
-                              >Kyrgyzstani Som</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">с</span>
-                              |
-                              <span class="currency-item-abbr">KGS</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/kzt.svg"
-                              alt="KZT"
-                            />
-                            <span class="currency-item-name"
-                              >Kazakhstani Tenge</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">₸</span>
-                              |
-                              <span class="currency-item-abbr">KZT</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
                               src="./img/currencies/mxn.svg"
                               alt="MXN"
                             />
@@ -2776,61 +2831,6 @@
                               <span class="currency-item-symbol">฿</span>
                               |
                               <span class="currency-item-abbr">THB</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/try.svg"
-                              alt="TRY"
-                            />
-                            <span class="currency-item-name">Turkish Lira</span>
-                            <div>
-                              <span class="currency-item-symbol">₺</span>
-                              |
-                              <span class="currency-item-abbr">TRY</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/uah.svg"
-                              alt="UAH"
-                            />
-                            <span class="currency-item-name"
-                              >Ukrainian Hryvnia</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">₴</span>
-                              |
-                              <span class="currency-item-abbr">UAH</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/uzs.svg"
-                              alt="UZS"
-                            />
-                            <span class="currency-item-name"
-                              >Uzbekistani Som</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">SO’M</span>
-                              |
-                              <span class="currency-item-abbr">UZS</span>
                             </div>
                           </li>
                         </ul>
@@ -3498,6 +3498,118 @@
                               class="currency-item-icon"
                               width="24"
                               height="24"
+                              src="./img/currencies/kzt.svg"
+                              alt="KZT"
+                            />
+                            <span class="currency-item-name"
+                              >Kazakhstani Tenge</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">₸</span>
+                              |
+                              <span class="currency-item-abbr">KZT</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/try.svg"
+                              alt="TRY"
+                            />
+                            <span class="currency-item-name">Turkish Lira</span>
+                            <div>
+                              <span class="currency-item-symbol">₺</span>
+                              |
+                              <span class="currency-item-abbr">TRY</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/azn.svg"
+                              alt="AZN"
+                            />
+                            <span class="currency-item-name"
+                              >Azerbaijani Manat</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">₼</span>
+                              |
+                              <span class="currency-item-abbr">AZN</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/uzs.svg"
+                              alt="UZS"
+                            />
+                            <span class="currency-item-name"
+                              >Uzbekistani Som</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">SO’M</span>
+                              |
+                              <span class="currency-item-abbr">UZS</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/uah.svg"
+                              alt="UAH"
+                            />
+                            <span class="currency-item-name"
+                              >Ukrainian Hryvnia</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">₴</span>
+                              |
+                              <span class="currency-item-abbr">UAH</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/kgs.svg"
+                              alt="KGS"
+                            />
+                            <span class="currency-item-name"
+                              >Kyrgyzstani Som</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">с</span>
+                              |
+                              <span class="currency-item-abbr">KGS</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
                               src="./img/currencies/brl.svg"
                               alt="BRL"
                             />
@@ -3565,25 +3677,6 @@
                               <span class="currency-item-symbol">AU$</span>
                               |
                               <span class="currency-item-abbr">AUD</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/azn.svg"
-                              alt="AZN"
-                            />
-                            <span class="currency-item-name"
-                              >Azerbaijani Manat</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">₼</span>
-                              |
-                              <span class="currency-item-abbr">AZN</span>
                             </div>
                           </li>
                           <li
@@ -3684,44 +3777,6 @@
                               class="currency-item-icon"
                               width="24"
                               height="24"
-                              src="./img/currencies/kgs.svg"
-                              alt="KGS"
-                            />
-                            <span class="currency-item-name"
-                              >Kyrgyzstani Som</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">с</span>
-                              |
-                              <span class="currency-item-abbr">KGS</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/kzt.svg"
-                              alt="KZT"
-                            />
-                            <span class="currency-item-name"
-                              >Kazakhstani Tenge</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">₸</span>
-                              |
-                              <span class="currency-item-abbr">KZT</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
                               src="./img/currencies/mxn.svg"
                               alt="MXN"
                             />
@@ -3766,61 +3821,6 @@
                               <span class="currency-item-symbol">฿</span>
                               |
                               <span class="currency-item-abbr">THB</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/try.svg"
-                              alt="TRY"
-                            />
-                            <span class="currency-item-name">Turkish Lira</span>
-                            <div>
-                              <span class="currency-item-symbol">₺</span>
-                              |
-                              <span class="currency-item-abbr">TRY</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/uah.svg"
-                              alt="UAH"
-                            />
-                            <span class="currency-item-name"
-                              >Ukrainian Hryvnia</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">₴</span>
-                              |
-                              <span class="currency-item-abbr">UAH</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/uzs.svg"
-                              alt="UZS"
-                            />
-                            <span class="currency-item-name"
-                              >Uzbekistani Som</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">SO’M</span>
-                              |
-                              <span class="currency-item-abbr">UZS</span>
                             </div>
                           </li>
                         </ul>
@@ -4224,6 +4224,118 @@
                               class="currency-item-icon"
                               width="24"
                               height="24"
+                              src="./img/currencies/kzt.svg"
+                              alt="KZT"
+                            />
+                            <span class="currency-item-name"
+                              >Kazakhstani Tenge</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">₸</span>
+                              |
+                              <span class="currency-item-abbr">KZT</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/try.svg"
+                              alt="TRY"
+                            />
+                            <span class="currency-item-name">Turkish Lira</span>
+                            <div>
+                              <span class="currency-item-symbol">₺</span>
+                              |
+                              <span class="currency-item-abbr">TRY</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/azn.svg"
+                              alt="AZN"
+                            />
+                            <span class="currency-item-name"
+                              >Azerbaijani Manat</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">₼</span>
+                              |
+                              <span class="currency-item-abbr">AZN</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/uzs.svg"
+                              alt="UZS"
+                            />
+                            <span class="currency-item-name"
+                              >Uzbekistani Som</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">SO’M</span>
+                              |
+                              <span class="currency-item-abbr">UZS</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/uah.svg"
+                              alt="UAH"
+                            />
+                            <span class="currency-item-name"
+                              >Ukrainian Hryvnia</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">₴</span>
+                              |
+                              <span class="currency-item-abbr">UAH</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
+                              src="./img/currencies/kgs.svg"
+                              alt="KGS"
+                            />
+                            <span class="currency-item-name"
+                              >Kyrgyzstani Som</span
+                            >
+                            <div>
+                              <span class="currency-item-symbol">с</span>
+                              |
+                              <span class="currency-item-abbr">KGS</span>
+                            </div>
+                          </li>
+                          <li
+                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
+                          >
+                            <img
+                              class="currency-item-icon"
+                              width="24"
+                              height="24"
                               src="./img/currencies/brl.svg"
                               alt="BRL"
                             />
@@ -4291,25 +4403,6 @@
                               <span class="currency-item-symbol">AU$</span>
                               |
                               <span class="currency-item-abbr">AUD</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/azn.svg"
-                              alt="AZN"
-                            />
-                            <span class="currency-item-name"
-                              >Azerbaijani Manat</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">₼</span>
-                              |
-                              <span class="currency-item-abbr">AZN</span>
                             </div>
                           </li>
                           <li
@@ -4410,44 +4503,6 @@
                               class="currency-item-icon"
                               width="24"
                               height="24"
-                              src="./img/currencies/kgs.svg"
-                              alt="KGS"
-                            />
-                            <span class="currency-item-name"
-                              >Kyrgyzstani Som</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">с</span>
-                              |
-                              <span class="currency-item-abbr">KGS</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/kzt.svg"
-                              alt="KZT"
-                            />
-                            <span class="currency-item-name"
-                              >Kazakhstani Tenge</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">₸</span>
-                              |
-                              <span class="currency-item-abbr">KZT</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
                               src="./img/currencies/mxn.svg"
                               alt="MXN"
                             />
@@ -4492,61 +4547,6 @@
                               <span class="currency-item-symbol">฿</span>
                               |
                               <span class="currency-item-abbr">THB</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/try.svg"
-                              alt="TRY"
-                            />
-                            <span class="currency-item-name">Turkish Lira</span>
-                            <div>
-                              <span class="currency-item-symbol">₺</span>
-                              |
-                              <span class="currency-item-abbr">TRY</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/uah.svg"
-                              alt="UAH"
-                            />
-                            <span class="currency-item-name"
-                              >Ukrainian Hryvnia</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">₴</span>
-                              |
-                              <span class="currency-item-abbr">UAH</span>
-                            </div>
-                          </li>
-                          <li
-                            class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#253265] p-3 text-base font-bold transition-all hover:bg-[#33417B] [&.active]:bg-[#33417B]"
-                          >
-                            <img
-                              class="currency-item-icon"
-                              width="24"
-                              height="24"
-                              src="./img/currencies/uzs.svg"
-                              alt="UZS"
-                            />
-                            <span class="currency-item-name"
-                              >Uzbekistani Som</span
-                            >
-                            <div>
-                              <span class="currency-item-symbol">SO’M</span>
-                              |
-                              <span class="currency-item-abbr">UZS</span>
                             </div>
                           </li>
                         </ul>
@@ -5389,6 +5389,118 @@
                             class="currency-item-icon"
                             width="24"
                             height="24"
+                            src="./img/currencies/kzt.svg"
+                            alt="KZT"
+                          />
+                          <span class="currency-item-name"
+                            >Kazakhstani Tenge</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">₸</span>
+                            |
+                            <span class="currency-item-abbr">KZT</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/try.svg"
+                            alt="TRY"
+                          />
+                          <span class="currency-item-name">Turkish Lira</span>
+                          <div>
+                            <span class="currency-item-symbol">₺</span>
+                            |
+                            <span class="currency-item-abbr">TRY</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/azn.svg"
+                            alt="AZN"
+                          />
+                          <span class="currency-item-name"
+                            >Azerbaijani Manat</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">₼</span>
+                            |
+                            <span class="currency-item-abbr">AZN</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/uzs.svg"
+                            alt="UZS"
+                          />
+                          <span class="currency-item-name"
+                            >Uzbekistani Som</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">SO’M</span>
+                            |
+                            <span class="currency-item-abbr">UZS</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/uah.svg"
+                            alt="UAH"
+                          />
+                          <span class="currency-item-name"
+                            >Ukrainian Hryvnia</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">₴</span>
+                            |
+                            <span class="currency-item-abbr">UAH</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
+                            src="./img/currencies/kgs.svg"
+                            alt="KGS"
+                          />
+                          <span class="currency-item-name"
+                            >Kyrgyzstani Som</span
+                          >
+                          <div>
+                            <span class="currency-item-symbol">с</span>
+                            |
+                            <span class="currency-item-abbr">KGS</span>
+                          </div>
+                        </li>
+                        <li
+                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
+                        >
+                          <img
+                            class="currency-item-icon"
+                            width="24"
+                            height="24"
                             src="./img/currencies/brl.svg"
                             alt="BRL"
                           />
@@ -5450,25 +5562,6 @@
                             <span class="currency-item-symbol">AU$</span>
                             |
                             <span class="currency-item-abbr">AUD</span>
-                          </div>
-                        </li>
-                        <li
-                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
-                        >
-                          <img
-                            class="currency-item-icon"
-                            width="24"
-                            height="24"
-                            src="./img/currencies/azn.svg"
-                            alt="AZN"
-                          />
-                          <span class="currency-item-name"
-                            >Azerbaijani Manat</span
-                          >
-                          <div>
-                            <span class="currency-item-symbol">₼</span>
-                            |
-                            <span class="currency-item-abbr">AZN</span>
                           </div>
                         </li>
                         <li
@@ -5569,44 +5662,6 @@
                             class="currency-item-icon"
                             width="24"
                             height="24"
-                            src="./img/currencies/kgs.svg"
-                            alt="KGS"
-                          />
-                          <span class="currency-item-name"
-                            >Kyrgyzstani Som</span
-                          >
-                          <div>
-                            <span class="currency-item-symbol">с</span>
-                            |
-                            <span class="currency-item-abbr">KGS</span>
-                          </div>
-                        </li>
-                        <li
-                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
-                        >
-                          <img
-                            class="currency-item-icon"
-                            width="24"
-                            height="24"
-                            src="./img/currencies/kzt.svg"
-                            alt="KZT"
-                          />
-                          <span class="currency-item-name"
-                            >Kazakhstani Tenge</span
-                          >
-                          <div>
-                            <span class="currency-item-symbol">₸</span>
-                            |
-                            <span class="currency-item-abbr">KZT</span>
-                          </div>
-                        </li>
-                        <li
-                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
-                        >
-                          <img
-                            class="currency-item-icon"
-                            width="24"
-                            height="24"
                             src="./img/currencies/mxn.svg"
                             alt="MXN"
                           />
@@ -5651,61 +5706,6 @@
                             <span class="currency-item-symbol">฿</span>
                             |
                             <span class="currency-item-abbr">THB</span>
-                          </div>
-                        </li>
-                        <li
-                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
-                        >
-                          <img
-                            class="currency-item-icon"
-                            width="24"
-                            height="24"
-                            src="./img/currencies/try.svg"
-                            alt="TRY"
-                          />
-                          <span class="currency-item-name">Turkish Lira</span>
-                          <div>
-                            <span class="currency-item-symbol">₺</span>
-                            |
-                            <span class="currency-item-abbr">TRY</span>
-                          </div>
-                        </li>
-                        <li
-                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
-                        >
-                          <img
-                            class="currency-item-icon"
-                            width="24"
-                            height="24"
-                            src="./img/currencies/uah.svg"
-                            alt="UAH"
-                          />
-                          <span class="currency-item-name"
-                            >Ukrainian Hryvnia</span
-                          >
-                          <div>
-                            <span class="currency-item-symbol">₴</span>
-                            |
-                            <span class="currency-item-abbr">UAH</span>
-                          </div>
-                        </li>
-                        <li
-                          class="grid cursor-pointer grid-cols-[auto_1fr_auto] gap-2 border-b border-white/20 bg-[#021816] p-3 text-base font-bold transition-all hover:bg-[#042925] [&.active]:bg-[#08453f]"
-                        >
-                          <img
-                            class="currency-item-icon"
-                            width="24"
-                            height="24"
-                            src="./img/currencies/uzs.svg"
-                            alt="UZS"
-                          />
-                          <span class="currency-item-name"
-                            >Uzbekistani Som</span
-                          >
-                          <div>
-                            <span class="currency-item-symbol">SO’M</span>
-                            |
-                            <span class="currency-item-abbr">UZS</span>
                           </div>
                         </li>
                       </ul>
@@ -6100,6 +6100,38 @@
           </div>
         </div>
       </div>
+    </div>
+    <div
+      class="preloader fixed left-0 top-0 z-[1000] grid h-screen w-full place-items-center bg-[#0c0d0d]"
+    >
+      <svg
+        width="106"
+        height="106"
+        viewBox="0 0 106 106"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect
+          x="4"
+          y="53"
+          width="68.7696"
+          height="68.7696"
+          transform="rotate(-45 4.46447 53)"
+          class="svg-elem-1"
+        ></rect>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M15.9643 37.9889L8.07766 30.0616H56.3553L57.5206 31.0185L57.757 30.0612L91.7796 30.0616L97.7224 35.9752L94.4349 49.2863L92.8073 50.1223L94.0044 50.9923L87.794 76.1383L55.6496 76.1384L48.9386 71.9775L40.5125 76.1384H15.3838L7.94556 70.3924L15.9643 37.9889Z"
+          class="svg-elem-2"
+        ></path>
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M56.6104 72.7651L51.4716 69.5789L57.1369 46.6406H80.8781L81.2703 44.7784L87.1546 41.3316H24.2982L28.3996 44.7784L23.5957 64.2292L30.0207 61.2148H37.5246L39.3295 54.1813H31.8246L32.9996 49.6273L39.0717 46.6406H51.8423L46.177 69.5789L39.7249 72.7651H16.5349L11.7476 69.0669L19.6625 37.0197L16.1329 33.4349H55.1476L59.513 37.0197L60.3984 33.4346L90.387 33.4349L93.9896 37.0197L91.5279 46.9871L86.3879 49.6273L90.1852 52.3868L85.1523 72.7649L56.6104 72.7651ZM69.9122 61.2148L63.6971 64.2292L66.1445 54.1813H79.2211L77.4161 61.2148H69.9122Z"
+          class="svg-elem-3"
+        ></path>
+      </svg>
     </div>
     <script type="module" src="/main.js"></script>
   </body>

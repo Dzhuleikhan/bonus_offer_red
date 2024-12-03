@@ -102,3 +102,8 @@ shakeTl
     "<",
   )
   .to(".main-btn", { rotate: 0, ease: "none", duration: 0.3 });
+
+setTimeout(() => {
+  document.querySelector(".preloader").classList.add("hidden");
+  document.querySelector(".wrapper").classList.remove("hidden");
+}, 1000);

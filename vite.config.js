@@ -1,4 +1,4 @@
-import { defineConfig } from "vite";
+import { defineConfig, splitVendorChunkPlugin } from "vite";
 
 export default defineConfig({
   base: "",
@@ -7,4 +7,5 @@ export default defineConfig({
       "top-level-await": true,
     },
   },
+  plugins: [splitVendorChunkPlugin()],
 });
