@@ -7,7 +7,3 @@ export const fetchDomain = async (callback) => {
     callback("goldbet9.com");
   }
 };
-
-await fetchDomain((domain) => {
-  console.log(domain);
-});

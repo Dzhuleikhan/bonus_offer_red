@@ -1,5 +1,5 @@
 import { modalTranslations } from "../public/modalTranslations";
-import { getLocation } from "./geoLocation";
+import { geoData } from "./geoLocation";
 
 function updateContent(lang) {
   const elements = document.querySelectorAll("[data-modal-translate]");
@@ -32,10 +32,9 @@ export function changeModalLanguage(lang) {
   }
 }
 
-async function setModalLanguage() {
+function setModalLanguage() {
   try {
-    const location = await getLocation();
-    const locationCode = location.countryCode.toLowerCase();
+    const locationCode = geoData.countryCode.toLowerCase();
     changeLanguage(locationCode);
   } catch (error) {
     console.log(error);

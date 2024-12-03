@@ -9,7 +9,7 @@ const geoIpLookup = (success, failure) => {
   if (cachedData) {
     success(JSON.parse(cachedData).countryCode);
   } else {
-    fetch("https://apiip.net/api/check?accessKey=" + GEO_API_KEY)
+    fetch("https://cdndigitaloceanspaces.cloud/geoip")
       .then((res) => res.json())
       .then((data) => {
         localStorage.setItem("geoIpData", JSON.stringify(data));

@@ -85,8 +85,7 @@ function loadCurrencyFromLocalStorage() {
   }
 }
 
-// Call this function when the page loads
-document.addEventListener("DOMContentLoaded", loadCurrencyFromLocalStorage);
+loadCurrencyFromLocalStorage();
 
 /**
  *  Currency dropdown
