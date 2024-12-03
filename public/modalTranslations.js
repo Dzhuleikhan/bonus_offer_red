@@ -673,7 +673,7 @@ export const modalTranslations = {
     signUpBtn: "Roʻyxatdan oʻtish",
     promoApplied: "Bonus qoʻllanildi",
     bonusName: "Xush kelibsiz bonusingizni",
-    depositBonus: `bonus <span class="bonus-value"></span> <span class="bonus-currency"></span> gacha`,
+    depositBonus: `bonus <span class="bonus-value"></span> <span class="bonus-currency"></span> gacha + 25FS`,
     depositBonus2: "1100% depozitga 127MLN SO'M gacha",
     phoneNumber: "Telefon raqami",
     password: "Parol",

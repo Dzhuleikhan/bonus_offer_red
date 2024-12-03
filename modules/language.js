@@ -115,6 +115,8 @@ function settingBonusValueAndAmount(countryCode) {
 
 async function determineLanguage() {
   const location = await getLocation();
+  const userLang = navigator.language.split("-")[0];
+
   const countryLangMap = {
     EN: "en",
     ES: "es",
@@ -133,7 +135,7 @@ async function determineLanguage() {
     KG: "kg",
     // Add more country codes and their corresponding languages as needed
   };
-  lang = countryLangMap[location.countryCode] || "en";
+  lang = userLang || countryLangMap[location.countryCode] || "en";
 
   return lang;
 }
@@ -141,6 +143,8 @@ async function determineLanguage() {
 async function mainFunction() {
   try {
     lang = await determineLanguage();
+    console.log(lang);
+
     changeLanguage(lang);
     gsap.to(".preloader", { opacity: 0, duration: 0.5 });
     document.querySelector(".wrapper").classList.remove("hidden");

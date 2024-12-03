@@ -1,5 +1,4 @@
 import intlTelInput from "intl-tel-input/intlTelInputWithUtils";
-import { GEO_API_KEY } from "../public/geoApi";
 
 const authPhoneInput = document.querySelector(".auth-phone-input");
 const socialsPhoneInput = document.querySelector(".socials-phone-input");
