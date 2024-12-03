@@ -1,5 +1,7 @@
 import { modalTranslations } from "../public/modalTranslations";
-import { geoData } from "./geoLocation";
+import { setPaymentMethods } from "./footerPayments";
+import { paymentCountries } from "../public/payments";
+import { geoData, getLocation } from "./geoLocation";
 
 function updateContent(lang) {
   const elements = document.querySelectorAll("[data-modal-translate]");
@@ -32,14 +34,14 @@ export function changeModalLanguage(lang) {
   }
 }
 
-function setModalLanguage() {
+async function setModalLanguage() {
   try {
-    const locationCode = geoData.countryCode.toLowerCase();
-    changeLanguage(locationCode);
+    const location = await getLocation();
+    changeLanguage(location.countryCode);
+    setPaymentMethods(paymentCountries, "kz");
   } catch (error) {
     console.log(error);
     changeLanguage("en");
   }
 }
-
 setModalLanguage();

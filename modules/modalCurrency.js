@@ -88,7 +88,7 @@ function loadCurrencyFromLocalStorage() {
 loadCurrencyFromLocalStorage();
 
 /**
- *  Currency dropdown
+ *  Currency dropdownxw
  */
 
 const formCurrency = document.querySelectorAll(".form-currency");

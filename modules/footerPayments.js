@@ -1,5 +1,3 @@
-import { getLocation } from "./geoLocation";
-import { paymentCountries } from "../public/payments";
 import Swiper from "swiper";
 import { Autoplay, EffectFade } from "swiper/modules";
 
