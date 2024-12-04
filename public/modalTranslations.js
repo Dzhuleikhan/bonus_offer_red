@@ -639,7 +639,7 @@ export const modalTranslations = {
   },
   kz: {
     // ? AUTH
-    mainModalTitle: "Roʻyxatdan oʻtish KZ",
+    mainModalTitle: "Roʻyxatdan oʻtish",
     tabEmail: "E-mail",
     tabPhone: "Telefon",
     tabSocial: "Ijtimoiylar",
