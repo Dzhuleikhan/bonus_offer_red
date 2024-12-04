@@ -1,54 +1,54 @@
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-SemiBold.woff2') format('woff2');
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-SemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Rajdhani';
-  src: url('../fonts/Rajdhani-Bold.woff2') format('woff2');
+  font-family: "Rajdhani";
+  src: url("../fonts/Rajdhani-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Black.woff2') format('woff2');
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Black.woff2") format("woff2");
   font-weight: 900;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Regular.woff2') format('woff2');
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-BlackItalic.woff2') format('woff2');
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-BlackItalic.woff2") format("woff2");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Saira';
-  src: url('../fonts/Saira-BlackItalic.woff2') format('woff2');
+  font-family: "Saira";
+  src: url("../fonts/Saira-BlackItalic.woff2") format("woff2");
   font-weight: 900;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Gilroy';
-  src: url('../fonts/Gilroy-Bold.woff2') format('woff2');
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -60,17 +60,17 @@
 
 @layer base {
   html {
-    @apply font-gilroy text-white
+    @apply font-gilroy text-white;
   }
 }
 
 @layer components {
   .container {
-    @apply max-w-[1130px]
+    @apply max-w-[1130px];
   }
 
   .main-btn {
-    @apply font-black uppercase text-2xl leading-none text-white py-6 px-12 rounded-[36px]
+    @apply rounded-[36px] px-12 py-6 text-2xl font-black uppercase leading-none text-white;
   }
 }
 
@@ -107,7 +107,6 @@
   height: 20px;
   opacity: 1;
   background-color: #f0f0f060;
-
 }
 
 .swiper-pagination .swiper-pagination-bullet-active {
@@ -116,10 +115,14 @@
 
 @media (max-width: 576px) {
   .slide-img-box::before {
-    content: '';
+    content: "";
     width: 100%;
     height: 50px;
-    background: radial-gradient(44.27% 100% at 50% 99.98%, rgba(9, 8, 18, 1) 18%, rgba(8, 11, 18, 0) 92%);
+    background: radial-gradient(
+      44.27% 100% at 50% 99.98%,
+      rgba(9, 8, 18, 1) 18%,
+      rgba(8, 11, 18, 0) 92%
+    );
     position: absolute;
     left: 0;
     bottom: -20px;
@@ -133,15 +136,15 @@
 
 @keyframes pulse {
   0% {
-    box-shadow: 0 0 3px #E93224;
+    box-shadow: 0 0 3px #e93224;
   }
 
   50% {
-    box-shadow: 0 0 20px #E93224;
+    box-shadow: 0 0 20px #e93224;
   }
 
   100% {
-    box-shadow: 0 0 5px #E93224;
+    box-shadow: 0 0 5px #e93224;
   }
 }
 
@@ -159,7 +162,7 @@
 }
 
 .item-img::before {
-  content: '';
+  content: "";
   width: 140px;
   height: 140px;
   border-radius: 50%;
@@ -190,7 +193,7 @@
 }
 
 .copy-tooltip::before {
-  content: '';
+  content: "";
   width: 0;
   height: 0;
   border-left: 10px solid transparent;
@@ -212,10 +215,10 @@
 }
 
 .form-type-btn::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 3px;
-  background: #FAD303;
+  background: #fad303;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -227,11 +230,11 @@
 }
 
 .form-type-btn.active span {
-  color: #FAD303;
+  color: #fad303;
 }
 
 .form-type-btn.active svg {
-  stroke: #FAD303;
+  stroke: #fad303;
 }
 
 .form-group-email label {
@@ -239,8 +242,8 @@
 }
 
 /* .form-group-email input:focus, */
-.form-group-email input:focus+label,
-.form-group-email input:not(:placeholder-shown)+label {
+.form-group-email input:focus + label,
+.form-group-email input:not(:placeholder-shown) + label {
   font-size: 12px;
   transform: translateY(-14px);
 }
@@ -262,11 +265,11 @@
 }
 
 .form-group.not-valid {
-  border: 2px solid #FF5530;
+  border: 2px solid #ff5530;
 }
 
 .form-group.not-valid input {
-  color: #FF5530;
+  color: #ff5530;
 }
 
 .form-group.not-valid .tooltip {
@@ -278,11 +281,11 @@
 }
 
 .form-group-password.not-valid {
-  border: 2px solid #FF5530;
+  border: 2px solid #ff5530;
 }
 
 .form-group-password.not-valid input {
-  color: #FF5530;
+  color: #ff5530;
 }
 
 .form-group-password.not-valid .tooltip {
@@ -291,21 +294,21 @@
 
 input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px #ffffff inset;
-  -webkit-text-fill-color: #755EEB;
+  -webkit-text-fill-color: #755eeb;
 }
 
 input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 1000px #ffffff inset;
-  -webkit-text-fill-color: #755EEB;
+  -webkit-text-fill-color: #755eeb;
 }
 
 input:-webkit-autofill:hover {
   -webkit-box-shadow: 0 0 0 1000px #ffffff inset;
-  -webkit-text-fill-color: #755EEB;
+  -webkit-text-fill-color: #755eeb;
 }
 
 .checkbox .checkbox-content::before {
-  content: '';
+  content: "";
   width: 20px;
   height: 20px;
   border-radius: 4px;
@@ -316,8 +319,8 @@ input:-webkit-autofill:hover {
   top: 0;
 }
 
-.checkbox .checkbox-input:checked+.checkbox-content::before {
-  background: url('../img/checked.svg') #F4FD2B;
+.checkbox .checkbox-input:checked + .checkbox-content::before {
+  background: url("../img/checked.svg") #f4fd2b;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -327,7 +330,7 @@ input:-webkit-autofill:hover {
 }
 
 .tooltip::before {
-  content: '';
+  content: "";
   width: 0;
   height: 0;
   border-left: 12px solid transparent;
@@ -375,7 +378,6 @@ input:-webkit-autofill:hover {
   -webkit-text-fill-color: #f0f0f0;
 }
 
-
 .auth-form .iti {
   width: 100%;
   height: 52px;
@@ -403,7 +405,7 @@ input:-webkit-autofill:hover {
 }
 
 .auth-form .iti__country-list li.iti__highlight {
-  background-color: #33417B;
+  background-color: #33417b;
 }
 
 .auth-form .iti__country-list li span {
@@ -414,7 +416,7 @@ input:-webkit-autofill:hover {
   top: 105%;
   border-radius: 8px !important;
   overflow: hidden !important;
-  border-color: #4E5881 !important;
+  border-color: #4e5881 !important;
 }
 
 .form-content {
@@ -426,41 +428,41 @@ input:-webkit-autofill:hover {
 }
 
 .modal-tabs button.active {
-  border-color: #F4FD2B;
-  color: #F4FD2B;
+  border-color: #f4fd2b;
+  color: #f4fd2b;
 }
 
-.modal-tabs button[data-tab='email'].active svg {
-  stroke: #F4FD2B;
+.modal-tabs button[data-tab="email"].active svg {
+  stroke: #f4fd2b;
 }
 
-.modal-tabs button[data-tab='phone'].active svg {
-  stroke: #F4FD2B;
+.modal-tabs button[data-tab="phone"].active svg {
+  stroke: #f4fd2b;
 }
 
-.modal-tabs button[data-tab='social'].active svg {
-  fill: #F4FD2B;
+.modal-tabs button[data-tab="social"].active svg {
+  fill: #f4fd2b;
 }
 
-.modal-tabs button[data-tab='oneclick'].active svg {
-  stroke: #F4FD2B;
+.modal-tabs button[data-tab="oneclick"].active svg {
+  stroke: #f4fd2b;
 }
 
 .checkbox:hover .checkbox-content::before {
-  background-image: url('../img/unckecked.svg');
+  background-image: url("../img/unckecked.svg");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-.checkbox-input:checked+.checkbox-content::before {
-  background: url('../img/ckecked.svg'), #F4FD2B;
+.checkbox-input:checked + .checkbox-content::before {
+  background: url("../img/ckecked.svg"), #f4fd2b;
   background-repeat: no-repeat;
   background-size: contain;
   border: none;
 }
 
 .checkbox-content::before {
-  content: '';
+  content: "";
   width: 20px;
   height: 20px;
   border-radius: 4px;
@@ -479,7 +481,7 @@ input:-webkit-autofill:hover {
 }
 
 .socials-item::before {
-  content: '';
+  content: "";
   width: 30px;
   height: 8px;
   border-radius: 50%;
@@ -490,20 +492,20 @@ input:-webkit-autofill:hover {
   filter: blur(4px);
 }
 
-.social-variant-input:checked+.socials-item {
+.social-variant-input:checked + .socials-item {
   background-color: #fff;
 }
 
-.social-variant-input:checked+.socials-item svg {
+.social-variant-input:checked + .socials-item svg {
   fill: #0e0f20;
 }
 
 .valid {
-  border-color: #4ED937;
+  border-color: #4ed937;
 }
 
 .non-valid {
-  border-color: #FF5530;
+  border-color: #ff5530;
 }
 
 .auth-form-email.valid .validation-cta .correct {
@@ -532,7 +534,7 @@ input:-webkit-autofill:hover {
 }
 
 .error-alert::before {
-  content: '';
+  content: "";
   width: 0;
   height: 0;
   border-left: 8px solid transparent;
@@ -545,12 +547,12 @@ input:-webkit-autofill:hover {
   transform: translateX(-50%);
 }
 
-.terms-input.non-valid+span::before {
-  border-color: #FF5530;
+.terms-input.non-valid + span::before {
+  border-color: #ff5530;
 }
 
 .auth-form-phone.valid {
-  border: 1px solid #4ED937;
+  border: 1px solid #4ed937;
   border-radius: 8px;
 }
 
@@ -571,12 +573,12 @@ input:-webkit-autofill:hover {
 }
 
 .auth-form-phone.non-valid {
-  border: 1px solid #FF5530;
+  border: 1px solid #ff5530;
   border-radius: 8px;
 }
 
 .modal-tabs button::before {
-  content: '';
+  content: "";
   width: 50px;
   height: 30px;
   border-radius: 50px;
@@ -593,11 +595,11 @@ input:-webkit-autofill:hover {
 }
 
 .modal-tabs button.active::after {
-  content: '';
+  content: "";
   width: 50px;
   height: 30px;
   border-radius: 50px;
-  background: #F4FD2B50;
+  background: #f4fd2b50;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -616,7 +618,7 @@ input:-webkit-autofill:hover {
 }
 
 .modal-tabs button.active:hover::before {
-  background: #F4FD2B50;
+  background: #f4fd2b50;
 }
 
 .decline-title {
@@ -636,7 +638,12 @@ input:-webkit-autofill:hover {
 }
 
 .next-deposit {
-  background: url('../img/next-deposit-bg.webp'), linear-gradient(180deg, rgba(20, 130, 255, 0.4) 0%, rgba(20, 130, 255, 0.4) 100%);
+  background: url("../img/next-deposit-bg.webp"),
+    linear-gradient(
+      180deg,
+      rgba(20, 130, 255, 0.4) 0%,
+      rgba(20, 130, 255, 0.4) 100%
+    );
   background-repeat: no-repeat;
   background-position: 100% 0;
   background-size: contain;
@@ -647,7 +654,12 @@ input:-webkit-autofill:hover {
 }
 
 .your-winning {
-  background: url('../img/your-winning-bg.webp'), linear-gradient(180deg, rgba(78, 217, 55, 0.4) 0%, rgba(24, 94, 13, 0.4) 100%);
+  background: url("../img/your-winning-bg.webp"),
+    linear-gradient(
+      180deg,
+      rgba(78, 217, 55, 0.4) 0%,
+      rgba(24, 94, 13, 0.4) 100%
+    );
   background-repeat: no-repeat;
   background-position: 100% 0;
   background-size: contain;
@@ -659,7 +671,7 @@ input:-webkit-autofill:hover {
 }
 
 .form-yellow-btn::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-color: #f0f0f020;
@@ -677,7 +689,7 @@ input:-webkit-autofill:hover {
   visibility: visible;
 }
 
-.social-variant-input:disabled+span {
+.social-variant-input:disabled + span {
   opacity: 0.4;
 }
 
@@ -761,11 +773,11 @@ input:-webkit-autofill:hover {
 }
 
 .socials-form .iti__dial-code {
-  color: #755EEB !important;
+  color: #755eeb !important;
 }
 
 .socials-form .iti__selected-dial-code {
-  color: #755EEB !important;
+  color: #755eeb !important;
 }
 
 .socials-form .iti .phone-input {
@@ -778,12 +790,11 @@ input:-webkit-autofill:hover {
   height: 22px !important;
 }
 
-
 .socials-form-type-btn::before {
-  content: '';
+  content: "";
   width: 100%;
   height: 3px;
-  background: #FAD303;
+  background: #fad303;
   position: absolute;
   left: 0;
   bottom: 0;
@@ -795,11 +806,11 @@ input:-webkit-autofill:hover {
 }
 
 .socials-form-type-btn.active span {
-  color: #FAD303;
+  color: #fad303;
 }
 
 .socials-form-type-btn.active svg {
-  stroke: #FAD303;
+  stroke: #fad303;
 }
 
 .socials-form-group-email label {
@@ -807,8 +818,8 @@ input:-webkit-autofill:hover {
 }
 
 /* .form-group-email input:focus, */
-.socials-form-group-email input:focus+label,
-.socials-form-group-email input:not(:placeholder-shown)+label {
+.socials-form-group-email input:focus + label,
+.socials-form-group-email input:not(:placeholder-shown) + label {
   font-size: 12px;
   transform: translateY(-14px);
 }
@@ -830,11 +841,11 @@ input:-webkit-autofill:hover {
 }
 
 .socials-form-group.not-valid {
-  border: 2px solid #FF5530;
+  border: 2px solid #ff5530;
 }
 
 .socials-form-group.not-valid input {
-  color: #FF5530;
+  color: #ff5530;
 }
 
 .socials-form-group.not-valid .tooltip {
@@ -846,11 +857,11 @@ input:-webkit-autofill:hover {
 }
 
 .socials-form-group-password.not-valid {
-  border: 2px solid #FF5530;
+  border: 2px solid #ff5530;
 }
 
 .socials-form-group-password.not-valid input {
-  color: #FF5530;
+  color: #ff5530;
 }
 
 .socials-form-group-password.not-valid .tooltip {
@@ -859,21 +870,21 @@ input:-webkit-autofill:hover {
 
 .socials-form input:-webkit-autofill {
   -webkit-box-shadow: 0 0 0 1000px #f0f0f0 inset;
-  -webkit-text-fill-color: #755EEB;
+  -webkit-text-fill-color: #755eeb;
 }
 
 .socials-form input:-webkit-autofill:focus {
   -webkit-box-shadow: 0 0 0 1000px #f0f0f0 inset;
-  -webkit-text-fill-color: #755EEB;
+  -webkit-text-fill-color: #755eeb;
 }
 
 .socials-form input:-webkit-autofill:hover {
   -webkit-box-shadow: 0 0 0 1000px #f0f0f0 inset;
-  -webkit-text-fill-color: #755EEB;
+  -webkit-text-fill-color: #755eeb;
 }
 
 .checkbox .checkbox-content::before {
-  content: '';
+  content: "";
   width: 20px;
   height: 20px;
   border-radius: 4px;
@@ -884,8 +895,8 @@ input:-webkit-autofill:hover {
   top: 0;
 }
 
-.checkbox .checkbox-input:checked+.checkbox-content::before {
-  background: url('../img/checked.svg') #F4FD2B;
+.checkbox .checkbox-input:checked + .checkbox-content::before {
+  background: url("../img/checked.svg") #f4fd2b;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -895,7 +906,7 @@ input:-webkit-autofill:hover {
 }
 
 .tooltip::before {
-  content: '';
+  content: "";
   width: 0;
   height: 0;
   border-left: 12px solid transparent;
@@ -950,7 +961,7 @@ input:-webkit-autofill:hover {
 }
 
 .form-bonus-btn.bonus-applied {
-  border-color: #4ED937;
+  border-color: #4ed937;
 }
 
 .form-bonus-btn.bonus-applied .bonus-btn-check {
@@ -965,4 +976,68 @@ input:-webkit-autofill:hover {
   .main-bonus-name {
     font-size: 12px !important;
   }
+}
+
+@media (max-width: 374px) {
+  .main-bonus-name {
+    font-size: 12px !important;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes animate-svg-draw-1 {
+  0% {
+    stroke-dashoffset: 277;
+    stroke-dasharray: 277;
+  }
+
+  100% {
+    stroke-dashoffset: 227;
+    stroke-dasharray: 554;
+  }
+
+  0% {
+    stroke-dashoffset: 554;
+    stroke-dasharray: 277;
+  }
+}
+
+.svg-elem-1 {
+  animation: animate-svg-draw-1 2s ease 0s infinite;
+  stroke: #ffb600;
+  stroke-width: 6;
+  fill: none;
+
+  stroke-linecap: round;
+  stroke-linejoin: rectangle;
+}
+
+.svg-elem-2 {
+  animation: pulse 3s ease 1s infinite;
+  transform-origin: center;
+  fill: black;
+}
+
+.svg-elem-3 {
+  animation: pulse 3s ease 1s infinite;
+  transform-origin: center;
+  fill: #f0f0f0;
+}
+
+.terms-modal.is-open {
+  display: grid;
+}
+
+.scroll-lock {
+  overflow: hidden;
 }

@@ -1,10 +1,13 @@
 import { changeModalLanguage } from "./modalLanguage";
 import { translations } from "/public/translations";
 import { getLocation } from "./geoLocation";
+import gsap from "gsap";
 
 const headerLangBtn = document.querySelector(".header-lang-btn");
 const headerLangList = document.querySelector(".header-lang-list");
 const languageLinks = document.querySelectorAll(".language-link");
+
+let lang;
 
 if (headerLangBtn) {
   headerLangBtn.addEventListener("click", () => {
@@ -30,32 +33,9 @@ function updateContent(lang) {
 
 function changeLanguage(lang) {
   updateContent(lang);
-  saveUserLanguage(lang);
   updateButtonText(lang);
   setActiveLanguageBtn(lang);
-}
-
-function getLanguageFromPath() {
-  const pathSegments = window.location.pathname.split("/");
-  const lang = pathSegments[1];
-  // Assuming the language code is the first segment in the path
-  return translations[lang] ? lang : null;
-}
-
-function getUserLanguage() {
-  const userLang = navigator.language || navigator.userLanguage;
-  const supportedLangs = ["en", "tr", "ru"];
-  const langPrefix = userLang.split("-")[0]; // Get the language code without region
-
-  return supportedLangs.includes(langPrefix) ? langPrefix : "en"; // Default to 'en' if the language is not supported
-}
-
-function saveUserLanguage(lang) {
-  localStorage.setItem("preferredLanguage", lang);
-}
-
-function loadUserLanguage() {
-  return localStorage.getItem("preferredLanguage");
+  changeModalLanguage(lang);
 }
 
 function setActiveLanguageBtn(currentLang) {
@@ -86,32 +66,31 @@ function updateButtonText(lang) {
 }
 
 async function determineLanguage() {
-  let lang = getLanguageFromPath();
-  if (!lang) {
-    lang = loadUserLanguage();
-  }
-  if (!lang) {
-    try {
-      const locationData = await getLocation();
-      const countryLangMap = {
-        US: "en",
-        TR: "tr",
-        RU: "ru",
-        // Add more country codes and their corresponding languages as needed
-      };
-      lang = countryLangMap[locationData.country] || getUserLanguage();
-    } catch (error) {
-      console.error("Failed to fetch location data:", error);
-      lang = getUserLanguage();
-    }
-  }
+  const location = await getLocation();
+  const userLang = navigator.language.split("-")[0];
+
+  const countryLangMap = {
+    US: "en",
+    TR: "tr",
+    RU: "ru",
+    // Add more country codes and their corresponding languages as needed
+  };
+  lang = userLang || countryLangMap[location.countryCode] || "en";
+
   return lang;
 }
 
-window.onload = async () => {
-  const lang = await determineLanguage();
-  changeLanguage(lang);
-};
+async function mainFunction() {
+  try {
+    lang = await determineLanguage();
+    changeLanguage("tr");
+    gsap.to(".preloader", { opacity: 0, duration: 0.5 });
+    document.querySelector(".wrapper").classList.remove("hidden");
+  } catch (error) {
+    console.error("Error determining language:", error);
+  }
+}
+mainFunction();
 
 document.querySelectorAll(".language-link").forEach((langBtn) => {
   langBtn.addEventListener("click", (e) => {

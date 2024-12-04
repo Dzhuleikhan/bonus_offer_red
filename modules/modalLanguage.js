@@ -1,5 +1,4 @@
 import { modalTranslations } from "../public/modalTranslations";
-import { gettingBonusCurrency } from "./setBonusValue";
 import { getLocation } from "./geoLocation";
 
 function updateContent(lang) {
@@ -19,10 +18,8 @@ function changeLanguage(lang) {
   } else {
     if (modalTranslations[lang]) {
       updateContent(lang);
-      gettingBonusCurrency();
     } else {
       updateContent("en");
-      gettingBonusCurrency();
     }
   }
 }
@@ -30,22 +27,18 @@ function changeLanguage(lang) {
 export function changeModalLanguage(lang) {
   if (modalTranslations[lang]) {
     updateContent(lang);
-    gettingBonusCurrency();
   } else {
     updateContent("en");
-    gettingBonusCurrency();
   }
 }
 
 async function setModalLanguage() {
   try {
     const location = await getLocation();
-    const locationCode = location.countryCode.toLowerCase();
-    changeLanguage(locationCode);
+    changeLanguage("az");
   } catch (error) {
     console.log(error);
     changeLanguage("en");
   }
 }
-
 setModalLanguage();
