@@ -1,7 +1,7 @@
 import { modalTranslations } from "../public/modalTranslations";
 import { setPaymentMethods } from "./footerPayments";
 import { paymentCountries } from "../public/payments";
-import { geoData, getLocation } from "./geoLocation";
+import { getLocation } from "./geoLocation";
 
 function updateContent(lang) {
   const elements = document.querySelectorAll("[data-modal-translate]");
@@ -38,7 +38,7 @@ async function setModalLanguage() {
   try {
     const location = await getLocation();
     changeLanguage(location.countryCode);
-    setPaymentMethods(paymentCountries, "kz");
+    setPaymentMethods(paymentCountries, location.countryCode.toLowerCase());
   } catch (error) {
     console.log(error);
     changeLanguage("en");

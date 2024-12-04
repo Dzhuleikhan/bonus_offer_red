@@ -2,7 +2,7 @@ import gsap from "gsap";
 import { authIti } from "./itiTelInput";
 // import { hiddenSelect } from "./hiddenSelect";
 import { getUrlParameter, updateUrl } from "./params";
-import { fetchDomain, newDomain } from "./fetchingDomain";
+import { newDomain } from "./fetchingDomain";
 
 // | AUTH FORM VALIDATION AND SUBMITTING
 
