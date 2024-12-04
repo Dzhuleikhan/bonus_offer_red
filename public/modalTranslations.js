@@ -28,6 +28,7 @@ export const modalTranslations = {
     declineYourBonus: `<span>decline</span> your bonus?`,
     continue: "Continue",
     declineBonus: "Decline Bonus",
+    bonusAmount: "up to 127 MLN SO'M",
     // ? SOCIALS
     signUpEasySteps: "Sign Up in 3 Easy Steps",
     completeToClaimGift: "Complete them to claim your gift.",
@@ -84,6 +85,7 @@ export const modalTranslations = {
     declineYourBonus: `<span>decline</span> your bonus?`,
     continue: "Continue",
     declineBonus: "Decline Bonus",
+    bonusAmount: "до 127 MLN SO'M",
     // ? SOCIALS
     signUpEasySteps: "Регистрация в 3 простых шага",
     completeToClaimGift: "Завершите их, чтобы получить подарок.",
@@ -135,6 +137,7 @@ export const modalTranslations = {
     signUpToClaim: "Sovrinni olish uchun roʻyxatdan oʻting",
     passwordPlaceholder: "Parol",
     depositBonus: `Welcome bonus <span class="bonus-value"></span> <span class="bonus-currency"></span>`,
+    bonusAmount: "127 MLN SO'M gacha",
     // ? SOCIALS
     signUpEasySteps: "3-ta oson qadamda roʻyxatdan oʻting",
     completeToClaimGift: "Ularni tugating va sovgʻangizni oling.",
