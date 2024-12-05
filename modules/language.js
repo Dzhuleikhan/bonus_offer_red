@@ -96,6 +96,7 @@ document.querySelectorAll(".language-link").forEach((langBtn) => {
   langBtn.addEventListener("click", (e) => {
     e.preventDefault();
     const targetLang = e.target.getAttribute("data-lang");
+    localStorage.setItem("preferredLanguage", targetLang);
     changeLanguage(targetLang);
     changeModalLanguage(targetLang);
   });
