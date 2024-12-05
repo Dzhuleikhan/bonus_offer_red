@@ -29,7 +29,7 @@ export const modalTranslations = {
     declineYourBonus: `<span>decline</span> your bonus?`,
     continue: "Continue",
     declineBonus: "Decline Bonus",
-    bonusAmount: "up to 340.000₺",
+    bonusAmount: "up to 340.000₺ + 25FS",
     // ? SOCIALS
     signUpEasySteps: "Sign Up in 3 Easy Steps",
     completeToClaimGift: "Complete them to claim your gift.",
@@ -87,7 +87,7 @@ export const modalTranslations = {
     declineYourBonus: `<span>отказаться</span> от бонуса?`,
     continue: "Продолжить",
     declineBonus: "Отказаться от бонуса",
-    bonusAmount: "до 340.000₺",
+    bonusAmount: "до 340.000₺ + 25FS",
     // ? SOCIALS
     signUpEasySteps: "Регистрация в 3 простых шага",
     completeToClaimGift: "Завершите их, чтобы получить подарок.",
@@ -145,7 +145,7 @@ export const modalTranslations = {
     declineYourBonus: `<span>emin misiniz?</span>`,
     continue: "Devam et",
     declineBonus: "Bonusu Reddet",
-    bonusAmount: "340.000₺-e kadar",
+    bonusAmount: "340.000₺-e kadar + 25FS",
     // ? SOCIALS
     signUpEasySteps: "3 kolay adımda kayıt olun",
     completeToClaimGift: "Tamamlayın ve ödülünüzü alın.",

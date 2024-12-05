@@ -98,5 +98,6 @@ document.querySelectorAll(".language-link").forEach((langBtn) => {
     const targetLang = e.target.getAttribute("data-lang");
     changeLanguage(targetLang);
     changeModalLanguage(targetLang);
+    localStorage.setItem("preferredLanguage", targetLang);
   });
 });
