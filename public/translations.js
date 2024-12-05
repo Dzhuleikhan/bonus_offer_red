@@ -1,10 +1,11 @@
 export const translations = {
   en: {
+    pageTitle: "Goldbet English",
     sliderTitle: `WELCOME <br /> BONUS <br />`,
     sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
-    mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
+    mainTitle: "HOW TO CLAIM BONUS",
     step1Title: "Register",
     step1Text: 'Click "Play Now" and enter your email and password.',
     step2Title: "ACTIVATE THE BONUS",
@@ -178,6 +179,7 @@ export const translations = {
     stickyButtonText: "claim your bonus",
   },
   ru: {
+    pageTitle: "Goldbet English",
     sliderTitle: `ПРИВЕТСТВЕННЫЙ <br /> БОНУС <br />`,
     sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Ваш приветственный бонус готов для вас в Центре бонусов.",
@@ -338,6 +340,7 @@ export const translations = {
     stickyButtonText: "получить бонус",
   },
   tr: {
+    pageTitle: "Goldbet English",
     sliderTitle: `HOŞGELDİN <br /> BONUSU <br />`,
     sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Hoşgeldin bonusunuz Bonus Merkezinde sizi bekliyor.",
