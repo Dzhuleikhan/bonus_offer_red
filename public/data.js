@@ -348,12 +348,12 @@ export const countryCurrencyData = [
     amount: "15.000",
   },
   {
-    countries: ["RU", "AB", "OS", "KZ"],
-    countryCurrency: "RUB",
-    countryCurrencySymbol: "₽",
-    countryCurrencyFullName: "Russian Ruble",
-    countryCurrencyIcon: "./img/currencies/rub.svg",
-    amount: "900.000",
+    countries: ["RU"],
+    countryCurrency: "USD",
+    countryCurrencySymbol: "$",
+    countryCurrencyFullName: "US Dollar",
+    countryCurrencyIcon: "./img/currencies/usd.svg",
+    amount: "10.000",
   },
   {
     countries: ["TH"],
