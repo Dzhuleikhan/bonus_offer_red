@@ -5,7 +5,7 @@ export const translations = {
     sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
-    mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
+    mainTitle: "HOW TO CLAIM BONUS",
     step1Title: "Register",
     step1Text: 'Click "Play Now" and enter your email and password.',
     step2Title: "ACTIVATE THE BONUS",
