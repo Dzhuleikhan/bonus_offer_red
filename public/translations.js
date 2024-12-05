@@ -2,7 +2,7 @@ export const translations = {
   en: {
     pageTitle: "Goldbet English",
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -181,7 +181,7 @@ export const translations = {
   es: {
     pageTitle: "Goldbet English",
     sliderTitle: `BONO DE <br /> BIENVENIDA <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle:
       "Tu bono de bienvenida está listo para ti en el Centro de Bonos.",
     sliderButtonText: "reclama tu bono",
@@ -247,7 +247,7 @@ export const translations = {
   fr: {
     pageTitle: "Goldbet English",
     sliderTitle: `BONUS DE <br /> BIENVENUE <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle:
       "Votre bonus de bienvenue est prêt pour vous dans le Centre des Bonus.",
     sliderButtonText: "réclamez votre bonus",
@@ -314,7 +314,7 @@ export const translations = {
   az: {
     pageTitle: "Goldbet English",
     sliderTitle: `XOŞ GƏLDİN <br /> BONUSU <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Sizin xoş gəldin bonusunuz Bonus Mərkəzində hazırdır.",
     sliderButtonText: "bonusu əldə et",
     mainTitle: "BONUSU NECƏ ƏLDƏ ETMƏK OLAR",
@@ -443,7 +443,7 @@ export const translations = {
   ua: {
     pageTitle: "Goldbet English",
     sliderTitle: `ВІТАЛЬНИЙ <br /> БОНУС <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Ваш вітальний бонус чекає на вас у Центрі бонусів.",
     sliderButtonText: "отримати бонус",
     mainTitle: "ЯК ОТРИМАТИ БОНУС",
@@ -584,7 +584,7 @@ export const translations = {
   ru: {
     pageTitle: "Goldbet English",
     sliderTitle: `ПРИВЕТСТВЕННЫЙ <br /> БОНУС <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Ваш приветственный бонус готов для вас в Центре бонусов.",
     sliderButtonText: "получить бонус",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -745,7 +745,7 @@ export const translations = {
   bd: {
     pageTitle: "Goldbet English",
     sliderTitle: `স্বাগতম <br /> বোনাস <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "আপনার স্বাগতম বোনাস বোনাস কেন্দ্রে প্রস্তুত আছে।",
     sliderButtonText: "আপনার বোনাস দাবি করুন",
     mainTitle: "বোনাস কীভাবে দাবি করবেন",
@@ -808,7 +808,7 @@ export const translations = {
   tr: {
     pageTitle: "Goldbet English",
     sliderTitle: `HOŞGELDİN <br /> BONUSU <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Hoşgeldin bonusunuz Bonus Merkezinde sizi bekliyor.",
     sliderButtonText: "BONUSUNUZU TALEP EDİN",
     mainTitle: "BONUSUNUZU ALIN",
@@ -1012,7 +1012,7 @@ export const translations = {
   id: {
     pageTitle: "Goldbet English",
     sliderTitle: `SELAMAT DATANG <br /> BONUS <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Bonus selamat datang Anda sudah siap di Pusat Bonus.",
     sliderButtonText: "klaim bonus Anda",
     mainTitle: "CARA MENGKLAIM BONUS",
@@ -1076,7 +1076,7 @@ export const translations = {
   pt: {
     pageTitle: "Goldbet English",
     sliderTitle: `BÔNUS DE <br /> BOAS-VINDAS <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle:
       "Seu bônus de boas-vindas está pronto para você no Centro de Bônus.",
     sliderButtonText: "reivindique seu bônus",
@@ -1141,7 +1141,7 @@ export const translations = {
   de: {
     pageTitle: "Goldbet English",
     sliderTitle: `WILLKOMMEN <br /> BONUS <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Ihr Willkommensbonus wartet auf Sie im Bonus-Center.",
     sliderButtonText: "Bonus beanspruchen",
     mainTitle: "WIE ERHALTEN SIE DEN BONUS",
@@ -1232,73 +1232,10 @@ export const translations = {
                   Regierung von Anjouan unter der Glücksspiellizenz Nr. AB12345678 autorisiert und reguliert wird, mit registrierter Adresse: Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lissabon, Portugal.`,
     stickyButtonText: "Bonus beanspruchen",
   },
-  cn: {
-    pageTitle: "Goldbet English",
-    sliderTitle: `欢迎 <br /> 奖励 <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
-    sliderSubtitle: "您的欢迎奖励已准备好，请前往奖励中心领取。",
-    sliderButtonText: "领取奖励",
-    mainTitle: "如何获得奖励",
-    step1Title: "注册",
-    step1Text: '点击 "立即玩" 并输入您的邮箱和密码。',
-    step2Title: "激活奖励",
-    step2Text: "您的欢迎奖励已准备好，请前往奖励中心领取。",
-    step3Title: "进行存款",
-    step3Text: "选择您偏好的支付方式并进行存款。",
-    mainButtonText: "领取奖励",
-    termsAndConditionsButtonText: "条款和条件",
-    termsTitle1: `条款和条件`,
-    termsParagraph1: `以下条款及其所引用的文件（“条款”）适用于您使用当前网站（“网站”）及其相关服务（统称为“服务”）。您应仔细阅读这些条款，因为它们包含有关您使用网站的权利和义务的重要信息，并构成您（“客户”）与我们（“网站”）之间具有约束力的法律协议。通过使用本网站和/或访问服务，无论您是访客还是注册用户（拥有“账户”），您同意受这些条款及其不时发布的任何修订的约束。如果您不接受这些条款，您应避免访问服务和使用网站。`,
-    termsTitle2: `1. 通用条款`,
-    termsParagraph2: `我们保留随时修订和修改条款（包括下文所引用和链接的任何文件）的权利。您应定期访问此页面以查看条款和条件。修改将在本网站发布后立即具有约束力和生效。如果您反对任何此类更改，您必须立即停止使用服务。您继续使用本网站即表明您同意受修订后的条款的约束。任何在条款更改生效前未结算的投注将受更改前的条款约束。如果Goldbet的条款和条件更新，平台将通知您并要求您确认同意。`,
-    termsTitle3: `2. 您的义务`,
-    termsParagraph3: `您确认在任何时候访问本网站和使用服务时：<br />
-    3.1. 您年满18岁或达到了适用法律或您所处司法管辖区所规定的赌博或游戏活动的法定年龄。我们保留随时要求您提供年龄证明文件的权利。<br />
-    3.2. 您具有法律行为能力并能够与我们签订具有法律约束力的协议。如果您没有法律行为能力，则不得访问本网站或使用服务。<br />
-    3.3. 您了解在某些国家访问和使用本网站及其提供的任何产品可能被视为非法。我们无法验证每个司法管辖区的服务合法性，因此您有责任判断访问和使用我们网站是否符合您所在国家的适用法律，并向我们保证赌博在您居住的地区并不违法。基于各种法律或商业原因，我们不允许居住在特定司法管辖区的客户开设或使用账户，这些司法管辖区包括但不限于：阿富汗、阿尔及利亚、安提瓜和巴布达、澳大利亚、白俄罗斯、巴林、比利时、不丹、文莱、中非共和国、乍得、科特迪瓦、克罗地亚、古巴、捷克共和国、朝鲜（北朝鲜）、刚果民主共和国、丹麦、爱沙尼亚、法国、希腊、几内亚比绍、匈牙利、伊朗、伊拉克、冰岛、以色列、意大利、约旦、科威特、拉脱维亚、利比里亚、立陶宛、马耳他、缅甸、荷兰、荷属安的列斯（库拉索、圣马丁、博奈尔、圣尤斯塔提乌斯和萨巴、阿鲁巴）、挪威、阿曼、巴勒斯坦、巴基斯坦、卡塔尔、俄罗斯、萨巴、圣马丁、沙特阿拉伯、塞尔维亚、斯洛文尼亚、索马里、西班牙、瑞士、叙利亚阿拉伯共和国、苏丹、特立尼达和多巴哥、土耳其、乌克兰、英国、德国、科摩罗联盟、阿拉伯联合酋长国、美国（及其属地、军事基地和地区，如美国边远小岛、美国维尔京群岛）、瓦努阿图、也门、津巴布韦，或我们不时报告的其他受限司法管辖区（“受限司法管辖区”）。使用本网站即表示您确认您不是受限司法管辖区的居民。<br />
-    3.4. 尝试开设账户或使用本网站时，玩家有责任核实在该特定司法管辖区赌博是否合法。<br />
-    3.5. 您是所使用支付方式的授权用户，且账户内用于服务的所有资金均为合法资金。<br />
-    3.6. 您必须诚信向我们付款，不得尝试逆转已支付款项或采取任何导致第三方逆转付款的行动。<br />
-    3.7. 下注时，您可能会根据这些条款失去部分或全部存入服务的钱，您将对此损失承担全部责任。<br />
-    3.8. 下注时不得使用任何在下注时所在国家的法律所禁止的任何信息。<br />
-    3.9. 您不是以任何其他方的名义或为任何商业目的行事，仅以个人名义作为个人用户行事。<br />
-    3.10. 您不得以恶意或以损害服务或我们诚信的方式操纵服务中的任何市场或元素。<br />
-    3.11. 您在使用服务时应始终诚信行事，且所有投注均应符合诚信原则。<br />
-    3.12. 如果适用，您的雇员、雇主、代理人或家庭成员未在我们的会员计划中注册为会员。<br />
-    3.13. 在任何时候使用Goldbet时，您同意仅提供真实、实际且客观的数据，并在我们请求时默认提供。<br />
-    3.14. 您了解加密市场的波动性，并接受在等待取款或我们的风险部门处理取款期间，您的货币/货币的价格可能发生变化的可能性。<br />
-    3.15. 您是精神健全的人，不患有赌博成瘾问题。如有此类问题的人进入本网站，责任完全在其本人。<br />
-    3.16. 您同意不在Goldbet的任何分支中使用任何第三方软件，也不滥用在平台上发现的任何游戏/功能漏洞。<br />
-    3.17. 您保证在注册时和在本协议有效期间向我们提供的所有信息均真实、完整、正确，且您将在信息变更时立即通知我们。<br />
-    3.17.1. 您确认您了解注册和使用服务时输入的信息无法由您决定更改。若需更改信息，您应联系支持团队。Goldbet可自行决定请求任何文件以通过KYC。<br />
-    3.18. 您保证不会在禁止在线投注和/或赌场和/或真人游戏的司法管辖区内使用我们的服务。<br />
-    3.19.您还保证：<br />
-    - 您是代表自己参与服务，而非代表他人；<br />
-    - 您有责任根据相关法律向我们报告和记录任何适用于您的税款，以处理您从我们获得的任何奖金；<br />
-    - 您有责任为通过使用服务获得的任何加密货币所可能产生的任何适用税款承担责任。`,
-    chooseSectionTitle: "为什么选择GOLDBET？",
-    chooseItem1Title: "奖励",
-    chooseItem1Text:
-      "无存款奖励、即时奖励和专属VIP奖励——在我们的入门礼包或社区内找到最优惠的优惠。",
-    chooseItem2Title: "老虎机",
-    chooseItem2Text:
-      "玩您在直播中看到的最受欢迎的老虎机，以高额奖金著称。您的朋友们都已经在玩了！",
-    chooseItem3Title: "体育博彩",
-    chooseItem3Text:
-      "您是体育专家并擅长预测吗？我们提供30个体育类别，轻松导航和实时统计为您准备。",
-    chooseItem4Title: "真人赌场",
-    chooseItem4Text:
-      "真正的庄家和真实的反应，当您赢得大奖时尽情享受。选择您的游戏、语言，拿上一杯烈酒——这将会很激烈！",
-    chooseItem5Title: "合法性",
-    chooseItem5Text:
-      "所有操作均在监管监督下进行。我们处理100%的法律支持请求并保证公平游戏。",
-    footerText: `网站www.goldbet.io由Ivanov I.I.拥有和运营（注册号：12345678；注册地址：Rua de Henrique Digeni 12，1 & 2楼，1234-5600 Lisboa，葡萄牙邮政信箱1234-5600 Lisboa，葡萄牙），并通过其支付代理IVANOV DEVELOPMENT LIMITED（注册号：AB123456；注册地为塞浦路斯，注册地址：Rua de Henrique Digeni 12，1 & 2楼，1234-5600 Lisboa，葡萄牙）运营。Ivanov I.I.是一家依据安圭拉法律注册并成立的公司，且持有安圭拉政府颁发的游戏许可证编号AB12345678，获得安圭拉政府的授权和监管，注册地址：Rua de Henrique Digeni 12 1 & 2楼，1234-5600 Lisboa，葡萄牙。`,
-    stickyButtonText: "领取奖励",
-  },
   kz: {
     pageTitle: "Goldbet English",
     sliderTitle: `ҚОШ КЕЛДІҢІЗ <br /> БОНУСЫ <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Сіздің қош келдіңіз бонусыңыз Бонус Орталығында дайын.",
     sliderButtonText: "бонусыңызды талап етіңіз",
     mainTitle: "БОНУСТЫ ҚАЛАЙ ТАЛАП ЕТУГЕ БОЛАДЫ",
@@ -1362,7 +1299,7 @@ export const translations = {
   kg: {
     pageTitle: "Goldbet English",
     sliderTitle: `КОШ КЕЛГЕНИЗ <br /> БОНУСу <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Сиздин кош келдиңиздер бонусуңуз Бонус борборунда даяр.",
     sliderButtonText: "бонусуңузду талап кылыңыз",
     mainTitle: "БОНУСТУ КАНТИП АЛСА БОЛОТ",
@@ -1427,7 +1364,7 @@ export const translations = {
   uz: {
     pageTitle: "Goldbet English",
     sliderTitle: `XUSH KELIBSIZ <br /> BONUSINGIZNI <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle:
       "Sizning xush kelibsiz BONUSINGIZNI Bonus Markazida tayyor.",
     sliderButtonText: "BONUSINGIZNI OLING",
