@@ -1,6 +1,5 @@
 import intlTelInput from "intl-tel-input/intlTelInputWithUtils";
 import { apiUrl } from "./fetchingDomain";
-
 const authPhoneInput = document.querySelector(".auth-phone-input");
 const socialsPhoneInput = document.querySelector(".socials-phone-input");
 
