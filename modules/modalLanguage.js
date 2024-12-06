@@ -16,7 +16,11 @@ const preferredLanguage = localStorage.getItem("preferredLanguage");
 
 function changeLanguage(lang) {
   if (preferredLanguage) {
-    updateContent(preferredLanguage);
+    if (Object.keys(modalTranslations).includes(preferredLanguage)) {
+      updateContent(preferredLanguage);
+    } else {
+      updateContent("en");
+    }
   } else {
     if (modalTranslations[lang]) {
       updateContent(lang);
