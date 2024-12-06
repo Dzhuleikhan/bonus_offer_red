@@ -19,7 +19,6 @@
   "dependencies": {
     "gsap": "^3.12.5",
     "intl-tel-input": "^24.6.0",
-    "node-fetch": "^3.3.2",
     "swiper": "^11.1.10"
   }
 }

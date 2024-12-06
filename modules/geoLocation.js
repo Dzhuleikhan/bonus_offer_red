@@ -8,4 +8,3 @@ export async function getLocation() {
 }
 
 export const geoData = await getLocation();
-console.log(geoData);
