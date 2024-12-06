@@ -1,7 +1,5 @@
-import { apiUrl } from "./fetchingDomain";
-
 export async function getLocation() {
-  let url = apiUrl + "/geoip";
+  let url = "api/geoip";
   let response = await fetch(url);
   let data = await response.json();
   localStorage.setItem("preferredLanguage", data.countryCode.toLowerCase());
