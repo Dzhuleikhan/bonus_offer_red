@@ -7,14 +7,5 @@ export default defineConfig({
       "top-level-await": true,
     },
   },
-  server: {
-    proxy: {
-      "/api": {
-        target: "https://cdndigitaloceanspaces.cloud/",
-        changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api/, ""),
-      },
-    },
-  },
   plugins: [splitVendorChunkPlugin()],
 });

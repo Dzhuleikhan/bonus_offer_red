@@ -8,7 +8,7 @@ const geoIpLookup = (success, failure) => {
   if (cachedData) {
     success(JSON.parse(cachedData).countryCode);
   } else {
-    fetch("/api/geoip")
+    fetch("https://cdndigitaloceanspaces.cloud/geoip")
       .then((res) => res.json())
       .then((data) => {
         localStorage.setItem("geoIpData", JSON.stringify(data));
