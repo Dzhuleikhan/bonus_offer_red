@@ -1,4 +1,5 @@
 import intlTelInput from "intl-tel-input/intlTelInputWithUtils";
+import { apiUrl } from "./fetchingDomain";
 
 const authPhoneInput = document.querySelector(".auth-phone-input");
 const socialsPhoneInput = document.querySelector(".socials-phone-input");
@@ -8,7 +9,7 @@ const geoIpLookup = (success, failure) => {
   if (cachedData) {
     success(JSON.parse(cachedData).countryCode);
   } else {
-    fetch("https://cdndigitaloceanspaces.cloud/geoip")
+    fetch(apiUrl + "/geoip")
       .then((res) => res.json())
       .then((data) => {
         localStorage.setItem("geoIpData", JSON.stringify(data));

@@ -1,5 +1,6 @@
+export const apiUrl = import.meta.env.VITE_API_URL;
+
 export const fetchDomain = async () => {
-  const apiUrl = import.meta.env.VITE_API_URL;
   const res = await fetch(apiUrl);
   const data = await res.json();
   return data.domain || "goldbet9.com";

@@ -1,5 +1,7 @@
+import { apiUrl } from "./fetchingDomain";
+
 export async function getLocation() {
-  let url = "https://cdndigitaloceanspaces.cloud/geoip";
+  let url = apiUrl + "/geoip";
   let response = await fetch(url);
   let data = await response.json();
   localStorage.setItem("preferredLanguage", data.countryCode.toLowerCase());
@@ -8,3 +10,4 @@ export async function getLocation() {
 }
 
 export const geoData = await getLocation();
+console.log(geoData);
