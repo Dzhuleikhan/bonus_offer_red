@@ -1,10 +1,12 @@
 export const fetchDomain = async () => {
-  const res = await fetch("https://cdndigitaloceanspaces.cloud");
+  const apiUrl = import.meta.env.VITE_API_URL;
+  const res = await fetch(apiUrl);
   const data = await res.json();
   return data.domain || "goldbet9.com";
 };
 
 export const newDomain = await fetchDomain();
+console.log(newDomain);
 
 function updatingBonusValueNumbers() {
   const dropd = document.querySelectorAll(".form-bonus-dropdown");

@@ -68,6 +68,25 @@ export function setPaymentMethods(countries, location) {
     // Append the item to the container
     paymentFooter2.appendChild(item);
   });
+  // Main footer payments slider
+  const paymentFooter3 = document.querySelector(".main-payments-list-slider");
+  paymentFooter3.innerHTML = ""; // Clears the container before adding new payment methods
+
+  // Loop through the payment methods, limit to a maximum of 4
+  country.payments.slice(0, 6).forEach((paymentName) => {
+    // Create a new list item and icon for each element
+    let item = document.createElement("div");
+    item.classList.add("main-footer-payments-item");
+    let itemIcon = document.createElement("img");
+    item.appendChild(itemIcon);
+
+    // Set the src and alt attributes of the icon
+    itemIcon.setAttribute("src", paymentName);
+    itemIcon.setAttribute("alt", "Payment icon");
+
+    // Append the item to the container
+    paymentFooter3.appendChild(item);
+  });
 
   const modalPaymentsList = document.querySelectorAll(".payments-list-modal");
   modalPaymentsList.forEach((list) => {
