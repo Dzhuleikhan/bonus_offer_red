@@ -6,14 +6,23 @@ const termsBtnArrow = termsBtn.querySelector("svg");
 if (termsBtn) {
   termsBtn.addEventListener("click", () => {
     termsBody.classList.toggle("active");
+    let lang = localStorage.getItem("preferredLanguage");
 
     if (termsBody.classList.contains("active")) {
       termsBody.style.maxHeight = termsBody.scrollHeight + "px";
-      termsBtnText.textContent = "hide";
+      if (lang === "az") {
+        termsBtnText.textContent = "Gizlət";
+      } else {
+        termsBtnText.textContent = "Hide";
+      }
       termsBtnArrow.style.transform = "rotate(180deg)";
     } else {
       termsBody.style.maxHeight = null;
-      termsBtnText.textContent = "terms and conditions";
+      if (lang === "az") {
+        termsBtnText.textContent = "Şərtlər və Qaydalar";
+      } else {
+        termsBtnText.textContent = "terms and conditions";
+      }
       termsBtnArrow.style.transform = "rotate(0deg)";
     }
   });

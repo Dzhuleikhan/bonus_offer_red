@@ -182,9 +182,10 @@ export const translations = {
     pageTitle: "Goldbet English",
     sliderTitle: `XOŞ GƏLDİN <br /> BONUSU <br />`,
     sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
-    sliderSubtitle: "Sizin xoş gəldin bonusunuz Bonus Mərkəzində hazırdır.",
+    sliderSubtitle:
+      "Sizin “Xoş gəldin” bonusunuz hazırdı və onu Bonus Mərkəzindən əldə edə bilərsiz.",
     sliderButtonText: "bonusu əldə et",
-    mainTitle: "BONUSU NECƏ ƏLDƏ ETMƏK OLAR",
+    mainTitle: "BONUSU NECƏ ƏLDƏ ETMƏK OLAR?",
     step1Title: "Qeydiyyat",
     step1Text:
       "“İndi Oyna” düyməsini basın və e-poçt ünvanınızı və şifrənizi daxil edin.",
@@ -277,7 +278,7 @@ export const translations = {
                         məsuliyyətinizdir; <br />
                         - Xidmətdən istifadə etməklə əldə etdiyiniz kriptovalyuta ilə bağlı ödəməli 
                         olduğunuz bütün tətbiq olunan vergilərin məsuliyyəti yalnız sizə aiddir.`,
-    chooseSectionTitle: "NİYƏ GOLDBET-İ SEÇMƏLİ?",
+    chooseSectionTitle: "Niyə Goldbet’i seçməlisiniz?",
     chooseItem1Title: "BONUSLAR",
     chooseItem1Text:
       "Depozitsiz, ani və eksklüziv VIP bonuslar – ən yaxşı təklifi start paketimizdə və ya icmamızda tapın.",
