@@ -317,7 +317,7 @@ export const translations = {
     sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
     sliderSubtitle: "Sizin xoş gəldin bonusunuz Bonus Mərkəzində hazırdır.",
     sliderButtonText: "bonusu əldə et",
-    mainTitle: "BONUSU NECƏ ƏLDƏ ETMƏK OLAR",
+    mainTitle: "BONUSU NECƏ ƏLDƏ ETMƏK OLAR?",
     step1Title: "Qeydiyyat",
     step1Text:
       "“İndi Oyna” düyməsini basın və e-poçt ünvanınızı və şifrənizi daxil edin.",
@@ -410,7 +410,7 @@ export const translations = {
                         məsuliyyətinizdir; <br />
                         - Xidmətdən istifadə etməklə əldə etdiyiniz kriptovalyuta ilə bağlı ödəməli 
                         olduğunuz bütün tətbiq olunan vergilərin məsuliyyəti yalnız sizə aiddir.`,
-    chooseSectionTitle: "NİYƏ GOLDBET-İ SEÇMƏLİ?",
+    chooseSectionTitle: "Niyə Goldbet’i seçməlisiniz?",
     chooseItem1Title: "BONUSLAR",
     chooseItem1Text:
       "Depozitsiz, ani və eksklüziv VIP bonuslar – ən yaxşı təklifi start paketimizdə və ya icmamızda tapın.",
