@@ -315,7 +315,8 @@ export const translations = {
     pageTitle: "Goldbet English",
     sliderTitle: `XOŞ GƏLDİN <br /> BONUSU <br />`,
     sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + 25FS`,
-    sliderSubtitle: "Sizin xoş gəldin bonusunuz Bonus Mərkəzində hazırdır.",
+    sliderSubtitle:
+      "Sizin “Xoş gəldin” bonusunuz hazırdı və onu Bonus Mərkəzindən əldə edə bilərsiz.",
     sliderButtonText: "bonusu əldə et",
     mainTitle: "BONUSU NECƏ ƏLDƏ ETMƏK OLAR?",
     step1Title: "Qeydiyyat",
