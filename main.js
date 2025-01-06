@@ -20,3 +20,4 @@ import "./modules/params";
 import "./modules/formSocials";
 import "./modules/fetchingDomain";
 import "./modules/termsModal";
+import "./modules/settingBonusValue";

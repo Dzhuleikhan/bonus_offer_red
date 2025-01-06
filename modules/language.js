@@ -1,7 +1,6 @@
 import { changeModalLanguage } from "./modalLanguage";
-import { countryCurrencyData } from "../public/data";
 import { translations } from "/public/translations";
-import { geoData, getLocation } from "./geoLocation";
+import { getLocation } from "./geoLocation";
 import { setPaymentMethods } from "./footerPayments";
 import { paymentCountries } from "../public/payments";
 import gsap from "gsap";
@@ -9,7 +8,6 @@ import gsap from "gsap";
 const headerLangBtn = document.querySelector(".header-lang-btn");
 const headerLangList = document.querySelector(".header-lang-list");
 const languageLinks = document.querySelectorAll(".language-link");
-const bonusBoxes = document.querySelectorAll(".form-bonus");
 
 let lang;
 
@@ -40,7 +38,6 @@ function changeLanguage(lang) {
   updateButtonText(lang);
   setActiveLanguageBtn(lang);
   changeModalLanguage(lang);
-  settingBonusValueAndAmount(geoData.countryCode);
 }
 
 function setActiveLanguageBtn(currentLang) {
@@ -81,38 +78,22 @@ function updateButtonText(lang) {
   document.querySelector("html").setAttribute("lang", lang);
 }
 
-bonusBoxes.forEach((bonusBox) => {
-  bonusBox.classList.add("hidden");
-});
-
-function settingBonusValueAndAmount(countryCode) {
-  let detectedCountry = countryCode.toUpperCase();
-  if (detectedCountry === "RU") {
-    detectedCountry = "US";
-  }
-  // Find the matching entry in countryCurrencyData
-  const matchingCurrencyData = countryCurrencyData.find((currency) =>
-    currency.countries.includes(detectedCountry),
-  );
-
-  if (matchingCurrencyData) {
-    const bonusCurrency = document.querySelectorAll(".bonus-currency");
-    const bonusValue = document.querySelectorAll(".bonus-value");
-
-    // Update the bonus amount and currency on the page
-    bonusValue.forEach((amount) => {
-      amount.innerHTML = matchingCurrencyData.amount;
-    });
-    bonusCurrency.forEach((cur) => {
-      cur.innerHTML = matchingCurrencyData.countryCurrencySymbol;
-    });
-    bonusBoxes.forEach((bonusBox) => {
-      bonusBox.classList.remove("hidden");
-    });
-  } else {
-    console.log("No matching country found in the data.");
-  }
-}
+export const availableLang = [
+  "en",
+  "es",
+  "fr",
+  "az",
+  "uz",
+  "ua",
+  "ru",
+  "bd",
+  "tr",
+  "id",
+  "pt",
+  "de",
+  "kz",
+  "kg",
+];
 
 async function determineLanguage() {
   const location = await getLocation();
@@ -157,7 +138,6 @@ document.querySelectorAll(".language-link").forEach((langBtn) => {
     const targetLang = e.target.getAttribute("data-lang");
     changeLanguage(targetLang);
     changeModalLanguage(targetLang);
-    settingBonusValueAndAmount(geoData.countryCode);
     setPaymentMethods(paymentCountries, targetLang);
     localStorage.setItem("preferredLanguage", targetLang);
   });
