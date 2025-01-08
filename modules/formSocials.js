@@ -25,7 +25,11 @@ const changingFormSteps = (stepCount) => {
 changingFormSteps(formStepCount);
 
 const formModals = document.querySelectorAll(".form-modal-socials");
-let formTab = "email";
+
+let formTabParam = getUrlParameter("method-type");
+console.log(formTabParam);
+
+let formTab = formTabParam === "phone" ? "phone" : "email";
 
 formModals.forEach((modal) => {
   if (modal) {
@@ -346,6 +350,8 @@ if (mainForm) {
         changingFormSteps(formStepCount);
       }
     }
+
+    console.log(formTab);
 
     if (formTab === "email") {
       disableFormWhileSubmitting();
