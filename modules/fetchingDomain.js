@@ -4,6 +4,8 @@ export const fetchDomain = async () => {
   return data.domain || "goldbet9.com";
 };
 
+export const newDomain = await fetchDomain();
+
 function updatingBonusValueNumbers() {
   const dropd = document.querySelectorAll(".form-bonus-dropdown");
   dropd.forEach((drop) => {
