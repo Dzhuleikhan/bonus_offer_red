@@ -4,6 +4,7 @@ import { Power1 } from "gsap";
 import { socialsIti } from "./itiTelInput.js";
 import { getUrlParameter } from "./params.js";
 import { newDomain } from "./fetchingDomain.js";
+import { checkTir1CurrencyMatch } from "./modalCurrency.js";
 // import { hiddenSelect } from "./hiddenSelect.js";
 
 // | SOCIALS FORM VALIDATING AND SUBMITTING
@@ -27,7 +28,6 @@ changingFormSteps(formStepCount);
 const formModals = document.querySelectorAll(".form-modal-socials");
 
 let formTabParam = getUrlParameter("method-type");
-console.log(formTabParam);
 
 let formTab = formTabParam === "phone" ? "phone" : "email";
 
@@ -277,6 +277,9 @@ if (mainForm) {
 
     let code = socialsIti.getSelectedCountryData().dialCode;
     let phoneNumber = phone.value.trim();
+
+    formData.bonus = checkTir1CurrencyMatch(formData.currency, formData.bonus);
+
     if (code && phoneNumber) {
       let sanitizedPhoneNumber = phoneNumber.replace(/\D/g, "");
       let fullPhoneNumber = `${code}${sanitizedPhoneNumber}`;
@@ -336,6 +339,9 @@ if (mainForm) {
 
     let code = socialsIti.getSelectedCountryData().dialCode;
     let phoneNumber = phone.value.trim();
+
+    formData.bonus = checkTir1CurrencyMatch(formData.currency, formData.bonus);
+
     if (code && phoneNumber) {
       let sanitizedPhoneNumber = phoneNumber.replace(/\D/g, "");
       let fullPhoneNumber = `${code}${sanitizedPhoneNumber}`;
@@ -382,7 +388,7 @@ formSocialLinks.forEach((link) => {
     link.addEventListener("click", (e) => {
       e.preventDefault();
       const type = e.target.getAttribute("data-reg-type");
-      const bonus = mainForm
+      let bonus = mainForm
         .querySelector(".bonus-input")
         .getAttribute("data-bonus");
       const lang = localStorage.getItem("preferredLanguage");
@@ -390,6 +396,9 @@ formSocialLinks.forEach((link) => {
       let currencyStoredData = localStorage.getItem("currencyData");
       let currencyData = JSON.parse(currencyStoredData);
       let currency = currencyData.abbr;
+
+      bonus = checkTir1CurrencyMatch(currency, bonus);
+
       window.location.href = `https://${newDomain}/api/register?env=prod&type=${type}&currency=${currency}${bonus === "" ? "" : "&bonus=" + bonus}&lang=${lang}${cid ? "&cid=" + cid : ""}`;
       console.log(
         `https://${newDomain}/api/register?env=prod&type=${type}&currency=${currency}${bonus === "" ? "" : "&bonus=" + bonus}&lang=${lang}${cid ? "&cid=" + cid : ""}`,
