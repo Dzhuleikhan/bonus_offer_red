@@ -2,7 +2,7 @@ export const translations = {
   en: {
     pageTitle: "Goldbet English",
     sliderTitle: `WELCOME <br /> BONUS <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">5.000</span> <span class="bonus-currency">$</span> + <span class="bonus-spins">200FS</span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
     mainTitle: "HOW TO CLAIM BONUS",
@@ -181,7 +181,7 @@ export const translations = {
   es: {
     pageTitle: "Goldbet English",
     sliderTitle: `BONO DE <br /> BIENVENIDA <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">4.500</span> <span class="bonus-currency">€</span> + <span class="bonus-spins">200FS</span>`,
     sliderSubtitle:
       "Tu bono de bienvenida está listo para ti en el Centro de Bonos.",
     sliderButtonText: "reclama tu bono",
@@ -247,7 +247,7 @@ export const translations = {
   fr: {
     pageTitle: "Goldbet English",
     sliderTitle: `BONUS DE <br /> BIENVENUE <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">4.500</span> <span class="bonus-currency">€</span> + <span class="bonus-spins">200FS</span>`,
     sliderSubtitle:
       "Votre bonus de bienvenue est prêt pour vous dans le Centre des Bonus.",
     sliderButtonText: "réclamez votre bonus",
@@ -314,7 +314,7 @@ export const translations = {
   az: {
     pageTitle: "Goldbet English",
     sliderTitle: `XOŞ GƏLDİN <br /> BONUSU <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">17.000</span> <span class="bonus-currency">₼</span> + <span class="bonus-spins">25FS</span>`,
     sliderSubtitle:
       "Sizin “Xoş gəldin” bonusunuz hazırdı və onu Bonus Mərkəzindən əldə edə bilərsiz.",
     sliderButtonText: "bonusu əldə et",
@@ -444,7 +444,7 @@ export const translations = {
   ua: {
     pageTitle: "Goldbet English",
     sliderTitle: `ВІТАЛЬНИЙ <br /> БОНУС <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">400.000</span> <span class="bonus-currency">₴</span> + <span class="bonus-spins">25FS</span>`,
     sliderSubtitle: "Ваш вітальний бонус чекає на вас у Центрі бонусів.",
     sliderButtonText: "отримати бонус",
     mainTitle: "ЯК ОТРИМАТИ БОНУС",
@@ -585,7 +585,7 @@ export const translations = {
   ru: {
     pageTitle: "Goldbet English",
     sliderTitle: `ПРИВЕТСТВЕННЫЙ <br /> БОНУС <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">5.000</span> <span class="bonus-currency">$</span> + <span class="bonus-spins">200FS</span>`,
     sliderSubtitle: "Ваш приветственный бонус готов для вас в Центре бонусов.",
     sliderButtonText: "получить бонус",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
@@ -746,7 +746,7 @@ export const translations = {
   bd: {
     pageTitle: "Goldbet English",
     sliderTitle: `স্বাগতম <br /> বোনাস <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">1MLN</span> <span class="bonus-currency">৳</span> + <span class="bonus-spins">25FS</span>`,
     sliderSubtitle: "আপনার স্বাগতম বোনাস বোনাস কেন্দ্রে প্রস্তুত আছে।",
     sliderButtonText: "আপনার বোনাস দাবি করুন",
     mainTitle: "বোনাস কীভাবে দাবি করবেন",
@@ -809,7 +809,7 @@ export const translations = {
   tr: {
     pageTitle: "Goldbet English",
     sliderTitle: `HOŞGELDİN <br /> BONUSU <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">340.000</span> <span class="bonus-currency">₺</span> + <span class="bonus-spins">25FS</span>`,
     sliderSubtitle: "Hoşgeldin bonusunuz Bonus Merkezinde sizi bekliyor.",
     sliderButtonText: "BONUSUNUZU TALEP EDİN",
     mainTitle: "BONUSUNUZU ALIN",
@@ -1013,7 +1013,7 @@ export const translations = {
   id: {
     pageTitle: "Goldbet English",
     sliderTitle: `SELAMAT DATANG <br /> BONUS <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">150 MLN</span> <span class="bonus-currency">Rp</span> + <span class="bonus-spins">25FS</span>`,
     sliderSubtitle: "Bonus selamat datang Anda sudah siap di Pusat Bonus.",
     sliderButtonText: "klaim bonus Anda",
     mainTitle: "CARA MENGKLAIM BONUS",
@@ -1077,7 +1077,7 @@ export const translations = {
   pt: {
     pageTitle: "Goldbet English",
     sliderTitle: `BÔNUS DE <br /> BOAS-VINDAS <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">4.500</span> <span class="bonus-currency">€</span> + <span class="bonus-spins">200FS</span>`,
     sliderSubtitle:
       "Seu bônus de boas-vindas está pronto para você no Centro de Bônus.",
     sliderButtonText: "reivindique seu bônus",
@@ -1142,7 +1142,7 @@ export const translations = {
   de: {
     pageTitle: "Goldbet English",
     sliderTitle: `WILLKOMMEN <br /> BONUS <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">4.500</span> <span class="bonus-currency">€</span> + <span class="bonus-spins">200FS</span>`,
     sliderSubtitle: "Ihr Willkommensbonus wartet auf Sie im Bonus-Center.",
     sliderButtonText: "Bonus beanspruchen",
     mainTitle: "WIE ERHALTEN SIE DEN BONUS",
@@ -1236,7 +1236,7 @@ export const translations = {
   kz: {
     pageTitle: "Goldbet English",
     sliderTitle: `ҚОШ КЕЛДІҢІЗ <br /> БОНУСЫ <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">4.7 MLN</span> <span class="bonus-currency">₸</span> + <span class="bonus-spins">25FS</span>`,
     sliderSubtitle: "Сіздің қош келдіңіз бонусыңыз Бонус Орталығында дайын.",
     sliderButtonText: "бонусыңызды талап етіңіз",
     mainTitle: "БОНУСТЫ ҚАЛАЙ ТАЛАП ЕТУГЕ БОЛАДЫ",
@@ -1300,7 +1300,7 @@ export const translations = {
   kg: {
     pageTitle: "Goldbet English",
     sliderTitle: `КОШ КЕЛГЕНИЗ <br /> БОНУСу <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">050.000</span> <span class="bonus-currency">с</span> + <span class="bonus-spins">25FS</span>`,
     sliderSubtitle: "Сиздин кош келдиңиздер бонусуңуз Бонус борборунда даяр.",
     sliderButtonText: "бонусуңузду талап кылыңыз",
     mainTitle: "БОНУСТУ КАНТИП АЛСА БОЛОТ",
@@ -1365,7 +1365,7 @@ export const translations = {
   uz: {
     pageTitle: "Goldbet English",
     sliderTitle: `XUSH KELIBSIZ <br /> BONUSINGIZNI <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span> + <span class="bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value">127 MLN</span> <span class="bonus-currency">SO’M</span> + <span class="bonus-spins">25FS</span>`,
     sliderSubtitle:
       "Sizning xush kelibsiz BONUSINGIZNI Bonus Markazida tayyor.",
     sliderButtonText: "BONUSINGIZNI OLING",

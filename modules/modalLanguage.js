@@ -3,6 +3,7 @@ import { setPaymentMethods } from "./footerPayments";
 import { paymentCountries } from "../public/payments";
 import { getLocation } from "./geoLocation";
 import { availableLang } from "./language";
+import { settingBonusValueAndAmount } from "./settingBonusValue";
 
 function updateContent(lang) {
   if (!availableLang.includes(lang)) {
@@ -47,6 +48,7 @@ async function setModalLanguage() {
     const location = await getLocation();
     changeLanguage(location.countryCode);
     setPaymentMethods(paymentCountries, location.countryCode.toLowerCase());
+    settingBonusValueAndAmount(location.countryCode.toLowerCase());
   } catch (error) {
     console.log(error);
     changeLanguage("en");

@@ -10,7 +10,7 @@ export function getCountryCurrencyABBR(inputCountry) {
   return "USD"; // or some default value if country is not found
 }
 
-function getCountryCurrencyFullName(inputCountry) {
+export function getCountryCurrencyFullName(inputCountry) {
   for (const data of countryCurrencyData) {
     if (data.countries.includes(inputCountry)) {
       return data.countryCurrencyFullName;
@@ -19,7 +19,7 @@ function getCountryCurrencyFullName(inputCountry) {
   return "US Dollar"; // or some default value if country is not found
 }
 
-function getCountryCurrencyIcon(inputCountry) {
+export function getCountryCurrencyIcon(inputCountry) {
   for (const data of countryCurrencyData) {
     if (data.countries.includes(inputCountry)) {
       return data.countryCurrencyIcon;
@@ -28,7 +28,7 @@ function getCountryCurrencyIcon(inputCountry) {
   return "./img/currencies/usd.svg"; // or some default value if country is not found
 }
 
-function setCurrency(abbr, name, icon) {
+export function setCurrency(abbr, name, icon) {
   const formCurrency = document.querySelectorAll(".form-currency");
   formCurrency.forEach((cur) => {
     let input = cur.querySelector("input");
@@ -55,6 +55,7 @@ async function settingModalCurrency() {
   try {
     let locationData = await getLocation();
     let countryInput = locationData.countryCode;
+
     if (countryInput === "ru") {
       countryInput = "us";
     }
@@ -78,20 +79,44 @@ async function settingModalCurrency() {
   }
 }
 
-function loadCurrencyFromLocalStorage() {
-  const currencyData = JSON.parse(localStorage.getItem("currencyData"));
-  if (currencyData) {
-    setCurrency(currencyData.abbr, currencyData.name, currencyData.icon);
-  } else {
-    settingModalCurrency();
-  }
-}
+settingModalCurrency();
 
-loadCurrencyFromLocalStorage();
+export function settingModalCurrencyAfterlanguageChange(countryInput) {
+  if (countryInput === "RU") {
+    countryInput = "US";
+  }
+
+  const currencyAbbr = getCountryCurrencyABBR(countryInput);
+  const currencyFullName = getCountryCurrencyFullName(countryInput);
+  const currencyIcon = getCountryCurrencyIcon(countryInput);
+
+  setCurrency(currencyAbbr, currencyFullName, currencyIcon);
+}
 
 /**
  *  Currency dropdownxw
  */
+export const settingBonusOnCurrencyChange = (
+  currencyDataArray,
+  targetCurrency,
+) => {
+  const matchedObject = currencyDataArray.find(
+    (item) => item.countryCurrency === targetCurrency.abbr,
+  );
+  const amount = matchedObject ? matchedObject.amount : null;
+  const symbol = matchedObject ? matchedObject.countryCurrencySymbol : null;
+  const spins = matchedObject ? matchedObject.spins : null;
+
+  document.querySelectorAll(".bonus-value").forEach((el) => {
+    el.innerHTML = amount;
+  });
+  document.querySelectorAll(".bonus-currency").forEach((el) => {
+    el.innerHTML = symbol;
+  });
+  document.querySelectorAll(".bonus-spins").forEach((el) => {
+    el.innerHTML = spins;
+  });
+};
 
 const formCurrency = document.querySelectorAll(".form-currency");
 
@@ -135,6 +160,7 @@ formCurrency.forEach((cur) => {
           icon: curIcon,
         };
         localStorage.setItem("currencyData", JSON.stringify(currencyData));
+        settingBonusOnCurrencyChange(countryCurrencyData, currencyData);
       });
     });
 
