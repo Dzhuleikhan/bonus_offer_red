@@ -54,7 +54,7 @@ function updateButtonText(lang) {
 
   const languageNames = {
     en: "English",
-    uz: "Oʻzbekcha",
+    kk: "Kazakh",
     ru: "Русский",
   };
   headerLangBtn.setAttribute(
@@ -71,7 +71,7 @@ async function determineLanguage() {
 
   const countryLangMap = {
     US: "en",
-    UZ: "uz",
+    KZ: "kk",
     RU: "ru",
     // Add more country codes and their corresponding languages as needed
   };
@@ -83,7 +83,7 @@ async function determineLanguage() {
 async function mainFunction() {
   try {
     lang = await determineLanguage();
-    changeLanguage("uz");
+    changeLanguage("kk");
     gsap.to(".preloader", { opacity: 0, duration: 0.5 });
     document.querySelector(".wrapper").classList.remove("hidden");
   } catch (error) {
@@ -96,8 +96,8 @@ document.querySelectorAll(".language-link").forEach((langBtn) => {
   langBtn.addEventListener("click", (e) => {
     e.preventDefault();
     const targetLang = e.target.getAttribute("data-lang");
+    localStorage.setItem("preferredLanguage", targetLang);
     changeLanguage(targetLang);
     changeModalLanguage(targetLang);
-    localStorage.setItem("preferredLanguage", targetLang);
   });
 });

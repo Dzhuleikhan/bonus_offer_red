@@ -5,13 +5,14 @@ export const translations = {
     sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Your welcome bonus is ready for you in the Bonus Center.",
     sliderButtonText: "claim your bonus",
-    mainTitle: "HOW TO CLAIM BONUS",
+    step: "Step",
+    mainTitle: `HOW TO <span class="text-[#ffab0b] yellow-gradient-text">CLAIM YOUR BONUS</span>`,
     step1Title: "Register",
     step1Text: 'Click "Play Now" and enter your email and password.',
-    step2Title: "ACTIVATE THE BONUS",
-    step2Text: "Your welcome bonus is ready for you in the Bonus Center.",
-    step3Title: "MAKE A DEPOSIT",
-    step3Text: "Choose your preferred payment method and make a deposit.",
+    step2Title: " MAKE A DEPOSIT",
+    step2Text: " Choose your preferred payment method and make a deposit.",
+    step3Title: "ACTIVATE THE BONUS",
+    step3Text: "Your welcome bonus is ready for you in the Bonus Center.",
     mainButtonText: "CLAIM YOUR BONUS",
     termsAndConditionsButtonText: "Terms and Conditions",
     termsTitle1: `Terms And Conditions`,
@@ -148,7 +149,7 @@ export const translations = {
                       - You are solely responsible for any applicable taxes which
                       may be payable on cryptocurrency awarded to you through your
                       using the Service.`,
-    chooseSectionTitle: "WHY CHOOSE GOLDBET?",
+    chooseSectionTitle: `WHY CHOOSE <span class="yellow-gradient-text">GOLDBET</span>?`,
     chooseItem1Title: "BONUSES",
     chooseItem1Text:
       "No deposit, instant, and exclusive VIP bonuses—find the best deal in our starter pack or within our community.",
@@ -178,20 +179,86 @@ export const translations = {
                 an., 1234-5600 Lisboa, Portugal.`,
     stickyButtonText: "claim your bonus",
   },
+  kk: {
+    pageTitle: "Goldbet Kazakh",
+    sliderTitle: `ҚОШ КЕЛДІҢІЗ <br /> БОНУСЫ <br />`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
+    sliderSubtitle:
+      "Sizin “Xoş gəldin” bonusunuz hazırdı və onu Bonus Mərkəzindən əldə edə bilərsiz.",
+    sliderButtonText: "БОНУСТЫ АЛУ",
+    step: "Қадам",
+    mainTitle: `<span class="text-[#ffab0b] yellow-gradient-text">БОНУСТЫ ҚАЛАЙ АЛУҒА</span> БОЛАДЫ`,
+    step1Title: "Тіркеу",
+    step1Text:
+      "«Қазір ойнату» түймесін басып, электрондық поштаңызды және құпия сөзіңізді енгізіңіз.",
+    step2Title: "ДЕПОЗИТ ЖАСАУ",
+    step2Text: "Қалаған төлем әдісін таңдап, депозит жасаңыз.",
+    step3Title: "БОНУСТЫ АЛУ",
+    step3Text: "Бонус орталығында сіз үшін сәлемдесу бонусы дайын.",
+    mainButtonText: "БОНУСТЫ АЛУ",
+    termsAndConditionsButtonText: "Ережелер мен шарттар",
+    termsTitle1: `Ережелер мен шарттар`,
+    termsParagraph1: `Осы шарттар мен шарттар мен төменде көрсетілген құжаттар («Шарттар») ағымдағы веб-сайтты («Веб-сайт») және оған қатысты немесе байланысты қызметтерді (бірге «Қызмет») пайдалануға қолданылады. Сіз осы Шарттарды мұқият қарап шығуыңыз керек, өйткені оларда веб-сайтты пайдалануға қатысты құқықтарыңыз бен міндеттеріңізге қатысты маңызды ақпарат бар және сіз – біздің тұтынушы («Тапсырыс беруші») және біз («Веб-сайт») арасында міндетті құқықтық келісім жасайды. Осы веб-сайтты пайдалану және/немесе Қызметке қол жеткізу арқылы сіз қонақ немесе тіркелгісі бар («Тіркелгі») тіркелген пайдаланушы болсаңыз да, уақытында жариялануы мүмкін кез келген түзетулермен бірге осы Шарттармен міндетті болуға келісесіз. уақытқа. Осы Шарттарды қабылдамасаңыз, Қызметке кіруден және Веб-сайтты пайдаланудан бас тартуыңыз керек.`,
+    termsTitle2: `1. Жалпы шарттар`,
+    termsParagraph2: `Біз кез келген уақытта Шарттарды (соның ішінде төменде көрсетілген және сілтеме жасалған кез келген құжаттарды) қайта қарау және өзгерту құқығын сақтаймыз. Шарттар мен шарттарды қарап шығу үшін осы бетке мерзімді түрде кіріп тұруыңыз керек. Түзетулер осы веб-сайтта жарияланғаннан кейін міндетті және күшіне енеді. Егер сіз кез келген осындай өзгерістерге қарсы болсаңыз, Қызметті пайдалануды дереу тоқтатуыңыз керек. Осындай жарияланымнан кейін Веб-сайтты одан әрі пайдалануыңыз өзгертілген шарттармен байланысты болуыңыздың келісімін көрсетеді. Өзгертілген Шарттар күшіне енгенге дейін есептелмеген кез келген ставкалар бұрыннан бар Шарттарға бағынады. Егер Goldbet ережелері жаңартылатын болса, платформа сізге хабарлайды және келісіміңізді растауды сұрайды.`,
+    termsTitle3: `2. Сіздің міндеттемелеріңіз`,
+    termsParagraph3: `Веб-сайтқа кіру және Сервисті пайдалану кезінде әрқашан мынаны мойындайсыз:3.1. Сіз 18 жастан асқансыз немесе сізге қатысты заң немесе юрисдикция бойынша құмар ойындар немесе ойын әрекеттеріне рұқсат етілген заңды жастасыз. Біз кез келген уақытта сізден жасты растайтын құжаттарды сұрау құқығын өзімізде қалдырамыз. <br />
+                      3.2. Сіз әрекетке қабілеттісіз және бізбен міндетті заңды келісім жасай аласыз. Құқық қабілеттілігіңіз болмаса, веб-сайтқа кіруге немесе Қызметті пайдалануға болмайды. <br />
+                      3.3. Веб-сайтқа және ондағы кез келген өнімдерге кіру және пайдалану құқығы белгілі бір елдерде заңсыз деп саналуы мүмкін екенін білесіз. Біз әрбір юрисдикцияда қызмет көрсетудің заңдылығын тексере алмаймыз, демек, сіз біздің веб-сайтқа кіру және пайдалану еліңіздегі қолданыстағы заңдарға сәйкес келетін-келмейтінін анықтауға жауаптысыз және құмар ойындардың заңсыз емес екеніне кепілдік бересіз. сіз тұратын аумақ. Түрлі заңды немесе коммерциялық себептерге байланысты біз белгілі бір юрисдикцияларда, соның ішінде Ауғанстан, Алжир, Антигуа және Барбуда, Австралия, Беларусь, Бахрейн, Бельгия, Бутан, Бруней, Орталық Африка Республикасы, Чад, Кот-д'Ивуар, Хорватия, Куба, Чехия, Корея Халық Демократиялық Республикасы (Солтүстік) Корея), Конго Демократиялық Республикасы, Дания, Эстония, Франция, Греция, Гвинея-Бисау, Венгрия, Иран, Ирак, Исландия, Израиль, Италия, Иордания, Кувейт, Латвия, Либерия, Литва, Мальта, Мьянма, Нидерланды, Нидерланды Антиль аралдары (Кюрасао) , Синт-Мартен, Бонайре, Синт Эстатиус және Саба, Аруба), Норвегия, Оман, Палестина, Пәкістан, Катар, Ресей, Саба, Сент-Мартин, Сауд Арабиясы, Сербия, Словения, Сомали, Испания, Швейцария, Сирия Араб Республикасы, Судан, Тринидад және Тобаго, Түркия, Украина, Ұлыбритания, Германия, Одақ Комор аралдары, Біріккен Араб Әмірліктері, Америка Құрама Штаттары (және оның тәуелді жерлері, әскери базалары мен аумақтары, яғни Кіші АҚШ Шеткі аралдар, АҚШ Виргин аралдары), Вануату, Йемен, Зимбабве. немесе біз мезгіл-мезгіл хабарлайтын басқа шектеулі юрисдикциялар («Шектеулі юрисдикция»). Веб-сайтты пайдалану арқылы сіз шектеулі юрисдикцияның резиденті емес екеніңізді растайсыз. <br />
+                      3.4. Тіркелгіні ашуға әрекет жасағанда немесе веб-сайтты пайдаланғанда, құмар ойындардың сол юрисдикцияда заңды екенін тексеру ойыншының міндеті. <br />
+                      3.5. Сіз пайдаланатын төлем әдісінің уәкілетті пайдаланушысысыз және шотыңыздағы және Қызметтер аясында пайдаланылған барлық қаражат заңды. <br />
+                      3.6. Сіз бізге барлық төлемдерді адал орындауыңыз керек және жасалған төлемді қайтаруға әрекеттенбеуіңіз немесе үшінші тараптың мұндай төлемді қайтаруына әкелетін әрекеттерді жасамауыңыз керек. <br />
+                      3.7. Бәс тігулер кезінде сіз осы Шарттарға сәйкес Қызметке салынған ақшаңыздың бір бөлігін немесе барлығын жоғалтуыңыз мүмкін және сіз бұл жоғалту үшін толық жауапты боласыз. <br />
+                      3.8. Бәс тігу кезінде сіз бәс тігу кезінде сіз болған елде қолданыстағы заңнаманы бұза отырып алынған ақпаратты пайдаланбауыңыз керек. <br />
+                      3.9. Сіз басқа тараптың атынан немесе қандай да бір коммерциялық мақсатта әрекет етпейсіз, бірақ жеке тұлға ретінде жеке тұлға ретінде өз атыңыздан әрекет етесіз. <br />
+                      3.10. Сіз Қызметтің ішінде қандай да бір нарықты немесе элементті жаман ниетпен, не Қызметтің немесе біздің тұтастығына теріс әсер ететін жолмен басқаруға әрекеттенбеуіңіз керек. <br />
+                      3.11. Сіз әрқашан Қызметті пайдалануға қатысты және Қызметті пайдаланып жасалған барлық ставкалар үшін адал әрекет етуіңіз керек. <br />
+                      3.12. Сіз немесе, егер қажет болса, сіздің қызметкерлеріңіз, жұмыс берушілеріңіз, агенттеріңіз немесе отбасы мүшелеріңіз Серіктестік бағдарламамызда Серіктестік ретінде тіркелмегенсіз. <br />
+                      3.13. Goldbet қолданбасын кез келген уақытта пайдалану кезінде сіз бізге әдепкі бойынша және біз сұраған кезде тек шынайы, шынайы және объективті деректерді беруге келісесіз.<br />
+                      3.14. Сіз криптовалюта нарығының құбылмалылығын түсінесіз және сіз алуды күткен кезде немесе сіздің алуыңызды біздің тәуекелдер департаменті өңдеп жатқанда валюта/валюта бағасының өзгеруі мүмкіндігін қабылдайсыз.<br />
+                      3.15. Сіз психикалық сау адамсыз және сіз құмар ойындарға тәуелділіктен зардап шекпейсіз. Мұндай проблемасы бар адам Сайтқа кірген жағдайда - жауапкершілік тек солардың жағында.<br />
+                      3.16. Сіз Goldbet бөлімшелерінің кез келгенінде үшінші тарап бағдарламалық құралын пайдаланбауға, сондай-ақ платформада табылған ойын/жұмыс қателерін теріс пайдаланбауға келісесіз.<br />
+                      3.17. Тіркелген сәттен бастап және осы келісімнің әрекет ету мерзімі ішінде бізге берген барлық ақпараттың шынайы, толық, дұрыс екендігіне және мұндай ақпараттың кез келген өзгеруі туралы бізге дереу хабарлауға кепілдік бересіз.<br />
+                      3.17.1. Тіркеу кезінде және Сервисті пайдалану кезінде енгізілген ақпаратты сіздің шешіміңізбен өзгертуге болмайтынын түсінгеніңізді растайсыз. Кез келген ақпаратты өзгерту үшін қолдау көрсету тобына хабарласу керек. Кез келген ақпаратты өзгерту үшін Goldbet өз шешімімен KYC тапсыру үшін кез келген құжаттарды сұрай алады. <br />
+                      3.18. Сіз онлайн ставкаларды қоюға және/немесе қабылдауға және/немесе казино және/немесе тірі ойындарды ойнауға тыйым салатын кез келген юрисдикцияда орналасқан кезде біздің қызметтерді пайдаланбайтыныңызға кепілдік бересіз.<br />
+                      3.19.Сонымен қатар сіз мыналарға кепілдік бересіз: <br />
+                      - Қызметтерге кез келген басқа тұлғаның атынан емес, өз атыңыздан қатысасыз;<br />
+                      - Сіз бізден алған кез келген ұтыс үшін тиісті заңдарға сәйкес сізге қолданылатын кез келген салықтар бойынша есеп беруге және есепке алуға жауаптысыз;<br />
+                      - Қызметті пайдалану арқылы сізге берілген криптовалюта бойынша төленуі мүмкін кез келген салықтар үшін тек сіз жауаптысыз.`,
+    chooseSectionTitle: `НЕГЕ <span class="yellow-gradient-text">GOLDBET</span> ТАҢДАЙДЫ?`,
+    chooseItem1Title: "БОНУСТАР",
+    chooseItem1Text:
+      "Депозитсіз, лезде және эксклюзивті VIP бонустары жоқ — ең жақсы мәмілені бастапқы топтамамыздан немесе біздің қауымдастықтан табыңыз.",
+    chooseItem2Title: "Слотлар",
+    chooseItem2Text:
+      "Жоғары төлемдерімен танымал ағындарда көрген ең танымал слоттарды ойнаңыз. Барлық достарыңыз ойнап жатыр!",
+    chooseItem3Title: "СПОРТ БҮКСІЗУ",
+    chooseItem3Text:
+      "Сіз болжау қабілеті бар спорт маманысыз ба? Бізде оңай шарлау және нақты уақыттағы статистикасы бар 30 спорт санаттары сізге дайын.",
+    chooseItem4Title: "ТІКЕЛЕЙ КАЗИНО",
+    chooseItem4Text:
+      "Сіз джекпотқа қол жеткізген кездегі шынайы дилерлер және шынайы реакциялар. Ойыныңызды, тіліңізді таңдаңыз және күшті сусын алыңыз - бұл өте күшті болады!",
+    chooseItem5Title: "ЗАҢДЫ",
+    chooseItem5Text:
+      "Барлық операциялар реттеуші қадағалаумен жүргізіледі. Біз заңды қолдау сұрауларының 100% өңдейміз және әділ ойынға кепілдік береміз.",
+    footerText: `www.goldbet.io веб-сайтына Иванов И.И. (тіркеу нөмірі: 12345678; тіркелген мекен-жайы: Иванов Иван Руа де Хенрике Дигени 12, 1 & 2 ан., 1234-5600 Lisboa, Португалия PO BOX 1234-5600 Lisboa, Португалия) төлем агенті LDEVEITNOEDNOEMreg нөмірі арқылы жұмыс істейді. : AB123456, Кипрде тіркелген мекенжайы бар Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lisboa, Portugal). Иванов И.И. — Анжуан заңдарына сәйкес тіркелген және құрылған және Анжуан үкіметі № AB12345678 ойын лицензиясы бойынша лицензияланған және реттейтін, Анжуан үкіметі рұқсат берген және реттейтін, тіркелген мекенжайы бар компания: Rua de Henrique Digeni 12 1 & 2 an. , 1234-5600 Лиссабоа, Португалия.`,
+    stickyButtonText: "БОНУСТЫ АЛУ",
+  },
   ru: {
     pageTitle: "Goldbet English",
     sliderTitle: `ПРИВЕТСТВЕННЫЙ <br /> БОНУС <br />`,
     sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Ваш приветственный бонус готов для вас в Центре бонусов.",
     sliderButtonText: "получить бонус",
+    step: "Шаг",
     mainTitle: "КАК ПОЛУЧИТЬ БОНУС",
     step1Title: "Регистрация",
     step1Text:
       'Нажмите "Играть сейчас" и введите свой адрес электронной почты и пароль.',
-    step2Title: "АКТИВИРУЙТЕ БОНУС",
-    step2Text: "Ваш приветственный бонус готов для вас в Центре бонусов.",
-    step3Title: "СДЕЛАЙТЕ ДЕПОЗИТ",
-    step3Text: "Выберите предпочтительный способ оплаты и сделайте депозит.",
+    step2Title: " СДЕЛАЙТЕ ДЕПОЗИТ",
+    step2Text: " Выберите предпочтительный способ оплаты и сделайте депозит.",
+    step3Title: "АКТИВИРУЙТЕ БОНУС",
+    step3Text: "Ваш приветственный бонус готов для вас в Центре бонусов.",
     mainButtonText: "ПОЛУЧИТЬ БОНУС",
     termsAndConditionsButtonText: "Условия и положения",
     termsTitle1: `Условия и положения`,
@@ -338,190 +405,5 @@ export const translations = {
                   Анжуан с юридическим адресом: Rua de Henrique Digeni 12, 1 и 2 ан.,
                   1234-5600 Лиссабон, Португалия.`,
     stickyButtonText: "получить бонус",
-  },
-  uz: {
-    pageTitle: "Goldbet English",
-    sliderTitle: `XUSH KELIBSIZ <br /> BONUSINGIZNI <br />`,
-    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
-    sliderSubtitle:
-      "Sizning xush kelibsiz BONUSINGIZNI Bonus Markazida tayyor.",
-    sliderButtonText: "BONUSINGIZNI OLING",
-    mainTitle: "BONUSINGIZNI OLING",
-    step1Title: "Ro'yxatdan o'ting",
-    step1Text:
-      '"Hozir o\'ynang" tugmasini bosing va elektron pochta va parolingizni kiriting.',
-    step2Title: "BONUSINGIZNI AKTIVATSIYA QILING",
-    step2Text: "Sizning xush kelibsiz BONUSINGIZNI Bonus Markazida tayyor.",
-    step3Title: "DEPOZIT QILING",
-    step3Text: "O'zingizga qulay to'lov usulini tanlang va depozit qiling.",
-    mainButtonText: "BONUSINGIZNI OLING",
-    termsAndConditionsButtonText: "Shartlar va sharoitlar",
-    termsTitle1: `Shartlar va sharoitlar`,
-    termsParagraph1: `Ushbu shartlar va qoidalar hamda quyida keltirilgan hujjatlar
-                    (“Shartlar”) joriy veb-saytni (“Veb-sayt”) va uning
-                    tegishli yoki bog'liq xizmatlarini (birgalikda “Xizmat”) 
-                    foydalanishga taalluqlidir. Ushbu Shartlarni diqqat bilan
-                    ko'rib chiqishingiz kerak, chunki ular Veb-saytdan foydalanishingiz
-                    bilan bog'liq bo'lgan huquq va majburiyatlaringiz haqida
-                    muhim ma'lumotlarni o'z ichiga oladi va siz - bizning mijozimiz
-                    (“Mijoz”) va biz (“Veb-sayt”) o'rtasida majburiy qonuniy
-                    kelishuvni tashkil etadi. Ushbu Veb-saytdan foydalanish va/yoki 
-                    Xizmatga kirish orqali siz, mehmon bo'lsangiz ham, hisobga ega
-                    ro'yxatdan o'tgan foydalanuvchi bo'lsangiz ham (“Hisob”), ushbu
-                    Shartlarga, vaqti-vaqti bilan e'lon qilinishi mumkin bo'lgan
-                    har qanday o'zgartirishlar bilan birga, bo'ysunishga rozi
-                    bo'lasiz. Agar siz ushbu Shartlarni qabul qilmasangiz,
-                    Xizmatga kirishdan va Veb-saytdan foydalanishdan saqlanishingiz
-                    kerak.`,
-    termsTitle2: `1. Umumiy Shartlar`,
-    termsParagraph2: `Biz har qanday vaqtda Shartlarni (quyida keltirilgan va havola qilingan
-                    hujjatlarni o'z ichiga olgan holda) qayta ko'rib chiqish va o'zgartirish
-                    huquqini o'zimizda saqlab qolamiz. Siz ushbu sahifani vaqt-vaqti bilan
-                    tashrif buyurib, Shartlar va Qoidalarni ko'rib chiqishingiz kerak.
-                    O'zgartirishlar ushbu Veb-saytda e'lon qilinganidan so'ng darhol
-                    majburiy va amal qiladi. Agar siz bunday o'zgarishlarga qarshi
-                    bo'lsangiz, siz darhol Xizmatdan foydalanishni to'xtatishingiz kerak.
-                    Bunday e'lon qilinganidan keyin Veb-saytdan foydalanishingiz sizning
-                    o'zgartirilgan Shartlarga bo'ysunishga rozi ekanligingizni ko'rsatadi.
-                    O'zgarilgan Shartlar kuchga kirishidan oldin hal qilinmagan har qanday
-                    tikishlar oldingi Shartlarga bo'ysunadi. Agar Goldbet shartlari va
-                    qoidalari yangilansa, platforma sizni xabardor qiladi va
-                    roziligingizni tasdiqlashni so'raydi.`,
-    termsTitle3: `2. Sizning Majburiyatlaringiz`,
-    termsParagraph3: `Siz Veb-saytga kirganingizda va Xizmatdan foydalanganda har doim quyidagi
-                    shartlarni tan olasiz: <br />
-                    3.1. Siz 18 yoshdasiz yoki qimor yoki o'yin faoliyatini amalga oshirish
-                    uchun qonun yoki sizga taalluqli yurisdiktsiya bo'yicha qonuniy yoshdasiz.
-                    Biz har qanday vaqtda sizdan yoshga oid hujjatlarni so'rash huquqini
-                    o'zimizda saqlaymiz. <br />
-                    3.2. Siz qonuniy qobiliyatga egasiz va biz bilan majburiy qonuniy
-                    kelishuvga kirishingiz mumkin. Agar siz qonuniy qobiliyatga ega bo'lmasangiz,
-                    Veb-saytga kirish va Xizmatdan foydalanmasligingiz kerak. <br />
-                    3.3. Siz Veb-saytga kirish va u yerda taklif etilgan har qanday mahsulotlardan
-                    foydalanishning ayrim mamlakatlarda noqonuniy hisoblanishi mumkinligini
-                    bilasiz. Biz har bir yurisdiktsiyada xizmatning qonuniyligini tasdiqlay
-                    olmaymiz, shuning uchun sizning veb-saytimizga kirishingiz va undan
-                    foydalanishingiz o'zingizning mamlakatingizda amaldagi qonunlarga muvofiqligini
-                    aniqlashda mas'uliyat sizda va qimor o'ynash siz yashaydigan hududda
-                    noqonuniy emasligiga kafolat berasiz. Turli huquqiy yoki tijorat
-                    sabablari bilan biz ayrim yurisdiktsiyada istiqomat qiluvchi mijozlarga
-                    hisob ochishga yoki undan foydalanishga ruxsat bermaymiz, jumladan, lekin
-                    cheklanmagan holda: Afg'oniston, Jazoir, Antigua va Barbuda, Avstraliya,
-                    Belarus, Birlashgan Arab Amirliklari, Belgiya, Bhutan, Bruney, Markaziy
-                    Afrika Respublikasi, Chod, Kot-d'Ivuar, Xorvatiya, Kuba, Chexiya
-                    Respublikasi, Shimoliy Koreya (Koreya Xalq Demokratik Respublikasi),
-                    Kongoda, Daniya, Estoniya, Fransiya, Gretsiya, Gvineya-Bisau, Vengriya,
-                    Eron, Iroq, Islandiya, Isroil, Italiya, Iordaniya, Kuwait, Letoniya,
-                    Liberiya, Litva, Malt, Myanma, Niderlandiya, Niderlandiya Antillari
-                    (Kuyusao, Sint Maarten, Bonaire, Sint Eustatius va Saba, Aruba),
-                    Norvegiya, Ummon, Falastin, Pokiston, Qatar, Rossiya, Saba, Saint Martin,
-                    Saud Arabistoni, Serbiya, Sloveniya, Somalilandiya, Ispaniya,
-                    Shveysariya, Suriya Arab Respublikasi, Sudan, Trinidad va Tobago,
-                    Turkiya, Ukraina, Birlashgan Qirollik, Germaniya, Komor orollari
-                    Ittifoqi, Birlashgan Arab Amirliklari, Amerika Qo'shma Shtatlari (va
-                    uning qaram davlatlari, harbiy bazalari va hududlari, ya'ni AQShning
-                    kichik orollari, AQSh Virgin orollari), Vanuatu, Yaman, Zimbabve yoki
-                    boshqa cheklangan yurisdiktsiyalar (“Cheklangan Yurisdiktsiya”) biz
-                    vaqt-vaqti bilan xabar beradigan. Veb-saytdan foydalanish orqali siz
-                    Cheklangan Yurisdiktsiyada istiqomat qilmasligingizni tasdiqlaysiz. <br />
-                    3.4. Hisob ochishga yoki Veb-saytdan foydalanishga harakat qilganda,
-                    o'yinchining mas'uliyati, o'sha muayyan yurisdiktsiyada qimor
-                    o'ynash qonuniyligini tekshirishdir. <br />
-                    3.5. Siz foydalanayotgan to'lov usulining vakolatli foydalanuvchisiz
-                    va hisobingizdagi va Xizmatlar ichida ishlatilayotgan barcha mablag'lar
-                    qonuniydir. <br />
-                    3.6. Siz bizga to'lovlarni halol niyat bilan amalga oshirishingiz va
-                    amalga oshirilgan to'lovni teskari qilishga yoki uchinchi shaxs
-                    tomonidan teskari qilinishiga sabab bo'ladigan har qanday harakat
-                    qilishga harakat qilmasligingiz kerak. <br />
-                    3.7. Tikish qo'yganingizda siz Xizmatga qo'ygan mablag'ingizning
-                    bir qismini yoki hammasini yo'qotishingiz mumkin va siz ushbu yo'qotish
-                    uchun to'liq mas'uliyatdasiz. <br />
-                    3.8. Tikish qo'yganingizda siz tikish qo'yilgan mamlakatda amal
-                    qiluvchi qonunchilikni buzgan holda olingan har qanday ma'lumotdan
-                    foydalanmasligingiz kerak. <br />
-                    3.9. Siz boshqa bir tomon nomidan yoki tijorat maqsadlarida
-                    harakat qilmaysiz, balki shaxsiy shaxs sifatida faqat o'z nomingizdan
-                    harakat qilasiz. <br />
-                    3.10. Siz Xizmat ichida har qanday bozorni yoki elementni
-                    yomon niyat bilan manipulyatsiya qilishga yoki Xizmatning
-                    yaxlitligiga yoki bizga zarar yetkazadigan tarzda harakat qilishga
-                    urinish qilmasligingiz kerak. <br />
-                    3.11. Siz har doim Xizmatdan foydalanishda va Xizmatdan foydalanish
-                    orqali amalga oshirilgan barcha tikishlarda yaxshi niyat bilan harakat
-                    qilishingiz kerak. <br />
-                    3.12. Siz yoki, agar tegishli bo'lsa, xodimlaringiz, ish beruvchilaringiz,
-                    agentlaringiz yoki oila a'zolaringiz bizning Sheriklik dasturimizda
-                    Sherik sifatida ro'yxatdan o'tmagan. <br />
-                    3.13. Goldbetdan foydalanayotganingizda sizdan so'ralganda
-                    bizga faqat haqiqiy, real va ob'ektiv ma'lumotlarni taqdim etishga
-                    rozilik berasiz. <br />
-                    3.14. Siz kripto bozorining o'zgaruvchanligini tushunasiz va
-                    pulingizni yechib olishni kutayotganda yoki yechib olish
-                    bizning Xavf bo'limimiz tomonidan qayta ishlanayotganida
-                    valyuta/valyutalaringiz narxining o'zgarishi mumkinligini qabul
-                    qilasiz. <br />
-                    3.15. Siz ruhiy jihatdan qobiliyatli shaxs bo'lib, qimor
-                    giyohvandligidan azob chekmasligingiz kerak. Agar bunday muammoga ega
-                    shaxs Saytga kirsa, mas'uliyat faqat ularga tegishli. <br />
-                    3.16. Siz Goldbetning har qanday bo'limida uchinchi tomon
-                    dasturlaridan foydalanmaslikka va platformada topilgan har qanday
-                    o'yin/funksional xatolarni suiiste'mol qilmaslikka rozilik
-                    berasiz. <br />
-                    3.17. Siz ro'yxatdan o'tishdan boshlab va ushbu kelishuv
-                    amal qilgan davr mobaynida bizga taqdim etgan barcha ma'lumotlar
-                    to'g'ri, to'liq, to'g'ri ekanligini kafolatlayapsiz va bunday
-                    ma'lumotlarning har qanday o'zgarishi haqida bizga darhol xabar
-                    berasiz. <br />
-                    3.17.1. Siz ro'yxatdan o'tish paytida kiritilgan ma'lumotlar va
-                    Xizmatdan foydalanish davomida o'zgartirilishi sizning qaroringizga
-                    bog'liq emasligini tasdiqlaysiz. Har qanday ma'lumotni o'zgartirish
-                    uchun, siz yordamchi guruh bilan bog'lanishingiz kerak. Har qanday
-                    ma'lumotni o'zgartirish uchun Goldbet KYCni o'tkazish uchun har qanday
-                    hujjatlarni talab qilishi mumkin. <br />
-                    3.18. Siz bizning xizmatlarimizdan foydalanmaslikka
-                    kafolat berasiz, agar siz qimor o'ynash va/yoki tikish qo'yish
-                    va/yoki kazino va/yoki jonli o'yinlarni o'tkazishga ruxsat berilmagan
-                    yurisdiktsiyada joylashgan bo'lsangiz. <br />
-                    3.19. Siz, shuningdek, quyidagi narsalarni kafolatlaysiz: <br />
-                    - Siz xizmatlardan o'zingizning nomingizdan qatnashasiz va ushbu
-                    shartlar asosida har qanday yutuqni ko'rsatmasligingizni kafolatlayapsiz.
-                    <br />
-                    - Bizning xizmatlarimizdan foydalanishga ruxsat berilgan yurisdiktsiyalarda
-                    tugallangan har qanday shartnoma bo'yicha fuqarolik yoki jinoyat
-                    javobgarligiga oid joriy qonunchilikka muvofiqligini bilasiz.
-                    <br />
-                    - Sizning ishingiz natijasida shartnoma bo'yicha ro'yxatdan
-                    o'tganingizdan so'ng, shartnoma bo'yicha amal qiluvchi qonunchilikni
-                    buzgan holda o'tkazilgan har qanday o'yinlarda yoki xizmatlardan
-                    foydalanishingizdan oldin bizga xabar berasiz.`,
-    chooseSectionTitle: "NIMA UCHUN GOLDBETNI TANLASH KERAK?",
-    chooseItem1Title: "BONUSLAR",
-    chooseItem1Text:
-      "Hech qanday depozit, zudlik bilan va eksklyuziv VIP bonuslar bizning boshlang'ich to'plamimizda yoki hamjamiyatimizda eng yaxshi taklifni toping.",
-    chooseItem2Title: "SLOTLAR",
-    chooseItem2Text:
-      "Odatda yuqori to'lovlari bilan mashhur bo'lgan slotlarni o'ynang. Barcha do'stlaringiz allaqachon o'ynayapti!",
-    chooseItem3Title: "SPORT BAHSLARI",
-    chooseItem3Text:
-      "Siz bashorat qilishda mahoratga ega bo'lgan sport mutaxassisi bormi? Bizda siz uchun qulay navigatsiya va real vaqt statistikasi bilan 30-ta sport kategoriyasi mavjud.",
-    chooseItem4Title: "JONLI KAZINO",
-    chooseItem4Text:
-      "Haqiqiy dilerlar va jekkpotni urganingizda haqiqiy reaksiyalar. O'yiningizni tanlang, tilni tanlang va kuchli ichimlikni oling — bu juda qizg'in bo'ladi!",
-    chooseItem5Title: "QONUNIY",
-    chooseItem5Text:
-      "Barcha operatsiyalar tartibga soluvchi nazorat ostida o'tkaziladi. Biz huquqiy qo'llab-quvvatlash so'rovlarining 100% ni bajaramiz va adolatli o'yin kafolatlaymiz.",
-    footerText: `Veb-sayt www.goldbet.io Ivanov I.I. tomonidan egalik qilinadi va boshqariladi
-                (ro'yxatga olish raqami: 12345678; ro'yxatga olingan manzil: Ivanov Ivan
-                Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lisboa, Portugaliya PO
-                BOX 1234-5600 Lisboa, Portugaliya) IVANOV DEVELOPMENT LIMITED (ro'yxatga olish raqami: AB123456;
-                Kiprda ro'yxatga olingan va ro'yxatga olingan manzil: Rua de Henrique Digeni
-                12, 1 & 2 an., 1234-5600 Lisboa, Portugaliya) orqali faoliyat yuritadi. Ivanov I.I.
-                Anjouan qonunlari bo'yicha ro'yxatga olingan va tashkil etilgan kompaniyadir
-                va Anjouan hukumatidan o'yin litsenziyasi No. AB12345678 asosida litsenziyalangan
-                va nazorat qilinadi, Anjouan hukumati tomonidan ruxsat etilgan va nazorat qilinadi,
-                ro'yxatga olingan manzil: Rua de Henrique Digeni 12 1 & 2
-                an., 1234-5600 Lisboa, Portugaliya.`,
-    stickyButtonText: "BONUSINGIZNI OLING",
   },
 };

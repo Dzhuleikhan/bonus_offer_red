@@ -537,9 +537,11 @@ function submitForm(form, newDomain) {
     }
   });
 }
+
 submitForm(emailForm, newDomain);
 submitForm(phoneForm, newDomain);
 submitForm(oneClickForm, newDomain);
+
 socialForm.forEach((socialForm) => {
   submitForm(socialForm, newDomain);
 });
