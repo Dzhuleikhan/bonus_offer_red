@@ -4,6 +4,7 @@ import { getLocation } from "./geoLocation";
 import { setPaymentMethods } from "./footerPayments";
 import { paymentCountries } from "../public/payments";
 import gsap from "gsap";
+import { settingBonusValueAndAmount } from "./settingBonusValue";
 
 const headerLangBtn = document.querySelector(".header-lang-btn");
 const headerLangList = document.querySelector(".header-lang-list");
@@ -124,6 +125,7 @@ async function mainFunction() {
   try {
     lang = await determineLanguage();
     changeLanguage(lang);
+    settingBonusValueAndAmount(localStorage.getItem("preferredLanguage"));
     gsap.to(".preloader", { opacity: 0, duration: 0.5 });
     document.querySelector(".wrapper").classList.remove("hidden");
   } catch (error) {
@@ -140,5 +142,6 @@ document.querySelectorAll(".language-link").forEach((langBtn) => {
     changeModalLanguage(targetLang);
     setPaymentMethods(paymentCountries, targetLang);
     localStorage.setItem("preferredLanguage", targetLang);
+    settingBonusValueAndAmount(targetLang);
   });
 });
