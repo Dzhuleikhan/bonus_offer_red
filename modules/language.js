@@ -126,8 +126,10 @@ async function determineLanguage() {
 async function mainFunction() {
   try {
     lang = await determineLanguage();
+    let actualCountry = await getLocation();
+
     changeLanguage(lang);
-    settingBonusValueAndAmount(localStorage.getItem("preferredLanguage"));
+    settingBonusValueAndAmount(actualCountry.countryCode);
     gsap.to(".preloader", { opacity: 0, duration: 0.5 });
     document.querySelector(".wrapper").classList.remove("hidden");
   } catch (error) {
