@@ -6,6 +6,7 @@ import { paymentCountries } from "../public/payments";
 import gsap from "gsap";
 import { settingBonusValueAndAmount } from "./settingBonusValue";
 import { settingModalCurrencyAfterlanguageChange } from "./modalCurrency";
+import { getSupportedLanguage } from "./geoLocation";
 
 const headerLangBtn = document.querySelector(".header-lang-btn");
 const headerLangList = document.querySelector(".header-lang-list");
@@ -142,7 +143,10 @@ document.querySelectorAll(".language-link").forEach((langBtn) => {
     changeLanguage(targetLang);
     changeModalLanguage(targetLang);
     setPaymentMethods(paymentCountries, targetLang);
-    localStorage.setItem("preferredLanguage", targetLang);
+    localStorage.setItem(
+      "preferredLanguage",
+      getSupportedLanguage(targetLang.toUpperCase()),
+    );
     settingBonusValueAndAmount(targetLang);
     settingModalCurrencyAfterlanguageChange(targetLang.toUpperCase());
   });
