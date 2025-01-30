@@ -51,17 +51,16 @@ if (modal === "auth") {
 
   if (method === "email") {
     showMethod("email");
-  } else if (method === "phone") {
-    showMethod("phone");
   } else if (method === "social") {
     showMethod("social");
-  } else if (method === "oneclick") {
-    showMethod("oneclick");
-    document.querySelector("button[data-tab='social']").classList.add("hidden");
-    document
-      .querySelector("button[data-tab='oneclick']")
-      .classList.remove("hidden");
   }
+  // } else if (method === "oneclick") {
+  //   showMethod("oneclick");
+  //   document.querySelector("button[data-tab='social']").classList.add("hidden");
+  //   document
+  //     .querySelector("button[data-tab='oneclick']")
+  //     .classList.remove("hidden");
+  // }
 } else if (modal === "socials") {
   showCurrentModal("socials");
 } else {
