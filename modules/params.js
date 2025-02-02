@@ -66,30 +66,33 @@ if (modal === "auth") {
 
   if (method === "email") {
     showMethod("email");
-  } else if (method === "phone") {
-    showMethod("phone");
-  } else if (method === "social") {
-    showMethod("social");
-  } else if (method === "oneclick") {
-    showMethod("oneclick");
-    document.querySelector("button[data-tab='social']").classList.add("hidden");
-    document
-      .querySelector("button[data-tab='oneclick']")
-      .classList.remove("hidden");
   }
+  // else if (method === "phone") {
+  //   showMethod("phone");
+  // }
+  else if (method === "social") {
+    showMethod("social");
+  }
+  //  else if (method === "oneclick") {
+  //   showMethod("oneclick");
+  //   document.querySelector("button[data-tab='social']").classList.add("hidden");
+  //   document
+  //     .querySelector("button[data-tab='oneclick']")
+  //     .classList.remove("hidden");
+  // }
 } else if (modal === "socials") {
   showCurrentModal("socials");
-  if (!getUrlParameter("method-type")) {
-    addUrlParameter("method-type", "email");
-  }
+  // if (!getUrlParameter("method-type")) {
+  //   addUrlParameter("method-type", "email");
+  // }
 
-  const method = getUrlParameter("method-type");
+  // const method = getUrlParameter("method-type");
 
-  if (method === "phone") {
-    showSocialsMethod("phone");
-  } else {
-    showSocialsMethod("email");
-  }
+  // if (method === "email") {
+  //   showSocialsMethod("email");
+  // } else {
+  //   showSocialsMethod("email");
+  // }
 } else {
   showCurrentModal("main");
 }
