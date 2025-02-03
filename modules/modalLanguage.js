@@ -14,7 +14,7 @@ const preferredLanguage = localStorage.getItem("preferredLanguage");
 
 function changeLanguage(lang) {
   if (preferredLanguage) {
-    updateContent("kk");
+    updateContent("en");
   } else {
     if (modalTranslations[lang]) {
       updateContent(lang);
@@ -35,7 +35,7 @@ export function changeModalLanguage(lang) {
 async function setModalLanguage() {
   try {
     const location = await getLocation();
-    changeLanguage("kk");
+    changeLanguage("en");
   } catch (error) {
     console.log(error);
     changeLanguage("en");

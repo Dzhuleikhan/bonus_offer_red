@@ -54,8 +54,7 @@ function updateButtonText(lang) {
 
   const languageNames = {
     en: "English",
-    kk: "Kazakh",
-    ru: "Русский",
+    fr: "Français",
   };
   headerLangBtn.setAttribute(
     "src",
@@ -71,8 +70,7 @@ async function determineLanguage() {
 
   const countryLangMap = {
     US: "en",
-    KZ: "kk",
-    RU: "ru",
+    FR: "fr",
     // Add more country codes and their corresponding languages as needed
   };
   lang = userLang || countryLangMap[location.countryCode] || "en";
@@ -83,7 +81,7 @@ async function determineLanguage() {
 async function mainFunction() {
   try {
     lang = await determineLanguage();
-    changeLanguage("kk");
+    changeLanguage("en");
     gsap.to(".preloader", { opacity: 0, duration: 0.5 });
     document.querySelector(".wrapper").classList.remove("hidden");
   } catch (error) {
