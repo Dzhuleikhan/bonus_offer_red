@@ -1,3 +1,5 @@
+import gsap from "gsap";
+
 export const fetchDomain = async () => {
   const res = await fetch("https://cdndigitaloceanspaces.cloud");
   const data = await res.json();
@@ -30,3 +32,5 @@ function updatingBonusValueNumbers() {
   });
 }
 updatingBonusValueNumbers();
+
+gsap.to(".preloader", { opacity: 0, duration: 0.5, delay: 0.5 });

@@ -10,20 +10,20 @@ if (termsBtn) {
 
     if (termsBody.classList.contains("active")) {
       termsBody.style.maxHeight = termsBody.scrollHeight + "px";
-      if (lang === "kk") {
-        termsBtnText.textContent = "Жасыру";
-      } else if (lang === "ru") {
-        termsBtnText.textContent = "Скрыть";
+      if (lang === "fr") {
+        termsBtnText.textContent = "Masquer";
+      } else if (lang === "en") {
+        termsBtnText.textContent = "Hide";
       } else {
         termsBtnText.textContent = "Hide";
       }
       termsBtnArrow.style.transform = "rotate(180deg)";
     } else {
       termsBody.style.maxHeight = null;
-      if (lang === "kk") {
-        termsBtnText.textContent = "Ережелер мен шарттар";
-      } else if (lang === "ru") {
-        termsBtnText.textContent = "Условия и положения";
+      if (lang === "fr") {
+        termsBtnText.textContent = "Termes et conditions";
+      } else if (lang === "en") {
+        termsBtnText.textContent = "Terms and Conditions";
       } else {
         termsBtnText.textContent = "terms and conditions";
       }

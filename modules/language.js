@@ -1,7 +1,6 @@
-import { changeModalLanguage } from "./modalLanguage";
 import { translations } from "/public/translations";
 import { getLocation } from "./geoLocation";
-import gsap from "gsap";
+import { getSupportedLanguage } from "./geoLocation";
 
 const headerLangBtn = document.querySelector(".header-lang-btn");
 const headerLangList = document.querySelector(".header-lang-list");
@@ -35,7 +34,6 @@ function changeLanguage(lang) {
   updateContent(lang);
   updateButtonText(lang);
   setActiveLanguageBtn(lang);
-  changeModalLanguage(lang);
 }
 
 function setActiveLanguageBtn(currentLang) {
@@ -64,16 +62,17 @@ function updateButtonText(lang) {
   document.querySelector("html").setAttribute("lang", lang);
 }
 
+export const availableLang = ["en", "fr"];
+
 async function determineLanguage() {
   const location = await getLocation();
-  const userLang = navigator.language.split("-")[0];
 
   const countryLangMap = {
-    US: "en",
+    EN: "en",
     FR: "fr",
     // Add more country codes and their corresponding languages as needed
   };
-  lang = userLang || countryLangMap[location.countryCode] || "en";
+  lang = countryLangMap[location.countryCode] || "en";
 
   return lang;
 }
@@ -81,9 +80,8 @@ async function determineLanguage() {
 async function mainFunction() {
   try {
     lang = await determineLanguage();
-    changeLanguage("en");
-    gsap.to(".preloader", { opacity: 0, duration: 0.5 });
-    document.querySelector(".wrapper").classList.remove("hidden");
+    changeLanguage(lang);
+    localStorage.setItem("preferredLanguage", lang);
   } catch (error) {
     console.error("Error determining language:", error);
   }
@@ -94,8 +92,10 @@ document.querySelectorAll(".language-link").forEach((langBtn) => {
   langBtn.addEventListener("click", (e) => {
     e.preventDefault();
     const targetLang = e.target.getAttribute("data-lang");
-    localStorage.setItem("preferredLanguage", targetLang);
     changeLanguage(targetLang);
-    changeModalLanguage(targetLang);
+    localStorage.setItem(
+      "preferredLanguage",
+      getSupportedLanguage(targetLang.toUpperCase()),
+    );
   });
 });
