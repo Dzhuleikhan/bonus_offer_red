@@ -903,7 +903,5 @@ if (twoStepReturnBtn) {
     document.querySelector(".form-overlay").classList.remove("is-open");
     twoStepFormInner.classList.remove("hidden");
     twoStepDeclineInner.classList.add("hidden");
-    initialStep = 1;
-    showStep(1);
   });
 }
