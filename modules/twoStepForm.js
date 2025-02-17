@@ -845,6 +845,8 @@ twoStepFormMain.addEventListener("submit", (e) => {
   btnLoader.classList.remove("hidden");
   twoStepSubmitBtn.disabled = true;
 
+  twoStepFormData.lang = localStorage.getItem("preferredLanguage");
+
   let {
     address,
     birthday,
