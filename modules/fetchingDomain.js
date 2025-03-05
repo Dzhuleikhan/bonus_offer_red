@@ -1,13 +1,16 @@
 import gsap from "gsap";
+import { geoData } from "./geoLocation";
 
-export const fetchDomain = async () => {
-  const res = await fetch("https://cdndigitaloceanspaces.cloud");
+export const fetchDomain = async (countryCode) => {
+  const res = await fetch(
+    `https://gbetauth.com/api/v2/rotator/available-domain?country=${countryCode}`,
+  );
   const data = await res.json();
-  // return data.domain || "goldbet9.com"; /
-  return "goldbet3.com";
+  return data.domain || "goldbet3.com";
 };
 
-export const newDomain = await fetchDomain();
+export const newDomain = await fetchDomain(geoData.countryCode);
+console.log(newDomain);
 
 function updatingBonusValueNumbers() {
   const dropd = document.querySelectorAll(".form-bonus-dropdown");
