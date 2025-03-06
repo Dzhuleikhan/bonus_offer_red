@@ -1,11 +1,6 @@
 import { getLocation } from "./geoLocation";
 import { countryCurrencyData } from "../public/data";
-import {
-  checkTir1CurrencyMatch,
-  exceptCurrencies,
-  twoStepFormData,
-  settingInitialBonusValue,
-} from "./twoStepForm";
+import { checkTir1CurrencyMatch, twoStepFormData } from "./twoStepForm";
 
 export function getCountryCurrencyABBR(inputCountry) {
   for (const data of countryCurrencyData) {
@@ -161,7 +156,6 @@ formCurrency.forEach((cur) => {
         // Two step currency update
         settingBonusOnCurrencyChange(countryCurrencyData, currencyData);
         twoStepFormData.currency = currencyData.abbr;
-        settingInitialBonusValue(twoStepFormData.currency);
 
         twoStepFormData.bonus = checkTir1CurrencyMatch(
           twoStepFormData.currency,

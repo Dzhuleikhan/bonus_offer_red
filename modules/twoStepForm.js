@@ -104,36 +104,6 @@ twoStepBonusCheckbox.forEach((checkbox) => {
   });
 });
 
-export const settingInitialBonusValue = (currency) => {
-  if (exceptCurrencies.includes(currency)) {
-    document.querySelector(".two-step-bonus-percent").innerHTML = "100%";
-    document.querySelector(".two-step-bonus-spins").innerHTML = "200FS";
-    document
-      .querySelector(".welcome-bonus-input")
-      .setAttribute("data-text", "100% + 200FS on your first deposit");
-    document.querySelectorAll(".applied-bonus-percent").forEach((el) => {
-      el.innerHTML = "100%";
-    });
-    document.querySelectorAll(".applied-bonus-spins").forEach((el) => {
-      el.innerHTML = "200FS";
-    });
-  } else {
-    document.querySelector(".two-step-bonus-percent").innerHTML = "200%";
-    document.querySelector(".two-step-bonus-spins").innerHTML = "25FS";
-    document
-      .querySelector(".welcome-bonus-input")
-      .setAttribute("data-text", "200% + 25FS on your first deposit");
-    document.querySelectorAll(".applied-bonus-percent").forEach((el) => {
-      el.innerHTML = "200%";
-    });
-    document.querySelectorAll(".applied-bonus-spins").forEach((el) => {
-      el.innerHTML = "25FS";
-    });
-  }
-};
-
-settingInitialBonusValue(twoStepFormData.currency);
-
 // | INPUTS
 const twoStepGeneralInput = document.querySelectorAll(
   ".two-step-general-input",
@@ -175,56 +145,14 @@ if (twoStepPromocodeWrapper) {
     ".two-step-promocode-apply-btn",
   );
 
-  /*
-
-  let promoIsValid;
-
   input.addEventListener("input", async () => {
-    const promoCode = input.value;
-    try {
-      const response = await fetch(
-        "https://promocodesapi.onrender.com/check-promo",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ code: promoCode }),
-        },
-      );
-
-      const result = await response.json();
-
-      promoIsValid = result.valid;
-
-      if (twoStepPromocodeWrapper.classList.contains("is-valid")) {
-        twoStepFormData.promocode = "";
-        console.log("Промокод неверный");
-        twoStepPromocodeWrapper.classList.remove("is-valid");
-        twoStepPromocodeWrapper.classList.add("is-not-valid");
-      }
-    } catch (error) {
-      console.error("Ошибка при проверке промокода:", error);
-    }
-  });
-
-  promocodeApplyBtn.addEventListener("click", () => {
-    console.log(promoIsValid);
-    if (promoIsValid) {
-      twoStepFormData.promocode = input.value.toUpperCase();
-      console.log("Промокод верный");
-      twoStepPromocodeWrapper.classList.add("is-valid");
-      twoStepPromocodeWrapper.classList.remove("is-not-valid");
-    } else {
+    if (twoStepPromocodeWrapper.classList.contains("is-valid")) {
       twoStepFormData.promocode = "";
       console.log("Промокод неверный");
       twoStepPromocodeWrapper.classList.remove("is-valid");
       twoStepPromocodeWrapper.classList.add("is-not-valid");
-      promocodeWrapperTl.restart();
     }
   });
-
-  */
 
   promocodeApplyBtn.addEventListener("click", async () => {
     let promoCode = input.value;

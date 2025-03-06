@@ -10,7 +10,6 @@ export const fetchDomain = async (countryCode) => {
 };
 
 export const newDomain = await fetchDomain(geoData.countryCode);
-console.log(newDomain);
 
 function updatingBonusValueNumbers() {
   const dropd = document.querySelectorAll(".form-bonus-dropdown");
