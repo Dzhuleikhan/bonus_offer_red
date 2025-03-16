@@ -22,3 +22,8 @@ export const getSupportedLanguage = (countryCode) => {
   }
   return "en";
 };
+
+localStorage.setItem(
+  "preferredLanguage",
+  getSupportedLanguage(geoData.countryCode),
+);

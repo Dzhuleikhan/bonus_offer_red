@@ -1,5 +1,5 @@
 import { getLocation } from "./geoLocation";
-import { countryCurrencyData } from "../public/data";
+import { countryCurrencyData, nodepBonuses } from "../public/data";
 import {
   checkTir1CurrencyMatch,
   twoStepFormData,
@@ -8,29 +8,38 @@ import {
 
 export function getCountryCurrencyABBR(inputCountry) {
   for (const data of countryCurrencyData) {
-    if (data.countries.includes(inputCountry)) {
+    if (data.countryCurrency.includes(inputCountry)) {
       return data.countryCurrency;
     }
   }
-  return "USD"; // or some default value if country is not found
+  return "EUR"; // or some default value if country is not found
 }
 
 function getCountryCurrencyFullName(inputCountry) {
   for (const data of countryCurrencyData) {
-    if (data.countries.includes(inputCountry)) {
+    if (data.countryCurrency.includes(inputCountry)) {
       return data.countryCurrencyFullName;
     }
   }
-  return "US Dollar"; // or some default value if country is not found
+  return "Euro"; // or some default value if country is not found
 }
 
 function getCountryCurrencyIcon(inputCountry) {
   for (const data of countryCurrencyData) {
-    if (data.countries.includes(inputCountry)) {
+    if (data.countryCurrency.includes(inputCountry)) {
       return data.countryCurrencyIcon;
     }
   }
-  return "./img/currencies/usd.svg"; // or some default value if country is not found
+  return "./img/currencies/eur.svg"; // or some default value if country is not found
+}
+
+function getCountryCurrencySymbol(inputCountry) {
+  for (const data of countryCurrencyData) {
+    if (data.countryCurrency.includes(inputCountry)) {
+      return data.countryCurrencySymbol;
+    }
+  }
+  return "€"; // or some default value if country is not found
 }
 
 function setCurrency(abbr, name, icon) {
@@ -54,25 +63,57 @@ function setCurrency(abbr, name, icon) {
       }
     });
   });
+
+  document.querySelectorAll(".banknote").forEach((el) => {
+    el.src = `./img/slide-money-${abbr.toLowerCase()}.webp`;
+  });
+  document.querySelector(".hero-bg-image").src =
+    `./img/hero-bg-${abbr.toLowerCase()}.webp`;
 }
+
+const settingFooterPayments = (currencyAbbr) => {
+  const selectedCurrency =
+    nodepBonuses.find((c) => c.currency === currencyAbbr) ||
+    nodepBonuses.find((c) => c.currency === "EUR");
+
+  const footerPaymentsList = document.querySelector(".payments-list");
+  const footerPaymentsListFooter = document.querySelector(".payments-list-1");
+  footerPaymentsList.innerHTML = "";
+  footerPaymentsListFooter.innerHTML = "";
+
+  selectedCurrency.paymentMethods.forEach((payment) => {
+    const img = document.createElement("img");
+    img.setAttribute("src", `./img/payments/${payment}.svg`);
+    footerPaymentsList.appendChild(img);
+  });
+  selectedCurrency.paymentMethods.forEach((payment) => {
+    const img = document.createElement("img");
+    img.classList.add("grayscale-100");
+    img.classList.add("transition");
+    img.classList.add("hover:grayscale-0");
+    img.setAttribute("src", `./img/payments/${payment}.svg`);
+    footerPaymentsListFooter.appendChild(img);
+  });
+};
 
 async function settingModalCurrency() {
   try {
     let locationData = await getLocation();
-    let countryInput = locationData.countryCode;
-
-    if (countryInput === "RU") {
-      countryInput = "US";
+    let countryInput = locationData.currency.code;
+    if (countryInput === "CHE") {
+      countryInput = "CHF";
     }
 
     const currencyAbbr = getCountryCurrencyABBR(countryInput);
     const currencyFullName = getCountryCurrencyFullName(countryInput);
     const currencyIcon = getCountryCurrencyIcon(countryInput);
+    const currencySymbol = getCountryCurrencySymbol(countryInput);
 
     const currencyData = {
       abbr: currencyAbbr,
       name: currencyFullName,
       icon: currencyIcon,
+      symbol: currencySymbol,
     };
 
     // Save to local storage
@@ -82,6 +123,27 @@ async function settingModalCurrency() {
 
     twoStepFormData.currency = currencyData.abbr;
     twoStepFormData.bonus = checkTir1CurrencyMatch(twoStepFormData.currency);
+    settingInitialBonusValue(twoStepFormData.currency);
+    setTimeout(() => {
+      document.querySelectorAll(".bonus-currency-symbol").forEach((el) => {
+        el.innerHTML = currencyData.symbol;
+      });
+
+      const currencyEntry = countryCurrencyData.find(
+        (entry) => entry.countryCurrency === currencyData.abbr,
+      );
+
+      if (currencyEntry) {
+        document.querySelectorAll(".bonus-highroller-amount").forEach((el) => {
+          el.innerHTML = currencyEntry.highrollerAmount;
+        });
+      } else {
+        document.querySelectorAll(".bonus-highroller-amount").forEach((el) => {
+          el.innerHTML = "200";
+        });
+      }
+    }, 300);
+    settingFooterPayments();
   } catch (error) {
     console.error("Error fetching location data:", error);
   }

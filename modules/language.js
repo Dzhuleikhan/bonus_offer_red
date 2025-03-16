@@ -1,6 +1,7 @@
 import { translations } from "/public/translations";
 import { getLocation } from "./geoLocation";
 import { getSupportedLanguage } from "./geoLocation";
+import { settingInitialBonusValue, twoStepFormData } from "./twoStepForm";
 
 const headerLangBtn = document.querySelector(".header-lang-btn");
 const headerLangList = document.querySelector(".header-lang-list");
@@ -52,7 +53,19 @@ function updateButtonText(lang) {
 
   const languageNames = {
     en: "English",
-    fr: "Français",
+    fr: "French",
+    ro: "Romainan",
+    hu: "Hungarian",
+    pl: "Polish",
+    cz: "Czech",
+    si: "Slovenian",
+    gr: "Greek",
+    no: "Norwegian",
+    se: "Swedish",
+    sk: "Slovak",
+    ru: "Russian",
+    es: "Spanish",
+    pt: "Portuguese",
   };
   headerLangBtn.setAttribute(
     "src",
@@ -70,6 +83,18 @@ async function determineLanguage() {
   const countryLangMap = {
     EN: "en",
     FR: "fr",
+    RO: "ro",
+    HU: "hu",
+    PL: "pl",
+    CZ: "cz",
+    SI: "si",
+    GR: "gr",
+    NO: "no",
+    SE: "se",
+    SK: "sk",
+    RU: "ru",
+    ES: "es",
+    PT: "pt",
     // Add more country codes and their corresponding languages as needed
   };
   lang = countryLangMap[location.countryCode] || "en";
@@ -81,7 +106,16 @@ async function mainFunction() {
   try {
     lang = await determineLanguage();
     changeLanguage(lang);
-    localStorage.setItem("preferredLanguage", lang);
+    localStorage.setItem(
+      "preferredLanguage",
+      getSupportedLanguage(lang.toUpperCase()),
+    );
+    setTimeout(() => {
+      const currencyData = JSON.parse(localStorage.getItem("currencyData"));
+      document.querySelectorAll(".current-domain").forEach((domain) => {
+        domain.innerHTML = window.location.hostname;
+      });
+    }, 200);
   } catch (error) {
     console.error("Error determining language:", error);
   }
@@ -97,5 +131,11 @@ document.querySelectorAll(".language-link").forEach((langBtn) => {
       "preferredLanguage",
       getSupportedLanguage(targetLang.toUpperCase()),
     );
+    const currencyData = JSON.parse(localStorage.getItem("currencyData"));
+    settingInitialBonusValue(currencyData.abbr);
+    twoStepFormData.lang = localStorage.getItem("preferredLanguage");
+    document.querySelectorAll(".current-domain").forEach((domain) => {
+      domain.innerHTML = window.location.hostname;
+    });
   });
 });
