@@ -1650,4 +1650,102 @@ export const translations = {
     keepRegistering: "Continuar registro",
     returnToWebsite: "Voltar ao site",
   },
+  de: {
+    pageTitle: "Goldbet Deutsch",
+    sliderTitle: `WILLKOMMEN  <br /> BONUSPAKET <br /> <span class="two-step-welcome-amount">6.500</span> <span class="two-step-welcome-symbol"></span> + <span class="two-step-bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
+    sliderSubtitle: "Ihr Willkommensbonus wartet im Bonus-Center auf Sie.",
+    sliderButtonText: "Bonus einlösen",
+    step: "Schritt",
+    mainTitle: `WIE SIE <span class="text-[#ffab0b] yellow-gradient-text">IHREN BONUS EINLÖSEN</span>`,
+    pageStep1Title: "Registrieren",
+    pageStep1Text:
+      'Klicken Sie auf "Jetzt spielen" und geben Sie Ihre E-Mail und Ihr Passwort ein.',
+    pageStep2Title: "Eine Einzahlung vornehmen",
+    pageStep2Text:
+      "Wählen Sie Ihre bevorzugte Zahlungsmethode und tätigen Sie eine Einzahlung.",
+    pageStep3Title: "Bonus erhalten",
+    pageStep3Text: "Ihr Willkommensbonus wartet im Bonus-Center auf Sie.",
+    mainButtonText: "Bonus einlösen",
+    termsAndConditionsButtonText: "Allgemeine Geschäftsbedingungen",
+    termsTitle1: "Allgemeine Geschäftsbedingungen",
+    termsParagraph1: `Diese Allgemeinen Geschäftsbedingungen und die unten aufgeführten Dokumente
+                      (die "Bedingungen") gelten für die Nutzung dieser Website (die
+                      "Website") und ihrer zugehörigen oder verbundenen Dienste
+                      (zusammen der "Service"). Sie sollten diese Bedingungen sorgfältig lesen,
+                      da sie wichtige Informationen zu Ihren Rechten und Pflichten im Zusammenhang
+                      mit der Nutzung der Website enthalten und eine verbindliche
+                      rechtliche Vereinbarung zwischen Ihnen - unserem Kunden
+                      (der "Kunde") - und uns (der "Website") darstellen. Durch die Nutzung dieser
+                      Website und/oder den Zugriff auf den Service erklären Sie sich,
+                      ob als Gast oder als registrierter Nutzer mit einem Konto („Konto“),
+                      mit diesen Bedingungen sowie mit allen künftig veröffentlichten Änderungen einverstanden.
+                      Falls Sie diese Bedingungen nicht akzeptieren, sollten Sie von der Nutzung des Services
+                      und der Website absehen.`,
+    chooseSectionTitle: `WARUM <span class="yellow-gradient-text">GOLDBET</span> WÄHLEN?`,
+    chooseItem1Title: "BONI",
+    chooseItem1Text:
+      "Kein Einzahlungsbonus, Sofortboni und exklusive VIP-Boni – finden Sie das beste Angebot in unserem Starterpaket oder innerhalb unserer Community.",
+    chooseItem2Title: "SLOTS",
+    chooseItem2Text:
+      "Spielen Sie die beliebtesten Slots, die Sie aus Streams kennen, bekannt für ihre hohen Auszahlungen. Alle Ihre Freunde spielen bereits!",
+    chooseItem3Title: "SPORTWETTEN",
+    chooseItem3Text:
+      "Sind Sie ein Sportexperte mit einem Talent für Vorhersagen? Wir haben 30 Sportkategorien mit einfacher Navigation und Echtzeitstatistiken für Sie bereit.",
+    chooseItem4Title: "LIVE CASINO",
+    chooseItem4Text:
+      "Echte Dealer und echte Reaktionen, wenn Sie den Jackpot knacken. Wählen Sie Ihr Spiel, Ihre Sprache und gönnen Sie sich ein starkes Getränk – es wird intensiv!",
+    chooseItem5Title: "LEGALITÄT",
+    chooseItem5Text:
+      "Alle Operationen erfolgen unter regulatorischer Aufsicht. Wir bearbeiten 100 % der rechtlichen Anfragen und garantieren faires Spiel.",
+    footerText: `<span class="current-domain"></span> ist eine Informationsplattform über Boni und Promotionen in Online-Casinos. Alle bereitgestellten Informationen dienen ausschließlich Informations- und Unterhaltungszwecken. Die Bonusbedingungen können sich ohne vorherige Ankündigung ändern, und <span class="current-domain"></span> übernimmt keine Verantwortung für Abweichungen. Angebote stehen nur Personen über 18 Jahren zur Verfügung, die in berechtigten Gerichtsbarkeiten ansässig sind. Bevor Sie sich registrieren oder einen Bonus beanspruchen, lesen Sie bitte die Bedingungen jedes Casinos sorgfältig durch. Spielen Sie verantwortungsbewusst!`,
+    stickyButtonText: "Bonus einlösen",
+    // | FORM TRANSLATIONS
+    closeBtn: "Schließen",
+    backBtn: "Zurück",
+    // | Step 1
+    step1Title: "Wählen Sie Ihren Bonus",
+    welcomeBonus: "Willkommensbonus",
+    welcomeBonusText: "auf Ihre erste Einzahlung",
+    cryptoBonus: "Satoshi-Bonus",
+    cryptoBonusText: "150 % auf Krypto-Einzahlungen",
+    highRollerBonus: "High Roller Bonus",
+    highRollerBonusText: `250 % auf Einzahlungen über <span class="bonus-highroller-amount">500</span><span class="bonus-currency-symbol"></span>`,
+    withoutBonus: "Ohne Bonus",
+    withoutBonusText: "Sie erhalten keinen Bonus",
+    iHavePromoCode: "Ich habe einen Promo-Code",
+    promoCodePlaceHolder: "Promo-Code",
+    promoCodeApplyBtn: "Anwenden",
+    youWillGetFreeSpins: "Sie erhalten Freispiele",
+    youWillGetNodepBonus: "Sie erhalten einen Bonus ohne Einzahlung",
+    continueBtn: "Weiter",
+    // | Step 2
+    step2Title: "Geben Sie Ihre E-Mail ein",
+    emailPlaceholder: "E-Mail eingeben",
+    passwordPlaceholder: "Passwort eingeben",
+    // | Step 3
+    step3Title: "Wie lautet Ihr Name?",
+    namePlaceholder: "Vorname eingeben",
+    lastNamePlaceholder: "Nachname eingeben",
+    birthdayPlaceholder: "Geburtsdatum auswählen",
+    age18Alert: "Das Alter muss 18+ sein",
+    invalidDate: "Ungültiges Datum",
+    male: "Männlich",
+    female: "Weiblich",
+    finalStepBtn: "Letzter Schritt",
+    // | Step 4
+    step4Title: "Währung auswählen",
+    countryPlaceholder: "Land auswählen",
+    currencyPlaceholder: "Währung auswählen",
+    phoneNumberPlaceholder: "Telefonnummer",
+    addressPlaceholder: "Adresse eingeben",
+    cityPlaceholder: "Stadt eingeben",
+    statePlaceholder: "Bundesland auswählen",
+    zipCodePlaceholder: "PLZ eingeben",
+    createAccountBtn: "Konto erstellen",
+    // | Step
+    areYouSure: `Sind Sie sicher? <br /> Ihr Fortschritt geht verloren`,
+    keepRegistering: "Weiter registrieren",
+    returnToWebsite: "Zurück zur Website",
+  },
 };

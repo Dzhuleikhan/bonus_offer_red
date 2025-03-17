@@ -66,6 +66,7 @@ function updateButtonText(lang) {
     ru: "Russian",
     es: "Spanish",
     pt: "Portuguese",
+    de: "German",
   };
   headerLangBtn.setAttribute(
     "src",
@@ -74,8 +75,6 @@ function updateButtonText(lang) {
   headerLangName.innerHTML = languageNames[lang];
   document.querySelector("html").setAttribute("lang", lang);
 }
-
-export const availableLang = ["en", "fr"];
 
 async function determineLanguage() {
   const location = await getLocation();
@@ -95,6 +94,8 @@ async function determineLanguage() {
     RU: "ru",
     ES: "es",
     PT: "pt",
+    CH: "fr",
+    DK: "de",
     // Add more country codes and their corresponding languages as needed
   };
   lang = countryLangMap[location.countryCode] || "en";
@@ -105,6 +106,7 @@ async function determineLanguage() {
 async function mainFunction() {
   try {
     lang = await determineLanguage();
+
     changeLanguage(lang);
     localStorage.setItem(
       "preferredLanguage",
