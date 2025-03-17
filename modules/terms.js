@@ -38,6 +38,8 @@ if (termsBtn) {
         termsBtnText.textContent = "skryť";
       } else if (lang === "el") {
         termsBtnText.textContent = "κρύβω";
+      } else if (lang === "de") {
+        termsBtnText.textContent = "ausblenden";
       } else {
         termsBtnText.textContent = "Hide";
       }
@@ -72,6 +74,8 @@ if (termsBtn) {
         termsBtnText.textContent = "podmienky a podmienky";
       } else if (lang === "el") {
         termsBtnText.textContent = "όροι και προϋποθέσεις";
+      } else if (lang === "de") {
+        termsBtnText.textContent = "Allgemeine Geschäftsbedingungen";
       } else {
         termsBtnText.textContent = "Hide";
       }

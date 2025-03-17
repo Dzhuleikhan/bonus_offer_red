@@ -1652,12 +1652,12 @@ export const translations = {
   },
   de: {
     pageTitle: "Goldbet Deutsch",
-    sliderTitle: `WILLKOMMEN  <br /> BONUSPAKET <br /> <span class="two-step-welcome-amount">6.500</span> <span class="two-step-welcome-symbol"></span> + <span class="two-step-bonus-spins"></span>`,
+    sliderTitle: `WILLKOMMEN <br /> BONUS-PAKET <br /> <span class="two-step-welcome-amount">6.500</span> <span class="two-step-welcome-symbol"></span> + <span class="two-step-bonus-spins"></span>`,
     sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
     sliderSubtitle: "Ihr Willkommensbonus wartet im Bonus-Center auf Sie.",
     sliderButtonText: "Bonus einlösen",
     step: "Schritt",
-    mainTitle: `WIE SIE <span class="text-[#ffab0b] yellow-gradient-text">IHREN BONUS EINLÖSEN</span>`,
+    mainTitle: `SO <span class="text-[#ffab0b] yellow-gradient-text">LÖSEN SIE IHREN BONUS EIN</span>`,
     pageStep1Title: "Registrieren",
     pageStep1Text:
       'Klicken Sie auf "Jetzt spielen" und geben Sie Ihre E-Mail und Ihr Passwort ein.',
@@ -1668,37 +1668,75 @@ export const translations = {
     pageStep3Text: "Ihr Willkommensbonus wartet im Bonus-Center auf Sie.",
     mainButtonText: "Bonus einlösen",
     termsAndConditionsButtonText: "Allgemeine Geschäftsbedingungen",
-    termsTitle1: "Allgemeine Geschäftsbedingungen",
-    termsParagraph1: `Diese Allgemeinen Geschäftsbedingungen und die unten aufgeführten Dokumente
-                      (die "Bedingungen") gelten für die Nutzung dieser Website (die
-                      "Website") und ihrer zugehörigen oder verbundenen Dienste
-                      (zusammen der "Service"). Sie sollten diese Bedingungen sorgfältig lesen,
-                      da sie wichtige Informationen zu Ihren Rechten und Pflichten im Zusammenhang
-                      mit der Nutzung der Website enthalten und eine verbindliche
-                      rechtliche Vereinbarung zwischen Ihnen - unserem Kunden
-                      (der "Kunde") - und uns (der "Website") darstellen. Durch die Nutzung dieser
-                      Website und/oder den Zugriff auf den Service erklären Sie sich,
-                      ob als Gast oder als registrierter Nutzer mit einem Konto („Konto“),
-                      mit diesen Bedingungen sowie mit allen künftig veröffentlichten Änderungen einverstanden.
-                      Falls Sie diese Bedingungen nicht akzeptieren, sollten Sie von der Nutzung des Services
-                      und der Website absehen.`,
+    termsTitle1: `Allgemeine Geschäftsbedingungen`,
+    termsParagraph1: `Diese Allgemeinen Geschäftsbedingungen und die unten genannten Dokumente
+                      (die "Bedingungen") gelten für die Nutzung dieser Website
+                      (die "Website") und der damit verbundenen oder verknüpften
+                      Dienste (zusammen der "Dienst"). Sie sollten diese Bedingungen
+                      sorgfältig lesen, da sie wichtige Informationen zu Ihren
+                      Rechten und Pflichten in Bezug auf die Nutzung der Website
+                      enthalten und eine verbindliche rechtliche Vereinbarung zwischen
+                      Ihnen - unserem Kunden (der "Kunde") - und uns (der "Website")
+                      darstellen. Durch die Nutzung dieser Website und/oder den Zugriff
+                      auf den Dienst stimmen Sie, ob als Gast oder als registrierter
+                      Benutzer mit einem Konto ("Konto"), diesen Bedingungen zu, ebenso
+                      wie allen Änderungen, die von Zeit zu Zeit veröffentlicht werden
+                      können. Wenn Sie diese Bedingungen nicht akzeptieren, sollten Sie
+                      den Dienst nicht nutzen und die Website nicht aufrufen.`,
+
+    termsTitle2: `1. Allgemeine Bestimmungen`,
+    termsParagraph2: `Wir behalten uns das Recht vor, die Bedingungen (einschließlich
+                      aller unten genannten und verlinkten Dokumente) jederzeit zu
+                      überarbeiten und zu ändern. Sie sollten diese Seite regelmäßig
+                      besuchen, um die Geschäftsbedingungen zu überprüfen. Änderungen
+                      sind verbindlich und treten sofort nach ihrer Veröffentlichung auf
+                      dieser Website in Kraft. Wenn Sie mit solchen Änderungen nicht
+                      einverstanden sind, müssen Sie die Nutzung des Dienstes sofort
+                      einstellen. Ihre fortgesetzte Nutzung der Website nach einer
+                      solchen Veröffentlichung zeigt Ihre Zustimmung zu den geänderten
+                      Bedingungen an.`,
+    termsTitle3: `2. Ihre Verpflichtungen`,
+    termsParagraph3: `Sie bestätigen, dass Sie beim Zugriff auf die Website und der Nutzung des Dienstes jederzeit: <br />
+3.1. Mindestens 18 Jahre alt sind oder das gesetzliche Mindestalter für Glücksspiele in Ihrer Gerichtsbarkeit erreicht haben. Wir behalten uns das Recht vor, jederzeit einen Altersnachweis von Ihnen anzufordern. <br />
+3.2. Geschäftsfähig sind und eine rechtsverbindliche Vereinbarung mit uns eingehen können. Wenn Sie nicht geschäftsfähig sind, dürfen Sie die Website und den Dienst nicht nutzen. <br />
+3.3. Sich bewusst sind, dass der Zugriff auf die Website und die Nutzung der darauf angebotenen Produkte in bestimmten Ländern illegal sein kann. Wir können die Rechtmäßigkeit unseres Dienstes in jeder Gerichtsbarkeit nicht überprüfen. Daher sind Sie dafür verantwortlich, zu bestimmen, ob der Zugriff auf unsere Website und deren Nutzung mit den geltenden Gesetzen in Ihrem Land übereinstimmt. Sie versichern uns, dass Glücksspiel in Ihrem Wohnsitzland nicht illegal ist. Aus rechtlichen oder geschäftlichen Gründen gestatten wir keine Konten für Kunden, die in bestimmten Gerichtsbarkeiten ansässig sind, einschließlich, aber nicht beschränkt auf: Afghanistan, Algerien, Antigua & Barbuda, Australien, Belarus, Bahrain, Belgien, Bhutan, Brunei, Zentralafrikanische Republik, Tschad, Elfenbeinküste, Kroatien, Kuba, Tschechien, Demokratische Volksrepublik Korea (Nordkorea), Demokratische Republik Kongo, Dänemark, Estland, Frankreich, Griechenland, Guinea-Bissau, Ungarn, Iran, Irak, Island, Israel, Italien, Jordanien, Kuwait, Lettland, Liberia, Litauen, Malta, Myanmar, Niederlande, Niederländische Antillen (Curacao, Sint Maarten, Bonaire, Sint Eustatius und Saba, Aruba), Norwegen, Oman, Palästina, Pakistan, Katar, Russland, Saba, Saint Martin, Saudi-Arabien, Serbien, Slowenien, Somalia, Spanien, Schweiz, Syrien, Sudan, Trinidad und Tobago, Türkei, Ukraine, Vereinigtes Königreich, Deutschland, Union der Komoren, Vereinigte Arabische Emirate, Vereinigte Staaten (einschließlich ihrer abhängigen Gebiete, Militärbasen und Territorien wie Amerikanisch-Ozeanien und Amerikanische Jungferninseln), Vanuatu, Jemen, Simbabwe oder anderen eingeschränkten Gerichtsbarkeiten ("Eingeschränkte Gerichtsbarkeit"), die wir von Zeit zu Zeit festlegen. Durch die Nutzung der Website bestätigen Sie, dass Sie nicht in einer eingeschränkten Gerichtsbarkeit ansässig sind. <br />
+3.4. Beim Versuch, ein Konto zu eröffnen oder die Website zu nutzen, liegt es in Ihrer Verantwortung, zu überprüfen, ob Glücksspiele in der jeweiligen Gerichtsbarkeit legal sind. <br />
+3.5. Der autorisierte Nutzer der von Ihnen verwendeten Zahlungsmethode sind und dass alle auf Ihrem Konto befindlichen und innerhalb des Dienstes verwendeten Gelder legal sind. <br />
+3.6. Alle Zahlungen in gutem Glauben an uns leisten und nicht versuchen, eine getätigte Zahlung rückgängig zu machen oder Maßnahmen zu ergreifen, die dazu führen, dass eine solche Zahlung von einem Dritten rückgängig gemacht wird. <br />
+3.7. Sich bewusst sind, dass Sie beim Platzieren von Wetten möglicherweise einen Teil oder Ihr gesamtes eingezahltes Geld verlieren können und Sie die volle Verantwortung für diesen Verlust übernehmen. <br />
+3.8. Beim Platzieren von Wetten keine Informationen verwenden, die unter Verstoß gegen geltende Gesetze in dem Land, in dem Sie sich beim Platzieren der Wette befanden, erlangt wurden. <br />
+3.9. Nicht im Namen einer anderen Person oder zu kommerziellen Zwecken handeln, sondern ausschließlich in persönlicher Eigenschaft für sich selbst. <br />
+3.10. Keine Märkte oder Elemente innerhalb des Dienstes in böser Absicht oder in einer Weise manipulieren, die die Integrität des Dienstes oder uns beeinträchtigt. <br />
+3.11. Jederzeit und bei allen über den Dienst platzierten Wetten in gutem Glauben handeln. <br />
+3.12. Weder Sie noch, falls zutreffend, Ihre Mitarbeiter, Arbeitgeber, Vertreter oder Familienmitglieder als Affiliate in unserem Partnerprogramm registriert sind. <br />
+3.13. Goldbet jederzeit nur wahre, reale und objektive Daten bereitstellen, sowohl standardmäßig als auch auf Anfrage unsererseits. <br />
+3.14. Die Volatilität des Kryptomarktes verstehen und akzeptieren, dass sich der Wert Ihrer Währung(en) während der Bearbeitung Ihrer Auszahlung durch unsere Risikoabteilung ändern kann. <br />
+3.15. Eine geistig gesunde Person sind und nicht an Spielsucht leiden. Falls eine Person mit einem solchen Problem die Website betritt, liegt die Verantwortung allein bei ihr. <br />
+3.16. Keine Drittanbietersoftware in irgendeinem Bereich von Goldbet verwenden und keine Spiel- oder Funktionsfehler auf der Plattform ausnutzen. <br />
+3.17. Garantieren, dass alle Informationen, die Sie uns ab dem Zeitpunkt der Registrierung und während der Laufzeit dieser Vereinbarung bereitstellen, wahr, vollständig und korrekt sind, und dass Sie uns unverzüglich über Änderungen dieser Informationen informieren. <br />
+3.17.1. Bestätigen, dass die Informationen, die Sie bei der Registrierung und Nutzung des Dienstes angeben, nicht nach eigenem Ermessen geändert werden können. Um Informationen zu ändern, müssen Sie sich an den Support wenden. Goldbet kann nach eigenem Ermessen Dokumente zur KYC-Überprüfung anfordern, bevor eine Änderung vorgenommen wird. <br />
+3.18. Garantieren, dass Sie unsere Dienste nicht in einer Gerichtsbarkeit nutzen, in der das Platzieren und/oder Annehmen von Online-Wetten und/oder das Spielen von Casino- und/oder Live-Spielen verboten ist. <br />
+3.19. Weiterhin garantieren Sie, dass: <br />
+- Sie auf eigene Rechnung an den Diensten teilnehmen und nicht im Auftrag einer anderen Person; <br />
+- Sie allein für die Meldung und Versteuerung etwaiger Gewinne gemäß den geltenden Gesetzen verantwortlich sind; <br />
+- Sie allein für alle Steuern verantwortlich sind, die möglicherweise auf Kryptowährungen anfallen, die Sie durch die Nutzung des Dienstes erhalten haben.`,
     chooseSectionTitle: `WARUM <span class="yellow-gradient-text">GOLDBET</span> WÄHLEN?`,
     chooseItem1Title: "BONI",
     chooseItem1Text:
-      "Kein Einzahlungsbonus, Sofortboni und exklusive VIP-Boni – finden Sie das beste Angebot in unserem Starterpaket oder innerhalb unserer Community.",
+      "Kein Einzahlungsbonus, Sofortboni und exklusive VIP-Boni – sichern Sie sich das beste Angebot in unserem Starterpaket oder in unserer Community.",
     chooseItem2Title: "SLOTS",
     chooseItem2Text:
-      "Spielen Sie die beliebtesten Slots, die Sie aus Streams kennen, bekannt für ihre hohen Auszahlungen. Alle Ihre Freunde spielen bereits!",
+      "Spielen Sie die beliebtesten Slots, die Sie aus Streams kennen, mit hohen Auszahlungen. Alle Ihre Freunde spielen bereits!",
     chooseItem3Title: "SPORTWETTEN",
     chooseItem3Text:
-      "Sind Sie ein Sportexperte mit einem Talent für Vorhersagen? Wir haben 30 Sportkategorien mit einfacher Navigation und Echtzeitstatistiken für Sie bereit.",
-    chooseItem4Title: "LIVE CASINO",
+      "Sind Sie ein Sportexperte mit einem Gespür für Vorhersagen? Wir haben 30 Sportkategorien mit einfacher Navigation und Echtzeitstatistiken für Sie bereit!",
+    chooseItem4Title: "LIVE-CASINO",
     chooseItem4Text:
-      "Echte Dealer und echte Reaktionen, wenn Sie den Jackpot knacken. Wählen Sie Ihr Spiel, Ihre Sprache und gönnen Sie sich ein starkes Getränk – es wird intensiv!",
+      "Echte Dealer und echte Reaktionen, wenn Sie den Jackpot knacken. Wählen Sie Ihr Spiel, Ihre Sprache und gönnen Sie sich ein starkes Getränk – das wird intensiv!",
     chooseItem5Title: "LEGALITÄT",
     chooseItem5Text:
-      "Alle Operationen erfolgen unter regulatorischer Aufsicht. Wir bearbeiten 100 % der rechtlichen Anfragen und garantieren faires Spiel.",
-    footerText: `<span class="current-domain"></span> ist eine Informationsplattform über Boni und Promotionen in Online-Casinos. Alle bereitgestellten Informationen dienen ausschließlich Informations- und Unterhaltungszwecken. Die Bonusbedingungen können sich ohne vorherige Ankündigung ändern, und <span class="current-domain"></span> übernimmt keine Verantwortung für Abweichungen. Angebote stehen nur Personen über 18 Jahren zur Verfügung, die in berechtigten Gerichtsbarkeiten ansässig sind. Bevor Sie sich registrieren oder einen Bonus beanspruchen, lesen Sie bitte die Bedingungen jedes Casinos sorgfältig durch. Spielen Sie verantwortungsbewusst!`,
+      "Alle Transaktionen erfolgen unter behördlicher Aufsicht. Wir bearbeiten 100 % der rechtlichen Anfragen und garantieren faires Spiel.",
+    footerText: `<span class="current-domain"></span> ist eine Informationsplattform über Boni und Aktionen in Online-Casinos. Alle bereitgestellten Informationen dienen nur Informations- und Unterhaltungszwecken. Bonusbedingungen können sich ohne vorherige Ankündigung ändern, und <span class="current-domain"></span> übernimmt keine Verantwortung für Abweichungen. Angebote gelten nur für Personen ab 18 Jahren, die in zulässigen Rechtsgebieten ansässig sind. Lesen Sie die Bedingungen jedes Casinos sorgfältig, bevor Sie sich registrieren oder einen Bonus beanspruchen. Spielen Sie verantwortungsbewusst!`,
     stickyButtonText: "Bonus einlösen",
     // | FORM TRANSLATIONS
     closeBtn: "Schließen",
@@ -1724,10 +1762,10 @@ export const translations = {
     emailPlaceholder: "E-Mail eingeben",
     passwordPlaceholder: "Passwort eingeben",
     // | Step 3
-    step3Title: "Wie lautet Ihr Name?",
-    namePlaceholder: "Vorname eingeben",
+    step3Title: "Wie heißen Sie?",
+    namePlaceholder: "Name eingeben",
     lastNamePlaceholder: "Nachname eingeben",
-    birthdayPlaceholder: "Geburtsdatum auswählen",
+    birthdayPlaceholder: "Geburtsdatum wählen",
     age18Alert: "Das Alter muss 18+ sein",
     invalidDate: "Ungültiges Datum",
     male: "Männlich",
@@ -1736,14 +1774,14 @@ export const translations = {
     // | Step 4
     step4Title: "Währung auswählen",
     countryPlaceholder: "Land auswählen",
-    currencyPlaceholder: "Währung auswählen",
+    currencyPlaceholder: "Währung wählen",
     phoneNumberPlaceholder: "Telefonnummer",
     addressPlaceholder: "Adresse eingeben",
     cityPlaceholder: "Stadt eingeben",
-    statePlaceholder: "Bundesland auswählen",
-    zipCodePlaceholder: "PLZ eingeben",
+    statePlaceholder: "Bundesland wählen",
+    zipCodePlaceholder: "Postleitzahl eingeben",
     createAccountBtn: "Konto erstellen",
-    // | Step
+    // | Decline
     areYouSure: `Sind Sie sicher? <br /> Ihr Fortschritt geht verloren`,
     keepRegistering: "Weiter registrieren",
     returnToWebsite: "Zurück zur Website",
