@@ -1,5 +1,5 @@
 const modalOpenBtns = document.querySelectorAll(".modal-open-btn");
-const formOverlay = document.querySelector(".form-overlay");
+const formOverlay = document.querySelector(".two-step-overlay");
 
 modalOpenBtns.forEach((btn) => {
   if (btn) {

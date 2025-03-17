@@ -896,3 +896,36 @@ twoStepFormMain.addEventListener("submit", (e) => {
 });
 
 gsap.to(".preloader", { opacity: 0, duration: 0.25, delay: 0.5 });
+
+// Closing modal
+
+const twoStepModalCloseBtn = document.querySelector(
+  ".two-step-modal-close-btn",
+);
+const twoStepFormInner = document.querySelector(".two-step-modal");
+const twoStepDeclineInner = document.querySelector(".two-step-decline");
+const twoStepKeepBtn = document.querySelector(".two-step-keep-btn");
+const twoStepReturnBtn = document.querySelector(".two-step-return-btn");
+
+if (twoStepModalCloseBtn) {
+  twoStepModalCloseBtn.addEventListener("click", () => {
+    twoStepFormInner.classList.add("hidden");
+    twoStepDeclineInner.classList.remove("hidden");
+  });
+}
+
+if (twoStepKeepBtn) {
+  twoStepKeepBtn.addEventListener("click", () => {
+    twoStepFormInner.classList.remove("hidden");
+    twoStepDeclineInner.classList.add("hidden");
+  });
+}
+
+if (twoStepReturnBtn) {
+  twoStepReturnBtn.addEventListener("click", () => {
+    document.querySelector(".two-step-overlay").classList.remove("is-open");
+    twoStepFormInner.classList.remove("hidden");
+    twoStepDeclineInner.classList.add("hidden");
+    document.body.style.overflow = "visible";
+  });
+}

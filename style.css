@@ -185,12 +185,16 @@
   justify-content: center;
 }
 
-.form-overlay.is-open {
-  display: grid;
+.two-step-overlay {
+  display: none;
+}
+
+.two-step-overlay.is-open {
+  display: flex;
 }
 
 @media (max-width: 576px) {
-  .form-overlay.is-open {
+  .two-step-overlay.is-open {
     display: block;
   }
 }
