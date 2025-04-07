@@ -56,8 +56,8 @@ async function settingModalCurrency() {
     let locationData = await getLocation();
     let countryInput = locationData.countryCode;
 
-    if (countryInput === "RU") {
-      countryInput = "US";
+    if (countryInput === "RU" || countryInput === "MX") {
+      countryInput = "TR";
     }
 
     const currencyAbbr = getCountryCurrencyABBR(countryInput);
