@@ -9,7 +9,7 @@ bonusBoxes.forEach((bonusBox) => {
 export function settingBonusValueAndAmount(countryCode) {
   let detectedCountry = countryCode.toUpperCase();
 
-  if (detectedCountry === "RU") {
+  if (detectedCountry === "RU" || detectedCountry === "MX") {
     detectedCountry = "US";
   }
 
