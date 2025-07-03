@@ -100,6 +100,7 @@ async function settingModalCurrency() {
   try {
     let locationData = await getLocation();
     let countryInput = locationData.currency.code;
+
     if (countryInput === "CHE") {
       countryInput = "CHF";
     }
