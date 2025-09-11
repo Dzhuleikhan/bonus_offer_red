@@ -144,6 +144,8 @@ formModals.forEach((modal) => {
             formTab = tab;
 
             if (tab === "email") {
+              formGroupPhone.classList.remove("not-valid");
+              phoneInput.value = "";
               if (emalInput.value != "" && emalInput.value.match(emailRegEx)) {
                 formStepBtnNext.disabled = false;
               } else {
@@ -151,6 +153,8 @@ formModals.forEach((modal) => {
               }
             }
             if (tab === "phone") {
+              formGroupEmail.classList.remove("not-valid");
+              emalInput.value = "";
               if (phoneInput.value != "" && socialsIti.isValidNumber()) {
                 formStepBtnNext.disabled = false;
               } else {
@@ -271,7 +275,7 @@ if (mainForm) {
       .getAttribute("data-bonus");
 
     let formData = {};
-    formData.email = encodeURIComponent(email.value);
+    formData.email = email.value;
     formData.phone = phone.value;
     formData.password = password.value;
     formData.currency = currency.value;
@@ -357,7 +361,7 @@ if (mainForm) {
       .getAttribute("data-bonus");
 
     let formData = {};
-    formData.email = encodeURIComponent(email.value);
+    formData.email = email.value;
     formData.phone = phone.value;
     formData.password = password.value;
     formData.currency = currency.value;
