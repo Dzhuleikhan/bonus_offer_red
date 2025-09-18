@@ -688,3 +688,10 @@ input:-webkit-autofill:hover {
 .promocode-applied-wrapper.is-applied-from-url .two-step-promocode-wrapper {
   display: flex;
 }
+
+/* States dropdown */
+
+.two-step-state-list-item {
+  border-bottom: 1px solid #755EEB30;
+  padding: 16px 12px;
+}
