@@ -1786,4 +1786,881 @@ export const translations = {
     keepRegistering: "Weiter registrieren",
     returnToWebsite: "Zurück zur Website",
   },
+  az: {
+    pageTitle: "Goldbet İngilis",
+    sliderTitle: `Xoş Gəldiniz  <br /> BONUS Paketi <br /> <span class="two-step-welcome-amount">6.500</span> <span class="two-step-welcome-symbol"></span> + <span class="two-step-bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
+    sliderSubtitle: "Xoş gəlmisiniz bonusunuz Bonus Mərkəzində hazırdır.",
+    sliderButtonText: "bonusunu tələb et",
+    step: "Addım",
+    mainTitle: `BONUSUNU <span class="text-[#ffab0b] yellow-gradient-text">NECƏ TƏLƏB ETMƏK</span>`,
+    pageStep1Title: "Qeydiyyat",
+    pageStep1Text:
+      '"İndi Oyna" düyməsini klikləyin və email və şifrənizi daxil edin.',
+    pageStep2Title: "Əmanət Et",
+    pageStep2Text: "Sevdiyiniz ödəniş metodunu seçin və əmanət edin.",
+    pageStep3Title: "Bonus Al",
+    pageStep3Text: "Xoş gəlmisiniz bonusunuz Bonus Mərkəzində hazırdır.",
+    mainButtonText: "Bonusunu Tələb Et",
+    termsAndConditionsButtonText: "Şərtlər və Qaydalar",
+    termsTitle1: `Şərtlər və Qaydalar`,
+    termsParagraph1: `Bu şərtlər və aşağıda istinad edilən sənədlər
+                  ("Şərtlər") cari veb saytın istifadəsinə (və
+                  əlaqəli və ya bağlı xidmətlərə, ümumilikdə "Xidmət")
+                  tətbiq olunur. Bu Şərtləri diqqətlə oxumalısınız,
+                  çünki onlar Veb saytın istifadəsi ilə bağlı hüquqlarınızı
+                  və öhdəliklərinizi əhatə edir və siz - müştəri
+                  ("Müştəri") ilə bizim aramızda ("Veb sayt") hüquqi
+                  bağlayıcı razılaşma təşkil edir. Bu Veb saytından istifadə
+                  edərək və/və ya Xidmətə daxil olaraq, qonaq və ya hesabı
+                  olan qeydiyyatdan keçmiş istifadəçi olmağınızdan asılı
+                  olmayaraq ("Hesab"), bu Şərtlərə, o cümlədən vaxtaşırı
+                  yayımlana biləcək dəyişikliklərə razılıq vermiş olursunuz.
+                  Əgər bu Şərtləri qəbul etmirsinizsə, Xidmətə daxil olmaqdan
+                  və Veb saytdan istifadə etməkdən çəkinməlisiniz.`,
+    termsTitle2: `1. Ümumi Şərtlər`,
+    termsParagraph2: `Biz Şərtləri (aşağıda istinad edilən sənədlər daxil olmaqla)
+                  istənilən vaxt dəyişdirmək və düzəliş etmək hüququnu
+                  saxlayırıq. Şərtləri və Qaydaları nəzərdən keçirmək üçün
+                  bu səhifəyə dövri olaraq baxmalısınız. Dəyişikliklər Veb
+                  saytında yayımlandığı anda qüvvəyə minəcək və bağlayıcı
+                  olacaq. Əgər bu dəyişikliklərə etiraz edirsinizsə, dərhal
+                  Xidmətin istifadəsini dayandırmalısınız. Dəyişikliklərdən
+                  əvvəl qərara alınmış bahisler əvvəlki Şərtlərə əsasən
+                  həll ediləcək. Əgər Goldbet-in Şərtləri yenilənəcəksə,
+                  platforma sizi məlumatlandıracaq və razılığınızı təsdiqləməyinizi
+                  istəyəcək.`,
+    termsTitle3: `2. Sizin Öhdəlikləriniz`,
+    termsParagraph3: `Veb sayta daxil olduqda və Xidmətdən istifadə edərkən hər zaman
+                  aşağıdakılara əməl edəcəyinizi təsdiqləyirsiniz: <br />
+                  3.1. Yaşınız 18 və ya müvafiq qanun və ya yurisdiksiyada
+                  icazə verilən oyun yaşındadır. İstənilən vaxt yaş sənədlərinizi
+                  tələb etmək hüququmuz var. <br />
+                  3.2. Hüquqi qabiliyyətiniz var və bizlə hüquqi bağlayıcı
+                  müqavilə bağlaya bilərsiniz. <br />
+                  3.3. Veb saytın istifadəsi bəzi ölkələrdə qanunsuz ola bilər.
+                  Biz hər yurisdiksiyada xidmətin qanuniliyini təsdiq edə
+                  bilmirik, buna görə də saytımıza daxil olarkən qanunlara
+                  uyğunluğunuzdan siz məsuliyyət daşıyırsınız. Məhdudiyyətli
+                  yurisdiksiyalarda hesab açmaq qadağandır. <br />
+                  3.4. Hesab açmağa cəhd edərkən və ya Veb sayt istifadə
+                  edərkən oyunların qanuni olub-olmadığını yoxlamaq sizə aiddir.
+                  <br />
+                  3.5. İstifadə etdiyiniz ödəniş metodunun səlahiyyətli
+                  istifadəçisi olmalısınız və bütün hesab vəsaitləriniz qanuni
+                  olmalıdır. <br />
+                  3.6. Bütün ödənişləri səmimi niyyətlə etməlisiniz, geri
+                  çəkməyə çalışmamalısınız. <br />
+                  3.7. Bahislər edərkən yatırdığınız pulun bir hissəsini
+                  və ya hamısını itirə bilərsiniz və bunun üçün tam məsuliyyət
+                  daşıyırsınız. <br />
+                  3.8. Bahis yerləşdirərkən hər hansı qanun pozuntusundan
+                  əldə olunan məlumatdan istifadə etməməlisiniz. <br />
+                  3.9. Başqa şəxs və ya kommersiya məqsədi üçün deyil,
+                  yalnız şəxsi olaraq fəaliyyət göstərməlisiniz. <br />
+                  3.10. Xidmətdə hər hansı bazarı və ya elementi pis niyyətlə
+                  manipulyasiya etməyə çalışmamalısınız. <br />
+                  3.11. Xidmətdən istifadə zamanı hər zaman səmimi olmalısınız.
+                  <br />
+                  3.12. Siz və ya aid olduğunuz tərəflər Affiliate proqramına
+                  qeydiyyatdan keçməyiblər. <br />
+                  3.13. Goldbet istifadə edərkən yalnız doğru və real məlumat
+                  verməyə razılıq verirsiniz. <br />
+                  3.14. Kripto valyuta bazarının dəyişkən olduğunu başa düşürsünüz.
+                  <br />
+                  3.15. Zəka və yetkinlik baxımından sağlamsınız və qumar
+                  asılılığınız yoxdur. <br />
+                  3.16. Üçüncü tərəf proqramlarından və ya oyun/buglardan
+                  sui-istifadə etməyəcəksiniz. <br />
+                  3.17. Qeydiyyat və istifadə zamanı verdiyiniz bütün məlumatlar
+                  doğru və tam olmalıdır. <br />
+                  3.17.1. Məlumat dəyişdirmək üçün dəstək komandası ilə əlaqə
+                  saxlamalısınız. <br />
+                  3.18. Qanunsuz yurisdiksiyalarda xidmətlərdən istifadə etməyəcəksiniz. <br />
+                  3.19. Siz həmçinin təmin edirsiniz ki: <br />
+                  - Xidmətlərdən yalnız şəxsi adınıza istifadə edirsiniz; <br />
+                  - Hər hansı qazancınız üçün vergiləri hesablamaq və ödəmək sizə aiddir; <br />
+                  - Kripto mükafatları üzrə vergi məsuliyyəti sizə aiddir.`,
+    chooseSectionTitle: `NİYƏ <span class="yellow-gradient-text">GOLDBET</span>?`,
+    chooseItem1Title: "BONUSLAR",
+    chooseItem1Text:
+      "Depozitsiz, dərhal və eksklüziv VIP bonuslar—starter paketimizdə və ya icmamızda ən yaxşı təklifi tapın.",
+    chooseItem2Title: "SLOTLAR",
+    chooseItem2Text:
+      "Axınlarda gördüyünüz ən populyar slotları oynayın, yüksək ödənişləri ilə tanınır. Bütün dostlarınız artıq oynayır!",
+    chooseItem3Title: "İDMAN BAHİSLƏRİ",
+    chooseItem3Text:
+      "İdman üzrə biliklisiniz? 30 idman kateqoriyası, asan naviqasiya və real vaxt statistikaları sizə hazırdır.",
+    chooseItem4Title: "CANLI KAZİNO",
+    chooseItem4Text:
+      "Həqiqi dilerlər və jackpot zamanı real reaksiyalar. Oyununuzu, dilinizi seçin və güclü içki alın—bu intensiv olacaq!",
+    chooseItem5Title: "HÜQUQİ",
+    chooseItem5Text:
+      "Bütün əməliyyatlar tənzimləyici nəzarət altında aparılır. Hüquqi dəstək və ədalətli oyun təmin edilir.",
+    footerText: `<span class="current-domain"></span> onlayn kazinoların bonus və kampaniyaları haqqında məlumat platformasıdır. Bütün məlumatlar yalnız məlumat və əyləncə məqsədilə təqdim olunur. Bonus şərtləri xəbərdarlıq olmadan dəyişə bilər və <span class="current-domain"></span> hər hansı fərqliliklərə görə məsuliyyət daşımır. Təkliflər yalnız 18 yaşdan yuxarı və uyğun yurisdiksiyalarda yaşayan şəxslər üçün mövcuddur. Qeydiyyat və bonus tələb etməzdən əvvəl hər kazinonun şərtlərini diqqətlə oxuyun. Cavabdeh oyun oynayın!`,
+    stickyButtonText: "bonusunu tələb et",
+    // | FORM TRANSLATIONS
+    closeBtn: "Bağla",
+    backBtn: "Geri",
+    // | Step 1
+    step1Title: "Bonusunu Seç",
+    welcomeBonus: "Xoş Gəldiniz Bonusu",
+    welcomeBonusText: "ilk depozitinizdə",
+    cryptoBonus: "Satoshi Bonusu",
+    cryptoBonusText: "Kripto Depozitlərində 150%",
+    highRollerBonus: "High Roller Bonusu",
+    highRollerBonusText: `500-dən yuxarı depozitlərdə 250% <span class="bonus-currency-symbol"></span>`,
+    withoutBonus: "Bonus Olmadan",
+    withoutBonusText: "Heç bir bonus almayacaqsınız",
+    iHavePromoCode: "Promo-Kodum Var",
+    promoCodePlaceHolder: "Promo Kodu",
+    promoCodeApplyBtn: "Tətbiq Et",
+    youWillGetFreeSpins: "Pulsuz spinlər alacaqsınız",
+    youWillGetNodepBonus: "Depozitsiz bonus alacaqsınız",
+    continueBtn: "Davam Et",
+    // | Step 2
+    step2Title: "Emailinizi Daxil Edin",
+    emailPlaceholder: "Email Daxil Edin",
+    passwordPlaceholder: "Şifrə Daxil Edin",
+    // | Step 3
+    step3Title: "Adınız Nədir?",
+    namePlaceholder: "Ad Daxil Edin",
+    lastNamePlaceholder: "Soyad Daxil Edin",
+    birthdayPlaceholder: "Doğum Tarixinizi Seçin",
+    age18Alert: "Yaş 18+ olmalıdır",
+    invalidDate: "Yanlış tarix",
+    male: "Kişi",
+    female: "Qadın",
+    finalStepBtn: "Son Addım",
+    // | Step 4
+    step4Title: "Valyutanı Seçin",
+    countryPlaceholder: "Ölkəni Seçin",
+    currencyPlaceholder: "Valyutanı Seçin",
+    phoneNumberPlaceholder: "Telefon Nömrəsi",
+    addressPlaceholder: "Ünvan Daxil Edin",
+    cityPlaceholder: "Şəhər Daxil Edin",
+    statePlaceholder: "Vilayəti Seçin",
+    zipCodePlaceholder: "ZIP Kodu Daxil Edin",
+    createAccountBtn: "Hesab Yarat",
+    // | Decline
+    areYouSure: `Əminsiniz? <br /> Proqresiniz itəcək`,
+    keepRegistering: "Qeydiyyata Davam Et",
+    returnToWebsite: "Sayta Qayıt",
+  },
+  it: {
+    pageTitle: "Goldbet Inglese",
+    sliderTitle: `BENVENUTO  <br /> Pacchetto BONUS <br /> <span class="two-step-welcome-amount">6.500</span> <span class="two-step-welcome-symbol"></span> + <span class="two-step-bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
+    sliderSubtitle:
+      "Il tuo bonus di benvenuto è pronto per te nel Centro Bonus.",
+    sliderButtonText: "richiedi il tuo bonus",
+    step: "Passo",
+    mainTitle: `COME <span class="text-[#ffab0b] yellow-gradient-text">RICHIEDERE IL TUO BONUS</span>`,
+    pageStep1Title: "Registrati",
+    pageStep1Text: 'Clicca su "Gioca Ora" e inserisci la tua email e password.',
+    pageStep2Title: "Effettua un Deposito",
+    pageStep2Text:
+      "Scegli il tuo metodo di pagamento preferito e effettua un deposito.",
+    pageStep3Title: "Ricevi il Bonus",
+    pageStep3Text:
+      "Il tuo bonus di benvenuto è pronto per te nel Centro Bonus.",
+    mainButtonText: "Richiedi il Bonus",
+    termsAndConditionsButtonText: "Termini e Condizioni",
+    termsTitle1: `Termini e Condizioni`,
+    termsParagraph1: `Questi termini e condizioni e i documenti qui di seguito
+                  menzionati ("Termini") si applicano all'uso del sito web attuale (il
+                  "Sito Web") e dei suoi servizi correlati o connessi
+                  (collettivamente, il "Servizio"). Dovresti leggere attentamente
+                  questi Termini poiché contengono informazioni importanti sui tuoi
+                  diritti e obblighi riguardanti l'uso del Sito Web e costituiscono
+                  un accordo legale vincolante tra te - il nostro cliente
+                  ("Cliente") - e noi ("Sito Web"). Utilizzando questo
+                  Sito Web e/o accedendo al Servizio, sia che tu sia un
+                  ospite o un utente registrato con un account (“Account”), accetti
+                  di essere vincolato da questi Termini, insieme a eventuali modifiche
+                  pubblicate di volta in volta. Se non accetti questi Termini,
+                  dovresti astenerti dall'accedere al Servizio e dall'utilizzare il Sito Web.`,
+    termsTitle2: `1. Termini Generali`,
+    termsParagraph2: `Ci riserviamo il diritto di rivedere e modificare i Termini (inclusi
+                  eventuali documenti qui menzionati e collegati) in qualsiasi momento.
+                  Dovresti visitare periodicamente questa pagina per rivedere
+                  i Termini e Condizioni. Le modifiche saranno vincolanti ed efficaci
+                  immediatamente dopo la pubblicazione su questo Sito Web. Se ti
+                  opponi a tali modifiche, devi interrompere immediatamente l'uso del
+                  Servizio. Eventuali scommesse non regolate prima dell'entrata in
+                  vigore dei Termini modificati saranno soggette ai Termini precedenti.
+                  Se i Termini e Condizioni di Goldbet saranno aggiornati, la piattaforma
+                  ti notificherà e ti chiederà di confermare il tuo consenso.`,
+    termsTitle3: `2. I Tuoi Obblighi`,
+    termsParagraph3: `Riconosci che ogni volta che accedi al Sito Web
+                  e utilizzi il Servizio: <br />
+                  3.1. Hai più di 18 anni, o l'età legale prevista dalla legge o giurisdizione
+                  per le attività di gioco d'azzardo è rispettata. Ci riserviamo il diritto
+                  di richiedere documenti di prova dell'età in qualsiasi momento. <br />
+                  3.2. Hai la capacità legale di stipulare un accordo vincolante con noi.
+                  Non devi accedere al Sito Web o utilizzare il Servizio se non sei legalmente
+                  capace. <br />
+                  3.3. Sei consapevole che l'accesso e l'uso del Sito Web e dei prodotti
+                  offerti possono essere considerati illegali in alcuni paesi. Non possiamo
+                  verificare la legalità in ogni giurisdizione, pertanto sei responsabile di
+                  determinare se l'accesso e l'utilizzo del sito siano conformi alle leggi
+                  applicabili nel tuo paese. Confermi di non risiedere in una Giurisdizione
+                  Limitata. <br />
+                  3.4. Quando tenti di aprire un account o utilizzi il Sito Web,
+                  è tua responsabilità verificare la legalità del gioco nella tua giurisdizione. <br />
+                  3.5. Sei l'utilizzatore autorizzato del metodo di pagamento e tutti i fondi
+                  presenti sul tuo account e utilizzati nei Servizi sono legali. <br />
+                  3.6. Devi effettuare tutti i pagamenti in buona fede e non tentare di revocarli. <br />
+                  3.7. Le scommesse possono comportare la perdita totale o parziale dei tuoi depositi e sei responsabile. <br />
+                  3.8. Non devi usare informazioni ottenute in violazione delle leggi vigenti. <br />
+                  3.9. Agisci solo per conto tuo e non per scopi commerciali. <br />
+                  3.10. Non devi manipolare mercati o elementi del Servizio in mala fede. <br />
+                  3.11. Devi agire in buona fede nell'uso del Servizio. <br />
+                  3.12. Tu o le tue parti associate non siete registrati come Affiliati nel nostro programma. <br />
+                  3.13. Utilizzando Goldbet acconsenti a fornire dati veri e reali su richiesta. <br />
+                  3.14. Comprendi la volatilità del mercato crypto. <br />
+                  3.15. Sei mentalmente competente e non soffri di dipendenza dal gioco. <br />
+                  3.16. Non userai software di terze parti o sfrutterai bug. <br />
+                  3.17. Tutte le informazioni fornite devono essere vere e corrette. <br />
+                  3.17.1. Per modificare informazioni contatta il supporto. <br />
+                  3.18. Non utilizzerai i nostri servizi in giurisdizioni che vietano le scommesse online o i giochi. <br />
+                  3.19. Garantisci inoltre che: <br />
+                  - Partecipi ai Servizi per conto tuo; <br />
+                  - Sei responsabile per eventuali tasse su vincite; <br />
+                  - Sei responsabile delle tasse su criptovalute ricevute.`,
+    chooseSectionTitle: `PERCHÉ SCEGLIERE <span class="yellow-gradient-text">GOLDBET</span>?`,
+    chooseItem1Title: "BONUS",
+    chooseItem1Text:
+      "Bonus senza deposito, istantanei ed esclusivi VIP—trova la migliore offerta nel pacchetto iniziale o nella nostra community.",
+    chooseItem2Title: "SLOT",
+    chooseItem2Text:
+      "Gioca alle slot più popolari viste in streaming, note per i loro alti payout. Tutti i tuoi amici stanno già giocando!",
+    chooseItem3Title: "SCOMMESSE SPORTIVE",
+    chooseItem3Text:
+      "Sei esperto di sport? Abbiamo 30 categorie sportive con navigazione semplice e statistiche in tempo reale pronte per te.",
+    chooseItem4Title: "CASINO LIVE",
+    chooseItem4Text:
+      "Dealer reali e reazioni genuine quando colpisci il jackpot. Scegli il gioco, la lingua e prendi un drink forte—sarà intenso!",
+    chooseItem5Title: "LEGALE",
+    chooseItem5Text:
+      "Tutte le operazioni sono supervisionate. Gestiamo il 100% delle richieste legali e garantiamo il fair play.",
+    footerText: `<span class="current-domain"></span> è una piattaforma informativa su bonus e promozioni nei casinò online. Tutte le informazioni sono a scopo informativo e di intrattenimento. I termini dei bonus possono cambiare senza preavviso e <span class="current-domain"></span> non è responsabile per eventuali discrepanze. Offerte disponibili solo per individui di età superiore ai 18 anni residenti in giurisdizioni idonee. Leggere attentamente i termini di ogni casinò prima di registrarsi o richiedere un bonus. Gioca responsabilmente!`,
+    stickyButtonText: "richiedi il tuo bonus",
+    // | FORM TRANSLATIONS
+    closeBtn: "Chiudi",
+    backBtn: "Indietro",
+    // | Step 1
+    step1Title: "Scegli il tuo Bonus",
+    welcomeBonus: "Bonus di Benvenuto",
+    welcomeBonusText: "sul tuo primo deposito",
+    cryptoBonus: "Bonus Satoshi",
+    cryptoBonusText: "150% sui depositi in Crypto",
+    highRollerBonus: "Bonus High Roller",
+    highRollerBonusText: `250% sui depositi superiori a <span class="bonus-highroller-amount">500</span><span class="bonus-currency-symbol"></span>`,
+    withoutBonus: "Senza Bonus",
+    withoutBonusText: "Non riceverai alcun bonus",
+    iHavePromoCode: "Ho un Promo-Codice",
+    promoCodePlaceHolder: "Codice Promozionale",
+    promoCodeApplyBtn: "Applica",
+    youWillGetFreeSpins: "Riceverai giri gratuiti",
+    youWillGetNodepBonus: "Riceverai un bonus senza deposito",
+    continueBtn: "Continua",
+    // | Step 2
+    step2Title: "Inserisci la tua Email",
+    emailPlaceholder: "Inserisci Email",
+    passwordPlaceholder: "Inserisci Password",
+    // | Step 3
+    step3Title: "Qual è il tuo Nome?",
+    namePlaceholder: "Inserisci Nome",
+    lastNamePlaceholder: "Inserisci Cognome",
+    birthdayPlaceholder: "Seleziona Data di Nascita",
+    age18Alert: "Devi avere almeno 18 anni",
+    invalidDate: "Data non valida",
+    male: "Maschio",
+    female: "Femmina",
+    finalStepBtn: "Passo Finale",
+    // | Step 4
+    step4Title: "Seleziona Valuta",
+    countryPlaceholder: "Seleziona Paese",
+    currencyPlaceholder: "Scegli Valuta",
+    phoneNumberPlaceholder: "Numero di Telefono",
+    addressPlaceholder: "Inserisci Indirizzo",
+    cityPlaceholder: "Inserisci Città",
+    statePlaceholder: "Scegli Provincia",
+    zipCodePlaceholder: "Inserisci CAP",
+    createAccountBtn: "Crea Account",
+    // | Decline
+    areYouSure: `Sei Sicuro? <br /> I tuoi progressi saranno persi`,
+    keepRegistering: "Continua la Registrazione",
+    returnToWebsite: "Torna al Sito",
+  },
+  ee: {
+    pageTitle: "Goldbet Inglise",
+    sliderTitle: `TERE TULEMAST  <br /> BOONUSPAKETT <br /> <span class="two-step-welcome-amount">6.500</span> <span class="two-step-welcome-symbol"></span> + <span class="two-step-bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
+    sliderSubtitle:
+      "Sinu tervitusboonus on valmis Sinu jaoks Boonuste Keskuses.",
+    sliderButtonText: "taotle oma boonust",
+    step: "Samm",
+    mainTitle: `KUIDAS <span class="text-[#ffab0b] yellow-gradient-text">TAOTLEDA OMA BOONUST</span>`,
+    pageStep1Title: "Registreeru",
+    pageStep1Text: 'Klõpsa "Mängi Nüüd" ja sisesta oma e-post ja parool.',
+    pageStep2Title: "Tee Deposiit",
+    pageStep2Text: "Vali oma eelistatud makseviis ja tee deposiit.",
+    pageStep3Title: "Saada Boonus",
+    pageStep3Text:
+      "Sinu tervitusboonus on valmis Sinu jaoks Boonuste Keskuses.",
+    mainButtonText: "Taotle Boonust",
+    termsAndConditionsButtonText: "Reeglid ja Tingimused",
+    termsTitle1: `Reeglid ja Tingimused`,
+    termsParagraph1: `Need reeglid ja tingimused ning allpool viidatud dokumendid
+                  ("Tingimused") kehtivad selle veebilehe (edaspidi "Veebileht")
+                  ja selle seotud või ühendatud teenuste (üldiselt "Teenused")
+                  kasutamiseks. Palun loe need Tingimused hoolikalt läbi, kuna need sisaldavad
+                  olulist teavet Sinu õiguste ja kohustuste kohta Veebilehe kasutamisel
+                  ja moodustavad siduva juriidilise lepingu Sinu - kliendi ("Klient")
+                  ja meie ("Veebileht") vahel. Veebilehe kasutamise ja/või Teenusele
+                  juurdepääsu kaudu nõustud olema nende Tingimustega seotud, sealhulgas
+                  kõikide muudatustega, mis võivad aeg-ajalt avalikustada. Kui Sa ei
+                  nõustu nende Tingimustega, peaksid hoiduma Teenusele juurdepääsust ja
+                  Veebilehe kasutamisest.`,
+    termsTitle2: `1. Üldtingimused`,
+    termsParagraph2: `Me jätame endale õiguse Tingimusi (sealhulgas allpool viidatud ja lingitud dokumente)
+                  igal ajal muuta. Peaksid perioodiliselt seda lehte külastama, et Tingimusi
+                  üle vaadata. Muudatused on siduvad ja jõustuvad kohe pärast avaldamist
+                  Veebilehel. Kui Sa ei nõustu muutustega, pead kohe lõpetama Teenuse
+                  kasutamise. Kõik enne Tingimuste muutmist tehtud panused alluvad eelnevatele
+                  Tingimustele. Kui Goldbeti Tingimused ja Reeglid uuendatakse, teavitab
+                  platvorm Sind ja palub Sul oma nõusolek kinnitada.`,
+    termsTitle3: `2. Sinu Kohustused`,
+    termsParagraph3: `Kinnitad, et Veebilehele juurdepääsu ajal ja Teenuse kasutamisel:
+                  <br />3.1. Oled üle 18 aasta vana või vastava juriidilise vanuse piires, kus
+                  hasartmängud on lubatud. Meil on õigus igal ajal nõuda vanust tõendavaid
+                  dokumente. <br />
+                  3.2. Sul on juriidiline suutlikkus sõlmida siduv juriidiline leping meiega.
+                  <br />
+                  3.3. Mõnes riigis võib Veebilehe kasutamine ja pakutavad tooted olla ebaseaduslikud.
+                  Sa vastutad ise selle eest, et Sinu juurdepääs ja kasutamine on kohalike seadustega
+                  kooskõlas. Kinnitad, et Sa ei ela piiratud jurisdiktsioonis. <br />
+                  3.4. Konto avamise või Veebilehe kasutamise ajal on mängijal kohustus
+                  kontrollida hasartmängude seaduslikkust. <br />
+                  3.5. Sa oled maksemeetodi volitatud kasutaja ja kõik kontol olevad vahendid
+                  on seaduslikud. <br />
+                  3.6. Kõik maksed tuleb teha heas usus ja neid ei tohi tühistada. <br />
+                  3.7. Panustades võid kaotada osa või kogu deposiidi ja vastutad selle eest täielikult. <br />
+                  3.8. Panustades ei tohi kasutada teavet, mis on saadud seadusevastaselt. <br />
+                  3.9. Tegutsed ainult oma nimel, mitte kommerts- ega kolmanda osapoole huvides. <br />
+                  3.10. Ära proovi manipuleerida turgu või teenuse elemente pahatahtlikult. <br />
+                  3.11. Tegutse kogu aeg heas usus. <br />
+                  3.12. Sina või sinu seotud isikud ei ole registreeritud meie partnerprogrammiga. <br />
+                  3.13. Goldbeti kasutamisel nõustud esitama ainult tõesed ja reaalsed andmed. <br />
+                  3.14. Mõistad krüptoturu volatiilsust. <br />
+                  3.15. Oled vaimselt pädev ja ei ole hasartmängusõltuv. <br />
+                  3.16. Ära kasuta kolmanda osapoole tarkvara ega ära kasuta platvormi vigu. <br />
+                  3.17. Kõik registreerimisel ja teenuse kasutamisel antud andmed peavad olema õiged. <br />
+                  3.17.1. Andmete muutmiseks võta ühendust tugiteenusega. <br />
+                  3.18. Ära kasuta teenuseid jurisdiktsioonides, kus online-panustamine või kasiinomängud on keelatud. <br />
+                  3.19. Sa kinnitad ka, et: <br />
+                  - Osaled Teenustes ainult oma nimel; <br />
+                  - Maksude arvestus ja tasumine saadud võitude eest on sinu vastutus; <br />
+                  - Krüptovaluuta auhindade maksud on sinu vastutus.`,
+    chooseSectionTitle: `MIKS VALIDA <span class="yellow-gradient-text">GOLDBET</span>?`,
+    chooseItem1Title: "BOONUSED",
+    chooseItem1Text:
+      "Deposiidivabad, kohesed ja eksklusiivsed VIP-boonused—leia parim pakkumine meie stardipaketist või kogukonnast.",
+    chooseItem2Title: "PESAD",
+    chooseItem2Text:
+      "Mängi populaarseimad pesad, mida on nähtud streamides, kõrgete väljamaksetega. Kõik su sõbrad juba mängivad!",
+    chooseItem3Title: "SPORDIPANUSED",
+    chooseItem3Text:
+      "Oled spordiekspert? Meil on 30 spordikategooriat, lihtne navigeerimine ja reaalajas statistika valmis sinu jaoks.",
+    chooseItem4Title: "LIVE-KASIINO",
+    chooseItem4Text:
+      "Tegelikud diilerid ja ehtsad reaktsioonid jackpot'i võites. Vali mäng, keel ja võta tugev jook—see saab intensiivne olema!",
+    chooseItem5Title: "ÕIGUSLIK",
+    chooseItem5Text:
+      "Kõik toimingud on järelevalve all. Tagame 100% juriidilise toe ja ausa mängu.",
+    footerText: `<span class="current-domain"></span> on informatiivne platvorm online-kasiinode boonuste ja kampaaniate kohta. Kõik info on mõeldud ainult informatiivseks ja meelelahutuslikuks otstarbeks. Boonuste tingimused võivad muutuda ilma ette teatamata ja <span class="current-domain"></span> ei vastuta võimalike erinevuste eest. Pakkumised kehtivad ainult üle 18-aastastele ja sobivate jurisdiktsioonide elanikele. Enne registreerumist või boonuse taotlemist loe hoolikalt iga kasiino tingimusi. Mängi vastutustundlikult!`,
+    stickyButtonText: "taotle oma boonust",
+    // | FORM TRANSLATIONS
+    closeBtn: "Sulge",
+    backBtn: "Tagasi",
+    // | Step 1
+    step1Title: "Vali oma Boonus",
+    welcomeBonus: "Tervitusboonus",
+    welcomeBonusText: "esimesel deposiidil",
+    cryptoBonus: "Satoshi Boonus",
+    cryptoBonusText: "150% krüpto deposiitidel",
+    highRollerBonus: "High Roller Boonus",
+    highRollerBonusText: `250% deposiitidest üle <span class="bonus-highroller-amount">500</span><span class="bonus-currency-symbol"></span>`,
+    withoutBonus: "Ilma Boonuseta",
+    withoutBonusText: "Sa ei saa boonust",
+    iHavePromoCode: "Mul on Promo-kood",
+    promoCodePlaceHolder: "Promo-kood",
+    promoCodeApplyBtn: "Rakenda",
+    youWillGetFreeSpins: "Sa saad tasuta spinnid",
+    youWillGetNodepBonus: "Sa saad deposiidivaba boonuse",
+    continueBtn: "Jätka",
+    // | Step 2
+    step2Title: "Sisesta oma Email",
+    emailPlaceholder: "Sisesta Email",
+    passwordPlaceholder: "Sisesta Parool",
+    // | Step 3
+    step3Title: "Mis on sinu nimi?",
+    namePlaceholder: "Sisesta Nimi",
+    lastNamePlaceholder: "Sisesta Perekonnanimi",
+    birthdayPlaceholder: "Vali Sünnikuupäev",
+    age18Alert: "Vanus peab olema vähemalt 18",
+    invalidDate: "Vale kuupäev",
+    male: "Mees",
+    female: "Naine",
+    finalStepBtn: "Viimane Samm",
+    // | Step 4
+    step4Title: "Vali Valuuta",
+    countryPlaceholder: "Vali Riik",
+    currencyPlaceholder: "Vali Valuuta",
+    phoneNumberPlaceholder: "Telefoninumber",
+    addressPlaceholder: "Sisesta Aadress",
+    cityPlaceholder: "Sisesta Linn",
+    statePlaceholder: "Vali Maakond",
+    zipCodePlaceholder: "Sisesta ZIP-kood",
+    createAccountBtn: "Loo Konto",
+    // | Decline
+    areYouSure: `Kas oled kindel? <br /> Sinu edusammud lähevad kaotsi`,
+    keepRegistering: "Jätka Registreerimist",
+    returnToWebsite: "Tagasi Veebilehele",
+  },
+  lv: {
+    pageTitle: "Goldbet Angļu",
+    sliderTitle: `LAIPNI LŪDZAM  <br /> BONUSA PAKETE <br /> <span class="two-step-welcome-amount">6.500</span> <span class="two-step-welcome-symbol"></span> + <span class="two-step-bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
+    sliderSubtitle: "Jūsu sagaidīšanas bonuss ir gatavs Jums Bonusu centrā.",
+    sliderButtonText: "pieprasīt savu bonusu",
+    step: "Solis",
+    mainTitle: `KĀ <span class="text-[#ffab0b] yellow-gradient-text">PIEPRASĪT SAVU BONUSU</span>`,
+    pageStep1Title: "Reģistrēties",
+    pageStep1Text:
+      'Noklikšķiniet uz "Spēlēt Tagad" un ievadiet savu e-pastu un paroli.',
+    pageStep2Title: "Veikt Iemaksu",
+    pageStep2Text: "Izvēlieties vēlamo maksājuma veidu un veiciet iemaksu.",
+    pageStep3Title: "Saņemt Bonusu",
+    pageStep3Text: "Jūsu sagaidīšanas bonuss ir gatavs Jums Bonusu centrā.",
+    mainButtonText: "Pieprasīt Bonusu",
+    termsAndConditionsButtonText: "Noteikumi un Nosacījumi",
+    termsTitle1: `Noteikumi un Nosacījumi`,
+    termsParagraph1: `Šie noteikumi un nosacījumi un zemāk minētie dokumenti
+                  ("Noteikumi") attiecas uz pašreizējās vietnes (turpmāk - "Vietne")
+                  un tās saistīto vai savienoto pakalpojumu (kopā - "Pakalpojums")
+                  izmantošanu. Lūdzu, rūpīgi izlasiet šos Noteikumus, jo tie satur svarīgu informāciju
+                  par Jūsu tiesībām un pienākumiem attiecībā uz Vietnes izmantošanu un veido
+                  saistošu juridisku līgumu starp Jums - mūsu klientu ("Klients") - un mums ("Vietne").
+                  Izmantojot šo Vietni un/vai piekļūstot Pakalpojumam, neatkarīgi no tā, vai Jūs esat
+                  viesis vai reģistrēts lietotājs ar kontu (“Konts”), Jūs piekrītat būt saistīts
+                  ar šiem Noteikumiem, ieskaitot visas izmaiņas, kas var tikt publicētas laika gaitā.
+                  Ja Jūs nepiekrītat šiem Noteikumiem, Jums jāatturas no Pakalpojuma izmantošanas un
+                  Vietnes apmeklēšanas.`,
+    termsTitle2: `1. Vispārīgie Noteikumi`,
+    termsParagraph2: `Mēs paturam tiesības pārskatīt un grozīt Noteikumus (ieskaitot visus dokumentus,
+                  uz kuriem ir atsauce vai kas ir saistīti zemāk) jebkurā laikā. Jums jāapmeklē
+                  šī lapa periodiski, lai pārskatītu Noteikumus. Grozījumi stājas spēkā nekavējoties
+                  pēc publicēšanas šajā Vietnē un ir saistoši. Ja Jūs iebilstat pret šādām izmaiņām,
+                  Jums nekavējoties jāpārtrauc Pakalpojuma izmantošana. Visi derību likmes,
+                  kas nav izskatītas pirms grozīto Noteikumu stāšanās spēkā, tiks piemērotas
+                  iepriekšējiem Noteikumiem. Ja Goldbet Noteikumi tiks atjaunināti, platforma
+                  informēs Jūs un lūgs apstiprināt savu piekrišanu.`,
+    termsTitle3: `2. Jūsu Pienākumi`,
+    termsParagraph3: `Jūs apliecināt, ka vienmēr, piekļūstot Vietnei un izmantojot Pakalpojumu: <br />
+                  3.1. Jums ir vismaz 18 gadi vai likumīgā vecuma sasniegšana, kas atļauj azartspēles
+                  vai spēles jūsu jurisdikcijā. Mēs paturam tiesības jebkurā laikā pieprasīt
+                  vecuma apliecinošus dokumentus. <br />
+                  3.2. Jums ir juridiskā spēja noslēgt saistošu līgumu ar mums.
+                  <br />
+                  3.3. Jūs apzināties, ka piekļuve un Vietnes izmantošana var tikt uzskatīta par
+                  nelikumīgu dažās valstīs. Jūs esat atbildīgs par to, lai jūsu piekļuve un
+                  izmantošana atbilstu piemērojamiem likumiem jūsu valstī. Jūs apliecināt, ka
+                  nedzīvojat ierobežotā jurisdikcijā. <br />
+                  3.4. Mēģinot atvērt kontu vai lietojot Vietni, spēlētājam ir pienākums pārbaudīt
+                  azartspēļu likumību attiecīgajā jurisdikcijā. <br />
+                  3.5. Jūs esat maksājuma metodes pilnvarots lietotājs un visi līdzekļi jūsu
+                  kontā un izmantotie Pakalpojumos ir likumīgi. <br />
+                  3.6. Visas maksājumu darbības jāveic labticīgi un nedrīkst mēģināt tās atcelt. <br />
+                  3.7. Veicot likmes, jūs varat zaudēt daļu vai visu iemaksāto summu un
+                  esat pilnībā atbildīgs par šo zaudējumu. <br />
+                  3.8. Veicot likmes, jūs nedrīkstat izmantot informāciju, kas iegūta
+                  likuma pārkāpumā. <br />
+                  3.9. Jūs nedarbojaties citas personas vai komerciālu mērķu vārdā, tikai
+                  savā personīgajā vārdā. <br />
+                  3.10. Jūs nedrīkstat mēģināt manipulēt ar jebkuru tirgu vai Pakalpojuma
+                  elementu ļaunprātīgi. <br />
+                  3.11. Jums vispārīgi jādarbojas labticīgi attiecībā uz Pakalpojuma izmantošanu
+                  un visām veiktajām likmēm. <br />
+                  3.12. Jūs vai jūsu saistītās personas nav reģistrētas mūsu partnerprogrammā. <br />
+                  3.13. Izmantojot Goldbet, jūs piekrītat sniegt tikai patiesus un objektīvus
+                  datus pēc pieprasījuma. <br />
+                  3.14. Jūs saprotat kriptovalūtas tirgus svārstīgumu. <br />
+                  3.15. Jūs esat garīgi kompetents un jums nav azartspēļu atkarības. <br />
+                  3.16. Jūs neizmantosiet trešo personu programmatūru un neizmantosiet
+                  sistēmas kļūdas. <br />
+                  3.17. Jūs garantējat, ka visas reģistrācijas laikā un Pakalpojuma
+                  izmantošanas laikā sniegtās ziņas ir pareizas. <br />
+                  3.17.1. Lai mainītu informāciju, sazinieties ar atbalsta komandu. <br />
+                  3.18. Jūs neizmantosiet mūsu pakalpojumus jurisdikcijās, kur
+                  tie tiešsaistes azartspēļu vai kazino spēles aizliedz. <br />
+                  3.19. Jūs arī garantējat, ka: <br />
+                  - Jūs piedalāties Pakalpojumos tikai savā vārdā; <br />
+                  - Jūs esat atbildīgs par nodokļu aprēķinu un samaksu no laimestiem;
+                  <br />- Jūs esat atbildīgs par kriptovalūtas balvu nodokļiem.`,
+    chooseSectionTitle: `KĀPĒC IZVĒLĒTIES <span class="yellow-gradient-text">GOLDBET</span>?`,
+    chooseItem1Title: "BONUSI",
+    chooseItem1Text:
+      "Bez depozīta, tūlītēji un ekskluzīvi VIP bonusi — atrodiet labāko piedāvājumu mūsu sākuma paketē vai kopienā.",
+    chooseItem2Title: "SLOTS",
+    chooseItem2Text:
+      "Spēlējiet populārākās spēļu automātus, kas redzēti straumēs, ar augstiem laimestu izmaksas. Visi jūsu draugi jau spēlē!",
+    chooseItem3Title: "SPORTA LIKMES",
+    chooseItem3Text:
+      "Vai esat sporta eksperts? Mums ir 30 sporta kategorijas ar ērtu navigāciju un reāllaika statistiku gatavas jums.",
+    chooseItem4Title: "TIEŠRAIDES KAZINO",
+    chooseItem4Text:
+      "Reāli dīleri un patiesas reakcijas, kad trāpāt džekpotu. Izvēlieties spēli, valodu un paņemiet stipru dzērienu — būs intensīvi!",
+    chooseItem5Title: "LEGALITĀTE",
+    chooseItem5Text:
+      "Visas darbības tiek veiktas uzraudzībā. Mēs nodrošinām 100% juridisko atbalstu un godīgu spēli.",
+    footerText: `<span class="current-domain"></span> ir informatīva platforma par tiešsaistes kazino bonusiem un akcijām.
+Visas sniegtās ziņas ir tikai informatīvas un izklaides nolūkos. Bonusu noteikumi var
+mainīties bez iepriekšēja brīdinājuma, un <span class="current-domain"></span> nav
+atbildīgs par iespējamiem neatbilstību gadījumiem. Piedāvājumi ir pieejami tikai
+personām, kas vecākas par 18 gadiem un dzīvo atbilstošās jurisdikcijās.
+Pirms reģistrēšanās vai bonusa pieprasīšanas rūpīgi izlasiet katra kazino noteikumus.
+Spēlējiet atbildīgi!`,
+    stickyButtonText: "pieprasīt savu bonusu",
+    // | FORM TRANSLATIONS
+    closeBtn: "Aizvērt",
+    backBtn: "Atpakaļ",
+    // | Step 1
+    step1Title: "Izvēlieties savu Bonusu",
+    welcomeBonus: "Sagaidīšanas Bonuss",
+    welcomeBonusText: "pirmajā iemaksā",
+    cryptoBonus: "Satoshi Bonuss",
+    cryptoBonusText: "150% kripto iemaksām",
+    highRollerBonus: "High Roller Bonuss",
+    highRollerBonusText: `250% iemaksām virs <span class="bonus-highroller-amount">500</span><span class="bonus-currency-symbol"></span>`,
+    withoutBonus: "Bez Bonusa",
+    withoutBonusText: "Jūs nesaņemsiet nekādu bonusu",
+    iHavePromoCode: "Man ir Promo-Kods",
+    promoCodePlaceHolder: "Promo Kods",
+    promoCodeApplyBtn: "Piemērot",
+    youWillGetFreeSpins: "Jūs saņemsiet bezmaksas griezienus",
+    youWillGetNodepBonus: "Jūs saņemsiet bez depozīta bonusu",
+    continueBtn: "Turpināt",
+    // | Step 2
+    step2Title: "Ievadiet savu E-pastu",
+    emailPlaceholder: "Ievadiet E-pastu",
+    passwordPlaceholder: "Ievadiet Paroli",
+    // | Step 3
+    step3Title: "Kāds ir Jūsu Vārds?",
+    namePlaceholder: "Ievadiet Vārdu",
+    lastNamePlaceholder: "Ievadiet Uzvārdu",
+    birthdayPlaceholder: "Izvēlieties Dzimšanas Datumu",
+    age18Alert: "Vecumam jābūt 18+",
+    invalidDate: "Nederīgs datums",
+    male: "Vīrietis",
+    female: "Sieviete",
+    finalStepBtn: "Pēdējais Solis",
+    // | Step 4
+    step4Title: "Izvēlieties Valūtu",
+    countryPlaceholder: "Izvēlieties Valsti",
+    currencyPlaceholder: "Izvēlieties Valūtu",
+    phoneNumberPlaceholder: "Tālruņa Numurs",
+    addressPlaceholder: "Ievadiet Adresi",
+    cityPlaceholder: "Ievadiet Pilsētu",
+    statePlaceholder: "Izvēlieties Provinci",
+    zipCodePlaceholder: "Ievadiet Pasta Kodu",
+    createAccountBtn: "Izveidot Kontu",
+    // | Decline
+    areYouSure: `Vai esat pārliecināts? <br /> Jūsu progress tiks zaudēts`,
+    keepRegistering: "Turpināt Reģistrāciju",
+    returnToWebsite: "Atgriezties Vietnē",
+  },
+  lt: {
+    pageTitle: "Goldbet Anglų",
+    sliderTitle: `SVEIKI ATVYKĘ  <br /> BONUSŲ PAKETAS <br /> <span class="two-step-welcome-amount">6.500</span> <span class="two-step-welcome-symbol"></span> + <span class="two-step-bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
+    sliderSubtitle: "Jūsų pasveikinimo premija paruošta Jums Premijų centre.",
+    sliderButtonText: "reikalauti savo premijos",
+    step: "Žingsnis",
+    mainTitle: `KAIP <span class="text-[#ffab0b] yellow-gradient-text">GAUTI SAVO PREMIJĄ</span>`,
+    pageStep1Title: "Registruotis",
+    pageStep1Text:
+      'Spustelėkite "Žaisti dabar" ir įveskite savo el. paštą bei slaptažodį.',
+    pageStep2Title: "Atlikti Įmoką",
+    pageStep2Text: "Pasirinkite pageidaujamą mokėjimo būdą ir atlikite įmoką.",
+    pageStep3Title: "Gauti Premiją",
+    pageStep3Text: "Jūsų pasveikinimo premija paruošta Jums Premijų centre.",
+    mainButtonText: "Gauti Premiją",
+    termsAndConditionsButtonText: "Taisyklės ir Sąlygos",
+    termsTitle1: `Taisyklės ir Sąlygos`,
+    termsParagraph1: `Šios taisyklės ir sąlygos bei žemiau nurodyti dokumentai
+                  ("Taisyklės") taikomi naudojantis šia svetaine (toliau – "Svetainė")
+                  ir jos susijusiomis ar prijungtomis paslaugomis (bendrai – "Paslauga").
+                  Atidžiai perskaitykite šias Taisykles, nes jos suteikia svarbios informacijos
+                  apie jūsų teises ir pareigas naudojantis Svetainę ir sudaro privalomą
+                  teisinę sutartį tarp Jūsų – mūsų kliento ("Klientas") – ir mūsų ("Svetainė").
+                  Naudodamiesi šia Svetainę ir/ar prieiga prie Paslaugos, nesvarbu ar esate
+                  svečias ar registruotas vartotojas su paskyra (“Paskyra”), Jūs sutinkate
+                  laikytis šių Taisyklių, įskaitant bet kokius pakeitimus, kurie gali būti
+                  skelbiami laikui bėgant. Jei nesutinkate su šiomis Taisyklėmis,
+                  turėtumėte susilaikyti nuo Paslaugos naudojimo ir Svetainės lankymo.`,
+    termsTitle2: `1. Bendrosios Sąlygos`,
+    termsParagraph2: `Mes pasiliekame teisę bet kuriuo metu peržiūrėti ir pakeisti Taisykles
+                  (įskaitant bet kokius dokumentus, į kuriuos nuoroda ar kurie yra susieti žemiau).
+                  Turėtumėte periodiškai lankytis šiame puslapyje, kad peržiūrėtumėte Taisykles.
+                  Pakeitimai įsigalioja iš karto po paskelbimo šioje Svetainėje ir yra privalomi.
+                  Jei nesutinkate su tokiais pakeitimais, turite nedelsdami nutraukti Paslaugos naudojimą.
+                  Bet kokie statymai, kurie nebuvo išspręsti iki pakeistų Taisyklių įsigaliojimo,
+                  taikomi ankstesnėms Taisyklėms. Jei Goldbet Taisyklės bus atnaujintos,
+                  platforma jus informuos ir paprašys patvirtinti savo sutikimą.`,
+    termsTitle3: `2. Jūsų Įsipareigojimai`,
+    termsParagraph3: `Jūs patvirtinate, kad kiekvieną kartą prieidami prie Svetainės
+                  ir naudodamiesi Paslauga: <br />
+                  3.1. Jūs esate vyresnis nei 18 metų arba teisėto amžiaus pagal įstatymus ar
+                  jurisdikciją, kurioje leidžiamos azartinės ar žaidimų veiklos. Mes pasiliekame
+                  teisę bet kada paprašyti amžiaus įrodymo dokumentų. <br />
+                  3.2. Turite teisę sudaryti privalomą teisinę sutartį su mumis.
+                  <br />
+                  3.3. Suprantate, kad prieiga prie Svetainės ir bet kokių produktų gali būti
+                  laikoma neteisėta kai kuriose šalyse. Jūs atsakingas už tai, kad jūsų prieiga
+                  ir naudojimas būtų teisėti jūsų šalyje. Patvirtinate, kad nesate apribotoje
+                  jurisdikcijoje. <br />
+                  3.4. Bandydami atidaryti paskyrą ar naudodamiesi Svetainę, žaidėjas turi
+                  patikrinti ar azartiniai žaidimai teisėti jo jurisdikcijoje. <br />
+                  3.5. Esate mokėjimo metodo įgaliotas naudotojas ir visi jūsų sąskaitoje
+                  esantys ir Paslaugose naudojami fondai yra teisėti. <br />
+                  3.6. Visi mokėjimai turi būti atliekami geranoriškai ir neturėtų būti atšaukti.
+                  <br />
+                  3.7. Statant galite prarasti dalį ar visą indėlį ir už tai atsakote jūs pats. <br />
+                  3.8. Statydami negalite naudoti informacijos, gautos pažeidžiant įstatymus.
+                  <br />
+                  3.9. Veikiate tik savo vardu, ne kitų asmenų ar komerciniais tikslais.
+                  <br />
+                  3.10. Negalima manipuliuoti rinka ar Paslaugos elementais bloga valia. <br />
+                  3.11. Visada veikiate geranoriškai naudojantis Paslauga. <br />
+                  3.12. Jūs ar jūsų suinteresuoti asmenys nėra užsiregistravę mūsų partnerių programoje.
+                  <br />
+                  3.13. Naudodamiesi Goldbet sutinkate pateikti tik tikrus ir objektyvius duomenis.
+                  <br />
+                  3.14. Suprantate kriptovaliutų rinkos kintamumą. <br />
+                  3.15. Esate psichologiškai kompetentingi ir neturite azartinių žaidimų priklausomybės.
+                  <br />
+                  3.16. Negalima naudoti trečiųjų šalių programinės įrangos ar išnaudoti sistemos klaidas.
+                  <br />
+                  3.17. Užtikrinate, kad visi registracijos metu ir naudojantis Paslauga pateikti duomenys yra teisingi.
+                  <br />
+                  3.17.1. Norėdami pakeisti informaciją, kreipkitės į pagalbos komandą. <br />
+                  3.18. Negalima naudotis paslaugomis jurisdikcijose, kuriose draudžiama statyti internetu ar žaisti kazino.
+                  <br />
+                  3.19. Taip pat garantuojate, kad: <br />
+                  - Dalyvaujate Paslaugose tik savo vardu; <br />
+                  - Jūs atsakingas už bet kokius mokesčius už laimėjimus; <br />
+                  - Jūs atsakingas už kriptovaliutos premijų apmokestinimą.`,
+    chooseSectionTitle: `KODĖL RINKTIS <span class="yellow-gradient-text">GOLDBET</span>?`,
+    chooseItem1Title: "BONUSAI",
+    chooseItem1Text:
+      "Be indėlio, momentiniai ir išskirtiniai VIP bonusai — raskite geriausią pasiūlymą pradiniame pakete arba bendruomenėje.",
+    chooseItem2Title: "SLOTS",
+    chooseItem2Text:
+      "Žaiskite populiariausius lošimo automatus, matytus transliacijose, su dideliais laimėjimais. Visi jūsų draugai jau žaidžia!",
+    chooseItem3Title: "SPORTO STATYMAI",
+    chooseItem3Text:
+      "Ar esate sporto ekspertas? Turime 30 sporto kategorijų su paprasta navigacija ir realaus laiko statistika.",
+    chooseItem4Title: "GYVAS KAZINO",
+    chooseItem4Text:
+      "Tikri krupjė ir tikros reakcijos, kai laimite jackpotą. Pasirinkite žaidimą, kalbą ir stiprų gėrimą – bus intensyvu!",
+    chooseItem5Title: "TEISĖTA",
+    chooseItem5Text:
+      "Visos operacijos vykdomos prižiūrint. Užtikriname 100% teisinę pagalbą ir sąžiningą žaidimą.",
+    footerText: `<span class="current-domain"></span> yra informacinė platforma apie internetinių kazino bonusus ir akcijas. Visi pateikti duomenys yra tik informaciniais ir pramoginiais tikslais. Bonuso sąlygos gali keistis be įspėjimo, ir <span class="current-domain"></span> neatsako už galimus neatitikimus. Pasiūlymai galioja tik asmenims, vyresniems nei 18 metų, gyvenantiems tinkamose jurisdikcijose. Prieš registruojantis ar reikalaujant premijos, atidžiai perskaitykite kiekvieno kazino taisykles. Žaiskite atsakingai!`,
+    stickyButtonText: "reikalauti savo premijos",
+    // | FORM TRANSLATIONS
+    closeBtn: "Uždaryti",
+    backBtn: "Atgal",
+    // | Step 1
+    step1Title: "Pasirinkite Savo Premiją",
+    welcomeBonus: "Pasveikinimo Premija",
+    welcomeBonusText: "pirmai įmokai",
+    cryptoBonus: "Satoshi Premija",
+    cryptoBonusText: "150% kripto įmokoms",
+    highRollerBonus: "High Roller Premija",
+    highRollerBonusText: `250% įmokoms virš <span class="bonus-highroller-amount">500</span><span class="bonus-currency-symbol"></span>`,
+    withoutBonus: "Be Premijos",
+    withoutBonusText: "Jūs negausite premijos",
+    iHavePromoCode: "Turiu Promo-Kodą",
+    promoCodePlaceHolder: "Promo Kodas",
+    promoCodeApplyBtn: "Taikyti",
+    youWillGetFreeSpins: "Gaunate nemokamus sukimus",
+    youWillGetNodepBonus: "Gaunate premiją be įmokos",
+    continueBtn: "Tęsti",
+    // | Step 2
+    step2Title: "Įveskite savo El. Paštą",
+    emailPlaceholder: "Įveskite El. Paštą",
+    passwordPlaceholder: "Įveskite Slaptažodį",
+    // | Step 3
+    step3Title: "Koks Jūsų Vardas?",
+    namePlaceholder: "Įveskite Vardą",
+    lastNamePlaceholder: "Įveskite Pavardę",
+    birthdayPlaceholder: "Pasirinkite Gimimo Datą",
+    age18Alert: "Amžius turi būti 18+",
+    invalidDate: "Neteisinga data",
+    male: "Vyras",
+    female: "Moteris",
+    finalStepBtn: "Paskutinis Žingsnis",
+    // | Step 4
+    step4Title: "Pasirinkite Valiutą",
+    countryPlaceholder: "Pasirinkite Šalį",
+    currencyPlaceholder: "Pasirinkite Valiutą",
+    phoneNumberPlaceholder: "Telefono Numeris",
+    addressPlaceholder: "Įveskite Adresą",
+    cityPlaceholder: "Įveskite Miestą",
+    statePlaceholder: "Pasirinkite Provinciją",
+    zipCodePlaceholder: "Įveskite Pašto Kodą",
+    createAccountBtn: "Sukurti Paskyrą",
+    // | Decline
+    areYouSure: `Ar Jūs Įsitikinę? <br /> Jūsų pažanga bus prarasta`,
+    keepRegistering: "Tęsti Registraciją",
+    returnToWebsite: "Grįžti į Svetainę",
+  },
+  hr: {
+    pageTitle: "Goldbet Engleski",
+    sliderTitle: `DOBRODOŠLI  <br /> PAKET BONUSA <br /> <span class="two-step-welcome-amount">6.500</span> <span class="two-step-welcome-symbol"></span> + <span class="two-step-bonus-spins"></span>`,
+    sliderBonusAmount: `<span class="bonus-value"></span> <span class="bonus-currency"></span>`,
+    sliderSubtitle: "Vaš dobrodošlic bonus je spreman za vas u Bonus centru.",
+    sliderButtonText: "preuzmi svoj bonus",
+    step: "Korak",
+    mainTitle: `KAKO <span class="text-[#ffab0b] yellow-gradient-text">PREUZETI SVOJ BONUS</span>`,
+    pageStep1Title: "Registriraj se",
+    pageStep1Text: 'Kliknite "Igraj sada" i unesite svoj e-mail i lozinku.',
+    pageStep2Title: "Uplati Depozit",
+    pageStep2Text: "Odaberite željeni način plaćanja i izvršite uplatu.",
+    pageStep3Title: "Preuzmi Bonus",
+    pageStep3Text: "Vaš dobrodošlic bonus je spreman za vas u Bonus centru.",
+    mainButtonText: "Preuzmi Bonus",
+    termsAndConditionsButtonText: "Pravila i Uvjeti",
+    termsTitle1: `Pravila i Uvjeti`,
+    termsParagraph1: `Ova pravila i uvjeti te dokumenti navedeni u nastavku
+                  ("Uvjeti") primjenjuju se na korištenje ove web stranice (u daljnjem tekstu "Web stranica")
+                  i njenih povezanih ili poveznih usluga (zajedno "Usluga").
+                  Pažljivo pročitajte ove Uvjete jer sadrže važne informacije o vašim pravima
+                  i obvezama prilikom korištenja Web stranice i čine obvezujući pravni sporazum
+                  između vas - našeg korisnika ("Korisnik") - i nas ("Web stranica").
+                  Korištenjem ove Web stranice i/ili pristupom Usluzi, bilo da ste gost ili registrirani
+                  korisnik s računom (“Račun”), pristajete biti vezani ovim Uvjetima, uključujući
+                  sve izmjene koje se s vremena na vrijeme mogu objaviti. Ako ne prihvaćate ove Uvjete,
+                  trebali biste se suzdržati od pristupa Usluzi i korištenja Web stranice.`,
+    termsTitle2: `1. Opći Uvjeti`,
+    termsParagraph2: `Zadržavamo pravo revidirati i mijenjati Uvjete (uključujući sve dokumente
+                  na koje se poziva i povezane dolje) u bilo kojem trenutku. Trebali biste
+                  povremeno posjetiti ovu stranicu kako biste pregledali Uvjete. Izmjene su
+                  obvezujuće i stupaju na snagu odmah nakon objave na ovoj Web stranici. Ako se
+                  ne slažete s bilo kakvim promjenama, odmah prestanite koristiti Uslugu. Svi
+                  neobrađeni ulozi prije stupanja izmijenjenih Uvjeta na snagu podliježu prethodnim
+                  Uvjetima. Ako se Uvjeti i Pravila Goldbeta ažuriraju, platforma će vas obavijestiti
+                  i zatražiti da potvrdite svoj pristanak.`,
+    termsTitle3: `2. Vaše Obveze`,
+    termsParagraph3: `Potvrđujete da svaki put kada pristupate Web stranici
+                  i koristite Uslugu: <br />
+                  3.1. Imate više od 18 godina ili zakonsku dob u kojoj su igre na sreću dopuštene u
+                  vašoj jurisdikciji. Zadržavamo pravo zatražiti dokaze o dobi u bilo kojem trenutku. <br />
+                  3.2. Imate zakonsku sposobnost za sklapanje obvezujućeg pravnog ugovora s nama.
+                  <br />
+                  3.3. Svjesni ste da pristup i korištenje Web stranice može biti nezakonito u nekim
+                  zemljama. Odgovorni ste za provjeru zakonitosti korištenja Web stranice u vašoj zemlji
+                  i potvrđujete da ne živite u Ograničenoj jurisdikciji. <br />
+                  3.4. Prilikom pokušaja otvaranja računa ili korištenja Web stranice, igrač je
+                  odgovoran provjeriti je li kockanje legalno u toj jurisdikciji. <br />
+                  3.5. Vi ste ovlašteni korisnik korištene metode plaćanja i svi sredstva na vašem računu
+                  korištena u Uslugama su legalna. <br />
+                  3.6. Sve uplate moraju biti izvršene u dobroj vjeri i ne smiju se pokušavati opozvati. <br />
+                  3.7. Kod klađenja možete izgubiti dio ili sav depozit i potpuno ste odgovorni za gubitak. <br />
+                  3.8. Kod klađenja ne smijete koristiti informacije dobivene kršenjem zakona. <br />
+                  3.9. Ne djelujete u ime treće strane ili u komercijalne svrhe, već isključivo u svoje ime. <br />
+                  3.10. Ne pokušavajte manipulirati bilo kojim tržištem ili elementom Usluge zloupotrebom. <br />
+                  3.11. Uvijek djelujte u dobroj vjeri. <br />
+                  3.12. Vi ili vaši povezani subjekti niste registrirani u našoj partnerskoj programu. <br />
+                  3.13. Korištenjem Goldbeta pristajete davati samo istinite i objektivne podatke kada se zatraže. <br />
+                  3.14. Razumijete volatilnost kripto tržišta. <br />
+                  3.15. Psihički ste sposobni i niste ovisni o kockanju. <br />
+                  3.16. Nećete koristiti softver treće strane niti zloupotrijebiti greške platforme. <br />
+                  3.17. Jamčite da su svi podaci pruženi pri registraciji i tijekom korištenja usluge točni. <br />
+                  3.17.1. Za promjenu podataka kontaktirajte korisničku podršku. <br />
+                  3.18. Nećete koristiti naše usluge u jurisdikcijama gdje je online klađenje i/ili igranje kazina zabranjeno. <br />
+                  3.19. Također jamčite da: <br />
+                  - Sudjelujete u Uslugama u svoje ime; <br />
+                  - Odgovorni ste za plaćanje svih primjenjivih poreza na dobitke; <br />
+                  - Odgovorni ste za poreze na kriptovalute dobivene korištenjem Usluge.`,
+    chooseSectionTitle: `ZAŠTO ODABRATI <span class="yellow-gradient-text">GOLDBET</span>?`,
+    chooseItem1Title: "BONUSI",
+    chooseItem1Text:
+      "Bonusi bez depozita, trenutni i ekskluzivni VIP bonusi — pronađite najbolju ponudu u našem početnom paketu ili unutar zajednice.",
+    chooseItem2Title: "SLOTS",
+    chooseItem2Text:
+      "Igrajte najpopularnije slotove viđene u streamovima, poznate po visokim isplatama. Svi vaši prijatelji već igraju!",
+    chooseItem3Title: "SPORTSKO KLAĐENJE",
+    chooseItem3Text:
+      "Jeste li sportski stručnjak s osjećajem za predviđanja? Imamo 30 sportskih kategorija s jednostavnom navigacijom i statistikama u stvarnom vremenu.",
+    chooseItem4Title: "LIVE KAZINO",
+    chooseItem4Text:
+      "Pravi djelitelji i stvarne reakcije kada osvojite jackpot. Odaberite igru, jezik i snažno piće — ovo će biti intenzivno!",
+    chooseItem5Title: "LEGALNO",
+    chooseItem5Text:
+      "Sve operacije se provode pod regulatornim nadzorom. Osiguravamo 100% pravnu podršku i poštenu igru.",
+    footerText: `<span class="current-domain"></span> je informativna platforma o bonusima i promocijama u online casinima. Sve informacije su samo u informativne i zabavne svrhe. Uvjeti bonusa mogu se mijenjati bez prethodne najave, a <span class="current-domain"></span> nije odgovoran za moguće neslaganja. Ponude su dostupne samo osobama starijim od 18 godina i rezidentima prihvatljivih jurisdikcija. Prije registracije ili preuzimanja bonusa pažljivo pročitajte uvjete svakog casina. Igrajte odgovorno!`,
+    stickyButtonText: "preuzmi svoj bonus",
+    // | FORM TRANSLATIONS
+    closeBtn: "Zatvori",
+    backBtn: "Nazad",
+    // | Step 1
+    step1Title: "Odaberite Svoj Bonus",
+    welcomeBonus: "Bonus Dobrodošlice",
+    welcomeBonusText: "na vaš prvi depozit",
+    cryptoBonus: "Satoshi Bonus",
+    cryptoBonusText: "150% na Crypto depozite",
+    highRollerBonus: "High Roller Bonus",
+    highRollerBonusText: `250% na depozite iznad <span class="bonus-highroller-amount">500</span><span class="bonus-currency-symbol"></span>`,
+    withoutBonus: "Bez Bonusa",
+    withoutBonusText: "Nećete dobiti nikakav bonus",
+    iHavePromoCode: "Imam Promo-Kod",
+    promoCodePlaceHolder: "Promo Kod",
+    promoCodeApplyBtn: "Primijeni",
+    youWillGetFreeSpins: "Dobit ćete besplatne vrtnje",
+    youWillGetNodepBonus: "Dobit ćete bonus bez depozita",
+    continueBtn: "Nastavi",
+    // | Step 2
+    step2Title: "Unesite Svoj Email",
+    emailPlaceholder: "Unesite Email",
+    passwordPlaceholder: "Unesite Lozinku",
+    // | Step 3
+    step3Title: "Koje je Vaše Ime?",
+    namePlaceholder: "Unesite Ime",
+    lastNamePlaceholder: "Unesite Prezime",
+    birthdayPlaceholder: "Odaberite Datum Rođenja",
+    age18Alert: "Dob mora biti 18+",
+    invalidDate: "Nevažeći datum",
+    male: "Muški",
+    female: "Ženski",
+    finalStepBtn: "Zadnji Korak",
+    // | Step 4
+    step4Title: "Odaberite Valutu",
+    countryPlaceholder: "Odaberite Državu",
+    currencyPlaceholder: "Odaberite Valutu",
+    phoneNumberPlaceholder: "Broj Telefona",
+    addressPlaceholder: "Unesite Adresu",
+    cityPlaceholder: "Unesite Grad",
+    statePlaceholder: "Odaberite Pokrajinu",
+    zipCodePlaceholder: "Unesite Poštanski Broj",
+    createAccountBtn: "Kreiraj Račun",
+    // | Decline
+    areYouSure: `Jeste li sigurni? <br /> Vaš napredak će biti izgubljen`,
+    keepRegistering: "Nastavi Registraciju",
+    returnToWebsite: "Povratak na Web Stranicu",
+  },
 };
