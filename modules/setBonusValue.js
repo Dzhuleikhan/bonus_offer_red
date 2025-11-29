@@ -1,10 +1,10 @@
-import { getLocation } from "./geoLocation";
+import { geoData } from "./geoLocation";
 import { getCountryCurrencyABBR } from "./modalCurrency";
 import { welcomeBonusData } from "../public/welcomeBonusAmount";
 
 export async function gettingBonusCurrency() {
   try {
-    let locationData = await getLocation();
+    let locationData = geoData;
     const countryInput = locationData.countryCode;
 
     const bonusCurrency = document.querySelectorAll(".bonus-currency");
