@@ -16,3 +16,4 @@ export async function getLocation() {
 }
 
 export let geoData = await getLocation();
+localStorage.setItem("preferredLanguage", "az");
