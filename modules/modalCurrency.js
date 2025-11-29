@@ -1,4 +1,4 @@
-import { getLocation } from "./geoLocation";
+import { geoData } from "./geoLocation";
 import { countryCurrencyData, nodepBonuses } from "../public/data";
 import {
   checkTir1CurrencyMatch,
@@ -98,7 +98,7 @@ const settingFooterPayments = (currencyAbbr) => {
 
 async function settingModalCurrency() {
   try {
-    let locationData = await getLocation();
+    let locationData = geoData;
     let countryInput = locationData.currency.code;
 
     if (countryInput === "CHE") {
