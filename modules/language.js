@@ -1,6 +1,6 @@
 import { changeModalLanguage } from "./modalLanguage";
 import { translations } from "/public/translations";
-import { getLocation } from "./geoLocation";
+import { geoData, getLocation } from "./geoLocation";
 import gsap from "gsap";
 
 const headerLangBtn = document.querySelector(".header-lang-btn");
@@ -66,7 +66,7 @@ function updateButtonText(lang) {
 }
 
 async function determineLanguage() {
-  const location = await getLocation();
+  const location = geoData;
   const userLang = navigator.language.split("-")[0];
 
   const countryLangMap = {

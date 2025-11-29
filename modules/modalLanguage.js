@@ -1,5 +1,5 @@
 import { modalTranslations } from "../public/modalTranslations";
-import { getLocation } from "./geoLocation";
+import { geoData } from "./geoLocation";
 
 function updateContent(lang) {
   const elements = document.querySelectorAll("[data-modal-translate]");
@@ -34,7 +34,7 @@ export function changeModalLanguage(lang) {
 
 async function setModalLanguage() {
   try {
-    const location = await getLocation();
+    const location = geoData;
     changeLanguage("uz");
   } catch (error) {
     console.log(error);
