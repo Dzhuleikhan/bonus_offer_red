@@ -1,6 +1,6 @@
 import { changeModalLanguage } from "./modalLanguage";
 import { translations } from "/public/translations";
-import { getLocation } from "./geoLocation";
+import { geoData } from "./geoLocation";
 import { setPaymentMethods } from "./footerPayments";
 import { paymentCountries } from "../public/payments";
 import gsap from "gsap";
@@ -99,7 +99,7 @@ export const availableLang = [
 ];
 
 async function determineLanguage() {
-  const location = await getLocation();
+  const location = geoData;
 
   const countryLangMap = {
     EN: "en",
@@ -126,7 +126,7 @@ async function determineLanguage() {
 async function mainFunction() {
   try {
     lang = await determineLanguage();
-    let actualCountry = await getLocation();
+    let actualCountry = geoData;
 
     changeLanguage(lang);
     settingBonusValueAndAmount(actualCountry.countryCode);
