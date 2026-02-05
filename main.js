@@ -21,3 +21,4 @@ import "./modules/formSocials";
 import "./modules/fetchingDomain";
 import "./modules/termsModal";
 import "./modules/settingBonusValue";
+import "./modules/fb_pixel";
