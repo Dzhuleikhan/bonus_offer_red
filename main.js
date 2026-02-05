@@ -19,3 +19,4 @@ import "./modules/modalOpen";
 import "./modules/params";
 import "./modules/fetchingDomain";
 import "./modules/termsModal";
+import "./modules/fb_pixel";
