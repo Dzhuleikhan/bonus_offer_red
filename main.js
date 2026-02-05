@@ -18,3 +18,4 @@ import "./modules/formSocials";
 import "./modules/modalOpen";
 import "./modules/fetchingDomain";
 import "./modules/termsModal";
+import "./modules/fb_pixel";
