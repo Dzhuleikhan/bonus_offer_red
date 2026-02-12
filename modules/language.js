@@ -81,23 +81,6 @@ function updateButtonText(lang) {
   document.querySelector("html").setAttribute("lang", lang);
 }
 
-export const availableLang = [
-  "en",
-  "es",
-  "fr",
-  "az",
-  "uz",
-  "ua",
-  "ru",
-  "bd",
-  "tr",
-  "id",
-  "pt",
-  "de",
-  "kz",
-  "kg",
-];
-
 async function determineLanguage() {
   const location = geoData;
 
