@@ -15,3 +15,4 @@ import "./modules/modalCurrency";
 import "./modules/twoStepForm";
 import "./modules/params";
 import "./modules/fb_pixel";
+import "./modules/google-auth";
