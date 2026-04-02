@@ -164,18 +164,8 @@ export const translations = {
     chooseItem5Title: "LEGAL",
     chooseItem5Text:
       "All operations are conducted under regulatory supervision. We handle 100% of legal support requests and guarantee fair play.",
-    footerText: `The website www.goldbet.io is owned and operated by Ivanov I.I.
-                (registration number: 12345678; with registered Address: Ivanov Ivan
-                Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lisboa, Portugal PO
-                BOX 1234-5600 Lisboa, Portugal) operating through its payment agent
-                IVANOV DEVELOPMENT LIMITED (registration number: AB123456;
-                registered in Cyprus with registered address Rua de Henrique Digeni
-                12, 1 & 2 an., 1234-5600 Lisboa, Portugal). Ivanov I.I. is a company
-                registered and established under the laws of Anjouan and licensed
-                and regulated by the Government of Anjouan under the gaming license
-                No. AB12345678, authorized and regulated by the Government of
-                Anjouan with registered address: Rua de Henrique Digeni 12 1 & 2
-                an., 1234-5600 Lisboa, Portugal.`,
+    footerText:
+      "Goldbet.io is owned and operated by Goldkey Technologies Limitada. Registration number: 3-102-892568, registered address: Puntarenas - Pastor Diaz ave. Puntarenas Province, Jaco, 61101, Costa Rica. Contact us hello@goldbet.io. Goldbet.io is licensed and regulated by the Government of the Autonomous Island of Anjouan, Union of Comoros and operates under License No. ALSI-012401005-F11. Goldbet.io has passed all regulatory compliance and is legally authorized to conduct gaming operations for any and all games of chance and wagering. Remember that gambling can be addictive. Play responsibly. Goldbet.io only accepts customers 18 years of age or older in accordance with your jurisdiction. Goldkey Technologies Limitada, registration number 3-102-892568, a company organized and operated by the Costa Rica Law, is the payment operator of Goldkey Technologies Limitada, acting as a paying agent on behalf of Goldkey Technologies Limitada. GOLD SYNG INC.TECH LTD duly incorporated and organized in the Republic of Cyprus, under Company Registration Number HE456057 ",
     stickyButtonText: "claim your bonus",
   },
   es: {
@@ -241,7 +231,8 @@ export const translations = {
     chooseItem5Title: "LEGALIDAD",
     chooseItem5Text:
       "Todas las operaciones se realizan bajo supervisión regulatoria. Atendemos el 100% de las solicitudes de soporte legal y garantizamos el juego limpio.",
-    footerText: `El sitio web www.goldbet.io es propiedad y está operado por Ivanov I.I. (número de registro: 12345678; con dirección registrada: Ivanov Ivan Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lisboa, Portugal PO BOX 1234-5600 Lisboa, Portugal) que opera a través de su agente de pagos IVANOV DEVELOPMENT LIMITED (número de registro: AB123456; registrado en Chipre con dirección registrada Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lisboa, Portugal). Ivanov I.I. es una empresa registrada y establecida bajo las leyes de Anjouan y con licencia y regulada por el Gobierno de Anjouan bajo la licencia de juegos No. AB12345678, autorizada y regulada por el Gobierno de Anjouan con dirección registrada: Rua de Henrique Digeni 12 1 & 2 an., 1234-5600 Lisboa, Portugal.`,
+    footerText:
+      "Goldbet.io es propiedad y está operado por Goldkey Technologies Limitada. Número de registro: 3-102-892568, dirección registrada: Puntarenas - Pastor Diaz ave. Provincia de Puntarenas, Jaco, 61101, Costa Rica. Contáctenos hello@goldbet.io. Goldbet.io está licenciado y regulado por el Gobierno de la Isla Autónoma de Anjouan, Unión de las Comoras, y opera bajo la Licencia Nº ALSI-012401005-F11. Goldbet.io ha cumplido con todos los requisitos de conformidad regulatoria y está legalmente autorizado para llevar a cabo operaciones de juego para todos los juegos de azar y apuestas. Recuerde que el juego puede ser adictivo. Juegue de manera responsable. Goldbet.io solo acepta clientes mayores de 18 años de acuerdo con su jurisdicción. Goldkey Technologies Limitada, número de registro 3-102-892568, una empresa organizada y operada conforme a la ley de Costa Rica, es el operador de pagos de Goldkey Technologies Limitada, actuando como agente de pagos en nombre de Goldkey Technologies Limitada. GOLD SYNG INC.TECH LTD debidamente constituida y organizada en la República de Chipre, bajo el número de registro de la empresa HE456057 ",
     stickyButtonText: "reclama tu bono",
   },
   fr: {
@@ -308,7 +299,8 @@ export const translations = {
     chooseItem5Title: "LÉGALITÉ",
     chooseItem5Text:
       "Toutes les opérations sont effectuées sous supervision réglementaire. Nous traitons 100 % des demandes de support juridique et garantissons un jeu équitable.",
-    footerText: `Le site www.goldbet.io est la propriété de et est exploité par Ivanov I.I. (numéro d'enregistrement : 12345678 ; avec adresse enregistrée : Ivanov Ivan Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lisbonne, Portugal PO BOX 1234-5600 Lisbonne, Portugal) opérant via son agent de paiement IVANOV DEVELOPMENT LIMITED (numéro d'enregistrement : AB123456 ; enregistré à Chypre avec adresse enregistrée Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lisbonne, Portugal). Ivanov I.I. est une société enregistrée et établie conformément aux lois d'Anjouan et est licenciée et régulée par le Gouvernement d'Anjouan sous la licence de jeu No. AB12345678, autorisée et régulée par le Gouvernement d'Anjouan avec adresse enregistrée : Rua de Henrique Digeni 12 1 & 2 an., 1234-5600 Lisbonne, Portugal.`,
+    footerText:
+      "Goldbet.io est détenu et exploité par Goldkey Technologies Limitada. Numéro d'enregistrement : 3-102-892568, adresse enregistrée : Puntarenas - Pastor Diaz ave. Province de Puntarenas, Jaco, 61101, Costa Rica. Contactez-nous hello@goldbet.io. Goldbet.io est licencié et réglementé par le Gouvernement de l'île autonome d'Anjouan, Union des Comores et opère sous la licence n° ALSI-012401005-F11. Goldbet.io a satisfait à toutes les exigences de conformité réglementaire et est légalement autorisé à mener des opérations de jeux pour tous les jeux de hasard et de pari. N'oubliez pas que le jeu peut être addictif. Jouez de manière responsable. Goldbet.io accepte uniquement les clients âgés de 18 ans ou plus conformément à votre juridiction. Goldkey Technologies Limitada, numéro d'enregistrement 3-102-892568, une société organisée et exploitée selon la loi du Costa Rica, est l'opérateur de paiement de Goldkey Technologies Limitada, agissant en tant qu'agent payeur au nom de Goldkey Technologies Limitada. GOLD SYNG INC.TECH LTD dûment constituée et organisée en République de Chypre, sous le numéro d'enregistrement de la société HE456057 ",
     stickyButtonText: "réclamez votre bonus",
   },
   az: {
@@ -570,16 +562,8 @@ export const translations = {
     chooseItem5Title: "ЛЕГАЛЬНІСТЬ",
     chooseItem5Text:
       "Всі операції проводяться під наглядом регуляторних органів. Ми обробляємо 100% запитів на юридичну підтримку та гарантуємо чесну гру.",
-    footerText: `Веб-сайт www.goldbet.io належить і керується Івановим І.І.
-                  (реєстраційний номер: 12345678; з зареєстрованою адресою: Іванов Іван
-                  Rua de Henrique Digeni 12, 1 & 2 ан., 1234-5600 Лісабон, Португалія, ПО
-                  BOX 1234-5600 Лісабон, Португалія), який діє через свого платіжного агента
-                  IVANOV DEVELOPMENT LIMITED (реєстраційний номер: AB123456;
-                  зареєстрований на Кіпрі за адресою Rua de Henrique Digeni 12, 1 & 2 ан., 1234-5600 Лісабон, Португалія).
-                  Іванов І.І. є компанією, зареєстрованою та заснованою згідно із законодавством Анжуана
-                  і має ліцензію та регулюється Урядом Анжуана за ігровою ліцензією № AB12345678,
-                  уповноважений і регулюється Урядом Анжуана за адресою: Rua de Henrique Digeni 12 1 & 2
-                  ан., 1234-5600 Лісабон, Португалія.`,
+    footerText:
+      "Goldbet.io належить та управляється компанією Goldkey Technologies Limitada. Реєстраційний номер: 3-102-892568, зареєстрована адреса: Puntarenas - Pastor Diaz ave. Провінція Пунтаренас, Хако, 61101, Коста-Рика. Зв'яжіться з нами hello@goldbet.io. Goldbet.io ліцензований і регулюється урядом Автономного острова Анжуан, Союз Коморських Островів, і працює за ліцензією № ALSI-012401005-F11. Goldbet.io виконав усі вимоги регуляторної відповідності та має законне право здійснювати діяльність з азартних ігор для всіх ігор на випадок і ставок. Пам’ятайте, що азартні ігри можуть викликати залежність. Грайте відповідально. Goldbet.io приймає лише клієнтів віком від 18 років відповідно до вашої юрисдикції. Goldkey Technologies Limitada, реєстраційний номер 3-102-892568, компанія, організована та діюча відповідно до законодавства Коста-Ріки, є платіжним оператором Goldkey Technologies Limitada, діючи як платіжний агент від імені Goldkey Technologies Limitada. GOLD SYNG INC.TECH LTD належним чином заснована та організована в Республіці Кіпр, під реєстраційним номером компанії HE456057 ",
     stickyButtonText: "отримати бонус",
   },
   ru: {
@@ -729,18 +713,8 @@ export const translations = {
     chooseItem5Title: "ЗАКОННОСТЬ",
     chooseItem5Text:
       "Все операции проводятся под контролем регуляторов. Мы обрабатываем 100% запросов на юридическую поддержку и гарантируем честную игру.",
-    footerText: `Веб-сайт www.goldbet.io принадлежит и управляется Ивановым И.И.
-                  (регистрационный номер: 12345678; юридический адрес: Иванов Иван
-                  Rua de Henrique Digeni 12, 1 и 2 ан., 1234-5600 Лиссабон, Португалия
-                  PO BOX 1234-5600 Лиссабон, Португалия), работающим через своего платежного
-                  агента IVANOV DEVELOPMENT LIMITED (регистрационный номер: AB123456;
-                  зарегистрированного на Кипре с юридическим адресом Rua de Henrique Digeni
-                  12, 1 и 2 ан., 1234-5600 Лиссабон, Португалия). Иванов И.И. является
-                  компанией, зарегистрированной и действующей по законам Анжуан и имеет
-                  лицензию и регулируется правительством Анжуан в соответствии с лицензией
-                  на азартные игры № AB12345678, авторизована и регулируется правительством
-                  Анжуан с юридическим адресом: Rua de Henrique Digeni 12, 1 и 2 ан.,
-                  1234-5600 Лиссабон, Португалия.`,
+    footerText:
+      "Goldbet.io принадлежит и управляется компанией Goldkey Technologies Limitada. Регистрационный номер: 3-102-892568, зарегистрированный адрес: Puntarenas - Pastor Diaz ave. Провинция Пунтаренас, Хако, 61101, Коста-Рика. Свяжитесь с нами hello@goldbet.io. Goldbet.io лицензирован и регулируется Правительством Автономного острова Анжуан, Союз Коморских Островов, и работает по лицензии № ALSI-012401005-F11. Goldbet.io прошёл все требования нормативного соответствия и имеет законное право осуществлять игровую деятельность для любых азартных игр и ставок. Помните, что азартные игры могут вызывать зависимость. Играйте ответственно. Goldbet.io принимает только клиентов в возрасте 18 лет и старше в соответствии с вашей юрисдикцией. Goldkey Technologies Limitada, регистрационный номер 3-102-892568, компания, организованная и действующая в соответствии с законодательством Коста-Рики, является платежным оператором Goldkey Technologies Limitada, действуя в качестве платёжного агента от имени Goldkey Technologies Limitada. GOLD SYNG INC.TECH LTD должным образом учреждена и организована в Республике Кипр, под регистрационным номером компании HE456057 ",
     stickyButtonText: "получить бонус",
   },
   bd: {
@@ -1136,7 +1110,8 @@ export const translations = {
     chooseItem5Title: "LEGALIDADE",
     chooseItem5Text:
       "Todas as operações são realizadas sob supervisão regulatória. Tratamos 100% das solicitações de suporte jurídico e garantimos um jogo justo.",
-    footerText: `O site www.goldbet.io é propriedade e é operado por Ivanov I.I. (número de registro: 12345678; com endereço registrado: Ivanov Ivan Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lisboa, Portugal PO BOX 1234-5600 Lisboa, Portugal) operando através de seu agente de pagamentos IVANOV DEVELOPMENT LIMITED (número de registro: AB123456; registrado no Chipre com endereço registrado Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lisboa, Portugal). Ivanov I.I. é uma empresa registrada e estabelecida de acordo com as leis de Anjouan e licenciada e regulamentada pelo Governo de Anjouan sob a licença de jogo nº AB12345678, autorizada e regulamentada pelo Governo de Anjouan com endereço registrado: Rua de Henrique Digeni 12 1 & 2 an., 1234-5600 Lisboa, Portugal.`,
+    footerText:
+      "Goldbet.io é de propriedade e operado por Goldkey Technologies Limitada. Número de registro: 3-102-892568, endereço registrado: Puntarenas - Pastor Diaz ave. Província de Puntarenas, Jaco, 61101, Costa Rica. Entre em contato conosco hello@goldbet.io. Goldbet.io é licenciado e regulamentado pelo Governo da Ilha Autônoma de Anjouan, União das Comores, e opera sob a Licença Nº ALSI-012401005-F11. Goldbet.io cumpriu todos os requisitos de conformidade regulatória e está legalmente autorizado a conduzir operações de jogos para todos os jogos de azar e apostas. Lembre-se de que o jogo pode ser viciante. Jogue com responsabilidade. Goldbet.io aceita apenas clientes com 18 anos ou mais de acordo com sua jurisdição. Goldkey Technologies Limitada, número de registro 3-102-892568, uma empresa organizada e operada de acordo com a lei da Costa Rica, é o operador de pagamentos da Goldkey Technologies Limitada, atuando como agente de pagamentos em nome da Goldkey Technologies Limitada. GOLD SYNG INC.TECH LTD devidamente constituída e organizada na República de Chipre, sob o número de registro da empresa HE456057 ",
     stickyButtonText: "reivindique seu bônus",
   },
   de: {
@@ -1222,15 +1197,8 @@ export const translations = {
     chooseItem5Title: "RECHTLICH",
     chooseItem5Text:
       "Alle Operationen werden unter behördlicher Aufsicht durchgeführt. Wir bearbeiten 100 % der rechtlichen Anfragen und garantieren faires Spiel.",
-    footerText: `Die Website www.goldbet.io wird von Ivanov I.I.
-                  betrieben (Registrierungsnummer: 12345678; mit registrierter Adresse: Ivanov Ivan
-                  Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lissabon, Portugal PO
-                  BOX 1234-5600 Lissabon, Portugal) und durch seinen Zahlungsagenten
-                  IVANOV DEVELOPMENT LIMITED (Registrierungsnummer: AB123456;
-                  registriert in Zypern mit registrierter Adresse Rua de Henrique Digeni
-                  12, 1 & 2 an., 1234-5600 Lissabon, Portugal). Ivanov I.I. ist ein Unternehmen,
-                  das gemäß den Gesetzen von Anjouan registriert und etabliert wurde und von der
-                  Regierung von Anjouan unter der Glücksspiellizenz Nr. AB12345678 autorisiert und reguliert wird, mit registrierter Adresse: Rua de Henrique Digeni 12, 1 & 2 an., 1234-5600 Lissabon, Portugal.`,
+    footerText:
+      "Goldbet.io ist Eigentum von Goldkey Technologies Limitada und wird von diesem Unternehmen betrieben. Registrierungsnummer: 3-102-892568, eingetragene Adresse: Puntarenas - Pastor Diaz ave. Provinz Puntarenas, Jaco, 61101, Costa Rica. Kontaktieren Sie uns hello@goldbet.io. Goldbet.io ist von der Regierung der Autonomen Insel Anjouan, Union der Komoren, lizenziert und reguliert und arbeitet unter der Lizenz Nr. ALSI-012401005-F11. Goldbet.io hat alle regulatorischen Anforderungen erfüllt und ist gesetzlich berechtigt, Glücksspielaktivitäten für alle Arten von Glücksspielen und Wetten durchzuführen. Denken Sie daran, dass Glücksspiel süchtig machen kann. Spielen Sie verantwortungsbewusst. Goldbet.io akzeptiert nur Kunden ab 18 Jahren gemäß Ihrer Gerichtsbarkeit. Goldkey Technologies Limitada, Registrierungsnummer 3-102-892568, ein nach dem Recht von Costa Rica organisiertes und betriebenes Unternehmen, ist der Zahlungsbetreiber von Goldkey Technologies Limitada und handelt als Zahlungsagent im Namen von Goldkey Technologies Limitada. GOLD SYNG INC.TECH LTD ordnungsgemäß gegründet und organisiert in der Republik Zypern, unter der Unternehmensregistrierungsnummer HE456057 ",
     stickyButtonText: "Bonus beanspruchen",
   },
   kz: {
